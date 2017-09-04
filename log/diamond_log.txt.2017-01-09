@@ -1,0 +1,1163 @@
+2017-01-10 09:37:12,727 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-10 09:39:25,098 - emod.start - INFO - Starting Job Manager.
+2017-01-10 09:39:25,128 - cron.run - INFO - Starting Cron Daemon.
+2017-01-10 09:50:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C3F6480>> at time 2017-01-10 09:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C3F6480>>.
+2017-01-10 09:50:09,006 - auto_focus.focus - INFO - Focus: 30.98, 28.84, 2.32
+2017-01-10 12:38:57,812 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-10 12:39:07,002 - emod.start - INFO - Starting Job Manager.
+2017-01-10 12:39:07,032 - cron.run - INFO - Starting Cron Daemon.
+2017-01-10 12:40:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C58C4E0>> at time 2017-01-10 12:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C58C4E0>>.
+2017-01-10 12:40:08,812 - auto_focus.focus - INFO - Focus: 31.13, 28.79, 2.32
+2017-01-10 12:45:53,903 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-10 12:45:55,862 - emod.start - INFO - Starting Job Manager.
+2017-01-10 12:45:55,862 - cron.run - INFO - Starting Cron Daemon.
+2017-01-10 12:47:01,994 - shallow_NV._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\shallow_NV.py", line 4265, in _run
+    AWG.run()
+  File "D:\pi3diamondnew\hardware\awg.py", line 143, in run
+    self.tell('AWGC:RUN')
+  File "D:\pi3diamondnew\hardware\awg.py", line 127, in tell
+    self.gpib.write(command)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 207, in write
+    count = self.write_raw(message.encode(enco))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 185, in write_raw
+    return self.visalib.write(self.session, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1864, in write
+    ret = library.viWrite(session, data, len(data), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_TMO (-1073807339): Timeout expired before operation completed.
+2017-01-10 12:51:37,355 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-10 12:51:39,144 - emod.start - INFO - Starting Job Manager.
+2017-01-10 12:51:39,144 - cron.run - INFO - Starting Cron Daemon.
+2017-01-10 15:43:37,884 - auto_focus.focus - INFO - Focus: 17.59, 30.00, 6.09
+2017-01-10 15:43:48,444 - auto_focus.focus - INFO - Focus: 17.94, 30.20, 6.09
+2017-01-10 15:43:57,464 - auto_focus.focus - INFO - Focus: 17.84, 30.40, 6.69
+2017-01-10 15:44:45,785 - auto_focus.focus - INFO - Focus: 13.17, 7.80, 7.11
+2017-01-10 15:44:59,595 - auto_focus.focus - INFO - Focus: 13.37, 7.80, 7.29
+2017-01-10 15:45:08,714 - auto_focus.focus - INFO - Focus: 13.32, 8.00, 7.59
+2017-01-10 15:45:17,884 - auto_focus.focus - INFO - Focus: 13.37, 8.05, 7.89
+2017-01-10 15:45:27,015 - auto_focus.focus - INFO - Focus: 13.37, 8.05, 7.89
+2017-01-10 15:45:36,855 - auto_focus.focus - INFO - Focus: 13.32, 8.10, 7.89
+2017-01-10 15:46:01,244 - auto_focus.focus - INFO - Focus: 13.32, 8.05, 7.77
+2017-01-10 15:46:10,244 - auto_focus.focus - INFO - Focus: 13.32, 8.05, 7.77
+2017-01-10 15:49:25,484 - auto_focus.focus - INFO - Focus: 30.74, 24.80, -1.15
+2017-01-10 15:49:34,644 - auto_focus.focus - INFO - Focus: 30.79, 24.95, -1.75
+2017-01-10 15:49:43,924 - auto_focus.focus - INFO - Focus: 30.94, 25.15, -1.27
+2017-01-10 15:51:40,865 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 15:51:41,565 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 15:51:42,385 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 15:51:43,155 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 15:51:44,345 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 15:51:44,456 - auto_focus.focus - INFO - Focus: 15.19, 25.10, 0.87
+2017-01-10 15:51:54,246 - auto_focus.focus - INFO - Focus: 14.94, 25.15, 1.17
+2017-01-10 15:53:37,405 - auto_focus.focus - INFO - Focus: 39.68, 15.52, 0.96
+2017-01-10 15:53:46,426 - auto_focus.focus - INFO - Focus: 39.83, 15.52, 0.78
+2017-01-10 15:53:55,615 - auto_focus.focus - INFO - Focus: 39.73, 15.32, 1.02
+2017-01-10 15:56:11,835 - auto_focus.focus - INFO - Focus: 12.83, 7.63, 0.72
+2017-01-10 15:56:25,296 - auto_focus.focus - INFO - Focus: 16.21, 11.42, 0.60
+2017-01-10 15:56:49,325 - auto_focus.focus - INFO - Focus: 2.22, 3.84, 0.48
+2017-01-10 15:56:58,446 - auto_focus.focus - INFO - Focus: 2.42, 3.69, -0.12
+2017-01-10 15:57:07,565 - auto_focus.focus - INFO - Focus: 2.52, 3.49, -0.72
+2017-01-10 15:57:16,796 - auto_focus.focus - INFO - Focus: 2.57, 3.54, -1.02
+2017-01-10 15:57:26,165 - auto_focus.focus - INFO - Focus: 2.57, 3.54, -0.84
+2017-01-10 15:58:00,286 - auto_focus.focus - INFO - Focus: 2.57, 3.54, -0.72
+2017-01-10 15:58:58,436 - auto_focus.focus - INFO - Focus: 5.78, 7.34, -0.84
+2017-01-10 15:59:07,506 - auto_focus.focus - INFO - Focus: 5.63, 7.39, -0.84
+2017-01-10 15:59:16,875 - auto_focus.focus - INFO - Focus: 5.63, 7.34, -0.78
+2017-01-10 16:09:02,756 - auto_focus.focus - INFO - Focus: 28.09, 5.48, -0.30
+2017-01-10 16:09:12,867 - auto_focus.focus - INFO - Focus: 28.14, 5.43, -0.42
+2017-01-10 16:11:58,051 - auto_focus.focus - INFO - Focus: 25.38, 4.52, -0.48
+2017-01-10 16:12:07,081 - auto_focus.focus - INFO - Focus: 25.38, 4.57, -0.54
+2017-01-10 16:29:19,233 - auto_focus.focus - INFO - Focus: 10.30, 9.50, -0.54
+2017-01-10 16:29:28,213 - auto_focus.focus - INFO - Focus: 10.05, 9.50, -0.00
+2017-01-10 16:29:41,073 - auto_focus.focus - INFO - Focus: 2.61, 6.23, -0.48
+2017-01-10 16:29:50,043 - auto_focus.focus - INFO - Focus: 2.56, 6.23, -0.60
+2017-01-10 16:36:05,094 - auto_focus.focus - INFO - Focus: 15.68, 11.91, -0.06
+2017-01-10 16:36:14,144 - auto_focus.focus - INFO - Focus: 15.73, 11.96, 0.06
+2017-01-10 16:36:23,473 - auto_focus.focus - INFO - Focus: 15.73, 11.96, 0.06
+2017-01-10 16:40:00,828 - auto_focus.focus - INFO - Focus: 38.64, 26.83, 0.24
+2017-01-10 16:40:09,848 - auto_focus.focus - INFO - Focus: 38.84, 26.88, 0.30
+2017-01-10 16:40:13,888 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 16:40:19,368 - auto_focus.focus - INFO - Focus: 38.79, 26.88, 0.24
+2017-01-10 16:56:15,829 - auto_focus.focus - INFO - Focus: 38.79, 26.83, 0.06
+2017-01-10 16:56:58,119 - auto_focus.focus - INFO - Focus: 38.84, 26.78, 0.30
+2017-01-10 17:00:11,400 - auto_focus.focus - INFO - Focus: 15.28, 29.65, 0.60
+2017-01-10 17:00:20,579 - auto_focus.focus - INFO - Focus: 15.23, 29.65, 0.60
+2017-01-10 17:00:35,630 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-01-10 17:02:16,371 - auto_focus.focus - INFO - Focus: 15.23, 29.70, 0.42
+2017-01-10 17:02:32,780 - auto_focus.focus - INFO - Focus: 15.23, 29.65, 0.66
+2017-01-10 17:05:26,591 - auto_focus.focus - INFO - Focus: 15.23, 29.65, 0.60
+2017-01-10 17:07:43,502 - auto_focus.focus - INFO - Focus: 15.18, 29.65, 0.60
+2017-01-10 17:07:53,792 - auto_focus.focus - INFO - Focus: 15.23, 29.65, 0.66
+2017-01-10 17:11:52,653 - auto_focus.focus - INFO - Focus: 28.34, 37.89, 0.30
+2017-01-10 17:12:01,642 - auto_focus.focus - INFO - Focus: 28.34, 37.84, 0.18
+2017-01-10 17:15:11,164 - auto_focus.focus - INFO - Focus: 28.39, 37.94, 0.12
+2017-01-10 17:15:20,404 - auto_focus.focus - INFO - Focus: 28.39, 37.89, 0.18
+2017-01-10 17:18:03,134 - auto_focus.focus - INFO - Focus: 28.34, 37.89, 0.12
+2017-01-10 17:20:15,953 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 17:20:16,763 - auto_focus.focus - INFO - Focus: 35.18, 30.40, -0.18
+2017-01-10 17:20:25,934 - auto_focus.focus - INFO - Focus: 35.23, 30.40, -0.24
+2017-01-10 17:22:09,364 - auto_focus.focus - INFO - Focus: 35.23, 30.40, -0.36
+2017-01-10 17:25:38,084 - auto_focus.focus - INFO - Focus: 38.54, 27.03, -0.66
+2017-01-10 17:25:46,983 - auto_focus.focus - INFO - Focus: 38.54, 27.08, -0.60
+2017-01-10 17:28:03,204 - auto_focus.focus - INFO - Focus: 42.91, 9.15, -0.06
+2017-01-10 17:28:12,285 - auto_focus.focus - INFO - Focus: 42.91, 9.10, 0.30
+2017-01-10 17:28:14,555 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 17:28:21,375 - auto_focus.focus - INFO - Focus: 42.91, 9.10, 0.12
+2017-01-10 17:47:17,710 - auto_focus.focus - INFO - Focus: 42.91, 9.10, -0.00
+2017-01-10 17:50:25,111 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0BAE0270>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-01-10 17:50:39,242 - auto_focus.focus - INFO - Focus: 42.91, 9.05, -0.00
+2017-01-10 17:50:52,272 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-01-10 17:51:34,842 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-01-10 17:53:47,329 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb1 in position 0: ordinal not in range(128)
+2017-01-10 17:58:55,813 - auto_focus.focus - INFO - Focus: 42.91, 9.10, 0.12
+2017-01-10 17:59:21,283 - auto_focus.focus - INFO - Focus: 42.86, 9.05, 0.12
+2017-01-10 18:02:04,785 - emod.submit - INFO - The job <measurements.magnet_control.Magnet_alignment object at 0x0BAE0270> is already running or in the queue.
+2017-01-10 18:03:47,976 - auto_focus.focus - INFO - Focus: 42.86, 9.05, -0.06
+2017-01-10 18:07:24,516 - auto_focus.focus - INFO - Focus: 42.91, 9.05, 0.06
+2017-01-10 18:07:36,637 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb1 in position 0: ordinal not in range(128)
+2017-01-10 18:09:25,076 - auto_focus.focus - INFO - Focus: 42.86, 9.05, 0.18
+2017-01-10 18:13:51,877 - auto_focus.focus - INFO - Focus: 42.91, 9.05, 0.24
+2017-01-10 18:17:05,068 - auto_focus.focus - INFO - Focus: 42.86, 9.05, 0.12
+2017-01-10 18:19:24,937 - auto_focus.focus - INFO - Focus: 42.86, 9.05, 0.30
+2017-01-10 18:23:09,487 - auto_focus.focus - INFO - Focus: 42.86, 9.05, 0.18
+2017-01-10 18:23:58,477 - emod.submit - INFO - The job <measurements.magnet_control.Magnet_alignment object at 0x0BAE0270> is already running or in the queue.
+2017-01-10 18:25:19,677 - auto_focus.focus - INFO - Focus: 42.81, 9.05, 0.18
+2017-01-10 18:29:42,209 - auto_focus.focus - INFO - Focus: 42.86, 9.00, 0.18
+2017-01-10 18:30:14,438 - auto_focus.focus - INFO - Focus: 42.81, 9.00, 0.24
+2017-01-10 18:33:51,698 - auto_focus.focus - INFO - Focus: 42.86, 9.00, 0.36
+2017-01-10 18:35:17,809 - auto_focus.focus - INFO - Focus: 42.86, 8.95, 0.30
+2017-01-10 18:41:31,384 - auto_focus.focus - INFO - Focus: 42.86, 9.00, 0.30
+2017-01-10 18:42:10,384 - auto_focus.focus - INFO - Focus: 42.86, 9.00, 0.42
+2017-01-10 19:00:54,763 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.RabiFit_phase object at 0x1471F450>, trait: fit_result, old value: (), new value: (array([ nan,  nan,  nan,  nan]), array([[ nan,  nan,  nan,  nan],
+       [ nan,  nan,  nan,  nan],
+       [ nan,  nan,  nan,  nan],
+       [ nan,  nan,  nan,  nan]]), nan, nan)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 1076, in update_plot_fit
+    self.line_data.set_data('fit', fitting.Cosinus_phase(*self.fit_result[0])(self.measurement.tau))
+AttributeError: 'NoneType' object has no attribute 'tau'
+2017-01-10 19:01:09,032 - auto_focus.focus - INFO - Focus: 13.04, 4.31, 0.24
+2017-01-10 19:01:21,132 - auto_focus.focus - INFO - Focus: 13.04, 4.36, 0.30
+2017-01-10 19:05:16,674 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:05:17,164 - auto_focus.focus - INFO - Focus: 13.00, 4.38, 0.18
+2017-01-10 19:06:08,674 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:06:09,263 - auto_focus.focus - INFO - Focus: 19.64, 4.01, 0.06
+2017-01-10 19:10:12,813 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:10:13,404 - auto_focus.focus - INFO - Focus: 19.90, 4.39, -0.42
+2017-01-10 19:11:04,813 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:11:05,404 - auto_focus.focus - INFO - Focus: 46.64, 5.40, -0.66
+2017-01-10 19:15:08,954 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:15:09,644 - auto_focus.focus - INFO - Focus: 47.02, 5.36, -0.96
+2017-01-10 19:16:00,954 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:16:01,644 - auto_focus.focus - INFO - Focus: 29.94, 8.02, -0.48
+2017-01-10 19:20:05,115 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:20:05,805 - auto_focus.focus - INFO - Focus: 30.32, 8.22, 0.06
+2017-01-10 19:20:57,115 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:20:57,704 - auto_focus.focus - INFO - Focus: 36.58, 8.50, 0.36
+2017-01-10 19:25:01,285 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:25:01,775 - auto_focus.focus - INFO - Focus: 36.96, 8.10, 0.60
+2017-01-10 19:26:45,926 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:26:46,415 - auto_focus.focus - INFO - Focus: 23.53, 0.60, 0.72
+2017-01-10 19:30:50,075 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:30:50,565 - auto_focus.focus - INFO - Focus: 23.73, 0.62, 0.18
+2017-01-10 19:31:42,075 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:31:42,565 - auto_focus.focus - INFO - Focus: 13.03, 11.48, -0.06
+2017-01-10 19:35:46,246 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:35:46,756 - auto_focus.focus - INFO - Focus: 13.41, 11.20, 0.30
+2017-01-10 19:36:38,246 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:36:38,736 - auto_focus.focus - INFO - Focus: 33.12, 11.90, -0.18
+2017-01-10 19:40:42,387 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:40:42,947 - auto_focus.focus - INFO - Focus: 33.44, 12.10, -0.30
+2017-01-10 19:41:34,387 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:41:34,887 - auto_focus.focus - INFO - Focus: 46.40, 12.33, -0.48
+2017-01-10 19:45:38,526 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 19:45:39,127 - auto_focus.focus - INFO - Focus: 46.78, 12.23, -0.36
+2017-01-10 19:48:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 19:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 19:48:13,986 - auto_focus.focus - INFO - Focus: 47.10, 12.55, -0.42
+2017-01-10 19:51:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 19:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 19:51:14,148 - auto_focus.focus - INFO - Focus: 47.00, 12.51, -0.00
+2017-01-10 19:54:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 19:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 19:54:13,997 - auto_focus.focus - INFO - Focus: 46.90, 12.47, 0.42
+2017-01-10 19:57:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 19:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 19:57:14,049 - auto_focus.focus - INFO - Focus: 46.92, 12.49, 0.84
+2017-01-10 20:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:00:13,920 - auto_focus.focus - INFO - Focus: 46.88, 12.45, 0.90
+2017-01-10 20:03:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:03:14,081 - auto_focus.focus - INFO - Focus: 46.90, 12.41, 1.02
+2017-01-10 20:06:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:06:14,121 - auto_focus.focus - INFO - Focus: 47.04, 12.25, 1.14
+2017-01-10 20:09:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:09:14,071 - auto_focus.focus - INFO - Focus: 47.18, 12.39, 1.38
+2017-01-10 20:12:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:12:14,141 - auto_focus.focus - INFO - Focus: 47.26, 12.47, 1.50
+2017-01-10 20:15:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:15:14,092 - auto_focus.focus - INFO - Focus: 47.34, 12.55, 1.56
+2017-01-10 20:18:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:18:13,982 - auto_focus.focus - INFO - Focus: 47.30, 12.57, 1.68
+2017-01-10 20:21:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:21:14,242 - auto_focus.focus - INFO - Focus: 47.32, 12.59, 1.62
+2017-01-10 20:24:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:24:14,221 - auto_focus.focus - INFO - Focus: 47.28, 12.55, 1.50
+2017-01-10 20:27:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:27:14,092 - auto_focus.focus - INFO - Focus: 47.30, 12.57, 1.56
+2017-01-10 20:30:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:30:14,173 - auto_focus.focus - INFO - Focus: 47.32, 12.53, 1.56
+2017-01-10 20:33:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:33:14,142 - auto_focus.focus - INFO - Focus: 47.28, 12.55, 1.56
+2017-01-10 20:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:36:14,173 - auto_focus.focus - INFO - Focus: 47.30, 12.51, 1.50
+2017-01-10 20:39:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:39:14,144 - auto_focus.focus - INFO - Focus: 47.26, 12.53, 1.68
+2017-01-10 20:42:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:42:14,313 - auto_focus.focus - INFO - Focus: 47.28, 12.49, 1.50
+2017-01-10 20:45:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:45:14,104 - auto_focus.focus - INFO - Focus: 47.24, 12.45, 1.38
+2017-01-10 20:48:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:48:14,184 - auto_focus.focus - INFO - Focus: 47.20, 12.47, 1.56
+2017-01-10 20:51:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:51:14,165 - auto_focus.focus - INFO - Focus: 47.22, 12.49, 1.56
+2017-01-10 20:54:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:54:14,167 - auto_focus.focus - INFO - Focus: 47.24, 12.51, 1.80
+2017-01-10 20:57:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 20:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 20:57:14,246 - auto_focus.focus - INFO - Focus: 47.26, 12.53, 1.98
+2017-01-10 21:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 21:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 21:00:14,226 - auto_focus.focus - INFO - Focus: 47.28, 12.55, 2.10
+2017-01-10 21:03:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 21:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 21:03:14,207 - auto_focus.focus - INFO - Focus: 47.24, 12.51, 1.74
+2017-01-10 21:06:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 21:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 21:06:14,187 - auto_focus.focus - INFO - Focus: 47.20, 12.47, 1.62
+2017-01-10 21:08:14,707 - auto_focus.focus - INFO - Focus: 47.22, 12.43, 1.68
+2017-01-10 21:08:26,927 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:08:27,717 - auto_focus.focus - INFO - Focus: 3.15, 14.02, 1.56
+2017-01-10 21:12:31,069 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:12:31,759 - auto_focus.focus - INFO - Focus: 3.05, 14.28, 1.38
+2017-01-10 21:15:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 21:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 21:15:13,438 - auto_focus.focus - INFO - Focus: 3.07, 14.06, 1.44
+2017-01-10 21:15:29,138 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:15:29,628 - auto_focus.focus - INFO - Focus: 30.23, 15.38, 1.44
+2017-01-10 21:19:33,279 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:19:33,769 - auto_focus.focus - INFO - Focus: 30.25, 15.46, 1.50
+2017-01-10 21:20:25,279 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:20:25,969 - auto_focus.focus - INFO - Focus: 6.72, 18.03, 1.08
+2017-01-10 21:24:29,420 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:24:29,910 - auto_focus.focus - INFO - Focus: 6.68, 17.99, 0.72
+2017-01-10 21:27:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 21:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 21:27:12,490 - auto_focus.focus - INFO - Focus: 6.58, 17.95, 0.66
+2017-01-10 21:27:27,319 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:27:28,009 - auto_focus.focus - INFO - Focus: 33.38, 18.97, 0.06
+2017-01-10 21:31:31,460 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:31:31,950 - auto_focus.focus - INFO - Focus: 33.52, 19.05, -0.18
+2017-01-10 21:34:29,380 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:34:29,869 - auto_focus.focus - INFO - Focus: 16.67, 22.25, 0.12
+2017-01-10 21:38:33,661 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:38:34,151 - auto_focus.focus - INFO - Focus: 16.63, 22.21, 0.06
+2017-01-10 21:39:25,661 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:39:26,151 - auto_focus.focus - INFO - Focus: 36.71, 22.64, -0.12
+2017-01-10 21:43:29,801 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 21:43:30,301 - auto_focus.focus - INFO - Focus: 36.73, 22.66, -0.12
+2017-01-10 21:48:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 21:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 21:48:13,923 - auto_focus.focus - INFO - Focus: 36.69, 22.56, 0.24
+2017-01-10 21:51:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 21:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 21:51:13,914 - auto_focus.focus - INFO - Focus: 36.59, 22.52, 0.66
+2017-01-10 21:54:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 21:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 21:54:13,884 - auto_focus.focus - INFO - Focus: 36.61, 22.54, 1.20
+2017-01-10 21:57:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 21:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 21:57:14,134 - auto_focus.focus - INFO - Focus: 36.57, 22.56, 1.20
+2017-01-10 22:00:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:00:14,105 - auto_focus.focus - INFO - Focus: 36.53, 22.52, 1.20
+2017-01-10 22:03:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:03:12,704 - auto_focus.focus - INFO - Focus: 36.55, 22.54, 1.32
+2017-01-10 22:06:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:06:14,144 - auto_focus.focus - INFO - Focus: 36.57, 22.56, 0.72
+2017-01-10 22:09:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:09:13,904 - auto_focus.focus - INFO - Focus: 36.65, 22.58, 0.48
+2017-01-10 22:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:12:13,936 - auto_focus.focus - INFO - Focus: 36.67, 22.60, 0.30
+2017-01-10 22:15:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:15:14,046 - auto_focus.focus - INFO - Focus: 36.69, 22.56, 0.18
+2017-01-10 22:18:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:18:13,895 - auto_focus.focus - INFO - Focus: 36.71, 22.58, 0.30
+2017-01-10 22:21:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:21:13,996 - auto_focus.focus - INFO - Focus: 36.73, 22.60, 0.06
+2017-01-10 22:24:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:24:14,066 - auto_focus.focus - INFO - Focus: 36.75, 22.62, 0.18
+2017-01-10 22:27:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:27:13,937 - auto_focus.focus - INFO - Focus: 36.71, 22.58, 0.06
+2017-01-10 22:30:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:30:13,917 - auto_focus.focus - INFO - Focus: 36.73, 22.60, -0.00
+2017-01-10 22:33:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:33:13,907 - auto_focus.focus - INFO - Focus: 36.69, 22.56, -0.06
+2017-01-10 22:36:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:36:13,957 - auto_focus.focus - INFO - Focus: 36.71, 22.58, 0.06
+2017-01-10 22:39:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:39:13,937 - auto_focus.focus - INFO - Focus: 36.73, 22.60, 0.12
+2017-01-10 22:42:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:42:13,917 - auto_focus.focus - INFO - Focus: 36.69, 22.56, -0.00
+2017-01-10 22:45:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:45:13,880 - auto_focus.focus - INFO - Focus: 36.65, 22.58, 0.18
+2017-01-10 22:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:48:13,930 - auto_focus.focus - INFO - Focus: 36.67, 22.54, 0.30
+2017-01-10 22:51:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:51:13,891 - auto_focus.focus - INFO - Focus: 36.69, 22.56, 0.42
+2017-01-10 22:54:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:54:13,970 - auto_focus.focus - INFO - Focus: 36.65, 22.58, 0.30
+2017-01-10 22:57:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 22:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 22:57:13,960 - auto_focus.focus - INFO - Focus: 36.67, 22.54, 0.48
+2017-01-10 23:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:00:13,911 - auto_focus.focus - INFO - Focus: 36.69, 22.56, 0.42
+2017-01-10 23:03:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:03:13,901 - auto_focus.focus - INFO - Focus: 36.65, 22.58, 0.54
+2017-01-10 23:06:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:06:11,012 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 23:06:12,492 - auto_focus.focus - INFO - Focus: 36.61, 22.54, 0.48
+2017-01-10 23:06:36,012 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 23:06:36,601 - auto_focus.focus - INFO - Focus: 16.30, 29.40, 0.84
+2017-01-10 23:10:40,171 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 23:10:40,851 - auto_focus.focus - INFO - Focus: 16.26, 29.42, 0.72
+2017-01-10 23:11:32,173 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 23:11:32,862 - auto_focus.focus - INFO - Focus: 47.86, 35.48, 0.96
+2017-01-10 23:15:36,312 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 23:15:37,003 - auto_focus.focus - INFO - Focus: 48.06, 35.74, 1.26
+2017-01-10 23:16:28,312 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 23:16:29,003 - auto_focus.focus - INFO - Focus: 19.57, 39.68, 1.14
+2017-01-10 23:20:32,453 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 23:20:33,142 - auto_focus.focus - INFO - Focus: 19.83, 40.06, 0.60
+2017-01-10 23:21:24,453 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 23:21:25,142 - auto_focus.focus - INFO - Focus: 26.12, 39.91, 0.66
+2017-01-10 23:25:28,594 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-10 23:25:29,084 - auto_focus.focus - INFO - Focus: 26.14, 39.87, 0.54
+2017-01-10 23:30:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:30:13,934 - auto_focus.focus - INFO - Focus: 25.98, 39.95, 0.90
+2017-01-10 23:33:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:33:13,914 - auto_focus.focus - INFO - Focus: 25.76, 39.67, 0.78
+2017-01-10 23:36:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:36:13,904 - auto_focus.focus - INFO - Focus: 25.72, 39.57, 1.20
+2017-01-10 23:39:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:39:13,865 - auto_focus.focus - INFO - Focus: 25.68, 39.59, 1.26
+2017-01-10 23:42:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:42:14,127 - auto_focus.focus - INFO - Focus: 25.64, 39.61, 1.44
+2017-01-10 23:45:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:45:14,147 - auto_focus.focus - INFO - Focus: 25.84, 39.81, 1.86
+2017-01-10 23:48:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:48:14,197 - auto_focus.focus - INFO - Focus: 25.98, 39.83, 1.38
+2017-01-10 23:51:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:51:14,187 - auto_focus.focus - INFO - Focus: 25.94, 39.85, 1.14
+2017-01-10 23:54:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:54:14,128 - auto_focus.focus - INFO - Focus: 25.96, 39.87, 1.02
+2017-01-10 23:57:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-10 23:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-10 23:57:14,098 - auto_focus.focus - INFO - Focus: 26.04, 39.83, 1.08
+2017-01-11 00:00:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:00:14,158 - auto_focus.focus - INFO - Focus: 26.00, 39.85, 0.78
+2017-01-11 00:03:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:03:14,108 - auto_focus.focus - INFO - Focus: 26.02, 39.87, 0.66
+2017-01-11 00:06:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:06:14,069 - auto_focus.focus - INFO - Focus: 26.04, 39.95, 0.66
+2017-01-11 00:09:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:09:14,128 - auto_focus.focus - INFO - Focus: 26.06, 39.85, 0.78
+2017-01-11 00:12:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:12:13,869 - auto_focus.focus - INFO - Focus: 26.08, 39.87, 0.54
+2017-01-11 00:15:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:15:13,940 - auto_focus.focus - INFO - Focus: 25.74, 39.89, 0.18
+2017-01-11 00:15:26,460 - auto_focus.focus - INFO - Focus: 26.04, 39.95, 0.42
+2017-01-11 00:18:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:18:13,910 - auto_focus.focus - INFO - Focus: 26.12, 39.97, 0.60
+2017-01-11 00:21:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:21:13,890 - auto_focus.focus - INFO - Focus: 26.08, 39.93, 0.42
+2017-01-11 00:24:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:24:14,171 - auto_focus.focus - INFO - Focus: 26.10, 39.95, 0.36
+2017-01-11 00:27:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:27:14,040 - auto_focus.focus - INFO - Focus: 26.12, 39.97, 0.36
+2017-01-11 00:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:30:14,010 - auto_focus.focus - INFO - Focus: 26.14, 39.99, 0.24
+2017-01-11 00:33:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:33:13,901 - auto_focus.focus - INFO - Focus: 26.10, 40.01, 0.30
+2017-01-11 00:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:36:13,872 - auto_focus.focus - INFO - Focus: 26.18, 40.03, 0.48
+2017-01-11 00:39:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:39:13,963 - auto_focus.focus - INFO - Focus: 26.14, 40.05, 0.24
+2017-01-11 00:42:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:42:13,944 - auto_focus.focus - INFO - Focus: 26.16, 40.01, 0.18
+2017-01-11 00:45:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 00:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 00:45:13,944 - auto_focus.focus - INFO - Focus: 26.12, 40.03, 0.12
+2017-01-11 00:47:59,365 - auto_focus.focus - INFO - Focus: 26.20, 40.05, 0.18
+2017-01-11 09:26:55,976 - auto_focus.focus - INFO - Focus: 26.34, 39.95, -0.06
+2017-01-11 09:27:19,404 - auto_focus.focus - INFO - Focus: 26.24, 40.03, -0.12
+2017-01-11 09:47:11,240 - auto_focus.focus - INFO - Focus: 47.75, 12.08, -0.00
+2017-01-11 09:48:04,494 - auto_focus.focus - INFO - Focus: 47.83, 12.10, 0.06
+2017-01-11 09:49:54,964 - auto_focus.focus - INFO - Focus: 47.85, 12.18, 0.24
+2017-01-11 09:56:34,092 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.DoubleExponentialDecayFit object at 0x13176ED0>, trait: normalized_counts, old value: [ 0.  0.], new value: [ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 1126, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleExponentialDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-11 09:57:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 09:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 09:57:13,914 - auto_focus.focus - INFO - Focus: 47.87, 12.20, 0.54
+2017-01-11 10:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:00:13,901 - auto_focus.focus - INFO - Focus: 47.77, 12.10, 0.72
+2017-01-11 10:03:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:03:13,871 - auto_focus.focus - INFO - Focus: 47.67, 12.00, 0.72
+2017-01-11 10:06:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:06:13,921 - auto_focus.focus - INFO - Focus: 47.63, 11.96, 0.96
+2017-01-11 10:09:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:09:14,082 - auto_focus.focus - INFO - Focus: 47.65, 11.98, 1.20
+2017-01-11 10:10:36,713 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.DoubleExponentialDecayFit object at 0x145BDB40>, trait: normalized_counts, old value: [ 0.  0.], new value: [-1.23146369 -0.86505333 -1.12251643 -0.88303266 -0.69754792  0.18743268
+ -2.22631744 -1.60652875  0.19951185 -0.01098712 -0.93832484  0.31153764
+ -0.57709876 -1.05031679  0.46185248  0.62676772 -0.55237477  0.96541243
+ -0.76784155 -0.8176615   0.6657105  -0.95265186 -0.57069607  0.64462011
+ -1.53121093]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 1126, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleExponentialDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-11 10:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:12:14,134 - auto_focus.focus - INFO - Focus: 47.79, 12.12, 1.44
+2017-01-11 10:15:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:15:14,144 - auto_focus.focus - INFO - Focus: 47.87, 12.26, 1.38
+2017-01-11 10:18:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:18:14,055 - auto_focus.focus - INFO - Focus: 47.95, 12.28, 1.32
+2017-01-11 10:21:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:21:12,724 - auto_focus.focus - INFO - Focus: 47.91, 12.30, 1.26
+2017-01-11 10:22:00,015 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:22:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:22:18,075 - auto_focus.focus - INFO - Focus: 47.87, 12.26, 1.14
+2017-01-11 10:24:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:24:18,144 - auto_focus.focus - INFO - Focus: 47.83, 12.22, 1.20
+2017-01-11 10:26:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:26:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:26:18,121 - auto_focus.focus - INFO - Focus: 47.85, 12.24, 1.32
+2017-01-11 10:28:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:28:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:28:19,903 - auto_focus.focus - INFO - Focus: 47.93, 12.26, 1.32
+2017-01-11 10:30:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:30:14,052 - auto_focus.focus - INFO - Focus: 47.89, 12.28, 1.50
+2017-01-11 10:32:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:32:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:32:14,122 - auto_focus.focus - INFO - Focus: 47.85, 12.24, 1.62
+2017-01-11 10:34:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:34:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:34:14,203 - auto_focus.focus - INFO - Focus: 47.87, 12.26, 1.74
+2017-01-11 10:36:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:36:14,171 - auto_focus.focus - INFO - Focus: 47.83, 12.22, 1.74
+2017-01-11 10:38:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:38:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:38:14,242 - auto_focus.focus - INFO - Focus: 47.85, 12.24, 1.80
+2017-01-11 10:40:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:40:14,201 - auto_focus.focus - INFO - Focus: 47.87, 12.26, 1.92
+2017-01-11 10:42:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:42:14,171 - auto_focus.focus - INFO - Focus: 47.83, 12.28, 1.86
+2017-01-11 10:44:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:44:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:44:14,232 - auto_focus.focus - INFO - Focus: 47.85, 12.24, 1.86
+2017-01-11 10:46:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:46:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:46:14,191 - auto_focus.focus - INFO - Focus: 47.87, 12.26, 1.86
+2017-01-11 10:48:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:48:14,161 - auto_focus.focus - INFO - Focus: 47.83, 12.28, 1.92
+2017-01-11 10:50:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:50:14,233 - auto_focus.focus - INFO - Focus: 47.85, 12.30, 1.98
+2017-01-11 10:52:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:52:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:52:14,184 - auto_focus.focus - INFO - Focus: 47.87, 12.26, 1.86
+2017-01-11 10:54:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:54:14,255 - auto_focus.focus - INFO - Focus: 47.89, 12.28, 1.92
+2017-01-11 10:56:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 10:56:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 10:56:14,214 - auto_focus.focus - INFO - Focus: 47.91, 12.30, 1.92
+2017-01-11 12:04:36,622 - auto_focus.focus - INFO - Focus: 24.34, 25.02, -0.01
+2017-01-11 12:04:49,923 - auto_focus.focus - INFO - Focus: 24.00, 24.98, -0.01
+2017-01-11 12:05:06,032 - auto_focus.focus - INFO - Focus: 10.11, 25.36, -0.07
+2017-01-11 12:05:19,052 - auto_focus.focus - INFO - Focus: 10.49, 25.68, 0.29
+2017-01-11 12:05:32,153 - auto_focus.focus - INFO - Focus: 10.09, 26.06, 0.11
+2017-01-11 12:05:45,292 - auto_focus.focus - INFO - Focus: 10.17, 26.14, 0.23
+2017-01-11 12:06:01,913 - auto_focus.focus - INFO - Focus: 10.19, 26.10, 0.23
+2017-01-11 12:11:32,246 - auto_focus.focus - INFO - Focus: 29.25, 13.17, -0.25
+2017-01-11 12:11:49,956 - auto_focus.focus - INFO - Focus: 25.98, 16.69, -0.01
+2017-01-11 12:12:05,645 - auto_focus.focus - INFO - Focus: 36.09, 13.42, 0.23
+2017-01-11 12:12:24,046 - auto_focus.focus - INFO - Focus: 35.93, 13.56, -0.19
+2017-01-11 12:17:09,170 - auto_focus.focus - INFO - Focus: 28.73, 20.45, -0.43
+2017-01-11 12:22:45,460 - auto_focus.focus - INFO - Focus: 42.62, 5.63, -0.25
+2017-01-11 12:23:01,430 - auto_focus.focus - INFO - Focus: 43.00, 5.53, -0.25
+2017-01-11 12:23:14,411 - auto_focus.focus - INFO - Focus: 42.78, 5.91, -0.25
+2017-01-11 12:23:31,220 - auto_focus.focus - INFO - Focus: 46.45, 2.28, 0.05
+2017-01-11 12:23:44,311 - auto_focus.focus - INFO - Focus: 46.53, 2.30, 0.29
+2017-01-11 12:31:30,842 - auto_focus.focus - INFO - Focus: 31.10, 42.74, -0.25
+2017-01-11 12:31:45,431 - auto_focus.focus - INFO - Focus: 31.00, 43.00, -0.19
+2017-01-11 12:32:09,732 - auto_focus.focus - INFO - Focus: 21.23, 36.53, 0.23
+2017-01-11 12:32:22,492 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-11 12:32:22,671 - auto_focus.focus - INFO - Focus: 21.25, 36.61, 0.59
+2017-01-11 12:32:35,782 - auto_focus.focus - INFO - Focus: 21.03, 36.45, 0.53
+2017-01-11 12:34:05,262 - auto_focus.focus - INFO - Focus: 21.46, 2.11, 0.53
+2017-01-11 12:34:23,302 - auto_focus.focus - INFO - Focus: 41.73, 2.62, 0.23
+2017-01-11 12:34:36,351 - auto_focus.focus - INFO - Focus: 41.63, 2.70, 0.23
+2017-01-11 12:34:49,401 - auto_focus.focus - INFO - Focus: 41.65, 2.60, 0.17
+2017-01-11 12:38:43,542 - auto_focus.focus - INFO - Focus: 9.40, 20.45, -0.01
+2017-01-11 12:38:56,522 - auto_focus.focus - INFO - Focus: 9.78, 20.53, 0.53
+2017-01-11 12:39:09,782 - auto_focus.focus - INFO - Focus: 9.80, 20.49, 0.35
+2017-01-11 12:39:22,802 - auto_focus.focus - INFO - Focus: 9.58, 20.75, 0.29
+2017-01-11 12:41:07,532 - auto_focus.focus - INFO - Focus: 13.98, 3.43, 0.23
+2017-01-11 12:41:20,441 - auto_focus.focus - INFO - Focus: 13.88, 3.75, 0.35
+2017-01-11 12:41:33,503 - auto_focus.focus - INFO - Focus: 14.26, 3.71, 0.35
+2017-01-11 12:41:46,673 - auto_focus.focus - INFO - Focus: 14.46, 3.61, 0.23
+2017-01-11 12:50:53,755 - auto_focus.focus - INFO - Focus: 6.30, 22.78, 0.47
+2017-01-11 12:51:06,664 - auto_focus.focus - INFO - Focus: 6.26, 22.80, 0.35
+2017-01-11 12:51:21,894 - auto_focus.focus - INFO - Focus: 6.28, 22.82, 0.53
+2017-01-11 13:09:35,256 - auto_focus.focus - INFO - Focus: 32.43, 24.22, 0.41
+2017-01-11 13:09:48,187 - auto_focus.focus - INFO - Focus: 32.33, 24.24, -0.01
+2017-01-11 13:10:01,296 - auto_focus.focus - INFO - Focus: 32.23, 24.38, -0.01
+2017-01-11 13:19:39,084 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-11 13:19:39,664 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-11 13:19:40,584 - auto_focus.focus - INFO - Focus: 10.15, 5.88, -0.25
+2017-01-11 13:19:40,624 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-11 13:19:54,154 - auto_focus.focus - INFO - Focus: 10.11, 6.26, -0.07
+2017-01-11 13:21:23,823 - auto_focus.focus - INFO - Focus: 37.15, 7.50, -0.31
+2017-01-11 13:21:40,434 - auto_focus.focus - INFO - Focus: 37.17, 7.52, -0.19
+2017-01-11 13:26:03,049 - auto_focus.focus - INFO - Focus: 37.07, 7.54, -0.19
+2017-01-11 13:26:24,461 - auto_focus.focus - INFO - Focus: 40.34, 11.27, -0.37
+2017-01-11 13:26:37,451 - auto_focus.focus - INFO - Focus: 40.30, 11.23, -0.31
+2017-01-11 13:27:10,822 - auto_focus.focus - INFO - Focus: 40.44, 10.83, -0.49
+2017-01-11 13:27:24,762 - auto_focus.focus - INFO - Focus: 40.26, 11.25, -0.49
+2017-01-11 13:29:11,413 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb2 in position 0: ordinal not in range(128)
+2017-01-11 13:37:34,178 - auto_focus.focus - INFO - Focus: 40.17, 11.14, -0.43
+2017-01-11 13:41:14,920 - auto_focus.focus - INFO - Focus: 40.19, 11.16, -0.31
+2017-01-11 13:41:36,269 - auto_focus.focus - INFO - Focus: 40.21, 11.18, -0.25
+2017-01-11 13:50:18,502 - auto_focus.focus - INFO - Focus: 40.29, 11.14, -0.25
+2017-01-11 13:51:50,062 - auto_focus.focus - INFO - Focus: 40.31, 11.16, -0.07
+2017-01-11 13:53:44,451 - auto_focus.focus - INFO - Focus: 40.33, 11.12, -0.07
+2017-01-11 13:56:19,263 - auto_focus.focus - INFO - Focus: 40.29, 11.14, -0.01
+2017-01-11 13:59:36,532 - auto_focus.focus - INFO - Focus: 40.25, 11.16, 0.05
+2017-01-11 14:06:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:06:12,523 - auto_focus.focus - INFO - Focus: 40.21, 11.12, 0.11
+2017-01-11 14:08:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:08:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:08:38,453 - auto_focus.focus - INFO - Focus: 40.23, 11.14, 0.17
+2017-01-11 14:10:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:10:13,944 - auto_focus.focus - INFO - Focus: 40.01, 11.28, 0.05
+2017-01-11 14:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:12:13,894 - auto_focus.focus - INFO - Focus: 39.97, 11.24, 0.35
+2017-01-11 14:14:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:14:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:14:13,844 - auto_focus.focus - INFO - Focus: 39.99, 11.20, 0.65
+2017-01-11 14:15:07,394 - auto_focus.focus - INFO - Focus: 39.96, 11.24, 0.47
+2017-01-11 14:16:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:16:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:16:12,854 - auto_focus.focus - INFO - Focus: 39.93, 11.21, 0.47
+2017-01-11 14:18:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:18:12,805 - auto_focus.focus - INFO - Focus: 39.90, 11.18, 0.71
+2017-01-11 14:20:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:20:12,990 - auto_focus.focus - INFO - Focus: 39.94, 11.15, 0.83
+2017-01-11 14:22:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:22:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:22:12,766 - auto_focus.focus - INFO - Focus: 39.84, 11.19, 0.95
+2017-01-11 14:24:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:24:12,839 - auto_focus.focus - INFO - Focus: 39.88, 11.16, 1.13
+2017-01-11 14:26:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:26:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:26:13,003 - auto_focus.focus - INFO - Focus: 39.85, 11.13, 1.25
+2017-01-11 14:28:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:28:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:28:13,000 - auto_focus.focus - INFO - Focus: 39.82, 11.10, 1.31
+2017-01-11 14:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:30:12,811 - auto_focus.focus - INFO - Focus: 39.79, 11.14, 1.43
+2017-01-11 14:32:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:32:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:32:13,005 - auto_focus.focus - INFO - Focus: 39.76, 11.11, 1.49
+2017-01-11 14:34:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:34:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:34:12,947 - auto_focus.focus - INFO - Focus: 39.73, 11.08, 1.49
+2017-01-11 14:36:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:36:13,036 - auto_focus.focus - INFO - Focus: 39.70, 11.12, 1.67
+2017-01-11 14:38:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:38:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:38:11,717 - auto_focus.focus - INFO - Focus: 40.02, 10.88, 1.61
+2017-01-11 14:40:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:40:11,687 - auto_focus.focus - INFO - Focus: 40.06, 10.99, 1.61
+2017-01-11 14:42:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:42:13,138 - auto_focus.focus - INFO - Focus: 39.96, 10.89, 1.49
+2017-01-11 14:44:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:44:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:44:13,017 - auto_focus.focus - INFO - Focus: 39.72, 11.07, 1.37
+2017-01-11 14:46:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:46:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:46:11,571 - auto_focus.focus - INFO - Focus: 39.76, 11.04, 1.43
+2017-01-11 14:48:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:48:11,569 - auto_focus.focus - INFO - Focus: 39.94, 10.87, 1.55
+2017-01-11 14:50:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:50:11,628 - auto_focus.focus - INFO - Focus: 39.98, 10.91, 1.43
+2017-01-11 14:50:12,368 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.shallow_NV.Correlation_Spec_XY8_phase object at 0x14718F60>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 113, in _load_button_changed
+    self.load()
+  File "D:\pi3diamondnew\measurements\shallow_NV.py", line 4245, in load
+    self.prepare_awg()
+  File "D:\pi3diamondnew\measurements\shallow_NV.py", line 4218, in prepare_awg
+    AWG.upload(self.waves)
+  File "D:\pi3diamondnew\hardware\awg.py", line 75, in upload
+    ut = self.UploadThread(self.address['ftp'], file)
+  File "D:\pi3diamondnew\hardware\awg.py", line 48, in __init__
+    self.ftp = FTP(address)
+  File "C:\Pythonepd\lib\ftplib.py", line 117, in __init__
+    self.connect(host)
+  File "C:\Pythonepd\lib\ftplib.py", line 132, in connect
+    self.sock = socket.create_connection((self.host, self.port), self.timeout)
+  File "C:\Pythonepd\lib\socket.py", line 571, in create_connection
+    raise err
+error: [Errno 10055] An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full
+2017-01-11 14:52:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:52:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:52:33,908 - auto_focus.focus - INFO - Focus: 40.02, 10.95, 1.49
+2017-01-11 14:54:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:54:13,200 - auto_focus.focus - INFO - Focus: 39.99, 10.85, 1.55
+2017-01-11 14:56:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:56:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:56:13,000 - auto_focus.focus - INFO - Focus: 39.89, 10.82, 1.49
+2017-01-11 14:58:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 14:58:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 14:58:12,960 - auto_focus.focus - INFO - Focus: 39.65, 11.00, 1.43
+2017-01-11 15:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 15:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 15:00:13,029 - auto_focus.focus - INFO - Focus: 39.69, 10.97, 1.73
+2017-01-11 15:02:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 15:02:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 15:02:13,292 - auto_focus.focus - INFO - Focus: 39.66, 10.94, 1.79
+2017-01-11 15:04:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 15:04:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 15:04:11,678 - auto_focus.focus - INFO - Focus: 39.84, 10.49, 1.37
+2017-01-11 15:06:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 15:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 15:06:11,569 - auto_focus.focus - INFO - Focus: 40.09, 10.18, 0.95
+2017-01-11 15:06:23,160 - auto_focus.focus - INFO - Focus: 39.67, 10.88, 1.37
+2017-01-11 15:08:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 15:08:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 15:08:11,569 - auto_focus.focus - INFO - Focus: 39.85, 10.71, 1.43
+2017-01-11 15:10:04,789 - auto_focus.focus - INFO - Focus: 39.89, 10.75, 1.49
+2017-01-11 15:10:20,430 - auto_focus.focus - INFO - Focus: 39.86, 10.79, 1.31
+2017-01-11 15:40:38,295 - auto_focus.focus - INFO - Focus: 39.97, 10.76, 1.19
+2017-01-11 15:48:58,112 - auto_focus.focus - INFO - Focus: 29.33, 21.14, 0.65
+2017-01-11 15:49:15,163 - auto_focus.focus - INFO - Focus: 29.37, 21.18, 0.71
+2017-01-11 15:52:28,273 - auto_focus.focus - INFO - Focus: 29.34, 21.15, 0.77
+2017-01-11 15:54:22,542 - auto_focus.focus - INFO - Focus: 29.31, 21.12, 0.65
+2017-01-11 15:55:54,671 - auto_focus.focus - INFO - Focus: 29.35, 21.09, 0.77
+2017-01-11 15:58:53,911 - auto_focus.focus - INFO - Focus: 29.32, 21.13, 0.71
+2017-01-11 16:03:37,216 - auto_focus.focus - INFO - Focus: 29.29, 21.17, 0.77
+2017-01-11 16:08:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 16:08:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 16:08:47,826 - auto_focus.focus - INFO - Focus: 29.26, 21.14, 0.71
+2017-01-11 16:10:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 16:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 16:10:11,617 - auto_focus.focus - INFO - Focus: 29.30, 21.11, 1.01
+2017-01-11 16:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 16:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 16:12:11,617 - auto_focus.focus - INFO - Focus: 29.27, 21.08, 1.07
+2017-01-11 16:14:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 16:14:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 16:14:13,046 - auto_focus.focus - INFO - Focus: 29.24, 21.12, 1.43
+2017-01-11 16:16:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 16:16:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 16:16:12,996 - auto_focus.focus - INFO - Focus: 29.21, 21.09, 1.61
+2017-01-11 16:18:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 16:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 16:18:48,137 - auto_focus.focus - INFO - Focus: 29.18, 21.13, 1.43
+2017-01-11 16:20:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 16:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 16:20:12,987 - auto_focus.focus - INFO - Focus: 29.08, 20.75, 1.13
+2017-01-11 16:20:24,578 - auto_focus.focus - INFO - Focus: 29.22, 21.10, 1.55
+2017-01-11 16:22:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 16:22:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 16:22:13,068 - auto_focus.focus - INFO - Focus: 29.19, 21.07, 1.61
+2017-01-11 16:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 16:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 16:24:12,848 - auto_focus.focus - INFO - Focus: 29.16, 21.11, 1.67
+2017-01-11 17:28:04,665 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-11 17:28:04,815 - auto_focus.focus - INFO - Focus: 29.48, 21.50, 1.67
+2017-01-11 17:28:17,155 - auto_focus.focus - INFO - Focus: 29.31, 21.61, 1.61
+2017-01-11 17:34:07,348 - auto_focus.focus - INFO - Focus: 29.42, 21.23, 2.15
+2017-01-11 17:34:19,049 - auto_focus.focus - INFO - Focus: 29.28, 21.65, 1.67
+2017-01-11 17:44:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 17:44:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 17:44:36,638 - auto_focus.focus - INFO - Focus: 29.32, 21.62, 1.67
+2017-01-11 17:45:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 17:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 17:45:20,658 - auto_focus.focus - INFO - Focus: 29.29, 21.66, 1.73
+2017-01-11 17:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 17:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 17:48:39,684 - auto_focus.focus - INFO - Focus: 29.26, 21.63, 1.91
+2017-01-11 17:51:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-11 17:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-11 17:51:11,700 - auto_focus.focus - INFO - Focus: 29.23, 21.60, 2.03
+2017-01-12 12:17:21,773 - auto_focus.focus - INFO - Focus: 28.92, 21.57, 1.73
+2017-01-13 11:10:37,914 - auto_focus.focus - INFO - Focus: 10.65, 24.55, -10.39
+2017-01-13 11:10:49,917 - auto_focus.focus - INFO - Focus: 11.04, 24.10, -9.85
+2017-01-13 11:11:01,877 - auto_focus.focus - INFO - Focus: 11.43, 24.28, -10.03
+2017-01-13 11:12:04,617 - auto_focus.focus - INFO - Focus: 12.13, 13.38, -10.29
+2017-01-13 11:12:17,306 - auto_focus.focus - INFO - Focus: 11.68, 13.70, -9.69
+2017-01-13 11:12:29,157 - auto_focus.focus - INFO - Focus: 11.51, 13.95, -9.69
+2017-01-13 11:12:41,147 - auto_focus.focus - INFO - Focus: 11.48, 14.13, -9.27
+2017-01-13 11:15:48,677 - auto_focus.focus - INFO - Focus: 14.53, 14.17, -0.01
+2017-01-13 11:16:00,607 - auto_focus.focus - INFO - Focus: 14.29, 14.14, 0.05
+2017-01-13 11:16:12,536 - auto_focus.focus - INFO - Focus: 14.47, 14.04, 0.11
+2017-01-13 11:16:47,346 - auto_focus.focus - INFO - Focus: 39.12, 0.47, -0.01
+2017-01-13 11:16:59,217 - auto_focus.focus - INFO - Focus: 39.02, 0.51, 0.05
+2017-01-13 12:14:14,486 - auto_focus.focus - INFO - Focus: 7.69, 9.31, -0.01
+2017-01-13 12:14:26,506 - auto_focus.focus - INFO - Focus: 7.66, 9.28, -0.01
+2017-01-13 12:20:54,723 - auto_focus.focus - INFO - Focus: 35.08, 35.97, 0.17
+2017-01-13 12:23:24,513 - auto_focus.focus - INFO - Focus: 35.12, 36.08, 0.11
+2017-01-13 12:23:37,582 - auto_focus.focus - INFO - Focus: 35.16, 35.98, 0.17
+2017-01-13 12:26:04,743 - auto_focus.focus - INFO - Focus: 35.13, 36.09, 0.35
+2017-01-13 12:28:27,693 - auto_focus.focus - INFO - Focus: 35.17, 36.13, 0.35
+2017-01-13 12:35:30,904 - auto_focus.focus - INFO - Focus: 35.14, 36.17, 0.35
+2017-01-13 12:38:08,144 - auto_focus.focus - INFO - Focus: 35.18, 36.14, 0.17
+2017-01-13 12:39:29,084 - auto_focus.focus - INFO - Focus: 35.15, 36.11, 0.11
+2017-01-13 12:42:32,394 - auto_focus.focus - INFO - Focus: 35.12, 36.15, 0.17
+2017-01-13 12:45:16,414 - auto_focus.focus - INFO - Focus: 35.16, 36.12, 0.05
+2017-01-13 12:46:31,295 - auto_focus.focus - INFO - Focus: 35.13, 36.16, 0.11
+2017-01-13 12:48:47,904 - auto_focus.focus - INFO - Focus: 35.17, 36.20, 0.23
+2017-01-13 12:50:26,285 - auto_focus.focus - INFO - Focus: 35.14, 36.17, 0.11
+2017-01-13 12:55:32,187 - auto_focus.focus - INFO - Focus: 1.69, 40.02, 0.05
+2017-01-13 12:55:43,868 - auto_focus.focus - INFO - Focus: 1.66, 39.99, -0.07
+2017-01-13 12:56:37,492 - auto_focus.focus - INFO - Focus: 6.22, 40.24, -0.43
+2017-01-13 12:57:05,421 - auto_focus.focus - INFO - Focus: 11.35, 40.59, -0.49
+2017-01-13 12:57:19,512 - auto_focus.focus - INFO - Focus: 11.18, 40.56, -0.61
+2017-01-13 12:58:22,267 - auto_focus.focus - INFO - Focus: 16.12, 39.96, -1.09
+2017-01-13 12:59:05,788 - auto_focus.focus - INFO - Focus: 20.89, 40.42, -0.55
+2017-01-13 12:59:25,257 - auto_focus.focus - INFO - Focus: 35.31, 41.32, -0.55
+2017-01-13 12:59:37,467 - auto_focus.focus - INFO - Focus: 35.21, 41.43, -0.55
+2017-01-13 13:00:40,141 - auto_focus.focus - INFO - Focus: 20.94, 35.23, -1.09
+2017-01-13 13:00:56,782 - auto_focus.focus - INFO - Focus: 20.94, 35.23, -0.97
+2017-01-13 13:01:46,805 - auto_focus.focus - INFO - Focus: 25.73, 35.33, -0.55
+2017-01-13 13:01:59,595 - auto_focus.focus - INFO - Focus: 30.45, 36.08, -0.55
+2017-01-13 13:02:12,176 - auto_focus.focus - INFO - Focus: 44.87, 36.53, -0.79
+2017-01-13 13:02:21,315 - auto_focus.focus - INFO - Focus: 44.87, 36.63, -0.55
+2017-01-13 13:02:30,276 - auto_focus.focus - INFO - Focus: 44.77, 36.63, -0.67
+2017-01-13 13:02:41,536 - auto_focus.focus - INFO - Focus: 44.97, 31.30, -0.67
+2017-01-13 13:02:50,466 - auto_focus.focus - INFO - Focus: 44.97, 31.30, -0.79
+2017-01-13 13:03:52,148 - auto_focus.focus - INFO - Focus: 40.05, 30.90, -1.15
+2017-01-13 13:04:19,737 - auto_focus.focus - INFO - Focus: 35.43, 31.20, -0.73
+2017-01-13 13:04:29,608 - auto_focus.focus - INFO - Focus: 35.43, 31.20, -0.73
+2017-01-13 13:05:20,569 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071F1DE0>, trait: x, old value: 30.7532663317, new value: 30.4020100503
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2017-01-13 13:05:20,700 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071F1DE0>, trait: y, old value: 30.5532663317, new value: 30.6532663317
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2017-01-13 13:05:20,710 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071F1DE0>, trait: x, old value: 30.4020100503, new value: 21.608040201
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2017-01-13 13:05:22,869 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-13 13:05:23,009 - auto_focus.focus - INFO - Focus: 30.75, 30.55, -1.27
+2017-01-13 13:05:34,529 - auto_focus.focus - INFO - Focus: 21.11, 30.25, -1.03
+2017-01-13 13:05:43,710 - auto_focus.focus - INFO - Focus: 21.01, 30.25, -1.09
+2017-01-13 13:06:21,924 - auto_focus.focus - INFO - Focus: 11.71, 29.65, -1.09
+2017-01-13 13:06:32,684 - auto_focus.focus - INFO - Focus: 6.64, 29.70, -0.55
+2017-01-13 13:06:45,724 - auto_focus.focus - INFO - Focus: 7.08, 29.50, -0.91
+2017-01-13 13:07:05,654 - auto_focus.focus - INFO - Focus: 6.88, 29.30, -0.73
+2017-01-13 13:07:13,904 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-13 13:07:14,904 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-13 13:07:16,015 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-13 13:07:17,335 - auto_focus.focus - INFO - Focus: 1.91, 29.50, -0.49
+2017-01-13 13:07:26,615 - auto_focus.focus - INFO - Focus: 2.11, 29.60, 0.11
+2017-01-13 13:07:35,555 - auto_focus.focus - INFO - Focus: 2.11, 29.90, -0.37
+2017-01-13 13:07:48,535 - auto_focus.focus - INFO - Focus: 2.16, 24.82, -0.31
+2017-01-13 13:07:57,515 - auto_focus.focus - INFO - Focus: 2.16, 24.82, -0.25
+2017-01-13 13:08:22,634 - auto_focus.focus - INFO - Focus: 2.26, 24.72, -0.13
+2017-01-13 13:08:50,515 - auto_focus.focus - INFO - Focus: 21.36, 25.38, -0.49
+2017-01-13 13:09:17,875 - auto_focus.focus - INFO - Focus: 26.08, 25.18, -0.55
+2017-01-13 13:09:50,194 - auto_focus.focus - INFO - Focus: 26.08, 25.18, -0.55
+2017-01-13 13:10:26,305 - auto_focus.focus - INFO - Focus: 30.76, 25.43, -0.85
+2017-01-13 13:10:37,996 - auto_focus.focus - INFO - Focus: 30.76, 25.43, -0.85
+2017-01-13 13:11:31,232 - auto_focus.focus - INFO - Focus: 35.68, 25.68, -0.55
+2017-01-13 13:11:43,671 - auto_focus.focus - INFO - Focus: 40.40, 25.73, -0.85
+2017-01-13 13:11:55,201 - auto_focus.focus - INFO - Focus: 44.93, 26.08, -0.61
+2017-01-13 13:12:04,351 - auto_focus.focus - INFO - Focus: 44.93, 26.08, -0.43
+2017-01-13 13:12:13,492 - auto_focus.focus - INFO - Focus: 44.93, 26.08, 0.17
+2017-01-13 13:13:02,005 - auto_focus.focus - INFO - Focus: 45.27, 21.11, -0.61
+2017-01-13 13:13:11,154 - auto_focus.focus - INFO - Focus: 45.27, 21.01, -0.79
+2017-01-13 13:13:37,265 - auto_focus.focus - INFO - Focus: 40.65, 20.65, -0.37
+2017-01-13 13:13:48,365 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-13 13:13:48,545 - auto_focus.focus - INFO - Focus: 31.11, 20.50, -0.55
+2017-01-13 13:13:57,644 - auto_focus.focus - INFO - Focus: 31.11, 20.30, -0.97
+2017-01-13 13:14:10,424 - auto_focus.focus - INFO - Focus: 26.48, 20.10, -0.79
+2017-01-13 13:14:19,525 - auto_focus.focus - INFO - Focus: 26.38, 20.10, -0.55
+2017-01-13 13:14:42,095 - auto_focus.focus - INFO - Focus: 21.46, 19.90, -0.49
+2017-01-13 13:14:51,085 - auto_focus.focus - INFO - Focus: 21.46, 19.90, -0.49
+2017-01-13 13:20:51,256 - auto_focus.focus - INFO - Focus: 11.86, 19.55, -0.91
+2017-01-13 13:21:00,456 - auto_focus.focus - INFO - Focus: 11.86, 19.55, -0.85
+2017-01-13 13:21:22,405 - auto_focus.focus - INFO - Focus: 7.19, 19.35, -0.31
+2017-01-13 13:21:34,575 - auto_focus.focus - INFO - Focus: 7.09, 19.45, -0.43
+2017-01-13 13:21:45,115 - auto_focus.focus - INFO - Focus: 7.19, 19.35, -0.49
+2017-01-13 13:22:16,196 - auto_focus.focus - INFO - Focus: 7.09, 19.45, -0.25
+2017-01-13 13:22:42,155 - auto_focus.focus - INFO - Focus: 2.31, 19.25, -0.49
+2017-01-13 13:23:09,345 - auto_focus.focus - INFO - Focus: 2.41, 14.02, -0.31
+2017-01-13 13:23:23,516 - auto_focus.focus - INFO - Focus: 7.24, 14.77, -0.31
+2017-01-13 13:23:37,615 - auto_focus.focus - INFO - Focus: 12.21, 14.47, -0.67
+2017-01-13 13:24:07,815 - auto_focus.focus - INFO - Focus: 21.71, 14.68, -0.79
+2017-01-13 13:24:16,835 - auto_focus.focus - INFO - Focus: 21.61, 14.68, -0.73
+2017-01-13 13:24:39,395 - auto_focus.focus - INFO - Focus: 31.36, 14.93, -1.09
+2017-01-13 13:24:48,796 - auto_focus.focus - INFO - Focus: 31.26, 15.03, -1.09
+2017-01-13 13:25:17,875 - auto_focus.focus - INFO - Focus: 36.03, 15.38, -0.61
+2017-01-13 13:26:04,447 - auto_focus.focus - INFO - Focus: 31.56, 10.05, -0.91
+2017-01-13 13:26:13,578 - auto_focus.focus - INFO - Focus: 31.56, 10.05, -0.91
+2017-01-13 13:26:35,878 - auto_focus.focus - INFO - Focus: 26.58, 9.80, -0.61
+2017-01-13 13:26:45,358 - auto_focus.focus - INFO - Focus: 26.58, 9.70, -1.09
+2017-01-13 13:27:05,818 - auto_focus.focus - INFO - Focus: 21.76, 9.75, -0.67
+2017-01-13 13:27:31,767 - auto_focus.focus - INFO - Focus: 12.26, 9.45, -0.43
+2017-01-13 13:27:43,388 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-13 13:27:46,747 - auto_focus.focus - INFO - Focus: 7.49, 9.15, -0.37
+2017-01-13 13:27:55,737 - auto_focus.focus - INFO - Focus: 7.49, 9.15, -0.31
+2017-01-13 13:28:43,461 - auto_focus.focus - INFO - Focus: 2.56, 9.05, -0.25
+2017-01-13 13:29:06,691 - auto_focus.focus - INFO - Focus: 2.56, 9.05, -0.19
+2017-01-13 13:29:57,852 - auto_focus.focus - INFO - Focus: 2.97, 4.37, -0.43
+2017-01-13 13:30:07,183 - auto_focus.focus - INFO - Focus: 2.97, 4.27, -0.55
+2017-01-13 13:30:55,316 - auto_focus.focus - INFO - Focus: 17.39, 4.57, -0.31
+2017-01-13 13:31:23,657 - auto_focus.focus - INFO - Focus: 17.39, 4.47, -0.31
+2017-01-13 13:32:10,648 - auto_focus.focus - INFO - Focus: 21.91, 4.97, -0.31
+2017-01-13 13:32:30,842 - auto_focus.focus - INFO - Focus: 21.91, 4.67, -0.67
+2017-01-13 13:32:43,312 - auto_focus.focus - INFO - Focus: 35.18, 35.73, -0.61
+2017-01-13 13:35:15,423 - auto_focus.focus - INFO - Focus: 35.18, 35.83, -0.49
+2017-01-13 13:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 13:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 13:36:08,693 - auto_focus.focus - INFO - Focus: 35.18, 35.83, -0.67
+2017-01-13 13:39:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 13:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 13:39:08,693 - auto_focus.focus - INFO - Focus: 35.18, 35.83, -0.61
+2017-01-13 13:42:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 13:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 13:42:09,904 - auto_focus.focus - INFO - Focus: 35.18, 35.83, -0.55
+2017-01-13 13:45:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 13:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 13:45:41,723 - auto_focus.focus - INFO - Focus: 35.18, 35.83, -0.37
+2017-01-13 13:48:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 13:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 13:48:09,914 - auto_focus.focus - INFO - Focus: 35.08, 35.83, -0.25
+2017-01-13 13:51:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 13:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 13:51:09,924 - auto_focus.focus - INFO - Focus: 35.08, 35.83, -0.13
+2017-01-13 13:54:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 13:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 13:54:09,865 - auto_focus.focus - INFO - Focus: 35.08, 35.83, 0.11
+2017-01-13 13:57:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 13:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 13:57:09,953 - auto_focus.focus - INFO - Focus: 35.08, 35.83, 0.11
+2017-01-13 14:00:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:00:09,943 - auto_focus.focus - INFO - Focus: 35.08, 35.83, 0.11
+2017-01-13 14:03:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:03:08,493 - auto_focus.focus - INFO - Focus: 35.08, 35.83, -0.19
+2017-01-13 14:04:56,585 - auto_focus.focus - INFO - Focus: 1.51, 39.90, 0.17
+2017-01-13 14:05:41,865 - auto_focus.focus - INFO - Focus: 1.51, 39.90, 0.17
+2017-01-13 14:12:51,788 - auto_focus.focus - INFO - Focus: 1.41, 40.00, -0.01
+2017-01-13 14:14:22,927 - auto_focus.focus - INFO - Focus: 1.41, 40.00, 0.11
+2017-01-13 14:18:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:18:42,848 - auto_focus.focus - INFO - Focus: 1.41, 40.00, 0.05
+2017-01-13 14:21:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:21:10,019 - auto_focus.focus - INFO - Focus: 1.41, 39.90, -0.01
+2017-01-13 14:24:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:24:09,888 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.35
+2017-01-13 14:27:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:27:09,969 - auto_focus.focus - INFO - Focus: 1.41, 39.90, 0.29
+2017-01-13 14:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:30:08,500 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.17
+2017-01-13 14:33:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:33:09,970 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.53
+2017-01-13 14:36:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:36:10,140 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.65
+2017-01-13 14:39:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:39:10,109 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.83
+2017-01-13 14:42:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:42:08,490 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.41
+2017-01-13 14:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:45:10,290 - auto_focus.focus - INFO - Focus: 1.31, 40.00, 0.17
+2017-01-13 14:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:48:10,151 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.35
+2017-01-13 14:51:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:51:10,131 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.41
+2017-01-13 14:54:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:54:10,101 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.59
+2017-01-13 14:57:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 14:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 14:57:10,101 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.41
+2017-01-13 15:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:00:10,062 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.77
+2017-01-13 15:03:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:03:09,963 - auto_focus.focus - INFO - Focus: 1.31, 40.00, 0.71
+2017-01-13 15:06:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:06:09,914 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.41
+2017-01-13 15:09:00,035 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:09:30,214 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.47
+2017-01-13 15:12:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:12:10,164 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.77
+2017-01-13 15:15:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:15:10,305 - auto_focus.focus - INFO - Focus: 1.31, 39.90, 0.77
+2017-01-13 15:17:07,467 - auto_focus.focus - INFO - Focus: 11.01, 40.00, 0.77
+2017-01-13 15:17:19,477 - auto_focus.focus - INFO - Focus: 11.01, 40.00, 0.83
+2017-01-13 15:19:06,058 - auto_focus.focus - INFO - Focus: 11.01, 39.90, 0.71
+2017-01-13 15:19:16,898 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xba in position 0: ordinal not in range(128)
+2017-01-13 15:23:42,446 - auto_focus.focus - INFO - Focus: 34.78, 40.75, 0.89
+2017-01-13 15:23:56,176 - auto_focus.focus - INFO - Focus: 34.78, 40.85, 0.83
+2017-01-13 15:25:43,605 - auto_focus.focus - INFO - Focus: 34.78, 40.85, 0.83
+2017-01-13 15:27:14,016 - auto_focus.focus - INFO - Focus: 34.78, 40.85, 0.77
+2017-01-13 15:29:58,826 - auto_focus.focus - INFO - Focus: 34.78, 40.85, 0.83
+2017-01-13 15:31:37,637 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0BAE0270>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-01-13 15:31:55,127 - auto_focus.focus - INFO - Focus: 34.78, 40.85, 0.53
+2017-01-13 15:33:28,736 - auto_focus.focus - INFO - Focus: 34.78, 40.85, 0.47
+2017-01-13 15:36:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:36:10,006 - auto_focus.focus - INFO - Focus: 34.88, 40.85, 0.47
+2017-01-13 15:39:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:39:10,046 - auto_focus.focus - INFO - Focus: 34.88, 40.85, 0.53
+2017-01-13 15:42:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:42:10,118 - auto_focus.focus - INFO - Focus: 34.78, 40.85, 0.95
+2017-01-13 15:45:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:45:10,187 - auto_focus.focus - INFO - Focus: 34.78, 40.85, 0.95
+2017-01-13 15:48:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:48:10,101 - auto_focus.focus - INFO - Focus: 34.78, 40.85, 0.65
+2017-01-13 15:51:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:51:10,052 - auto_focus.focus - INFO - Focus: 34.78, 40.85, 1.01
+2017-01-13 15:54:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:54:16,023 - auto_focus.focus - INFO - Focus: 34.88, 40.75, 0.89
+2017-01-13 15:57:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 15:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 15:57:10,183 - auto_focus.focus - INFO - Focus: 34.88, 40.85, 0.89
+2017-01-13 16:00:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 16:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 16:00:08,493 - auto_focus.focus - INFO - Focus: 34.88, 40.85, 0.71
+2017-01-13 16:00:30,785 - auto_focus.focus - INFO - Focus: 20.81, 35.58, 0.53
+2017-01-13 16:00:39,845 - auto_focus.focus - INFO - Focus: 20.81, 35.68, 0.41
+2017-01-13 16:01:07,224 - auto_focus.focus - INFO - Focus: 20.81, 35.58, 0.59
+2017-01-13 16:02:42,105 - auto_focus.focus - INFO - Focus: 20.81, 35.58, 0.41
+2017-01-13 16:05:43,726 - auto_focus.focus - INFO - Focus: 20.81, 35.58, 0.47
+2017-01-13 16:11:39,395 - auto_focus.focus - INFO - Focus: 20.81, 35.68, 0.11
+2017-01-13 16:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 16:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 16:12:29,615 - auto_focus.focus - INFO - Focus: 20.81, 35.58, 0.40
+2017-01-13 16:15:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 16:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 16:15:09,946 - auto_focus.focus - INFO - Focus: 20.81, 35.58, 0.52
+2017-01-13 16:17:32,509 - auto_focus.focus - INFO - Focus: 20.81, 35.68, 0.04
+2017-01-13 16:17:44,878 - auto_focus.focus - INFO - Focus: 44.57, 31.36, 0.04
+2017-01-13 16:17:53,888 - auto_focus.focus - INFO - Focus: 44.47, 31.36, 0.52
+2017-01-13 16:18:09,188 - auto_focus.focus - INFO - Focus: 44.47, 31.36, 0.40
+2017-01-13 16:19:50,578 - auto_focus.focus - INFO - Focus: 44.47, 31.36, 0.64
+2017-01-13 16:21:23,799 - auto_focus.focus - INFO - Focus: 44.47, 31.36, 0.70
+2017-01-13 16:23:08,194 - auto_focus.focus - INFO - Focus: 35.48, 30.70, 0.58
+2017-01-13 16:23:17,345 - auto_focus.focus - INFO - Focus: 35.48, 30.70, 0.40
+2017-01-13 16:24:58,845 - auto_focus.focus - INFO - Focus: 35.48, 30.70, 0.52
+2017-01-13 16:26:30,974 - auto_focus.focus - INFO - Focus: 35.48, 30.70, 0.40
+2017-01-13 16:30:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 16:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 16:30:08,506 - auto_focus.focus - INFO - Focus: 35.48, 30.70, 0.46
+2017-01-13 16:33:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 16:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 16:33:10,072 - auto_focus.focus - INFO - Focus: 35.38, 30.70, 0.52
+2017-01-13 16:36:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 16:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 16:36:09,901 - auto_focus.focus - INFO - Focus: 35.38, 30.70, 0.88
+2017-01-13 16:39:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 16:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 16:39:09,941 - auto_focus.focus - INFO - Focus: 35.38, 30.60, 1.12
+2017-01-13 16:42:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 16:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 16:42:10,132 - auto_focus.focus - INFO - Focus: 35.38, 30.60, 1.30
+2017-01-13 16:46:02,132 - auto_focus.focus - INFO - Focus: 35.38, 30.60, 1.18
+2017-01-13 16:47:15,773 - emod.submit - INFO - The job <measurements.shallow_NV.Correlation_Spec_XY8_phase object at 0x1BCF22D0> is already running or in the queue.
+2017-01-13 16:48:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 16:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 16:48:10,302 - auto_focus.focus - INFO - Focus: 35.38, 30.60, 1.00
+2017-01-13 16:51:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 16:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 16:51:10,082 - auto_focus.focus - INFO - Focus: 34.88, 30.20, 1.36
+2017-01-13 16:51:18,602 - auto_focus.focus - INFO - Focus: 35.38, 30.60, 1.24
+2017-01-13 16:54:07,305 - auto_focus.focus - INFO - Focus: 21.06, 30.50, 0.64
+2017-01-13 16:54:16,956 - auto_focus.focus - INFO - Focus: 21.06, 30.50, 0.40
+2017-01-13 16:55:50,546 - auto_focus.focus - INFO - Focus: 21.06, 30.50, 0.22
+2017-01-13 16:56:56,456 - auto_focus.focus - INFO - Focus: 21.06, 30.50, 0.34
+2017-01-13 16:57:08,145 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xba in position 0: ordinal not in range(128)
+2017-01-13 16:58:44,016 - auto_focus.focus - INFO - Focus: 21.06, 30.50, 0.22
+2017-01-13 17:06:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 17:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 17:06:09,918 - auto_focus.focus - INFO - Focus: 20.96, 30.50, 0.58
+2017-01-13 17:09:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 17:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 17:09:09,878 - auto_focus.focus - INFO - Focus: 20.96, 30.50, 0.70
+2017-01-13 17:12:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 17:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 17:12:09,928 - auto_focus.focus - INFO - Focus: 20.96, 30.50, 0.88
+2017-01-13 17:15:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 17:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 17:15:09,908 - auto_focus.focus - INFO - Focus: 20.96, 30.50, 1.18
+2017-01-13 17:17:03,381 - auto_focus.focus - INFO - Focus: 30.60, 25.73, 0.76
+2017-01-13 17:17:31,701 - auto_focus.focus - INFO - Focus: 30.50, 25.73, 0.52
+2017-01-13 17:19:04,492 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0BAE0270>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-01-13 17:19:16,891 - auto_focus.focus - INFO - Focus: 30.50, 25.73, 0.70
+2017-01-13 17:20:51,351 - auto_focus.focus - INFO - Focus: 30.50, 25.73, 0.20
+2017-01-13 17:22:03,305 - auto_focus.focus - INFO - Focus: 44.67, 25.88, -0.34
+2017-01-13 17:22:14,615 - auto_focus.focus - INFO - Focus: 44.67, 25.88, -0.40
+2017-01-13 17:23:52,476 - auto_focus.focus - INFO - Focus: 44.67, 25.98, -0.28
+2017-01-13 17:25:27,476 - auto_focus.focus - INFO - Focus: 44.67, 25.98, -0.40
+2017-01-13 17:27:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 17:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 17:27:09,895 - auto_focus.focus - INFO - Focus: 44.67, 25.98, -0.34
+2017-01-13 17:27:38,486 - auto_focus.focus - INFO - Focus: 44.67, 25.98, -0.40
+2017-01-13 17:30:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 17:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 17:30:08,637 - auto_focus.focus - INFO - Focus: 44.67, 25.98, -0.58
+2017-01-13 17:33:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 17:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 17:33:10,167 - auto_focus.focus - INFO - Focus: 44.77, 25.88, -0.22
+2017-01-13 17:36:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 17:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 17:36:09,927 - auto_focus.focus - INFO - Focus: 44.77, 25.88, 0.02
+2017-01-13 17:39:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 17:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 17:39:09,877 - auto_focus.focus - INFO - Focus: 44.67, 25.88, 0.08
+2017-01-13 17:42:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 17:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 17:42:09,947 - auto_focus.focus - INFO - Focus: 44.67, 25.88, 0.14
+2017-01-13 17:45:25,062 - auto_focus.focus - INFO - Focus: 35.88, 15.33, -0.10
+2017-01-13 17:45:34,002 - auto_focus.focus - INFO - Focus: 35.78, 15.23, -0.04
+2017-01-13 17:47:11,381 - auto_focus.focus - INFO - Focus: 35.68, 15.13, -0.40
+2017-01-13 17:49:12,121 - auto_focus.focus - INFO - Focus: 35.78, 15.23, -0.34
+2017-01-13 17:54:05,112 - auto_focus.focus - INFO - Focus: 35.78, 15.23, -0.46
+2017-01-13 17:54:32,773 - auto_focus.focus - INFO - Focus: 35.78, 15.23, -0.40
+2017-01-13 17:56:11,805 - auto_focus.focus - INFO - Focus: 7.29, 9.05, -0.10
+2017-01-13 17:56:28,634 - auto_focus.focus - INFO - Focus: 7.39, 8.95, -0.10
+2017-01-13 17:56:37,325 - auto_focus.focus - INFO - Focus: 7.29, 8.95, -0.22
+2017-01-13 17:58:10,704 - auto_focus.focus - INFO - Focus: 7.29, 8.95, -0.22
+2017-01-13 17:59:42,565 - auto_focus.focus - INFO - Focus: 7.29, 8.95, -0.16
+2017-01-13 18:03:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 18:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 18:03:10,563 - auto_focus.focus - INFO - Focus: 7.29, 8.95, -0.16
+2017-01-13 18:04:22,094 - auto_focus.focus - INFO - Focus: 7.29, 8.95, -0.10
+2017-01-13 18:06:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>> at time 2017-01-13 18:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B87C5A0>>.
+2017-01-13 18:06:09,953 - auto_focus.focus - INFO - Focus: 7.29, 8.95, -0.28
+2017-01-13 18:07:20,855 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B87C5A0> is already running or in the queue.
+2017-01-13 18:07:21,296 - auto_focus.focus - INFO - Focus: 2.52, 8.85, 0.32
+2017-01-13 18:07:30,546 - auto_focus.focus - INFO - Focus: 2.42, 8.95, 0.32
+2017-01-13 18:08:11,871 - auto_focus.focus - INFO - Focus: 2.52, 3.62, 0.32

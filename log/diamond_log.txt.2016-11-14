@@ -1,0 +1,1436 @@
+2016-11-14 09:21:56,516 - auto_focus.focus - INFO - Focus: 18.10, 18.60, 1.94
+2016-11-14 09:22:44,596 - auto_focus.focus - INFO - Focus: 20.02, 14.16, 2.22
+2016-11-14 09:22:53,217 - auto_focus.focus - INFO - Focus: 19.97, 14.16, 2.36
+2016-11-14 09:23:02,137 - auto_focus.focus - INFO - Focus: 19.97, 14.16, 2.24
+2016-11-14 09:26:20,111 - auto_focus.focus - INFO - Focus: 25.86, 18.45, 2.22
+2016-11-14 09:26:37,072 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb9 in position 0: ordinal not in range(128)
+2016-11-14 09:30:21,562 - auto_focus.focus - INFO - Focus: 25.86, 18.45, 2.14
+2016-11-14 09:30:25,142 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0BE7E210>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-11-14 09:30:35,632 - auto_focus.focus - INFO - Focus: 25.86, 18.45, 2.24
+2016-11-14 09:30:45,673 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-14 09:31:12,903 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 406, in _run
+    motion_time = float(Magnet.get_motiontime_relativemove(1, self.stepY)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 285, in get_motiontime_relativemove
+    return self.read()
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 27, in read
+    return(self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-14 09:34:51,881 - auto_focus.focus - INFO - Focus: 25.86, 18.40, 2.28
+2016-11-14 09:38:57,552 - auto_focus.focus - INFO - Focus: 25.86, 18.45, 2.26
+2016-11-14 09:42:31,961 - auto_focus.focus - INFO - Focus: 25.86, 18.45, 2.30
+2016-11-14 09:47:19,012 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.pulsed_awg.Rabi object at 0x2CCE0690>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 113, in _load_button_changed
+    self.load()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 122, in load
+    self.freq_center=self.freq-0.1e+9
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'freq_center' trait of a Rabi instance must be 1.0 <= a floating point number <= 20000000000.0, but a value of -98503818.0 <type 'float'> was specified.
+2016-11-14 09:48:51,171 - emod.submit - INFO - The job <measurements.pulsed_awg.Rabi object at 0x2CCE0690> is already running or in the queue.
+2016-11-14 09:49:18,872 - auto_focus.focus - INFO - Focus: 25.76, 18.45, 2.24
+2016-11-14 09:58:06,493 - auto_focus.focus - INFO - Focus: 25.81, 18.45, 2.32
+2016-11-14 09:58:55,003 - auto_focus.focus - INFO - Focus: 25.81, 18.40, 2.36
+2016-11-14 09:59:11,552 - auto_focus.focus - INFO - Focus: 25.81, 18.40, 2.22
+2016-11-14 10:01:07,713 - auto_focus.focus - INFO - Focus: 25.81, 18.40, 2.32
+2016-11-14 10:03:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:03:09,414 - auto_focus.focus - INFO - Focus: 25.76, 18.45, 2.34
+2016-11-14 10:04:55,884 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.DoubleExponentialDecayFit object at 0x0D4D9E70>, trait: normalized_counts, old value: [ 0.  0.], new value: [-2.4726979  -1.91221817 -1.22824765 -0.83160804  0.73148804 -0.64125291
+ -1.00438353  0.14756123 -0.50451151 -0.71991831 -0.85119768 -0.0027805
+ -1.64516235  0.33238506  0.16694754 -0.10515026 -0.95873077 -1.73172155
+ -1.11339725]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 1126, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleExponentialDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2016-11-14 10:06:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:06:09,364 - auto_focus.focus - INFO - Focus: 25.81, 18.40, 2.50
+2016-11-14 10:09:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:09:09,444 - auto_focus.focus - INFO - Focus: 25.71, 18.40, 2.54
+2016-11-14 10:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:12:09,414 - auto_focus.focus - INFO - Focus: 25.61, 18.40, 2.68
+2016-11-14 10:15:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:15:00,005 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BC434B0> is already running or in the queue.
+2016-11-14 10:15:05,644 - auto_focus.focus - INFO - Focus: 25.61, 18.35, 2.72
+2016-11-14 10:18:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:18:09,414 - auto_focus.focus - INFO - Focus: 25.56, 18.35, 2.74
+2016-11-14 10:21:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:21:09,388 - auto_focus.focus - INFO - Focus: 25.61, 18.35, 2.72
+2016-11-14 10:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:24:09,467 - auto_focus.focus - INFO - Focus: 25.56, 18.40, 2.82
+2016-11-14 10:27:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:27:09,457 - auto_focus.focus - INFO - Focus: 25.51, 18.30, 2.76
+2016-11-14 10:30:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:30:09,418 - auto_focus.focus - INFO - Focus: 25.51, 18.35, 2.84
+2016-11-14 10:33:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:33:09,388 - auto_focus.focus - INFO - Focus: 25.51, 18.35, 2.82
+2016-11-14 10:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:36:09,448 - auto_focus.focus - INFO - Focus: 25.46, 18.35, 2.90
+2016-11-14 10:39:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-14 10:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-14 10:39:09,428 - auto_focus.focus - INFO - Focus: 25.46, 18.35, 2.88
+2016-11-14 10:41:03,309 - auto_focus.focus - INFO - Focus: 25.46, 18.35, 2.76
+2016-11-14 10:45:47,410 - auto_focus.focus - INFO - Focus: 25.51, 18.30, 2.52
+2016-11-14 10:45:55,829 - auto_focus.focus - INFO - Focus: 25.51, 18.35, 2.46
+2016-11-14 10:46:04,440 - auto_focus.focus - INFO - Focus: 25.51, 18.30, 2.46
+2016-11-14 10:54:14,151 - auto_focus.focus - INFO - Focus: 22.71, 16.81, 2.34
+2016-11-14 10:54:22,680 - auto_focus.focus - INFO - Focus: 22.76, 16.81, 2.16
+2016-11-14 10:54:49,960 - auto_focus.focus - INFO - Focus: 22.06, 17.25, 2.30
+2016-11-14 10:56:58,301 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BC434B0> is already running or in the queue.
+2016-11-14 10:56:58,331 - auto_focus.focus - INFO - Focus: 21.26, 21.74, 2.28
+2016-11-14 10:57:08,250 - auto_focus.focus - INFO - Focus: 21.21, 21.79, 2.28
+2016-11-14 10:57:37,780 - auto_focus.focus - INFO - Focus: 22.73, 16.78, 2.28
+2016-11-14 10:58:24,020 - auto_focus.focus - INFO - Focus: 25.64, 18.31, 2.32
+2016-11-14 10:58:32,530 - auto_focus.focus - INFO - Focus: 25.59, 18.31, 2.36
+2016-11-14 10:59:19,020 - auto_focus.focus - INFO - Focus: 25.59, 18.31, 2.24
+2016-11-14 10:59:41,200 - auto_focus.focus - INFO - Focus: 25.59, 18.36, 2.32
+2016-11-14 10:59:51,171 - auto_focus.focus - INFO - Focus: 25.59, 18.31, 2.40
+2016-11-14 11:08:29,242 - auto_focus.focus - INFO - Focus: 22.89, 16.89, 1.98
+2016-11-14 11:08:39,641 - auto_focus.focus - INFO - Focus: 22.74, 16.79, 2.22
+2016-11-14 11:10:20,401 - auto_focus.focus - INFO - Focus: 19.95, 18.56, 2.22
+2016-11-14 11:11:10,052 - auto_focus.focus - INFO - Focus: 19.95, 18.56, 2.30
+2016-11-14 12:23:38,148 - auto_focus.focus - INFO - Focus: 22.79, 16.76, 1.88
+2016-11-14 12:23:48,548 - auto_focus.focus - INFO - Focus: 22.84, 16.86, 1.88
+2016-11-14 12:23:57,118 - auto_focus.focus - INFO - Focus: 22.94, 16.86, 1.82
+2016-11-14 12:24:45,338 - auto_focus.focus - INFO - Focus: 22.94, 16.86, 1.84
+2016-11-14 12:29:00,529 - auto_focus.focus - INFO - Focus: 20.81, 25.41, 1.66
+2016-11-14 12:29:09,098 - auto_focus.focus - INFO - Focus: 20.76, 25.41, 1.76
+2016-11-14 12:29:17,569 - auto_focus.focus - INFO - Focus: 20.81, 25.46, 1.62
+2016-11-14 12:29:32,569 - auto_focus.focus - INFO - Focus: 23.11, 25.03, 1.88
+2016-11-14 12:29:42,858 - auto_focus.focus - INFO - Focus: 23.06, 25.03, 1.72
+2016-11-14 12:29:51,709 - auto_focus.focus - INFO - Focus: 23.11, 24.98, 1.76
+2016-11-14 12:39:27,369 - auto_focus.focus - INFO - Focus: 19.57, 25.31, 1.74
+2016-11-14 12:39:56,619 - auto_focus.focus - INFO - Focus: 19.52, 25.31, 1.60
+2016-11-14 12:40:05,940 - auto_focus.focus - INFO - Focus: 19.52, 25.36, 1.68
+2016-11-14 12:40:20,160 - auto_focus.focus - INFO - Focus: 22.61, 28.22, 1.84
+2016-11-14 12:41:07,799 - auto_focus.focus - INFO - Focus: 19.07, 27.03, 1.64
+2016-11-14 12:41:41,059 - auto_focus.focus - INFO - Focus: 19.32, 30.23, 1.68
+2016-11-14 12:41:49,589 - auto_focus.focus - INFO - Focus: 19.32, 30.28, 1.68
+2016-11-14 12:42:00,490 - auto_focus.focus - INFO - Focus: 19.32, 30.23, 1.72
+2016-11-14 12:42:37,589 - auto_focus.focus - INFO - Focus: 24.23, 25.41, 1.64
+2016-11-14 12:43:11,009 - auto_focus.focus - INFO - Focus: 24.43, 27.92, 1.70
+2016-11-14 12:43:19,440 - auto_focus.focus - INFO - Focus: 24.43, 27.92, 1.38
+2016-11-14 12:43:59,099 - auto_focus.focus - INFO - Focus: 24.95, 27.94, 1.80
+2016-11-14 12:44:09,460 - auto_focus.focus - INFO - Focus: 24.90, 27.89, 1.66
+2016-11-14 12:44:37,150 - auto_focus.focus - INFO - Focus: 24.95, 27.99, 1.70
+2016-11-14 12:44:45,930 - auto_focus.focus - INFO - Focus: 24.95, 27.89, 1.74
+2016-11-14 12:46:20,009 - auto_focus.focus - INFO - Focus: 24.95, 27.89, 1.66
+2016-11-14 12:54:29,030 - auto_focus.focus - INFO - Focus: 22.98, 26.06, 1.76
+2016-11-14 12:54:37,561 - auto_focus.focus - INFO - Focus: 22.93, 26.06, 1.50
+2016-11-14 12:55:08,210 - auto_focus.focus - INFO - Focus: 23.04, 24.96, 1.64
+2016-11-14 12:55:16,700 - auto_focus.focus - INFO - Focus: 23.14, 24.96, 1.68
+2016-11-14 12:55:46,061 - auto_focus.focus - INFO - Focus: 25.81, 18.41, 1.70
+2016-11-14 12:55:54,381 - auto_focus.focus - INFO - Focus: 25.86, 18.41, 1.70
+2016-11-14 12:56:42,141 - auto_focus.focus - INFO - Focus: 21.92, 30.49, 1.74
+2016-11-14 12:56:50,811 - auto_focus.focus - INFO - Focus: 21.92, 30.54, 1.68
+2016-11-14 12:57:00,411 - auto_focus.focus - INFO - Focus: 21.92, 30.49, 1.70
+2016-11-14 12:57:41,571 - auto_focus.focus - INFO - Focus: 21.97, 30.54, 1.72
+2016-11-14 12:57:50,801 - auto_focus.focus - INFO - Focus: 21.92, 30.54, 1.74
+2016-11-14 12:57:59,881 - auto_focus.focus - INFO - Focus: 21.92, 30.54, 1.74
+2016-11-14 13:04:28,302 - auto_focus.focus - INFO - Focus: 23.43, 24.06, 1.82
+2016-11-14 13:04:36,611 - auto_focus.focus - INFO - Focus: 23.63, 24.06, 1.76
+2016-11-14 13:04:50,322 - auto_focus.focus - INFO - Focus: 21.20, 23.40, 1.50
+2016-11-14 13:04:58,792 - auto_focus.focus - INFO - Focus: 21.15, 23.40, 1.58
+2016-11-14 13:05:07,232 - auto_focus.focus - INFO - Focus: 21.10, 23.40, 1.66
+2016-11-14 13:12:02,092 - auto_focus.focus - INFO - Focus: 22.81, 34.82, 1.74
+2016-11-14 13:12:10,631 - auto_focus.focus - INFO - Focus: 22.91, 34.87, 1.44
+2016-11-14 13:12:19,111 - auto_focus.focus - INFO - Focus: 22.91, 34.77, 1.66
+2016-11-14 13:12:27,982 - auto_focus.focus - INFO - Focus: 22.91, 34.82, 1.66
+2016-11-14 13:20:51,213 - auto_focus.focus - INFO - Focus: 25.85, 31.86, 1.48
+2016-11-14 13:21:06,842 - auto_focus.focus - INFO - Focus: 21.71, 35.23, 1.58
+2016-11-14 13:21:46,503 - auto_focus.focus - INFO - Focus: 20.79, 34.80, 1.46
+2016-11-14 13:21:54,872 - auto_focus.focus - INFO - Focus: 20.79, 34.85, 1.54
+2016-11-14 13:22:24,153 - auto_focus.focus - INFO - Focus: 24.03, 37.11, 1.80
+2016-11-14 13:22:40,003 - auto_focus.focus - INFO - Focus: 24.03, 37.16, 1.68
+2016-11-14 13:23:18,523 - auto_focus.focus - INFO - Focus: 24.97, 36.17, 1.50
+2016-11-14 13:23:27,503 - auto_focus.focus - INFO - Focus: 24.97, 36.22, 1.38
+2016-11-14 13:23:36,023 - auto_focus.focus - INFO - Focus: 24.97, 36.22, 1.64
+2016-11-14 13:24:15,233 - auto_focus.focus - INFO - Focus: 27.64, 38.08, 1.64
+2016-11-14 13:24:23,663 - auto_focus.focus - INFO - Focus: 27.59, 38.13, 1.64
+2016-11-14 13:24:33,933 - auto_focus.focus - INFO - Focus: 27.64, 38.08, 1.64
+2016-11-14 13:26:38,233 - auto_focus.focus - INFO - Focus: 29.45, 37.19, 1.56
+2016-11-14 13:27:13,584 - auto_focus.focus - INFO - Focus: 27.39, 34.15, 1.50
+2016-11-14 13:27:22,144 - auto_focus.focus - INFO - Focus: 27.44, 34.10, 1.66
+2016-11-14 13:29:46,043 - auto_focus.focus - INFO - Focus: 22.76, 30.79, 1.76
+2016-11-14 13:30:27,844 - auto_focus.focus - INFO - Focus: 22.76, 30.79, 1.68
+2016-11-14 13:30:41,003 - emod.submit - INFO - The job <measurements.magnet_control.Magnet_alignment object at 0x0BE7E210> is already running or in the queue.
+2016-11-14 13:31:28,934 - auto_focus.focus - INFO - Focus: 25.79, 31.87, 1.66
+2016-11-14 13:31:38,313 - auto_focus.focus - INFO - Focus: 25.79, 31.82, 1.46
+2016-11-14 13:31:50,543 - auto_focus.focus - INFO - Focus: 28.06, 32.07, 1.60
+2016-11-14 13:32:03,313 - auto_focus.focus - INFO - Focus: 28.49, 31.49, 1.64
+2016-11-14 13:32:12,154 - auto_focus.focus - INFO - Focus: 28.44, 31.49, 1.66
+2016-11-14 13:34:22,434 - auto_focus.focus - INFO - Focus: 15.38, 0.75, 1.82
+2016-11-14 13:34:30,823 - auto_focus.focus - INFO - Focus: 15.33, 0.75, 1.86
+2016-11-14 13:34:39,243 - auto_focus.focus - INFO - Focus: 15.33, 0.75, 1.78
+2016-11-14 13:35:42,303 - auto_focus.focus - INFO - Focus: 15.28, 0.75, 1.88
+2016-11-14 13:35:50,783 - auto_focus.focus - INFO - Focus: 15.23, 0.75, 1.70
+2016-11-14 14:40:53,210 - auto_focus.focus - INFO - Focus: 23.16, 9.04, 1.80
+2016-11-14 14:41:01,799 - auto_focus.focus - INFO - Focus: 23.11, 9.04, 1.68
+2016-11-14 14:41:35,509 - auto_focus.focus - INFO - Focus: 23.80, 8.05, 1.78
+2016-11-14 14:41:44,500 - auto_focus.focus - INFO - Focus: 23.80, 8.00, 1.66
+2016-11-14 14:44:09,619 - auto_focus.focus - INFO - Focus: 23.80, 8.05, 1.82
+2016-11-14 14:44:27,910 - auto_focus.focus - INFO - Focus: 23.85, 8.10, 1.70
+2016-11-14 14:46:05,400 - auto_focus.focus - INFO - Focus: 23.85, 8.05, 1.72
+2016-11-14 14:47:10,680 - auto_focus.focus - INFO - Focus: 23.85, 8.05, 1.66
+2016-11-14 14:47:19,160 - auto_focus.focus - INFO - Focus: 23.85, 8.00, 1.74
+2016-11-14 14:47:48,750 - emod.submit - INFO - The job <measurements.confocal.Confocal object at 0x07213D80> is already running or in the queue.
+2016-11-14 14:47:59,200 - auto_focus.focus - INFO - Focus: 23.85, 8.05, 1.72
+2016-11-14 14:48:08,089 - auto_focus.focus - INFO - Focus: 23.85, 8.10, 1.70
+2016-11-14 14:51:44,821 - auto_focus.focus - INFO - Focus: 24.46, 6.60, 1.78
+2016-11-14 14:52:32,480 - auto_focus.focus - INFO - Focus: 18.48, 4.29, 1.82
+2016-11-14 14:52:40,871 - auto_focus.focus - INFO - Focus: 18.48, 4.29, 1.76
+2016-11-14 15:00:38,210 - auto_focus.focus - INFO - Focus: 18.48, 4.29, 1.80
+2016-11-14 15:01:04,141 - auto_focus.focus - INFO - Focus: 18.48, 4.29, 1.88
+2016-11-14 15:01:36,780 - auto_focus.focus - INFO - Focus: 20.49, 6.45, 1.88
+2016-11-14 15:01:45,260 - auto_focus.focus - INFO - Focus: 20.49, 6.45, 1.70
+2016-11-14 15:01:56,010 - emod.submit - INFO - The job <measurements.magnet_control.Magnet_alignment object at 0x0BE7E210> is already running or in the queue.
+2016-11-14 15:02:49,930 - auto_focus.focus - INFO - Focus: 20.65, 5.98, 1.80
+2016-11-14 15:02:58,450 - auto_focus.focus - INFO - Focus: 20.65, 5.98, 1.82
+2016-11-14 15:04:10,512 - auto_focus.focus - INFO - Focus: 19.95, 4.78, 1.90
+2016-11-14 15:04:25,911 - auto_focus.focus - INFO - Focus: 24.46, 6.68, 1.84
+2016-11-14 15:04:34,471 - auto_focus.focus - INFO - Focus: 24.51, 6.58, 1.84
+2016-11-14 15:04:43,022 - auto_focus.focus - INFO - Focus: 24.46, 6.63, 1.82
+2016-11-14 15:05:59,131 - auto_focus.focus - INFO - Focus: 24.46, 6.63, 1.76
+2016-11-14 15:07:46,782 - auto_focus.focus - INFO - Focus: 24.46, 6.63, 1.70
+2016-11-14 15:08:21,512 - auto_focus.focus - INFO - Focus: 26.20, 2.42, 1.56
+2016-11-14 15:08:30,951 - auto_focus.focus - INFO - Focus: 26.15, 2.57, 1.70
+2016-11-14 15:09:45,451 - auto_focus.focus - INFO - Focus: 25.31, 7.23, 1.80
+2016-11-14 15:10:50,361 - auto_focus.focus - INFO - Focus: 21.51, 7.45, 1.66
+2016-11-14 15:10:58,772 - auto_focus.focus - INFO - Focus: 21.46, 7.50, 1.76
+2016-11-14 15:12:44,901 - auto_focus.focus - INFO - Focus: 21.41, 7.50, 1.80
+2016-11-14 15:12:47,941 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0BE7E210>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-11-14 15:12:58,461 - emod.submit - INFO - The job <measurements.magnet_control.Magnet_alignment object at 0x0BE7E210> is already running or in the queue.
+2016-11-14 15:13:49,992 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: x, old value: 21.4560270767, new value: 21.4334835313
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-14 15:13:50,042 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: y, old value: 7.49931450507, new value: 7.44447491089
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-14 15:13:50,042 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: x, old value: 21.4334835313, new value: 21.0490931672
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-14 15:13:50,042 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: y, old value: 7.44447491089, new value: 6.67672059227
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-14 15:13:50,772 - auto_focus.focus - INFO - Focus: 21.46, 7.50, 1.62
+2016-11-14 15:14:01,032 - auto_focus.focus - INFO - Focus: 20.48, 6.43, 1.70
+2016-11-14 15:14:58,812 - auto_focus.focus - INFO - Focus: 18.74, 8.13, 1.80
+2016-11-14 15:18:30,592 - auto_focus.focus - INFO - Focus: 18.74, 8.13, 1.68
+2016-11-14 15:18:39,243 - auto_focus.focus - INFO - Focus: 18.79, 8.13, 1.70
+2016-11-14 15:22:30,463 - auto_focus.focus - INFO - Focus: 21.31, 4.72, 1.62
+2016-11-14 15:23:23,673 - auto_focus.focus - INFO - Focus: 20.67, 6.00, 1.76
+2016-11-14 15:24:09,693 - auto_focus.focus - INFO - Focus: 23.35, 5.67, 1.80
+2016-11-14 15:24:19,562 - auto_focus.focus - INFO - Focus: 23.35, 5.67, 1.62
+2016-11-14 15:25:23,362 - auto_focus.focus - INFO - Focus: 24.62, 4.42, 1.70
+2016-11-14 15:25:34,273 - auto_focus.focus - INFO - Focus: 24.72, 4.37, 1.64
+2016-11-14 15:27:05,983 - auto_focus.focus - INFO - Focus: 24.67, 4.37, 1.74
+2016-11-14 15:28:52,073 - auto_focus.focus - INFO - Focus: 24.67, 4.37, 1.78
+2016-11-14 15:31:03,404 - auto_focus.focus - INFO - Focus: 26.03, 29.01, 1.78
+2016-11-14 15:32:50,844 - auto_focus.focus - INFO - Focus: 26.03, 29.01, 1.72
+2016-11-14 15:33:01,533 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-14 18:43:53,140 - odmr._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr.py", line 165, in _run
+    ha.Microwave().initSweep(self.frequency, self.power_p * np.ones(self.frequency.shape))
+  File "D:\pi3diamondnew\hardware\microwave_sources.py", line 101, in initSweep
+    self._write(':FREQ:MODE LIST')
+  File "D:\pi3diamondnew\hardware\microwave_sources.py", line 41, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 207, in write
+    count = self.write_raw(message.encode(enco))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 185, in write_raw
+    return self.visalib.write(self.session, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1864, in write
+    ret = library.viWrite(session, data, len(data), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_TMO (-1073807339): Timeout expired before operation completed.
+2016-11-14 19:23:21,233 - auto_focus.focus - INFO - Focus: 26.41, 29.06, -2.80
+2016-11-14 19:23:29,943 - auto_focus.focus - INFO - Focus: 26.36, 29.06, -2.66
+2016-11-14 19:26:09,164 - auto_focus.focus - INFO - Focus: 26.41, 29.06, -2.68
+2016-11-15 10:18:38,680 - auto_focus.focus - INFO - Focus: 26.41, 29.26, -2.18
+2016-11-15 10:18:47,101 - auto_focus.focus - INFO - Focus: 26.36, 29.36, -2.20
+2016-11-15 10:18:55,700 - auto_focus.focus - INFO - Focus: 26.36, 29.31, -2.00
+2016-11-15 10:19:05,680 - auto_focus.focus - INFO - Focus: 26.41, 29.26, -1.90
+2016-11-15 10:20:34,430 - auto_focus.focus - INFO - Focus: 25.53, 28.61, -1.92
+2016-11-15 10:20:42,901 - auto_focus.focus - INFO - Focus: 25.53, 28.66, -2.00
+2016-11-15 10:22:29,990 - auto_focus.focus - INFO - Focus: 25.53, 28.61, -1.92
+2016-11-15 10:22:38,020 - auto_focus.focus - INFO - Focus: 25.53, 28.61, -1.96
+2016-11-15 10:26:14,750 - auto_focus.focus - INFO - Focus: 25.53, 28.66, -1.94
+2016-11-15 10:26:23,230 - auto_focus.focus - INFO - Focus: 25.53, 28.61, -1.96
+2016-11-15 10:31:15,802 - auto_focus.focus - INFO - Focus: 25.53, 28.61, -2.02
+2016-11-15 12:25:36,671 - auto_focus.focus - INFO - Focus: 25.68, 28.71, -2.26
+2016-11-15 12:25:45,230 - auto_focus.focus - INFO - Focus: 25.73, 28.71, -2.32
+2016-11-15 12:25:53,750 - auto_focus.focus - INFO - Focus: 25.78, 28.71, -2.40
+2016-11-15 12:28:02,591 - auto_focus.focus - INFO - Focus: 25.78, 28.71, -2.26
+2016-11-15 12:32:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-15 12:32:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-15 12:32:09,441 - auto_focus.focus - INFO - Focus: 25.78, 28.66, -2.10
+2016-11-15 12:33:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-15 12:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-15 12:33:09,401 - auto_focus.focus - INFO - Focus: 25.78, 28.66, -2.12
+2016-11-15 12:34:58,651 - auto_focus.focus - INFO - Focus: 25.68, 28.71, -2.12
+2016-11-15 12:36:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>> at time 2016-11-15 12:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BC434B0>>.
+2016-11-15 12:36:08,181 - auto_focus.focus - INFO - Focus: 25.73, 28.66, -2.14
+2016-11-15 12:39:28,062 - auto_focus.focus - INFO - Focus: 25.68, 28.71, -2.14
+2016-11-15 12:39:36,792 - auto_focus.focus - INFO - Focus: 25.68, 28.71, -2.32
+2016-11-15 12:41:07,983 - auto_focus.focus - INFO - Focus: 25.73, 28.66, -2.30
+2016-11-15 12:46:22,365 - auto_focus.focus - INFO - Focus: 22.13, 3.31, -2.36
+2016-11-15 12:46:30,775 - auto_focus.focus - INFO - Focus: 22.13, 3.31, -2.32
+2016-11-15 12:46:39,454 - auto_focus.focus - INFO - Focus: 22.13, 3.26, -2.34
+2016-11-15 12:49:31,744 - auto_focus.focus - INFO - Focus: 21.13, 3.71, -2.36
+2016-11-15 12:49:40,355 - auto_focus.focus - INFO - Focus: 21.03, 3.81, -2.42
+2016-11-15 12:49:48,835 - auto_focus.focus - INFO - Focus: 21.03, 3.76, -2.28
+2016-11-15 12:50:11,934 - auto_focus.focus - INFO - Focus: 22.18, 3.26, -2.24
+2016-11-15 12:50:40,035 - auto_focus.focus - INFO - Focus: 24.17, 3.58, -2.38
+2016-11-15 12:50:48,384 - auto_focus.focus - INFO - Focus: 24.07, 3.53, -2.12
+2016-11-15 12:50:56,795 - auto_focus.focus - INFO - Focus: 24.12, 3.53, -2.20
+2016-11-15 12:51:32,414 - auto_focus.focus - INFO - Focus: 24.80, 4.81, -2.20
+2016-11-15 12:51:40,785 - auto_focus.focus - INFO - Focus: 24.85, 4.76, -2.28
+2016-11-15 12:52:08,674 - auto_focus.focus - INFO - Focus: 20.99, 4.52, -2.06
+2016-11-15 12:52:18,345 - auto_focus.focus - INFO - Focus: 21.04, 4.57, -2.02
+2016-11-15 12:52:51,714 - auto_focus.focus - INFO - Focus: 18.87, 5.53, -2.32
+2016-11-15 12:53:00,256 - auto_focus.focus - INFO - Focus: 18.82, 5.48, -2.22
+2016-11-15 12:53:08,736 - auto_focus.focus - INFO - Focus: 18.87, 5.53, -2.08
+2016-11-15 12:54:26,095 - auto_focus.focus - INFO - Focus: 18.87, 5.48, -2.08
+2016-11-15 12:55:12,196 - auto_focus.focus - INFO - Focus: 18.82, 5.53, -2.20
+2016-11-15 12:55:20,676 - auto_focus.focus - INFO - Focus: 18.82, 5.53, -2.20
+2016-11-15 13:59:50,081 - auto_focus.focus - INFO - Focus: 18.77, 5.53, -2.18
+2016-11-15 14:01:57,861 - auto_focus.focus - INFO - Focus: 20.93, 4.62, -2.24
+2016-11-15 14:02:06,280 - auto_focus.focus - INFO - Focus: 20.93, 4.62, -2.10
+2016-11-15 14:02:35,301 - auto_focus.focus - INFO - Focus: 19.68, 6.51, -2.22
+2016-11-15 14:03:04,151 - auto_focus.focus - INFO - Focus: 21.36, 6.91, -2.22
+2016-11-15 14:03:12,631 - auto_focus.focus - INFO - Focus: 21.36, 6.76, -2.06
+2016-11-15 14:03:42,051 - auto_focus.focus - INFO - Focus: 22.65, 6.06, -2.06
+2016-11-15 14:03:51,450 - auto_focus.focus - INFO - Focus: 22.65, 5.96, -2.18
+2016-11-15 14:04:41,351 - auto_focus.focus - INFO - Focus: 24.05, 7.03, -2.18
+2016-11-15 14:04:49,921 - auto_focus.focus - INFO - Focus: 24.15, 7.03, -2.14
+2016-11-15 14:05:21,361 - auto_focus.focus - INFO - Focus: 22.04, 3.35, -2.10
+2016-11-15 14:07:21,272 - auto_focus.focus - INFO - Focus: 18.71, 5.54, -2.22
+2016-11-15 14:07:29,701 - auto_focus.focus - INFO - Focus: 18.76, 5.54, -2.06
+2016-11-15 14:07:57,411 - auto_focus.focus - INFO - Focus: 18.76, 5.54, -2.12
+2016-11-15 14:12:45,911 - auto_focus.focus - INFO - Focus: 18.71, 5.54, -2.30
+2016-11-15 14:13:08,921 - auto_focus.focus - INFO - Focus: 18.71, 5.54, -2.10
+2016-11-15 14:13:34,211 - auto_focus.focus - INFO - Focus: 19.41, 5.88, -2.22
+2016-11-15 14:14:00,611 - auto_focus.focus - INFO - Focus: 19.72, 6.48, -2.30
+2016-11-15 14:14:22,002 - auto_focus.focus - INFO - Focus: 19.62, 6.48, -2.30
+2016-11-15 14:14:46,822 - auto_focus.focus - INFO - Focus: 21.37, 6.78, -2.44
+2016-11-15 14:15:07,661 - auto_focus.focus - INFO - Focus: 21.32, 6.83, -2.24
+2016-11-15 14:15:15,351 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BC434B0> is already running or in the queue.
+2016-11-15 14:15:35,201 - auto_focus.focus - INFO - Focus: 18.69, 5.57, -2.10
+2016-11-15 14:17:03,763 - auto_focus.focus - INFO - Focus: 18.69, 5.52, -2.08
+2016-11-15 14:19:20,842 - auto_focus.focus - INFO - Focus: 19.40, 5.89, -2.10
+2016-11-15 14:19:54,532 - auto_focus.focus - INFO - Focus: 20.17, 5.89, -2.08
+2016-11-15 14:20:23,953 - auto_focus.focus - INFO - Focus: 20.95, 4.61, -2.22
+2016-11-15 14:20:51,173 - auto_focus.focus - INFO - Focus: 20.08, 3.79, -2.06
+2016-11-15 14:21:18,243 - auto_focus.focus - INFO - Focus: 20.94, 3.76, -2.08
+2016-11-15 17:07:53,707 - auto_focus.focus - INFO - Focus: 30.79, 10.99, 5.14
+2016-11-15 17:08:05,076 - auto_focus.focus - INFO - Focus: 30.69, 10.94, 4.88
+2016-11-15 17:08:16,447 - auto_focus.focus - INFO - Focus: 30.69, 10.89, 4.88
+2016-11-15 17:10:08,546 - auto_focus.focus - INFO - Focus: 35.53, 12.41, 4.82
+2016-11-15 17:10:19,566 - auto_focus.focus - INFO - Focus: 35.53, 12.41, 4.84
+2016-11-15 17:10:30,657 - auto_focus.focus - INFO - Focus: 35.53, 12.41, 4.82
+2016-11-15 17:13:50,377 - auto_focus.focus - INFO - Focus: 32.46, 12.61, 4.56
+2016-11-15 17:14:04,117 - auto_focus.focus - INFO - Focus: 32.46, 12.56, 4.58
+2016-11-15 17:15:06,538 - auto_focus.focus - INFO - Focus: 32.41, 12.56, 4.60
+2016-11-15 17:15:17,427 - auto_focus.focus - INFO - Focus: 32.26, 12.61, 4.80
+2016-11-15 17:15:28,558 - auto_focus.focus - INFO - Focus: 32.46, 12.56, 4.50
+2016-11-15 17:15:46,098 - auto_focus.focus - INFO - Focus: 35.53, 12.41, 4.48
+2016-11-15 17:15:58,528 - auto_focus.focus - INFO - Focus: 35.53, 12.41, 4.56
+2016-11-15 17:18:16,398 - auto_focus.focus - INFO - Focus: 35.53, 12.46, 4.58
+2016-11-15 17:18:53,858 - auto_focus.focus - INFO - Focus: 34.47, 10.40, 4.52
+2016-11-15 17:19:04,727 - auto_focus.focus - INFO - Focus: 34.42, 10.45, 4.54
+2016-11-15 17:20:34,848 - auto_focus.focus - INFO - Focus: 31.61, 12.51, 4.70
+2016-11-15 17:20:46,447 - auto_focus.focus - INFO - Focus: 31.51, 12.46, 4.58
+2016-11-15 17:20:59,538 - auto_focus.focus - INFO - Focus: 31.61, 12.51, 4.64
+2016-11-15 17:22:22,477 - auto_focus.focus - INFO - Focus: 33.92, 12.01, 4.50
+2016-11-15 17:22:34,997 - auto_focus.focus - INFO - Focus: 33.92, 12.01, 4.32
+2016-11-15 17:22:49,457 - auto_focus.focus - INFO - Focus: 34.12, 11.71, 4.52
+2016-11-15 17:23:37,657 - auto_focus.focus - INFO - Focus: 33.82, 12.01, 4.50
+2016-11-15 17:23:49,267 - auto_focus.focus - INFO - Focus: 33.57, 12.06, 4.38
+2016-11-15 17:24:01,727 - auto_focus.focus - INFO - Focus: 33.62, 11.86, 4.20
+2016-11-15 17:24:16,957 - auto_focus.focus - INFO - Focus: 35.58, 12.36, 4.30
+2016-11-15 17:24:27,717 - auto_focus.focus - INFO - Focus: 35.58, 12.41, 4.30
+2016-11-15 17:28:45,448 - auto_focus.focus - INFO - Focus: 35.92, 12.98, 4.28
+2016-11-15 17:33:04,888 - auto_focus.focus - INFO - Focus: 35.02, 12.07, 4.44
+2016-11-15 17:33:15,888 - auto_focus.focus - INFO - Focus: 34.82, 12.07, 4.20
+2016-11-15 17:33:26,588 - auto_focus.focus - INFO - Focus: 34.82, 12.07, 4.20
+2016-11-15 17:33:37,759 - auto_focus.focus - INFO - Focus: 34.82, 12.07, 4.30
+2016-11-15 18:01:53,858 - auto_focus.focus - INFO - Focus: 38.04, 14.11, 4.06
+2016-11-15 18:02:04,812 - auto_focus.focus - INFO - Focus: 38.04, 13.91, 4.06
+2016-11-15 18:02:17,088 - auto_focus.focus - INFO - Focus: 38.14, 14.06, 3.98
+2016-11-15 18:02:29,588 - auto_focus.focus - INFO - Focus: 38.09, 14.11, 4.18
+2016-11-15 18:02:33,723 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0BE7E210>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-11-15 18:07:12,163 - auto_focus.focus - INFO - Focus: 38.09, 14.11, 4.06
+2016-11-15 18:09:57,868 - auto_focus.focus - INFO - Focus: 38.09, 14.06, 4.46
+2016-11-15 18:10:11,788 - auto_focus.focus - INFO - Focus: 38.14, 14.11, 4.00
+2016-11-15 18:50:22,742 - auto_focus.focus - INFO - Focus: 36.07, 15.48, 4.16
+2016-11-15 18:50:33,931 - auto_focus.focus - INFO - Focus: 36.07, 15.53, 4.14
+2016-11-15 18:51:03,691 - auto_focus.focus - INFO - Focus: 39.17, 15.63, 4.12
+2016-11-15 18:51:15,542 - auto_focus.focus - INFO - Focus: 39.07, 15.58, 4.06
+2016-11-15 18:51:35,141 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-15 19:06:17,602 - emod.submit - INFO - The job <measurements.magnet_control.Magnet_alignment object at 0x0BE7E210> is already running or in the queue.
+2016-11-15 19:53:01,572 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: x, old value: 39.0180360721, new value: 39.0781563126
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-15 19:53:01,701 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: y, old value: 15.5812625251, new value: 15.5911823647
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-15 19:53:01,832 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: x, old value: 39.0781563126, new value: 38.6172344689
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-15 19:53:01,961 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: y, old value: 15.5911823647, new value: 16.0921843687
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-15 19:53:02,092 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: x, old value: 38.6172344689, new value: 38.5170340681
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-15 19:53:02,221 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: y, old value: 16.0921843687, new value: 16.1322645291
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-15 19:53:03,217 - auto_focus.focus - INFO - Focus: 39.02, 15.58, 4.00
+2016-11-15 19:55:57,066 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BC434B0> is already running or in the queue.
+2016-11-15 19:55:58,447 - auto_focus.focus - INFO - Focus: 37.62, 16.15, 4.04
+2016-11-15 19:56:09,006 - auto_focus.focus - INFO - Focus: 37.57, 16.20, 4.06
+2016-11-15 19:56:20,437 - auto_focus.focus - INFO - Focus: 37.27, 16.20, 3.98
+2016-11-15 19:56:31,276 - auto_focus.focus - INFO - Focus: 37.22, 16.20, 4.02
+2016-11-15 19:58:23,937 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: thresh_high, old value: 180.0, new value: AUTO
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\spotfinderv3.py", line 374, in redraw_image
+    self.scan_plot.value_range.high_setting=self.confocal.thresh_high
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2094, in validate
+    return self.slow_validate( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2102, in slow_validate
+    self.error( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'high_setting' trait of a DataRange1D instance must be a float or 'auto' or 'track', but a value of u'AUTO' <type 'unicode'> was specified.
+2016-11-15 19:58:23,957 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: thresh_high, old value: 180.0, new value: AUTO
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\goodspot.py", line 168, in redraw_image
+    self.scan_plot.value_range.high_setting=self.confocal.thresh_high
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2094, in validate
+    return self.slow_validate( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2102, in slow_validate
+    self.error( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'high_setting' trait of a DataRange1D instance must be a float or 'auto' or 'track', but a value of u'AUTO' <type 'unicode'> was specified.
+2016-11-15 19:59:23,769 - auto_focus.focus - INFO - Focus: 34.17, 14.57, 3.78
+2016-11-15 19:59:34,569 - auto_focus.focus - INFO - Focus: 34.17, 14.57, 3.86
+2016-11-15 20:01:21,118 - auto_focus.focus - INFO - Focus: 34.17, 14.57, 3.90
+2016-11-15 22:28:40,441 - auto_focus.focus - INFO - Focus: 37.90, 14.04, 3.72
+2016-11-15 22:28:51,242 - auto_focus.focus - INFO - Focus: 37.95, 14.04, 3.76
+2016-11-15 22:30:09,092 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0BE7E210>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-11-15 22:30:21,292 - auto_focus.focus - INFO - Focus: 37.95, 14.14, 3.76
+2016-11-15 22:30:34,607 - auto_focus.focus - INFO - Focus: 37.90, 14.04, 3.84
+2016-11-15 22:32:52,677 - auto_focus.focus - INFO - Focus: 37.95, 14.04, 3.76
+2016-11-15 22:33:14,887 - auto_focus.focus - INFO - Focus: 37.95, 14.09, 3.78
+2016-11-15 22:34:58,217 - auto_focus.focus - INFO - Focus: 37.95, 14.09, 3.78
+2016-11-15 22:36:26,288 - auto_focus.focus - INFO - Focus: 37.90, 14.09, 3.72
+2016-11-15 22:40:53,257 - auto_focus.focus - INFO - Focus: 37.90, 14.09, 3.82
+2016-11-15 22:43:19,312 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-15 22:45:34,648 - auto_focus.focus - INFO - Focus: 37.90, 14.04, 3.68
+2016-11-15 22:48:45,948 - auto_focus.focus - INFO - Focus: 36.95, 15.28, 3.90
+2016-11-15 22:49:37,009 - auto_focus.focus - INFO - Focus: 32.87, 14.53, 4.06
+2016-11-15 22:49:47,993 - auto_focus.focus - INFO - Focus: 32.87, 14.53, 3.92
+2016-11-15 22:50:24,483 - auto_focus.focus - INFO - Focus: 37.90, 13.99, 4.14
+2016-11-15 22:50:35,773 - auto_focus.focus - INFO - Focus: 37.80, 14.09, 4.16
+2016-11-15 22:50:47,813 - auto_focus.focus - INFO - Focus: 37.85, 14.04, 4.10
+2016-11-15 22:55:38,279 - auto_focus.focus - INFO - Focus: 37.85, 14.04, 3.80
+2016-11-15 22:55:49,628 - auto_focus.focus - INFO - Focus: 37.90, 13.99, 3.88
+2016-11-15 22:56:00,884 - auto_focus.focus - INFO - Focus: 37.90, 14.04, 3.80
+2016-11-16 09:22:05,861 - auto_focus.focus - INFO - Focus: 37.40, 13.74, 3.84
+2016-11-16 09:22:27,012 - auto_focus.focus - INFO - Focus: 37.40, 13.74, 3.88
+2016-11-16 09:31:43,153 - auto_focus.focus - INFO - Focus: 37.35, 13.74, 3.86
+2016-11-16 09:42:01,733 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BC434B0> is already running or in the queue.
+2016-11-16 09:42:04,082 - auto_focus.focus - INFO - Focus: 30.90, 12.07, 3.90
+2016-11-16 09:42:21,892 - auto_focus.focus - INFO - Focus: 30.95, 12.07, 3.88
+2016-11-16 10:20:23,280 - auto_focus.focus - INFO - Focus: 32.63, 20.71, 10.66
+2016-11-16 10:20:34,131 - auto_focus.focus - INFO - Focus: 32.58, 20.66, 10.80
+2016-11-16 10:20:48,151 - auto_focus.focus - INFO - Focus: 32.48, 20.66, 10.62
+2016-11-16 10:20:58,720 - auto_focus.focus - INFO - Focus: 32.53, 20.61, 10.50
+2016-11-16 10:22:51,051 - auto_focus.focus - INFO - Focus: 37.16, 17.24, 10.72
+2016-11-16 10:23:01,901 - auto_focus.focus - INFO - Focus: 37.16, 17.24, 10.66
+2016-11-16 10:26:25,710 - auto_focus.focus - INFO - Focus: 37.11, 17.24, 10.70
+2016-11-16 10:26:38,030 - auto_focus.focus - INFO - Focus: 37.11, 17.24, 10.74
+2016-11-16 10:28:14,671 - auto_focus.focus - INFO - Focus: 37.11, 17.29, 10.62
+2016-11-16 10:29:14,282 - auto_focus.focus - INFO - Focus: 30.75, 15.64, 10.36
+2016-11-16 10:29:22,762 - auto_focus.focus - INFO - Focus: 30.75, 15.64, 10.56
+2016-11-16 13:00:22,874 - auto_focus.focus - INFO - Focus: 22.32, 15.84, -2.25
+2016-11-16 13:00:31,313 - auto_focus.focus - INFO - Focus: 22.32, 15.84, -2.27
+2016-11-16 13:00:41,394 - auto_focus.focus - INFO - Focus: 22.32, 15.94, -2.31
+2016-11-16 13:00:49,813 - auto_focus.focus - INFO - Focus: 22.37, 15.94, -2.31
+2016-11-16 13:05:19,845 - auto_focus.focus - INFO - Focus: 26.22, 2.53, -2.43
+2016-11-16 13:05:28,265 - auto_focus.focus - INFO - Focus: 26.27, 2.43, -2.51
+2016-11-16 13:05:56,265 - auto_focus.focus - INFO - Focus: 26.17, 2.48, -2.71
+2016-11-16 13:06:36,025 - auto_focus.focus - INFO - Focus: 26.12, 2.48, -3.03
+2016-11-16 13:06:58,664 - auto_focus.focus - INFO - Focus: 26.32, 2.63, -3.35
+2016-11-16 13:07:20,075 - auto_focus.focus - INFO - Focus: 26.32, 2.68, -3.43
+2016-11-16 13:10:31,184 - auto_focus.focus - INFO - Focus: 33.39, 4.11, -3.69
+2016-11-16 13:10:41,494 - auto_focus.focus - INFO - Focus: 33.24, 4.06, -3.65
+2016-11-16 13:12:47,575 - auto_focus.focus - INFO - Focus: 33.14, 5.12, -3.91
+2016-11-16 13:12:57,904 - auto_focus.focus - INFO - Focus: 33.09, 5.12, -3.87
+2016-11-16 13:14:11,744 - auto_focus.focus - INFO - Focus: 33.14, 5.12, -3.93
+2016-11-16 13:14:22,085 - auto_focus.focus - INFO - Focus: 33.19, 5.12, -4.17
+2016-11-16 13:16:02,476 - auto_focus.focus - INFO - Focus: 29.05, 2.25, -4.23
+2016-11-16 13:16:13,865 - auto_focus.focus - INFO - Focus: 29.00, 2.30, -4.15
+2016-11-16 13:17:32,095 - auto_focus.focus - INFO - Focus: 26.88, 2.76, -4.13
+2016-11-16 13:17:42,956 - auto_focus.focus - INFO - Focus: 26.88, 2.71, -4.11
+2016-11-16 13:19:13,706 - auto_focus.focus - INFO - Focus: 26.93, 2.81, -4.23
+2016-11-16 13:19:26,895 - auto_focus.focus - INFO - Focus: 26.93, 2.76, -4.31
+2016-11-16 13:21:32,226 - auto_focus.focus - INFO - Focus: 33.34, 5.17, -4.29
+2016-11-16 13:21:42,746 - auto_focus.focus - INFO - Focus: 33.54, 5.22, -3.91
+2016-11-16 13:21:59,305 - auto_focus.focus - INFO - Focus: 29.87, 6.12, -4.31
+2016-11-16 13:22:10,296 - auto_focus.focus - INFO - Focus: 29.82, 6.12, -4.29
+2016-11-16 13:23:19,345 - auto_focus.focus - INFO - Focus: 29.82, 6.07, -4.60
+2016-11-16 13:23:33,516 - auto_focus.focus - INFO - Focus: 29.47, 4.31, -4.52
+2016-11-16 13:23:46,165 - auto_focus.focus - INFO - Focus: 29.77, 4.31, -4.78
+2016-11-16 13:24:01,325 - auto_focus.focus - INFO - Focus: 29.52, 4.31, -4.42
+2016-11-16 13:25:37,266 - auto_focus.focus - INFO - Focus: 29.52, 4.31, -4.40
+2016-11-16 13:25:48,726 - auto_focus.focus - INFO - Focus: 29.57, 4.21, -4.36
+2016-11-16 13:26:00,905 - auto_focus.focus - INFO - Focus: 29.52, 4.31, -4.42
+2016-11-16 13:28:17,197 - auto_focus.focus - INFO - Focus: 29.92, 6.12, -4.40
+2016-11-16 13:28:28,246 - auto_focus.focus - INFO - Focus: 29.92, 6.12, -4.40
+2016-11-16 13:30:22,326 - auto_focus.focus - INFO - Focus: 29.97, 6.12, -4.32
+2016-11-16 13:30:34,717 - auto_focus.focus - INFO - Focus: 30.02, 6.12, -4.30
+2016-11-16 13:32:06,617 - auto_focus.focus - INFO - Focus: 29.97, 6.12, -4.42
+2016-11-16 13:37:16,657 - auto_focus.focus - INFO - Focus: 31.77, 6.63, -4.42
+2016-11-16 13:37:26,937 - auto_focus.focus - INFO - Focus: 31.77, 6.58, -4.34
+2016-11-16 13:37:37,836 - auto_focus.focus - INFO - Focus: 31.82, 6.58, -4.24
+2016-11-16 13:38:56,288 - auto_focus.focus - INFO - Focus: 31.82, 6.63, -4.30
+2016-11-16 13:40:22,517 - auto_focus.focus - INFO - Focus: 27.26, 6.58, -4.38
+2016-11-16 13:40:33,417 - auto_focus.focus - INFO - Focus: 27.21, 6.58, -4.50
+2016-11-16 13:41:51,177 - auto_focus.focus - INFO - Focus: 27.21, 6.63, -4.50
+2016-11-16 13:42:18,618 - auto_focus.focus - INFO - Focus: 29.68, 4.39, -4.36
+2016-11-16 13:42:29,477 - auto_focus.focus - INFO - Focus: 29.68, 4.39, -4.36
+2016-11-16 13:44:09,788 - auto_focus.focus - INFO - Focus: 29.68, 4.34, -4.34
+2016-11-16 13:44:24,017 - auto_focus.focus - INFO - Focus: 29.68, 4.34, -4.48
+2016-11-16 13:49:24,697 - auto_focus.focus - INFO - Focus: 27.04, 2.74, -4.72
+2016-11-16 13:49:35,197 - auto_focus.focus - INFO - Focus: 27.24, 2.74, -4.44
+2016-11-16 13:49:45,937 - auto_focus.focus - INFO - Focus: 27.19, 2.79, -4.42
+2016-11-16 13:50:57,148 - auto_focus.focus - INFO - Focus: 30.07, 6.16, -4.50
+2016-11-16 13:51:08,249 - auto_focus.focus - INFO - Focus: 30.07, 6.16, -4.46
+2016-11-16 13:53:17,878 - auto_focus.focus - INFO - Focus: 31.82, 6.67, -4.42
+2016-11-16 13:53:35,299 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb2 in position 0: ordinal not in range(128)
+2016-11-16 13:54:52,358 - auto_focus.focus - INFO - Focus: 31.97, 6.77, -4.04
+2016-11-16 13:55:03,898 - auto_focus.focus - INFO - Focus: 31.87, 6.62, -4.44
+2016-11-16 13:55:22,368 - auto_focus.focus - INFO - Focus: 31.82, 6.62, -4.36
+2016-11-16 13:55:48,519 - auto_focus.focus - INFO - Focus: 26.34, 3.47, -4.48
+2016-11-16 13:55:59,848 - auto_focus.focus - INFO - Focus: 26.34, 3.42, -4.44
+2016-11-16 13:57:01,229 - auto_focus.focus - INFO - Focus: 26.34, 3.42, -4.52
+2016-11-16 14:04:09,880 - auto_focus.focus - INFO - Focus: 28.66, 6.45, -4.58
+2016-11-16 14:04:21,529 - auto_focus.focus - INFO - Focus: 28.61, 6.60, -4.60
+2016-11-16 14:04:32,740 - auto_focus.focus - INFO - Focus: 28.56, 6.60, -4.72
+2016-11-16 14:04:43,839 - auto_focus.focus - INFO - Focus: 28.56, 6.60, -4.64
+2016-11-16 14:05:01,910 - auto_focus.focus - INFO - Focus: 29.52, 8.24, -4.48
+2016-11-16 14:05:13,480 - auto_focus.focus - INFO - Focus: 29.57, 8.24, -4.44
+2016-11-16 14:05:25,250 - auto_focus.focus - INFO - Focus: 29.52, 8.24, -4.50
+2016-11-16 14:14:48,601 - auto_focus.focus - INFO - Focus: 29.58, 8.25, -4.50
+2016-11-16 14:29:55,660 - auto_focus.focus - INFO - Focus: 35.16, 1.93, -4.56
+2016-11-16 14:30:05,990 - auto_focus.focus - INFO - Focus: 35.16, 1.98, -4.62
+2016-11-16 14:30:16,440 - auto_focus.focus - INFO - Focus: 35.11, 1.83, -4.76
+2016-11-16 14:30:28,200 - auto_focus.focus - INFO - Focus: 35.16, 1.93, -4.46
+2016-11-16 14:30:38,740 - auto_focus.focus - INFO - Focus: 35.21, 1.88, -4.70
+2016-11-16 14:34:34,289 - auto_focus.focus - INFO - Focus: 38.18, 5.34, -4.50
+2016-11-16 14:34:44,930 - auto_focus.focus - INFO - Focus: 38.18, 5.34, -4.46
+2016-11-16 14:34:55,289 - auto_focus.focus - INFO - Focus: 38.18, 5.34, -4.60
+2016-11-16 14:35:07,160 - auto_focus.focus - INFO - Focus: 38.13, 5.39, -4.86
+2016-11-16 14:35:19,319 - auto_focus.focus - INFO - Focus: 38.08, 5.24, -4.66
+2016-11-16 14:35:34,700 - auto_focus.focus - INFO - Focus: 39.50, 3.01, -4.10
+2016-11-16 14:35:47,910 - auto_focus.focus - INFO - Focus: 39.35, 2.71, -4.38
+2016-11-16 14:36:03,079 - auto_focus.focus - INFO - Focus: 39.40, 2.71, -4.44
+2016-11-16 14:37:41,730 - auto_focus.focus - INFO - Focus: 39.20, 2.66, -4.68
+2016-11-16 14:37:52,970 - auto_focus.focus - INFO - Focus: 39.35, 2.66, -4.46
+2016-11-16 14:38:03,421 - auto_focus.focus - INFO - Focus: 39.35, 2.71, -4.54
+2016-11-16 14:39:37,311 - auto_focus.focus - INFO - Focus: 37.74, 2.08, -4.56
+2016-11-16 14:39:48,171 - auto_focus.focus - INFO - Focus: 37.64, 2.13, -4.56
+2016-11-16 14:40:59,500 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BC434B0> is already running or in the queue.
+2016-11-16 14:40:59,790 - auto_focus.focus - INFO - Focus: 37.74, 2.13, -4.70
+2016-11-16 14:41:11,351 - auto_focus.focus - INFO - Focus: 37.69, 2.13, -4.66
+2016-11-16 14:41:26,770 - auto_focus.focus - INFO - Focus: 40.81, 3.49, -4.72
+2016-11-16 14:41:37,171 - auto_focus.focus - INFO - Focus: 40.91, 3.49, -4.56
+2016-11-16 14:41:48,611 - auto_focus.focus - INFO - Focus: 40.91, 3.54, -4.68
+2016-11-16 14:45:46,891 - auto_focus.focus - INFO - Focus: 34.57, 8.36, -4.80
+2016-11-16 14:45:58,381 - auto_focus.focus - INFO - Focus: 34.62, 8.31, -4.82
+2016-11-16 14:46:09,280 - auto_focus.focus - INFO - Focus: 34.62, 8.31, -4.88
+2016-11-16 14:46:33,611 - auto_focus.focus - INFO - Focus: 38.57, 8.07, -4.80
+2016-11-16 14:46:44,460 - auto_focus.focus - INFO - Focus: 38.62, 8.02, -4.76
+2016-11-16 14:51:16,631 - auto_focus.focus - INFO - Focus: 33.64, 30.80, -4.90
+2016-11-16 14:51:27,532 - auto_focus.focus - INFO - Focus: 33.59, 30.75, -5.16
+2016-11-16 14:51:42,042 - auto_focus.focus - INFO - Focus: 33.64, 30.80, -4.98
+2016-11-16 14:54:52,361 - auto_focus.focus - INFO - Focus: 31.53, 32.51, -4.64
+2016-11-16 14:55:03,201 - auto_focus.focus - INFO - Focus: 31.53, 32.51, -4.76
+2016-11-16 14:55:14,082 - auto_focus.focus - INFO - Focus: 31.58, 32.46, -4.72
+2016-11-16 14:56:20,242 - auto_focus.focus - INFO - Focus: 29.37, 33.12, -4.90
+2016-11-16 14:56:33,951 - auto_focus.focus - INFO - Focus: 29.47, 33.17, -4.56
+2016-11-16 14:56:45,361 - auto_focus.focus - INFO - Focus: 29.47, 33.17, -4.70
+2016-11-16 14:56:56,621 - auto_focus.focus - INFO - Focus: 29.37, 33.22, -4.84
+2016-11-16 14:57:08,201 - auto_focus.focus - INFO - Focus: 29.42, 33.22, -4.74
+2016-11-16 14:59:18,282 - auto_focus.focus - INFO - Focus: 29.42, 33.17, -4.72
+2016-11-16 14:59:29,232 - auto_focus.focus - INFO - Focus: 29.42, 33.22, -4.70
+2016-11-16 15:01:44,003 - auto_focus.focus - INFO - Focus: 27.53, 31.15, -4.96
+2016-11-16 15:02:09,933 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-16 15:03:19,683 - auto_focus.focus - INFO - Focus: 27.53, 31.15, -4.60
+2016-11-16 15:03:31,892 - auto_focus.focus - INFO - Focus: 27.28, 31.45, -4.32
+2016-11-16 15:18:31,654 - auto_focus.focus - INFO - Focus: 31.29, 35.49, -4.84
+2016-11-16 15:18:43,684 - auto_focus.focus - INFO - Focus: 31.24, 35.54, -4.92
+2016-11-16 15:18:54,884 - auto_focus.focus - INFO - Focus: 31.24, 35.49, -4.92
+2016-11-16 15:30:35,117 - auto_focus.focus - INFO - Focus: 29.95, 35.05, -4.92
+2016-11-16 15:31:59,107 - auto_focus.focus - INFO - Focus: 28.21, 35.20, -4.82
+2016-11-16 15:32:11,836 - auto_focus.focus - INFO - Focus: 28.06, 35.15, -4.98
+2016-11-16 15:34:07,467 - auto_focus.focus - INFO - Focus: 25.65, 34.75, -4.98
+2016-11-16 15:34:19,967 - auto_focus.focus - INFO - Focus: 25.65, 34.75, -4.96
+2016-11-16 15:35:22,526 - auto_focus.focus - INFO - Focus: 25.65, 34.75, -4.88
+2016-11-16 15:38:34,496 - auto_focus.focus - INFO - Focus: 28.29, 32.64, -4.84
+2016-11-16 15:38:45,776 - auto_focus.focus - INFO - Focus: 28.29, 32.69, -4.80
+2016-11-16 15:39:00,897 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-16 15:44:09,068 - auto_focus.focus - INFO - Focus: 30.74, 30.65, -4.76
+2016-11-16 15:44:20,398 - auto_focus.focus - INFO - Focus: 30.84, 30.60, -4.72
+2016-11-16 15:46:12,048 - auto_focus.focus - INFO - Focus: 30.74, 30.75, -4.74
+2016-11-16 15:51:44,338 - auto_focus.focus - INFO - Focus: 31.52, 32.34, -4.72
+2016-11-16 15:51:52,769 - auto_focus.focus - INFO - Focus: 31.52, 32.29, -4.58
+2016-11-16 15:53:38,388 - auto_focus.focus - INFO - Focus: 31.52, 32.34, -4.88
+2016-11-16 15:53:53,588 - auto_focus.focus - INFO - Focus: 29.38, 33.09, -4.96
+2016-11-16 15:55:09,828 - auto_focus.focus - INFO - Focus: 26.96, 34.40, -4.76
+2016-11-16 15:55:18,578 - auto_focus.focus - INFO - Focus: 27.01, 34.40, -4.84
+2016-11-16 15:55:27,128 - auto_focus.focus - INFO - Focus: 26.96, 34.35, -4.96
+2016-11-16 15:55:39,539 - auto_focus.focus - INFO - Focus: 26.96, 34.35, -5.08
+2016-11-16 15:55:51,059 - auto_focus.focus - INFO - Focus: 26.96, 34.35, -4.80
+2016-11-16 15:56:53,709 - auto_focus.focus - INFO - Focus: 26.96, 34.40, -4.88
+2016-11-16 16:02:38,009 - auto_focus.focus - INFO - Focus: 25.83, 31.13, -4.88
+2016-11-16 16:02:49,299 - auto_focus.focus - INFO - Focus: 25.73, 31.03, -4.90
+2016-11-16 16:02:58,229 - auto_focus.focus - INFO - Focus: 25.68, 31.03, -5.10
+2016-11-16 16:04:12,089 - auto_focus.focus - INFO - Focus: 26.23, 31.50, -4.96
+2016-11-16 16:04:21,940 - auto_focus.focus - INFO - Focus: 26.23, 31.45, -4.96
+2016-11-16 16:04:31,339 - auto_focus.focus - INFO - Focus: 26.18, 31.45, -5.16
+2016-11-16 16:06:22,339 - auto_focus.focus - INFO - Focus: 26.13, 31.45, -5.02
+2016-11-16 16:06:34,900 - auto_focus.focus - INFO - Focus: 27.03, 31.45, -5.08
+2016-11-16 16:08:30,369 - auto_focus.focus - INFO - Focus: 27.76, 32.18, -4.76
+2016-11-16 16:08:38,559 - auto_focus.focus - INFO - Focus: 27.81, 32.13, -4.90
+2016-11-16 16:08:50,450 - auto_focus.focus - INFO - Focus: 27.71, 32.08, -4.96
+2016-11-16 16:09:50,450 - auto_focus.focus - INFO - Focus: 27.51, 32.18, -4.96
+2016-11-16 16:09:59,619 - auto_focus.focus - INFO - Focus: 27.81, 32.08, -5.10
+2016-11-16 16:10:15,299 - auto_focus.focus - INFO - Focus: 28.31, 32.66, -5.06
+2016-11-16 16:10:33,220 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-16 16:10:35,220 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 367, in _run
+    motion_time = float(Magnet.get_motiontime_relativemove(1, self.stepY)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 285, in get_motiontime_relativemove
+    return self.read()
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 27, in read
+    return(self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-16 16:11:58,900 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-16 16:13:14,569 - auto_focus.focus - INFO - Focus: 28.36, 32.56, -4.96
+2016-11-16 16:13:23,329 - auto_focus.focus - INFO - Focus: 28.31, 32.61, -4.94
+2016-11-16 16:13:32,930 - auto_focus.focus - INFO - Focus: 28.36, 32.61, -4.92
+2016-11-16 16:14:39,640 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0BE7E210>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-11-16 16:14:50,779 - auto_focus.focus - INFO - Focus: 28.36, 32.61, -4.94
+2016-11-16 16:19:42,700 - auto_focus.focus - INFO - Focus: 30.45, 38.05, -4.90
+2016-11-16 16:19:52,061 - auto_focus.focus - INFO - Focus: 30.45, 38.05, -4.98
+2016-11-16 16:20:02,490 - auto_focus.focus - INFO - Focus: 30.45, 38.10, -5.04
+2016-11-16 16:20:11,210 - auto_focus.focus - INFO - Focus: 30.45, 38.05, -4.96
+2016-11-16 16:21:42,091 - auto_focus.focus - INFO - Focus: 29.63, 36.91, -4.92
+2016-11-16 16:21:58,641 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-16 16:23:12,770 - auto_focus.focus - INFO - Focus: 29.58, 36.91, -4.94
+2016-11-16 16:23:25,151 - auto_focus.focus - INFO - Focus: 28.10, 35.15, -4.96
+2016-11-16 16:23:34,091 - auto_focus.focus - INFO - Focus: 28.20, 35.05, -4.92
+2016-11-16 16:23:42,591 - auto_focus.focus - INFO - Focus: 28.10, 35.10, -4.98
+2016-11-16 16:25:52,871 - auto_focus.focus - INFO - Focus: 26.39, 34.41, -5.04
+2016-11-16 16:26:01,421 - auto_focus.focus - INFO - Focus: 26.39, 34.36, -4.84
+2016-11-16 16:36:10,421 - auto_focus.focus - INFO - Focus: 9.24, 24.75, 12.88
+2016-11-16 16:36:19,582 - auto_focus.focus - INFO - Focus: 9.09, 24.95, 12.80
+2016-11-16 16:36:30,252 - auto_focus.focus - INFO - Focus: 9.34, 24.60, 12.88
+2016-11-16 16:37:33,982 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: thresh_high, old value: 300.0, new value: 300zzz
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\spotfinderv3.py", line 374, in redraw_image
+    self.scan_plot.value_range.high_setting=self.confocal.thresh_high
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2094, in validate
+    return self.slow_validate( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2102, in slow_validate
+    self.error( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'high_setting' trait of a DataRange1D instance must be a float or 'auto' or 'track', but a value of u'300zzz' <type 'unicode'> was specified.
+2016-11-16 16:37:34,101 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07213D80>, trait: thresh_high, old value: 300.0, new value: 300zzz
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\goodspot.py", line 168, in redraw_image
+    self.scan_plot.value_range.high_setting=self.confocal.thresh_high
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2094, in validate
+    return self.slow_validate( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2102, in slow_validate
+    self.error( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'high_setting' trait of a DataRange1D instance must be a float or 'auto' or 'track', but a value of u'300zzz' <type 'unicode'> was specified.
+2016-11-16 16:38:11,461 - auto_focus.focus - INFO - Focus: 13.65, 9.88, 12.80
+2016-11-16 16:38:20,292 - auto_focus.focus - INFO - Focus: 13.50, 9.93, 12.88
+2016-11-16 16:38:29,752 - auto_focus.focus - INFO - Focus: 13.60, 9.93, 12.66
+2016-11-16 16:39:15,631 - auto_focus.focus - INFO - Focus: 13.55, 9.78, 12.76
+2016-11-16 16:40:50,203 - auto_focus.focus - INFO - Focus: 15.93, 8.37, 12.80
+2016-11-16 16:40:59,332 - auto_focus.focus - INFO - Focus: 15.98, 8.32, 12.88
+2016-11-16 16:41:11,352 - auto_focus.focus - INFO - Focus: 16.18, 9.82, 13.08
+2016-11-16 16:41:19,782 - auto_focus.focus - INFO - Focus: 16.13, 9.72, 13.00
+2016-11-16 16:41:28,473 - auto_focus.focus - INFO - Focus: 16.13, 9.67, 12.98
+2016-11-16 16:42:53,782 - auto_focus.focus - INFO - Focus: 16.23, 9.77, 12.48
+2016-11-16 16:43:03,023 - auto_focus.focus - INFO - Focus: 16.13, 9.57, 11.98
+2016-11-16 16:43:11,532 - auto_focus.focus - INFO - Focus: 16.33, 9.47, 11.48
+2016-11-16 16:43:17,993 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BC434B0> is already running or in the queue.
+2016-11-16 16:43:20,142 - auto_focus.focus - INFO - Focus: 16.48, 9.27, 11.34
+2016-11-16 16:43:28,642 - auto_focus.focus - INFO - Focus: 16.28, 9.22, 11.14
+2016-11-16 16:43:37,163 - auto_focus.focus - INFO - Focus: 16.08, 9.07, 11.14
+2016-11-16 16:43:45,653 - auto_focus.focus - INFO - Focus: 15.93, 9.22, 11.02
+2016-11-16 16:43:54,153 - auto_focus.focus - INFO - Focus: 16.08, 9.42, 10.96
+2016-11-16 16:44:02,792 - auto_focus.focus - INFO - Focus: 16.13, 9.42, 10.84
+2016-11-16 16:44:52,822 - auto_focus.focus - INFO - Focus: 16.14, 7.92, 10.54
+2016-11-16 16:45:01,413 - auto_focus.focus - INFO - Focus: 16.14, 8.02, 10.68
+2016-11-16 16:45:09,923 - auto_focus.focus - INFO - Focus: 16.19, 7.97, 10.76
+2016-11-16 16:45:18,582 - auto_focus.focus - INFO - Focus: 16.24, 7.97, 10.74
+2016-11-16 16:48:30,822 - auto_focus.focus - INFO - Focus: 16.74, 9.16, 10.50
+2016-11-16 16:50:02,913 - auto_focus.focus - INFO - Focus: 16.69, 9.16, 10.54
+2016-11-16 16:50:12,882 - auto_focus.focus - INFO - Focus: 16.69, 9.16, 10.46
+2016-11-16 16:52:00,313 - auto_focus.focus - INFO - Focus: 17.99, 9.28, 10.62
+2016-11-16 16:52:09,233 - auto_focus.focus - INFO - Focus: 17.99, 9.33, 10.54
+2016-11-16 16:53:16,844 - auto_focus.focus - INFO - Focus: 16.46, 8.41, 10.52
+2016-11-16 16:54:20,223 - auto_focus.focus - INFO - Focus: 16.41, 8.41, 10.44
+2016-11-16 16:57:54,203 - auto_focus.focus - INFO - Focus: 12.83, 8.22, 10.18
+2016-11-16 16:58:04,763 - auto_focus.focus - INFO - Focus: 12.88, 8.22, 10.50
+2016-11-16 16:58:15,053 - auto_focus.focus - INFO - Focus: 12.98, 8.27, 10.54
+2016-11-16 16:58:24,953 - auto_focus.focus - INFO - Focus: 12.93, 8.22, 10.40
+2016-11-16 16:58:33,293 - auto_focus.focus - INFO - Focus: 12.93, 8.22, 10.44
+2016-11-16 17:01:51,493 - pi3diamond.<module> - INFO - Starting logger.
+2016-11-16 17:01:59,963 - emod.start - INFO - Starting Job Manager.
+2016-11-16 17:01:59,993 - cron.run - INFO - Starting Cron Daemon.
+2016-11-16 17:02:54,614 - auto_focus.focus - INFO - Focus: 13.13, 7.97, 10.58
+2016-11-16 17:03:09,533 - auto_focus.focus - INFO - Focus: 12.98, 8.22, 10.36
+2016-11-16 17:04:04,045 - auto_focus.focus - INFO - Focus: 12.98, 8.22, 10.38
+2016-11-16 17:05:04,404 - auto_focus.focus - INFO - Focus: 12.98, 8.22, 10.38
+2016-11-16 17:06:47,565 - auto_focus.focus - INFO - Focus: 12.98, 8.17, 10.32
+2016-11-16 17:09:17,394 - auto_focus.focus - INFO - Focus: 16.81, 9.09, 10.42
+2016-11-16 17:10:43,256 - auto_focus.focus - INFO - Focus: 14.11, 8.48, 10.34
+2016-11-16 17:10:52,016 - auto_focus.focus - INFO - Focus: 14.01, 8.58, 10.34
+2016-11-16 17:12:00,766 - auto_focus.focus - INFO - Focus: 12.96, 9.20, 10.26
+2016-11-16 17:12:10,446 - auto_focus.focus - INFO - Focus: 12.81, 9.30, 10.22
+2016-11-16 17:12:20,885 - auto_focus.focus - INFO - Focus: 12.81, 9.25, 10.36
+2016-11-16 17:12:29,655 - auto_focus.focus - INFO - Focus: 12.81, 9.30, 10.36
+2016-11-16 17:18:50,776 - auto_focus.focus - INFO - Focus: 14.34, 35.30, 10.10
+2016-11-16 17:18:59,286 - auto_focus.focus - INFO - Focus: 14.29, 35.25, 10.02
+2016-11-16 17:19:14,427 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-16 17:20:59,867 - auto_focus.focus - INFO - Focus: 14.65, 36.26, 10.34
+2016-11-16 17:21:11,586 - auto_focus.focus - INFO - Focus: 14.70, 36.26, 10.32
+2016-11-16 17:21:27,326 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-16 17:21:53,036 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-16 17:21:58,917 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0AEFF1E0>, trait: get_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-16 17:25:25,177 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0AEFF1E0>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-11-16 17:25:42,796 - auto_focus.focus - INFO - Focus: 14.70, 36.26, 10.18
+2016-11-16 17:28:07,838 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0AEFF1E0>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-11-16 17:29:38,907 - auto_focus.focus - INFO - Focus: 14.65, 36.26, 10.06
+2016-11-16 17:31:21,388 - auto_focus.focus - INFO - Focus: 14.65, 36.26, 10.14
+2016-11-16 17:37:31,148 - auto_focus.focus - INFO - Focus: 14.65, 36.26, 10.14
+2016-11-16 17:42:26,628 - auto_focus.focus - INFO - Focus: 14.65, 36.26, 10.28
+2016-11-16 17:49:33,209 - auto_focus.focus - INFO - Focus: 14.70, 36.21, 10.10
+2016-11-16 17:50:42,098 - auto_focus.focus - INFO - Focus: 14.65, 36.21, 10.12
+2016-11-16 17:52:26,940 - auto_focus.focus - INFO - Focus: 14.60, 36.21, 10.26
+2016-11-16 18:20:04,022 - auto_focus.focus - INFO - Focus: 14.80, 36.24, 9.94
+2016-11-16 18:20:15,592 - auto_focus.focus - INFO - Focus: 14.75, 36.24, 10.02
+2016-11-16 18:20:27,451 - auto_focus.focus - INFO - Focus: 14.70, 36.19, 9.84
+2016-11-16 18:21:54,621 - auto_focus.focus - INFO - Focus: 14.70, 36.19, 9.86
+2016-11-16 18:22:05,651 - auto_focus.focus - INFO - Focus: 14.70, 36.19, 9.88
+2016-11-16 18:27:41,822 - auto_focus.focus - INFO - Focus: 14.70, 36.24, 9.82
+2016-11-16 18:32:39,642 - auto_focus.focus - INFO - Focus: 14.70, 36.24, 9.96
+2016-11-16 18:33:14,223 - auto_focus.focus - INFO - Focus: 14.70, 36.24, 9.84
+2016-11-16 18:37:38,733 - auto_focus.focus - INFO - Focus: 14.70, 36.29, 10.04
+2016-11-16 18:38:18,023 - auto_focus.focus - INFO - Focus: 14.75, 36.24, 10.04
+2016-11-16 18:42:31,644 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.DoubleExponentialDecayFit object at 0x11FD9E10>, trait: normalized_counts, old value: [ 0.  0.], new value: [-0.57678507 -1.23279815 -0.65814824 -0.95479962 -2.60944367 -1.09084549
+ -1.75108804 -1.6227708  -1.16524067 -0.97263652 -0.94073117 -1.96794656
+ -1.00330855 -1.41464575 -0.88450849 -1.0294144  -0.40109287 -1.35687388
+ -0.7836039  -1.70679074  0.20617063 -0.6762972  -0.50543382 -0.42971765]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 1126, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleExponentialDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2016-11-16 18:44:56,073 - auto_focus.focus - INFO - Focus: 14.50, 36.19, 9.54
+2016-11-16 18:45:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC944B0>> at time 2016-11-16 18:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC944B0>>.
+2016-11-16 18:45:10,313 - auto_focus.focus - INFO - Focus: 14.45, 36.24, 10.50
+2016-11-16 18:49:18,641 - auto_focus.focus - INFO - Focus: 16.11, 36.29, -0.86
+2016-11-16 18:49:29,381 - auto_focus.focus - INFO - Focus: 16.06, 36.24, -0.92
+2016-11-16 18:49:40,891 - auto_focus.focus - INFO - Focus: 16.11, 36.34, -0.92
+2016-11-16 18:53:46,581 - auto_focus.focus - INFO - Focus: 14.87, 36.33, -1.00
+2016-11-16 18:53:59,891 - auto_focus.focus - INFO - Focus: 14.72, 36.28, -1.32
+2016-11-16 18:54:23,141 - auto_focus.focus - INFO - Focus: 14.62, 36.23, -1.40
+2016-11-16 18:54:34,111 - auto_focus.focus - INFO - Focus: 14.62, 36.23, -1.38
+2016-11-17 09:37:18,857 - auto_focus.focus - INFO - Focus: 14.37, 36.18, -1.50
+2016-11-17 09:37:36,736 - auto_focus.focus - INFO - Focus: 15.05, 36.15, -1.70
+2016-11-17 09:37:47,776 - auto_focus.focus - INFO - Focus: 15.20, 36.35, -2.14
+2016-11-17 09:37:58,637 - auto_focus.focus - INFO - Focus: 15.05, 36.40, -2.34
+2016-11-17 09:38:10,756 - auto_focus.focus - INFO - Focus: 15.15, 36.30, -2.58
+2016-11-17 09:42:26,267 - auto_focus.focus - INFO - Focus: 15.53, 37.24, -2.12
+2016-11-17 09:46:33,957 - auto_focus.focus - INFO - Focus: 15.48, 37.29, -2.04
+2016-11-17 09:47:12,398 - auto_focus.focus - INFO - Focus: 15.58, 37.14, -1.96
+2016-11-17 09:47:28,207 - auto_focus.focus - INFO - Focus: 15.43, 37.24, -2.10
+2016-11-17 10:16:14,880 - auto_focus.focus - INFO - Focus: 15.43, 37.24, -1.76
+2016-11-17 10:16:25,730 - auto_focus.focus - INFO - Focus: 15.48, 37.29, -1.78
+2016-11-17 10:23:15,710 - auto_focus.focus - INFO - Focus: 15.58, 37.24, -1.98
+2016-11-17 10:23:26,811 - auto_focus.focus - INFO - Focus: 15.53, 37.24, -2.18
+2016-11-17 10:25:30,161 - auto_focus.focus - INFO - Focus: 15.38, 37.19, -2.30
+2016-11-17 10:25:50,750 - auto_focus.focus - INFO - Focus: 15.43, 37.19, -2.14
+2016-11-17 10:26:07,601 - auto_focus.focus - INFO - Focus: 15.48, 37.24, -2.10
+2016-11-17 10:27:40,460 - auto_focus.focus - INFO - Focus: 15.43, 37.24, -2.02
+2016-11-17 10:29:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC944B0>> at time 2016-11-17 10:29:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC944B0>>.
+2016-11-17 10:29:11,750 - auto_focus.focus - INFO - Focus: 15.53, 37.04, -1.98
+2016-11-17 10:30:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC944B0>> at time 2016-11-17 10:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC944B0>>.
+2016-11-17 10:30:11,742 - auto_focus.focus - INFO - Focus: 15.73, 36.89, -2.36
+2016-11-17 10:30:51,252 - auto_focus.focus - INFO - Focus: 15.13, 36.89, -1.96
+2016-11-17 10:31:07,191 - auto_focus.focus - INFO - Focus: 15.58, 36.68, -1.92
+2016-11-17 10:31:18,312 - auto_focus.focus - INFO - Focus: 15.38, 36.83, -2.12
+2016-11-17 10:31:45,471 - auto_focus.focus - INFO - Focus: 15.28, 36.93, -1.54
+2016-11-17 10:32:02,171 - auto_focus.focus - INFO - Focus: 15.53, 36.73, -1.98
+2016-11-17 10:32:19,772 - auto_focus.focus - INFO - Focus: 15.43, 37.24, -1.48
+2016-11-17 10:32:35,532 - auto_focus.focus - INFO - Focus: 15.58, 37.04, -1.22
+2016-11-17 10:32:59,951 - auto_focus.focus - INFO - Focus: 15.43, 37.24, -1.14
+2016-11-17 10:33:20,022 - auto_focus.focus - INFO - Focus: 15.48, 37.24, -1.18
+2016-11-17 10:35:32,592 - auto_focus.focus - INFO - Focus: 10.75, 32.01, -1.34
+2016-11-17 10:35:44,861 - auto_focus.focus - INFO - Focus: 10.65, 32.06, -1.46
+2016-11-17 10:39:26,201 - auto_focus.focus - INFO - Focus: 12.76, 29.95, -1.86
+2016-11-17 10:39:41,111 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0AC944B0> is already running or in the queue.
+2016-11-17 10:39:41,752 - auto_focus.focus - INFO - Focus: 15.48, 37.24, -1.86
+2016-11-17 10:39:54,171 - auto_focus.focus - INFO - Focus: 15.53, 37.24, -1.90
+2016-11-17 10:51:56,892 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0AC944B0> is already running or in the queue.
+2016-11-17 10:51:59,153 - auto_focus.focus - INFO - Focus: 15.43, 37.24, -2.06
+2016-11-17 10:52:10,973 - auto_focus.focus - INFO - Focus: 15.43, 37.29, -2.04
+2016-11-17 10:52:22,953 - auto_focus.focus - INFO - Focus: 15.43, 37.29, -2.02
+2016-11-17 12:58:27,033 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0AC944B0> is already running or in the queue.
+2016-11-17 12:58:28,834 - auto_focus.focus - INFO - Focus: 15.63, 37.39, -2.32
+2016-11-17 12:58:40,654 - auto_focus.focus - INFO - Focus: 15.58, 37.34, -2.22
+2016-11-17 13:02:14,944 - auto_focus.focus - INFO - Focus: 15.63, 37.29, -2.14
+2016-11-17 13:26:33,138 - pi3diamond.<module> - INFO - Starting logger.
+2016-11-17 13:26:38,028 - emod.start - INFO - Starting Job Manager.
+2016-11-17 13:26:38,048 - cron.run - INFO - Starting Cron Daemon.
+2016-11-17 13:27:26,808 - auto_focus.focus - INFO - Focus: 15.48, 37.09, -1.70
+2016-11-17 13:28:51,789 - auto_focus.focus - INFO - Focus: 15.40, 37.93, -1.57
+2016-11-17 13:29:01,888 - auto_focus.focus - INFO - Focus: 15.45, 37.93, -1.59
+2016-11-17 13:30:27,848 - pulsed_awg._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 199, in _run
+    PG.Sequence(self.sequence, loop=True)
+  File "D:\pi3diamondnew\hardware\pulse_blaster.py", line 56, in Sequence
+    label = write(*step)
+  File "D:\pi3diamondnew\hardware\pulse_blaster.py", line 90, in write
+    label = chk(dll.pb_inst_pbonly( ON|channel_bits, CONTINUE, None, ctypes.c_double( N*DT ) ))
+  File "D:\pi3diamondnew\hardware\pulse_blaster.py", line 30, in chk
+    logging.Logger().error('PulseBlaster error: ' + err_str + ''.join(traceback.format_stack()))
+TypeError: __init__() takes at least 2 arguments (1 given)
+2016-11-17 13:34:16,959 - pulsed_awg._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 199, in _run
+    PG.Sequence(self.sequence, loop=True)
+  File "D:\pi3diamondnew\hardware\pulse_blaster.py", line 56, in Sequence
+    label = write(*step)
+  File "D:\pi3diamondnew\hardware\pulse_blaster.py", line 90, in write
+    label = chk(dll.pb_inst_pbonly( ON|channel_bits, CONTINUE, None, ctypes.c_double( N*DT ) ))
+  File "D:\pi3diamondnew\hardware\pulse_blaster.py", line 30, in chk
+    logging.Logger().error('PulseBlaster error: ' + err_str + ''.join(traceback.format_stack()))
+TypeError: __init__() takes at least 2 arguments (1 given)
+2016-11-17 13:36:13,888 - pi3diamond.<module> - INFO - Starting logger.
+2016-11-17 13:36:15,638 - emod.start - INFO - Starting Job Manager.
+2016-11-17 13:36:15,638 - cron.run - INFO - Starting Cron Daemon.
+2016-11-17 13:36:58,628 - auto_focus.focus - INFO - Focus: 15.40, 37.98, -1.27
+2016-11-17 14:55:09,486 - auto_focus.focus - INFO - Focus: 15.30, 37.93, -1.69
+2016-11-17 14:55:19,816 - auto_focus.focus - INFO - Focus: 15.40, 37.98, -1.33
+2016-11-17 14:55:41,226 - auto_focus.focus - INFO - Focus: 15.45, 38.08, -1.31
+2016-11-17 14:58:10,486 - auto_focus.focus - INFO - Focus: 15.45, 38.08, -1.09
+2016-11-17 15:07:22,697 - auto_focus.focus - INFO - Focus: 15.35, 38.08, -0.95
+2016-11-17 15:10:15,957 - auto_focus.focus - INFO - Focus: 15.35, 38.08, -0.73
+2016-11-17 15:12:24,328 - auto_focus.focus - INFO - Focus: 15.35, 38.18, -0.91
+2016-11-17 15:12:35,078 - auto_focus.focus - INFO - Focus: 15.30, 38.18, -1.03
+2016-11-17 15:12:44,947 - auto_focus.focus - INFO - Focus: 15.40, 38.08, -0.89
+2016-11-17 15:19:50,678 - auto_focus.focus - INFO - Focus: 15.35, 38.08, -0.87
+2016-11-17 15:21:34,378 - auto_focus.focus - INFO - Focus: 15.35, 38.08, -1.07
+2016-11-17 15:40:22,040 - auto_focus.focus - INFO - Focus: 15.50, 38.28, -0.79
+2016-11-17 15:40:34,111 - auto_focus.focus - INFO - Focus: 15.25, 38.38, -0.53
+2016-11-17 15:40:43,450 - auto_focus.focus - INFO - Focus: 15.70, 38.48, -0.29
+2016-11-17 15:40:51,940 - auto_focus.focus - INFO - Focus: 15.75, 38.28, -0.03
+2016-11-17 15:41:50,970 - auto_focus.focus - INFO - Focus: 15.25, 37.07, -0.01
+2016-11-17 16:20:36,813 - auto_focus.focus - INFO - Focus: 15.30, 37.07, -0.39
+2016-11-17 16:45:59,033 - auto_focus.focus - INFO - Focus: 15.30, 37.12, -0.41
+2016-11-17 17:11:29,927 - auto_focus.focus - INFO - Focus: 13.16, 33.23, -0.67
+2016-11-17 17:11:38,417 - auto_focus.focus - INFO - Focus: 13.16, 33.23, -0.73
+2016-11-17 17:12:07,637 - auto_focus.focus - INFO - Focus: 13.26, 34.54, -0.73
+2016-11-17 17:12:16,107 - auto_focus.focus - INFO - Focus: 13.26, 34.44, -0.75
+2016-11-17 17:13:35,967 - auto_focus.focus - INFO - Focus: 12.76, 31.65, -0.73
+2016-11-17 17:13:44,447 - auto_focus.focus - INFO - Focus: 12.81, 31.65, -0.65
+2016-11-17 17:14:12,717 - auto_focus.focus - INFO - Focus: 18.87, 36.04, -0.73
+2016-11-17 17:14:44,578 - auto_focus.focus - INFO - Focus: 16.39, 34.94, -0.57
+2016-11-17 17:16:16,568 - auto_focus.focus - INFO - Focus: 19.05, 38.02, -0.71
+2016-11-17 17:16:26,058 - auto_focus.focus - INFO - Focus: 19.10, 38.02, -0.87
+2016-11-17 17:16:36,328 - auto_focus.focus - INFO - Focus: 19.15, 38.07, -0.57
+2016-11-17 17:16:54,747 - auto_focus.focus - INFO - Focus: 19.27, 31.65, -0.17
+2016-11-17 17:17:07,237 - auto_focus.focus - INFO - Focus: 19.57, 32.26, -0.47
+2016-11-17 17:17:16,457 - auto_focus.focus - INFO - Focus: 19.47, 32.21, -0.49
+2016-11-17 17:22:12,288 - auto_focus.focus - INFO - Focus: 16.02, 31.38, -0.75
+2016-11-17 17:22:20,778 - auto_focus.focus - INFO - Focus: 16.02, 31.38, -0.77
+2016-11-17 17:22:29,398 - auto_focus.focus - INFO - Focus: 15.92, 31.38, -1.27
+2016-11-17 17:22:39,697 - auto_focus.focus - INFO - Focus: 16.02, 31.38, -0.69
+2016-11-17 18:08:49,430 - auto_focus.focus - INFO - Focus: 12.28, 30.50, -0.99
+2016-11-17 18:08:58,770 - auto_focus.focus - INFO - Focus: 12.53, 30.45, -0.87
+2016-11-17 18:09:07,200 - auto_focus.focus - INFO - Focus: 12.58, 30.40, -1.07
+2016-11-17 18:09:43,601 - auto_focus.focus - INFO - Focus: 10.40, 32.51, -1.13
+2016-11-18 09:26:50,684 - auto_focus.focus - INFO - Focus: 15.91, 20.78, -0.63
+2016-11-18 09:26:59,375 - auto_focus.focus - INFO - Focus: 16.06, 20.58, -0.59
+2016-11-18 09:27:07,845 - auto_focus.focus - INFO - Focus: 15.81, 20.68, -0.19
+2016-11-18 09:27:16,365 - auto_focus.focus - INFO - Focus: 15.61, 20.68, -0.43
+2016-11-18 09:31:16,954 - auto_focus.focus - INFO - Focus: 16.87, 20.89, -0.41
+2016-11-18 09:32:17,724 - auto_focus.focus - INFO - Focus: 17.02, 20.89, -0.83
+2016-11-18 09:32:26,184 - auto_focus.focus - INFO - Focus: 17.02, 20.79, -0.37
+2016-11-18 09:32:34,644 - auto_focus.focus - INFO - Focus: 17.02, 20.89, -0.35
+2016-11-18 09:34:09,335 - auto_focus.focus - INFO - Focus: 17.12, 20.64, -0.35
+2016-11-18 09:34:22,815 - auto_focus.focus - INFO - Focus: 16.97, 20.89, -0.37
+2016-11-18 09:34:31,255 - auto_focus.focus - INFO - Focus: 16.97, 20.89, -0.29
+2016-11-18 09:36:47,525 - auto_focus.focus - INFO - Focus: 17.24, 22.22, -0.18
+2016-11-18 09:36:56,454 - auto_focus.focus - INFO - Focus: 17.29, 22.27, -0.20
+2016-11-18 09:37:15,244 - auto_focus.focus - INFO - Focus: 19.63, 21.64, -0.22
+2016-11-18 09:37:23,894 - auto_focus.focus - INFO - Focus: 19.68, 21.64, -0.30
+2016-11-18 09:37:32,565 - auto_focus.focus - INFO - Focus: 19.68, 21.64, -0.30
+2016-11-18 09:45:51,365 - auto_focus.focus - INFO - Focus: 12.38, 23.66, -0.28
+2016-11-18 09:46:00,036 - auto_focus.focus - INFO - Focus: 12.48, 23.71, -0.34
+2016-11-18 09:46:10,345 - auto_focus.focus - INFO - Focus: 12.38, 23.66, -0.48
+2016-11-18 09:46:24,006 - auto_focus.focus - INFO - Focus: 19.00, 23.91, -0.46
+2016-11-18 09:46:33,395 - auto_focus.focus - INFO - Focus: 19.05, 23.96, -0.42
+2016-11-18 09:46:42,236 - auto_focus.focus - INFO - Focus: 18.95, 23.91, -0.50
+2016-11-18 09:46:59,135 - auto_focus.focus - INFO - Focus: 12.23, 24.91, -0.36
+2016-11-18 09:47:08,456 - auto_focus.focus - INFO - Focus: 12.18, 24.91, -0.36
+2016-11-18 09:47:38,236 - auto_focus.focus - INFO - Focus: 15.51, 24.19, -0.48
+2016-11-18 09:47:57,246 - auto_focus.focus - INFO - Focus: 15.71, 24.24, -0.44
+2016-11-18 09:48:12,855 - auto_focus.focus - INFO - Focus: 15.51, 24.19, -0.34
+2016-11-18 09:50:49,496 - auto_focus.focus - INFO - Focus: 15.56, 24.19, -0.36
+2016-11-18 10:08:16,157 - auto_focus.focus - INFO - Focus: 10.98, 21.85, -0.42
+2016-11-18 10:08:24,707 - auto_focus.focus - INFO - Focus: 11.03, 21.75, -0.32
+2016-11-18 10:09:09,836 - auto_focus.focus - INFO - Focus: 12.78, 27.02, -0.22
+2016-11-18 10:09:23,506 - auto_focus.focus - INFO - Focus: 12.63, 26.92, -0.44
+2016-11-18 10:09:59,816 - auto_focus.focus - INFO - Focus: 14.64, 28.62, -0.34
+2016-11-18 10:10:10,096 - auto_focus.focus - INFO - Focus: 14.64, 28.67, -0.26
+2016-11-18 10:14:01,306 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-18 10:15:08,927 - auto_focus.focus - INFO - Focus: 14.64, 28.67, -0.34
+2016-11-18 10:16:04,046 - auto_focus.focus - INFO - Focus: 12.66, 26.99, -0.32
+2016-11-18 10:17:37,447 - auto_focus.focus - INFO - Focus: 12.61, 26.94, -0.46
+2016-11-18 10:17:56,798 - auto_focus.focus - INFO - Focus: 12.13, 26.52, -0.46
+2016-11-18 10:18:10,648 - auto_focus.focus - INFO - Focus: 15.41, 26.47, -0.36
+2016-11-18 10:18:19,427 - auto_focus.focus - INFO - Focus: 15.56, 26.22, 0.02
+2016-11-18 10:18:28,987 - auto_focus.focus - INFO - Focus: 15.41, 26.42, -0.26
+2016-11-18 10:20:28,977 - auto_focus.focus - INFO - Focus: 11.40, 23.81, -0.40
+2016-11-18 10:20:37,447 - auto_focus.focus - INFO - Focus: 11.45, 23.81, -0.36
+2016-11-18 10:21:47,528 - auto_focus.focus - INFO - Focus: 11.30, 23.71, -0.72
+2016-11-18 10:21:56,957 - auto_focus.focus - INFO - Focus: 11.40, 23.81, -0.86

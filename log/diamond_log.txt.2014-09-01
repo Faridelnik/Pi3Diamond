@@ -1,0 +1,1869 @@
+2014-09-02 13:00:31,664 - auto_focus.focus - INFO - Focus: 12.88, 2.82, -14.64
+2014-09-02 13:00:39,515 - auto_focus.focus - INFO - Focus: 12.99, 2.61, -15.31
+2014-09-02 13:10:44,092 - auto_focus.focus - INFO - Focus: 26.13, 37.12, -16.06
+2014-09-02 13:10:52,132 - auto_focus.focus - INFO - Focus: 26.36, 37.35, -16.81
+2014-09-02 13:11:00,092 - auto_focus.focus - INFO - Focus: 26.47, 37.22, -17.08
+2014-09-02 13:41:07,079 - auto_focus.focus - INFO - Focus: 34.77, 26.81, -17.56
+2014-09-02 13:41:15,079 - auto_focus.focus - INFO - Focus: 34.84, 26.76, -17.53
+2014-09-02 13:41:23,420 - auto_focus.focus - INFO - Focus: 34.91, 26.67, -17.56
+2014-09-02 13:41:36,569 - auto_focus.focus - INFO - Focus: 34.81, 26.81, -17.56
+2014-09-02 13:41:44,849 - auto_focus.focus - INFO - Focus: 34.60, 26.68, -17.45
+2014-09-02 13:42:00,279 - auto_focus.focus - INFO - Focus: 36.90, 30.55, -17.53
+2014-09-02 13:42:08,920 - auto_focus.focus - INFO - Focus: 36.89, 30.54, -17.61
+2014-09-02 14:01:42,322 - auto_focus.focus - INFO - Focus: 19.31, 29.73, -18.31
+2014-09-02 14:01:50,272 - auto_focus.focus - INFO - Focus: 19.38, 29.96, -18.04
+2014-09-02 14:04:07,792 - auto_focus.focus - INFO - Focus: 21.09, 31.21, -18.07
+2014-09-02 14:04:17,413 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 90, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 203, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 150, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.COTask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:21,023 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 90, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 203, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 151, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.CITask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:44,183 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.9196014858, new value: 20.874010964
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:44,282 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.9591583596, new value: 30.8628980662
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:44,292 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.8628980662, new value: 30.9289414484
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:44,302 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.9289414484, new value: 30.9949848307
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:44,362 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.9949848307, new value: 31.0610282129
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:45,433 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 31.0610282129, new value: 31.1270715952
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:45,882 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 31.1270715952, new value: 31.1931149774
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:46,193 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.874010964, new value: 20.8084204421
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:46,372 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 31.1931149774, new value: 31.1270715952
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:46,933 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.8084204421, new value: 20.874010964
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:47,042 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.874010964, new value: 20.9396014858
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:47,372 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.9396014858, new value: 21.0051920076
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:47,642 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 21.0051920076, new value: 21.0707825294
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:47,872 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 31.1270715952, new value: 31.0610282129
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:48,112 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 21.0707825294, new value: 21.0051920076
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:48,223 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 21.0051920076, new value: 20.9396014858
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:48,282 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.9396014858, new value: 20.874010964
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:48,362 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.874010964, new value: 20.8084204421
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:48,513 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 31.0610282129, new value: 31.1270715952
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:48,542 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.8084204421, new value: 20.7428299203
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:48,673 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 31.1270715952, new value: 31.1931149774
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:49,892 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.7428299203, new value: 20.8084204421
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:50,302 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.8084204421, new value: 20.7428299203
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:50,453 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.7428299203, new value: 20.6772393985
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:51,122 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.6772393985, new value: 20.6116488767
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:52,163 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.6116488767, new value: 20.6772393985
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:52,503 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.6772393985, new value: 20.7428299203
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:04:53,092 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 31.1931149774, new value: 31.1270715952
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,802 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.7428299203, new value: 20.6772393985
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,802 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 31.1270715952, new value: 31.0610282129
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,802 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.6772393985, new value: 20.6116488767
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,832 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.6116488767, new value: 20.5460583549
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,842 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 31.0610282129, new value: 30.9289414484
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,842 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.5460583549, new value: 20.480467833
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,842 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.9289414484, new value: 30.8628980662
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,842 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.8628980662, new value: 30.7968546839
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,872 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.480467833, new value: 20.3492867894
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,872 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.7968546839, new value: 30.6647679194
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,903 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.3492867894, new value: 20.2181057457
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,913 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.6647679194, new value: 30.5326811549
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,943 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.2181057457, new value: 20.1525152239
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,943 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.5326811549, new value: 30.4666377727
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,973 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.4666377727, new value: 30.4005943904
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:58,993 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.4005943904, new value: 30.3345510082
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:59,092 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.3345510082, new value: 30.2685076259
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:59,183 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.2685076259, new value: 30.2024642437
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:59,263 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.1525152239, new value: 20.0869247021
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:59,273 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.2024642437, new value: 30.1364208615
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:59,302 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.1364208615, new value: 30.0703774792
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:59,342 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.0869247021, new value: 20.0213341803
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:59,473 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.0213341803, new value: 19.9557436584
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:59,473 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.0703774792, new value: 30.004334097
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:59,663 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 19.9557436584, new value: 19.8901531366
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:08:59,693 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.004334097, new value: 29.9382907147
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:09:00,802 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 19.8901531366, new value: 19.8245626148
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:09:00,832 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 29.9382907147, new value: 30.004334097
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:09:01,792 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 19.8245626148, new value: 19.8901531366
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:09:03,282 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 19.8901531366, new value: 19.8245626148
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:09:03,362 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.004334097, new value: 29.9382907147
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:09:12,862 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 19.8245626148, new value: 19.8901531366
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:09:13,632 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 29.9382907147, new value: 30.004334097
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:09:13,683 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 19.8901531366, new value: 19.9557436584
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:09:13,713 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.004334097, new value: 30.0703774792
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:11:33,173 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 19.9557436584, new value: 20.0213341803
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:11:33,203 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.0213341803, new value: 20.0869247021
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:11:33,203 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.0703774792, new value: 30.004334097
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:11:34,003 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.0869247021, new value: 20.0213341803
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:11:34,193 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.004334097, new value: 30.0703774792
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:37,154 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.0703774792, new value: 30.004334097
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:37,263 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.004334097, new value: 30.0703774792
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:37,394 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.0703774792, new value: 30.1364208615
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:37,644 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.1364208615, new value: 30.0703774792
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:37,834 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.0703774792, new value: 30.004334097
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:38,213 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: y, old value: 30.004334097, new value: 30.0703774792
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,033 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.0213341803, new value: 19.9557436584
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,033 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 19.9557436584, new value: 20.0213341803
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,063 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.0213341803, new value: 20.0869247021
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,094 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.0869247021, new value: 20.2181057457
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,094 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.2181057457, new value: 20.2836962676
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,124 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.2836962676, new value: 20.4148773112
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,154 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.4148773112, new value: 20.8084204421
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,184 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 20.8084204421, new value: 21.0707825294
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,184 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 21.0707825294, new value: 21.1363730513
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,213 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 21.1363730513, new value: 21.3987351386
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,213 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 21.3987351386, new value: 21.4643256604
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,243 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 21.4643256604, new value: 21.7266877477
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,273 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 21.7266877477, new value: 21.989049835
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,303 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 21.989049835, new value: 22.1202308786
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,354 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 22.1202308786, new value: 22.1858214005
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,384 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 22.1858214005, new value: 22.2514119223
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,414 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 22.2514119223, new value: 22.4481834878
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,414 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 22.4481834878, new value: 22.5137740096
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,444 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 22.5137740096, new value: 22.7761360969
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,473 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 22.7761360969, new value: 23.104088706
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,503 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 23.104088706, new value: 23.3664507933
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,523 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 23.3664507933, new value: 23.6288128806
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,553 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 23.6288128806, new value: 23.8255844461
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,563 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 23.8255844461, new value: 23.8911749679
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,584 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 23.8911749679, new value: 24.219127577
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,614 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 24.219127577, new value: 24.4158991425
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,644 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 24.4158991425, new value: 24.4814896643
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,783 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 24.4814896643, new value: 24.4158991425
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,834 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 24.4158991425, new value: 24.3503086207
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,914 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 24.3503086207, new value: 24.2847180988
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:39,993 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 24.2847180988, new value: 24.219127577
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:40,053 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 24.219127577, new value: 24.1535370552
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:14:40,573 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06F211E0>, trait: x, old value: 24.1535370552, new value: 24.0879465334
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-02 14:15:19,344 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-02 14:15:26,743 - emod.start - INFO - Starting Job Manager.
+2014-09-02 14:15:26,753 - cron.run - INFO - Starting Cron Daemon.
+2014-09-02 14:15:58,073 - auto_focus.focus - INFO - Focus: 24.00, 30.06, -17.78
+2014-09-02 14:16:06,203 - auto_focus.focus - INFO - Focus: 23.99, 30.13, -17.73
+2014-09-03 09:08:02,381 - auto_focus.focus - INFO - Focus: 29.95, 10.84, -16.15
+2014-09-03 09:08:03,010 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B65F8A0> is already running or in the queue.
+2014-09-03 09:08:13,561 - auto_focus.focus - INFO - Focus: 29.94, 10.83, -16.26
+2014-09-03 09:15:18,750 - auto_focus.focus - INFO - Focus: 42.57, 28.98, -16.90
+2014-09-03 09:15:26,641 - auto_focus.focus - INFO - Focus: 42.64, 28.89, -17.06
+2014-09-03 09:16:43,651 - auto_focus.focus - INFO - Focus: 38.49, 48.59, -16.71
+2014-09-03 09:19:25,611 - auto_focus.focus - INFO - Focus: 25.08, 26.01, -16.42
+2014-09-03 09:19:33,522 - auto_focus.focus - INFO - Focus: 25.15, 26.12, -16.37
+2014-09-03 09:19:41,532 - auto_focus.focus - INFO - Focus: 25.14, 26.15, -16.34
+2014-09-03 09:25:03,982 - auto_focus.focus - INFO - Focus: 25.13, 26.30, -16.31
+2014-09-03 09:27:22,651 - auto_focus.focus - INFO - Focus: 25.16, 26.37, -16.47
+2014-09-05 10:50:26,562 - auto_focus.focus - INFO - Focus: 42.40, 30.57, -10.44
+2014-09-05 10:50:35,792 - auto_focus.focus - INFO - Focus: 42.39, 30.56, -10.47
+2014-09-05 10:55:15,223 - auto_focus.focus - INFO - Focus: 29.55, 26.29, -9.72
+2014-09-05 10:55:23,352 - auto_focus.focus - INFO - Focus: 29.34, 26.32, -9.11
+2014-09-05 10:57:56,352 - auto_focus.focus - INFO - Focus: 29.37, 26.39, -9.06
+2014-09-05 11:24:51,936 - auto_focus.focus - INFO - Focus: 34.21, 5.51, -8.31
+2014-09-05 11:24:59,885 - auto_focus.focus - INFO - Focus: 34.24, 5.62, -7.86
+2014-09-05 12:48:20,197 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x06F14F30>, trait: current_index, old value: (171, 25), new value: (171, 24)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-09-05 12:48:20,246 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x06F14F30>, trait: current_index, old value: (171, 24), new value: (171, 25)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-09-05 12:48:20,387 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x06F14F30>, trait: current_index, old value: (171, 25), new value: (171, 28)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-09-05 12:48:35,447 - auto_focus.focus - INFO - Focus: 10.48, 15.27, -7.19
+2014-09-05 12:48:43,387 - auto_focus.focus - INFO - Focus: 10.43, 15.46, -7.14
+2014-09-05 12:48:51,536 - auto_focus.focus - INFO - Focus: 10.46, 15.45, -7.11
+2014-09-05 13:01:42,808 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-05 13:01:46,388 - emod.start - INFO - Starting Job Manager.
+2014-09-05 13:01:46,407 - cron.run - INFO - Starting Cron Daemon.
+2014-09-05 13:02:23,138 - auto_focus.focus - INFO - Focus: 10.37, 15.24, -7.67
+2014-09-05 13:02:31,157 - auto_focus.focus - INFO - Focus: 10.12, 14.99, -7.56
+2014-09-05 13:02:39,197 - auto_focus.focus - INFO - Focus: 9.87, 15.10, -6.89
+2014-09-05 14:00:40,025 - auto_focus.focus - INFO - Focus: 6.03, 1.11, -6.54
+2014-09-05 14:00:48,154 - auto_focus.focus - INFO - Focus: 6.06, 0.90, -6.62
+2014-09-05 14:13:22,315 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-05 14:13:24,966 - emod.start - INFO - Starting Job Manager.
+2014-09-05 14:13:24,976 - cron.run - INFO - Starting Cron Daemon.
+2014-09-05 14:31:24,267 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-05 14:31:26,308 - emod.start - INFO - Starting Job Manager.
+2014-09-05 14:31:26,318 - cron.run - INFO - Starting Cron Daemon.
+2014-09-05 14:34:19,779 - auto_focus.focus - INFO - Focus: 11.38, 15.32, -6.44
+2014-09-05 14:34:27,848 - auto_focus.focus - INFO - Focus: 11.37, 15.31, -6.15
+2014-09-05 14:37:14,168 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-05 14:37:16,239 - emod.start - INFO - Starting Job Manager.
+2014-09-05 14:37:16,239 - cron.run - INFO - Starting Cron Daemon.
+2014-09-05 14:49:08,660 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-05 14:49:10,740 - emod.start - INFO - Starting Job Manager.
+2014-09-05 14:49:10,750 - cron.run - INFO - Starting Cron Daemon.
+2014-09-05 15:12:41,022 - auto_focus.focus - INFO - Focus: 3.55, 1.02, -6.36
+2014-09-05 15:12:49,171 - auto_focus.focus - INFO - Focus: 3.62, 1.05, -6.15
+2014-09-05 15:12:58,262 - auto_focus.focus - INFO - Focus: 3.61, 1.04, -6.12
+2014-09-05 15:32:49,563 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-05 15:32:51,713 - emod.start - INFO - Starting Job Manager.
+2014-09-05 15:32:51,723 - cron.run - INFO - Starting Cron Daemon.
+2014-09-05 15:34:24,744 - auto_focus.focus - INFO - Focus: 6.06, 2.36, -6.36
+2014-09-05 15:34:33,244 - auto_focus.focus - INFO - Focus: 6.01, 2.27, -5.91
+2014-09-05 15:34:41,744 - auto_focus.focus - INFO - Focus: 6.04, 2.30, -5.88
+2014-09-05 15:35:01,615 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-05 15:35:03,734 - emod.start - INFO - Starting Job Manager.
+2014-09-05 15:35:03,734 - cron.run - INFO - Starting Cron Daemon.
+2014-09-05 15:35:21,384 - auto_focus.focus - INFO - Focus: 6.07, 2.33, -5.91
+2014-09-05 15:35:29,434 - auto_focus.focus - INFO - Focus: 6.06, 2.36, -6.02
+2014-09-05 15:35:37,525 - auto_focus.focus - INFO - Focus: 6.09, 2.35, -5.99
+2014-09-05 15:47:55,956 - auto_focus.focus - INFO - Focus: 5.92, 2.42, -6.10
+2014-09-05 15:48:04,456 - auto_focus.focus - INFO - Focus: 5.91, 2.41, -5.99
+2014-09-05 15:58:53,078 - auto_focus.focus - INFO - Focus: 5.90, 2.48, -5.88
+2014-09-05 16:26:40,782 - auto_focus.focus - INFO - Focus: 6.05, 2.51, -6.12
+2014-09-05 18:20:02,005 - auto_focus.focus - INFO - Focus: 10.22, 9.71, -6.63
+2014-09-07 14:41:24,559 - auto_focus.focus - INFO - Focus: 9.93, 11.14, 3.63
+2014-09-07 14:41:32,759 - auto_focus.focus - INFO - Focus: 9.76, 11.09, 3.23
+2014-09-07 17:00:48,323 - auto_focus.focus - INFO - Focus: 24.82, 6.32, 1.51
+2014-09-07 17:00:56,364 - auto_focus.focus - INFO - Focus: 24.77, 6.23, 1.62
+2014-09-07 17:01:09,834 - auto_focus.focus - INFO - Focus: 24.76, 6.30, 1.65
+2014-09-07 17:03:29,253 - auto_focus.focus - INFO - Focus: 24.59, 6.53, 2.26
+2014-09-07 17:03:37,154 - auto_focus.focus - INFO - Focus: 24.62, 6.68, 2.23
+2014-09-07 17:04:12,313 - auto_focus.focus - INFO - Focus: 24.49, 6.91, 2.42
+2014-09-07 17:04:53,043 - auto_focus.focus - INFO - Focus: 24.40, 7.10, 2.39
+2014-09-07 17:05:30,344 - auto_focus.focus - INFO - Focus: 24.27, 7.33, 2.84
+2014-09-07 17:06:07,233 - auto_focus.focus - INFO - Focus: 24.14, 7.56, 2.73
+2014-09-07 17:06:14,563 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 90, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 203, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 150, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.COTask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-07 17:06:16,233 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 90, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 203, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 151, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.CITask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-07 17:07:10,434 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-07 17:07:12,513 - emod.start - INFO - Starting Job Manager.
+2014-09-07 17:07:12,523 - cron.run - INFO - Starting Cron Daemon.
+2014-09-07 17:07:35,394 - auto_focus.focus - INFO - Focus: 24.16, 7.58, 2.84
+2014-09-07 17:08:15,394 - auto_focus.focus - INFO - Focus: 24.19, 7.65, 2.95
+2014-09-07 17:08:57,944 - auto_focus.focus - INFO - Focus: 24.22, 7.88, 3.16
+2014-09-07 17:09:05,993 - auto_focus.focus - INFO - Focus: 24.09, 7.95, 3.19
+2014-09-07 17:10:43,026 - auto_focus.focus - INFO - Focus: 24.12, 7.94, 3.24
+2014-09-07 17:14:31,676 - auto_focus.focus - INFO - Focus: 24.07, 7.69, 3.16
+2014-09-07 17:14:39,815 - auto_focus.focus - INFO - Focus: 24.10, 7.72, 3.19
+2014-09-07 17:15:34,946 - auto_focus.focus - INFO - Focus: 19.73, 16.42, 3.24
+2014-09-07 17:15:49,786 - auto_focus.focus - INFO - Focus: 17.59, 18.41, 3.21
+2014-09-07 17:15:57,885 - auto_focus.focus - INFO - Focus: 17.58, 18.44, 3.24
+2014-09-07 17:17:21,315 - auto_focus.focus - INFO - Focus: 5.43, 33.71, 3.29
+2014-09-07 17:17:31,635 - auto_focus.focus - INFO - Focus: 5.38, 33.74, 3.32
+2014-09-07 17:18:16,385 - auto_focus.focus - INFO - Focus: 5.45, 33.81, 3.45
+2014-09-07 17:18:50,486 - auto_focus.focus - INFO - Focus: 5.44, 33.84, 4.20
+2014-09-07 17:19:01,655 - auto_focus.focus - INFO - Focus: 5.47, 33.91, 4.95
+2014-09-07 17:19:42,266 - auto_focus.focus - INFO - Focus: 5.54, 33.74, 5.03
+2014-09-07 17:20:18,946 - auto_focus.focus - INFO - Focus: 5.49, 33.69, 5.16
+2014-09-07 17:20:52,546 - auto_focus.focus - INFO - Focus: 5.36, 33.60, 5.29
+2014-09-07 17:22:02,796 - auto_focus.focus - INFO - Focus: 5.35, 33.71, 5.58
+2014-09-07 17:22:57,197 - auto_focus.focus - INFO - Focus: 5.34, 33.82, 5.63
+2014-09-07 17:23:28,336 - auto_focus.focus - INFO - Focus: 5.33, 33.85, 5.68
+2014-09-07 17:24:07,286 - auto_focus.focus - INFO - Focus: 5.32, 33.88, 5.81
+2014-09-07 17:29:16,147 - auto_focus.focus - INFO - Focus: 5.43, 34.11, 6.34
+2014-09-07 17:29:24,256 - auto_focus.focus - INFO - Focus: 5.42, 34.14, 6.31
+2014-09-07 17:29:47,016 - auto_focus.focus - INFO - Focus: 5.33, 34.17, 6.98
+2014-09-07 17:29:56,167 - auto_focus.focus - INFO - Focus: 5.36, 34.12, 7.11
+2014-09-07 17:30:39,336 - auto_focus.focus - INFO - Focus: 5.31, 34.11, 6.84
+2014-09-07 17:31:17,536 - auto_focus.focus - INFO - Focus: 5.30, 34.14, 6.57
+2014-09-07 17:31:53,576 - auto_focus.focus - INFO - Focus: 5.33, 34.17, 6.30
+2014-09-07 17:32:49,417 - auto_focus.focus - INFO - Focus: 5.32, 34.20, 6.49
+2014-09-07 17:33:24,667 - auto_focus.focus - INFO - Focus: 5.35, 34.19, 6.49
+2014-09-07 17:33:58,977 - auto_focus.focus - INFO - Focus: 5.34, 34.22, 6.68
+2014-09-07 17:34:32,487 - auto_focus.focus - INFO - Focus: 5.37, 34.21, 6.79
+2014-09-07 17:35:21,697 - auto_focus.focus - INFO - Focus: 5.36, 34.20, 6.76
+2014-09-07 17:35:50,697 - auto_focus.focus - INFO - Focus: 5.35, 34.19, 6.76
+2014-09-07 17:37:00,828 - auto_focus.focus - INFO - Focus: 5.58, 34.42, 7.51
+2014-09-07 17:37:08,957 - auto_focus.focus - INFO - Focus: 5.81, 34.65, 7.16
+2014-09-07 17:37:17,038 - auto_focus.focus - INFO - Focus: 5.80, 34.76, 6.92
+2014-09-07 17:39:39,487 - auto_focus.focus - INFO - Focus: 5.79, 34.79, 6.97
+2014-09-07 18:03:58,782 - auto_focus.focus - INFO - Focus: 18.01, 2.78, 8.59
+2014-09-07 18:04:06,851 - auto_focus.focus - INFO - Focus: 17.96, 2.53, 7.84
+2014-09-07 18:04:15,002 - auto_focus.focus - INFO - Focus: 18.03, 2.32, 7.52
+2014-09-07 18:04:23,062 - auto_focus.focus - INFO - Focus: 18.10, 2.31, 7.44
+2014-09-07 18:04:31,191 - auto_focus.focus - INFO - Focus: 18.09, 2.30, 7.36
+2014-09-07 18:07:40,082 - auto_focus.focus - INFO - Focus: 18.16, 2.37, 7.25
+2014-09-07 18:07:48,153 - auto_focus.focus - INFO - Focus: 18.15, 2.44, 7.17
+2014-09-07 18:29:24,184 - auto_focus.focus - INFO - Focus: 8.34, 12.11, 8.06
+2014-09-07 18:29:32,335 - auto_focus.focus - INFO - Focus: 8.33, 12.10, 8.03
+2014-09-07 18:30:17,015 - auto_focus.focus - INFO - Focus: 8.28, 12.13, 7.92
+2014-09-07 18:30:49,144 - auto_focus.focus - INFO - Focus: 8.31, 12.04, 7.95
+2014-09-07 18:31:22,674 - auto_focus.focus - INFO - Focus: 8.30, 12.03, 8.16
+2014-09-07 18:31:32,575 - auto_focus.focus - INFO - Focus: 8.25, 12.18, 8.08
+2014-09-07 18:31:40,835 - auto_focus.focus - INFO - Focus: 8.28, 12.13, 8.08
+2014-09-07 18:32:08,924 - auto_focus.focus - INFO - Focus: 8.27, 12.12, 8.11
+2014-09-07 18:32:38,545 - auto_focus.focus - INFO - Focus: 8.26, 12.07, 7.95
+2014-09-07 18:33:26,045 - auto_focus.focus - INFO - Focus: 8.29, 12.06, 7.87
+2014-09-07 18:34:45,065 - auto_focus.focus - INFO - Focus: 8.32, 11.97, 7.87
+2014-09-07 18:34:54,026 - auto_focus.focus - INFO - Focus: 8.31, 12.00, 7.92
+2014-09-07 18:35:41,266 - auto_focus.focus - INFO - Focus: 8.26, 12.07, 8.01
+2014-09-07 18:35:49,426 - auto_focus.focus - INFO - Focus: 8.33, 12.06, 7.93
+2014-09-07 18:36:39,355 - auto_focus.focus - INFO - Focus: 8.32, 12.13, 7.96
+2014-09-07 18:37:34,266 - auto_focus.focus - INFO - Focus: 7.36, 18.46, 8.09
+2014-09-07 18:37:42,915 - auto_focus.focus - INFO - Focus: 7.35, 18.45, 8.06
+2014-09-07 18:38:45,986 - auto_focus.focus - INFO - Focus: 7.34, 18.48, 8.11
+2014-09-07 18:40:09,296 - auto_focus.focus - INFO - Focus: 7.37, 18.47, 8.08
+2014-09-07 18:44:51,415 - auto_focus.focus - INFO - Focus: 7.32, 18.46, 8.11
+2014-09-07 18:45:02,196 - auto_focus.focus - INFO - Focus: 7.31, 18.49, 8.03
+2014-09-07 18:46:35,066 - auto_focus.focus - INFO - Focus: 15.62, 14.78, 8.06
+2014-09-07 18:46:43,326 - auto_focus.focus - INFO - Focus: 15.57, 14.81, 8.06
+2014-09-07 18:56:26,522 - auto_focus.focus - INFO - Focus: 15.64, 14.84, 8.09
+2014-09-07 18:56:34,822 - auto_focus.focus - INFO - Focus: 15.67, 14.79, 8.62
+2014-09-07 18:56:45,391 - auto_focus.focus - INFO - Focus: 15.70, 14.86, 8.19
+2014-09-07 18:56:55,832 - auto_focus.focus - INFO - Focus: 15.65, 14.85, 8.11
+2014-09-07 18:57:05,322 - auto_focus.focus - INFO - Focus: 15.68, 14.84, 8.14
+2014-09-07 18:59:36,671 - auto_focus.focus - INFO - Focus: 11.83, 12.94, 8.14
+2014-09-07 19:02:53,673 - auto_focus.focus - INFO - Focus: 11.90, 12.93, 8.19
+2014-09-07 19:03:59,923 - auto_focus.focus - INFO - Focus: 11.81, 13.08, 7.68
+2014-09-07 19:04:08,443 - auto_focus.focus - INFO - Focus: 11.72, 13.03, 7.65

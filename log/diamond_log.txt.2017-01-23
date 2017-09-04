@@ -1,0 +1,1007 @@
+2017-01-23 09:19:10,651 - utility.stop - WARNING - Thread <StoppableThread(Temperature_Sensor17-01-20_18h18m10, started 101440)> failed to join after 10.0 s. Continuing anyway...
+2017-01-23 09:34:22,473 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-23 09:34:32,553 - emod.start - INFO - Starting Job Manager.
+2017-01-23 09:34:32,573 - cron.run - INFO - Starting Cron Daemon.
+2017-01-23 09:37:48,525 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x142D1090>, trait: set_power_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 111, in _set_power_button_fired
+    if R<=12:
+NameError: global name 'R' is not defined
+2017-01-23 09:38:51,085 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-23 09:38:52,845 - emod.start - INFO - Starting Job Manager.
+2017-01-23 09:38:52,845 - cron.run - INFO - Starting Cron Daemon.
+2017-01-23 17:58:02,839 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x1420E090>, trait: set_power_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 112, in _set_power_button_fired
+    power_supply._set_current(self.current)
+  File "D:\pi3diamondnew\hardware\coil.py", line 62, in _set_current
+    inverted = bool( int(self.visa.ask('INV?')) )
+ValueError: invalid literal for int() with base 10: '0;99.00;513 '
+2017-01-23 17:59:06,551 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x1420E090>, trait: set_power_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 112, in _set_power_button_fired
+    power_supply._set_current(self.current)
+  File "D:\pi3diamondnew\hardware\coil.py", line 62, in _set_current
+    inverted = bool( int(self.visa.ask('INV?')) )
+ValueError: invalid literal for int() with base 10: ''
+2017-01-23 17:59:19,359 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x1420E090>, trait: set_power_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 112, in _set_power_button_fired
+    power_supply._set_current(self.current)
+  File "D:\pi3diamondnew\hardware\coil.py", line 62, in _set_current
+    inverted = bool( int(self.visa.ask('INV?')) )
+ValueError: invalid literal for int() with base 10: ''
+2017-01-23 17:59:21,394 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x1420E090>, trait: set_power_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 112, in _set_power_button_fired
+    power_supply._set_current(self.current)
+  File "D:\pi3diamondnew\hardware\coil.py", line 62, in _set_current
+    inverted = bool( int(self.visa.ask('INV?')) )
+ValueError: invalid literal for int() with base 10: ''
+2017-01-23 18:00:32,536 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-23 18:00:41,671 - emod.start - INFO - Starting Job Manager.
+2017-01-23 18:00:41,696 - cron.run - INFO - Starting Cron Daemon.
+2017-01-24 09:25:37,782 - emod.submit - INFO - The job <hardware.temperature_sensor.Temperature_Sensor object at 0x140100F0> is already running or in the queue.
+2017-01-24 09:27:08,437 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-24 09:27:16,121 - emod.start - INFO - Starting Job Manager.
+2017-01-24 09:27:16,148 - cron.run - INFO - Starting Cron Daemon.
+2017-01-24 19:01:51,112 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-24 19:01:58,608 - emod.start - INFO - Starting Job Manager.
+2017-01-24 19:01:58,631 - cron.run - INFO - Starting Cron Daemon.
+2017-01-24 19:05:55,655 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-24 19:05:57,538 - emod.start - INFO - Starting Job Manager.
+2017-01-24 19:05:57,540 - cron.run - INFO - Starting Cron Daemon.
+2017-01-24 19:08:08,588 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-24 19:08:10,364 - emod.start - INFO - Starting Job Manager.
+2017-01-24 19:08:10,367 - cron.run - INFO - Starting Cron Daemon.
+2017-01-24 19:09:02,835 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x141E28D0>, trait: temperature, old value: [], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:09:15,658 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x141E28D0>, trait: temperature, old value: [ 27.  27.  27. ...,  35.  35.  35.], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:09:22,779 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x141E28D0>, trait: perform_fit, old value: False, new value: True
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:09:31,642 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x141E28D0>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:09:35,947 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x141E28D0>, trait: perform_fit, old value: False, new value: True
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:11:39,839 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-24 19:11:41,676 - emod.start - INFO - Starting Job Manager.
+2017-01-24 19:11:41,678 - cron.run - INFO - Starting Cron Daemon.
+2017-01-24 19:12:10,921 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x141C58A0>, trait: temperature, old value: [], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:12:19,108 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x141C58A0>, trait: temperature, old value: [ 27.  27.  27. ...,  35.  35.  35.], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:12:26,698 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x141C58A0>, trait: perform_fit, old value: False, new value: True
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:12:29,522 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x141C58A0>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:12:30,532 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x141C58A0>, trait: perform_fit, old value: False, new value: True
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:12:31,252 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x141C58A0>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:14:50,926 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-24 19:14:52,723 - emod.start - INFO - Starting Job Manager.
+2017-01-24 19:14:52,726 - cron.run - INFO - Starting Cron Daemon.
+2017-01-24 19:15:29,234 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x136B8960>, trait: temperature, old value: [], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:15:34,203 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x136B8960>, trait: temperature, old value: [ 27.  27.  27. ...,  35.  35.  35.], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:15:45,099 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x136B8960>, trait: perform_fit, old value: False, new value: True
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:15:54,721 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x136B8960>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:19:01,476 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-24 19:19:03,349 - emod.start - INFO - Starting Job Manager.
+2017-01-24 19:19:03,352 - cron.run - INFO - Starting Cron Daemon.
+2017-01-24 19:19:30,496 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14FC5960>, trait: temperature, old value: [], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:19:34,434 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14FC5960>, trait: temperature, old value: [ 27.  27.  27. ...,  35.  35.  35.], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:19:47,164 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14FC5960>, trait: fit_result, old value: (), new value: (array([ 44.38681804,   5.38243506,   2.88646952,  -8.79349124]), array([[  8.88446752e+10,  -1.07893595e+10,   1.19468262e+02,
+         -8.88446747e+10],
+       [ -1.07893595e+10,   1.31026737e+09,  -1.45124626e+01,
+          1.07893594e+10],
+       [  1.19468954e+02,  -1.45125471e+01,   6.81486604e-04,
+         -1.19468407e+02],
+       [ -8.88446747e+10,   1.07893594e+10,  -1.19467716e+02,
+          8.88446742e+10]]), 1.0, 1815.3616992804079)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-24 19:25:43,076 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-24 19:25:44,907 - emod.start - INFO - Starting Job Manager.
+2017-01-24 19:25:44,910 - cron.run - INFO - Starting Cron Daemon.
+2017-01-24 19:26:11,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14223960>, trait: temperature, old value: [], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:26:14,963 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14223960>, trait: temperature, old value: [ 27.  27.  27. ...,  35.  35.  35.], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:26:16,617 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14223960>, trait: perform_fit, old value: False, new value: True
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 126, in _perform_fit_changed
+    plot.plot(('vremya', 'fit'), style='line', color='red', name='fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 316, in plot
+    index = self._get_or_create_datasource(data[0])
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 940, in _get_or_create_datasource
+    str(type(data)))
+ValueError: Couldn't create datasource for data of type <type 'NoneType'>
+2017-01-24 19:26:16,700 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14223960>, trait: fit_result, old value: (), new value: (array([ 42.01453877,   5.68634536,   2.88646948,  -6.421212  ]), array([[  3.08181540e+12,  -4.17712409e+11,   4.08321533e+02,
+         -3.08181544e+12],
+       [ -4.17712409e+11,   5.66171668e+10,  -5.53487244e+01,
+          4.17712415e+11],
+       [  4.08339640e+02,  -5.53511604e+01,   6.81380003e-04,
+         -4.08339100e+02],
+       [ -3.08181544e+12,   4.17712415e+11,  -4.08321167e+02,
+          3.08181549e+12]]), 1.0, 1815.3616992792249)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-24 19:26:25,161 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14223960>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 128, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-01-24 19:26:25,167 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14223960>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:26:25,825 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14223960>, trait: perform_fit, old value: False, new value: True
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 126, in _perform_fit_changed
+    plot.plot(('vremya', 'fit'), style='line', color='red', name='fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 316, in plot
+    index = self._get_or_create_datasource(data[0])
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 940, in _get_or_create_datasource
+    str(type(data)))
+ValueError: Couldn't create datasource for data of type <type 'NoneType'>
+2017-01-24 19:26:25,898 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14223960>, trait: fit_result, old value: (array([ 42.01453877,   5.68634536,   2.88646948,  -6.421212  ]), array([[  3.08181540e+12,  -4.17712409e+11,   4.08321533e+02,
+         -3.08181544e+12],
+       [ -4.17712409e+11,   5.66171668e+10,  -5.53487244e+01,
+          4.17712415e+11],
+       [  4.08339640e+02,  -5.53511604e+01,   6.81380003e-04,
+         -4.08339100e+02],
+       [ -3.08181544e+12,   4.17712415e+11,  -4.08321167e+02,
+          3.08181549e+12]]), 1.0, 1815.3616992792249), new value: (array([ 41.86895158,   5.70611821,   2.88646945,  -6.27562484]), array([[  9.19614116e+10,  -1.25146144e+10,  -1.08066746e+02,
+         -9.19614126e+10],
+       [ -1.25146144e+10,   1.70305752e+09,   1.47019191e+01,
+          1.25146145e+10],
+       [ -1.08066969e+02,   1.47019500e+01,   6.81452731e-04,
+          1.08067516e+02],
+       [ -9.19614126e+10,   1.25146145e+10,   1.08067295e+02,
+          9.19614137e+10]]), 1.0, 1815.3616992790712)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-24 19:27:16,660 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-24 19:27:18,421 - emod.start - INFO - Starting Job Manager.
+2017-01-24 19:27:18,424 - cron.run - INFO - Starting Cron Daemon.
+2017-01-24 19:27:44,621 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: temperature, old value: [], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:27:47,819 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: temperature, old value: [ 27.  27.  27. ...,  35.  35.  35.], new value: [ 27.  27.  27. ...,  35.  35.  35.]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:27:48,894 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: fit_result, old value: (), new value: (array([ 45.64277541,   5.23432711,   2.88646933, -10.04944876]), array([[ -1.00335713e+12,   1.14895366e+11,  -1.85464447e+02,
+          1.00335710e+12],
+       [  1.14895366e+11,  -1.31567760e+10,   2.12336769e+01,
+         -1.14895362e+11],
+       [ -1.85447687e+02,   2.12317550e+01,   6.81292464e-04,
+          1.85448227e+02],
+       [  1.00335710e+12,  -1.14895362e+11,   1.85464996e+02,
+         -1.00335707e+12]]), 1.0, 1815.3616992812601)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-24 19:27:55,026 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:27:55,895 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: fit_result, old value: (array([ 45.64277541,   5.23432711,   2.88646933, -10.04944876]), array([[ -1.00335713e+12,   1.14895366e+11,  -1.85464447e+02,
+          1.00335710e+12],
+       [  1.14895366e+11,  -1.31567760e+10,   2.12336769e+01,
+         -1.14895362e+11],
+       [ -1.85447687e+02,   2.12317550e+01,   6.81292464e-04,
+          1.85448227e+02],
+       [  1.00335710e+12,  -1.14895362e+11,   1.85464996e+02,
+         -1.00335707e+12]]), 1.0, 1815.3616992812601), new value: (array([ 45.64277541,   5.23432711,   2.88646933, -10.04944876]), array([[ -1.00335713e+12,   1.14895366e+11,  -1.85464447e+02,
+          1.00335710e+12],
+       [  1.14895366e+11,  -1.31567760e+10,   2.12336769e+01,
+         -1.14895362e+11],
+       [ -1.85447687e+02,   2.12317550e+01,   6.81292464e-04,
+          1.85448227e+02],
+       [  1.00335710e+12,  -1.14895362e+11,   1.85464996e+02,
+         -1.00335707e+12]]), 1.0, 1815.3616992812601)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-24 19:29:21,332 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-24 19:29:23,579 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: fit_result, old value: (array([ 45.64277541,   5.23432711,   2.88646933, -10.04944876]), array([[ -1.00335713e+12,   1.14895366e+11,  -1.85464447e+02,
+          1.00335710e+12],
+       [  1.14895366e+11,  -1.31567760e+10,   2.12336769e+01,
+         -1.14895362e+11],
+       [ -1.85447687e+02,   2.12317550e+01,   6.81292464e-04,
+          1.85448227e+02],
+       [  1.00335710e+12,  -1.14895362e+11,   1.85464996e+02,
+         -1.00335707e+12]]), 1.0, 1815.3616992812601), new value: (array([ 44.38681804,   5.38243506,   2.88646952,  -8.79349124]), array([[  8.88446752e+10,  -1.07893595e+10,   1.19468262e+02,
+         -8.88446747e+10],
+       [ -1.07893595e+10,   1.31026737e+09,  -1.45124626e+01,
+          1.07893594e+10],
+       [  1.19468954e+02,  -1.45125471e+01,   6.81486604e-04,
+         -1.19468407e+02],
+       [ -8.88446747e+10,   1.07893594e+10,  -1.19467716e+02,
+          8.88446742e+10]]), 1.0, 1815.3616992804098)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-25 14:16:24,921 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: fit_result, old value: (array([ 44.38681804,   5.38243506,   2.88646952,  -8.79349124]), array([[  8.88446752e+10,  -1.07893595e+10,   1.19468262e+02,
+         -8.88446747e+10],
+       [ -1.07893595e+10,   1.31026737e+09,  -1.45124626e+01,
+          1.07893594e+10],
+       [  1.19468954e+02,  -1.45125471e+01,   6.81486604e-04,
+         -1.19468407e+02],
+       [ -8.88446747e+10,   1.07893594e+10,  -1.19467716e+02,
+          8.88446742e+10]]), 1.0, 1815.3616992804098), new value: (array([ 36.17294629,   6.55312913,   2.89296148,  -0.57858424]), array([[  3.60284186e+11,  -6.52694616e+10,  -2.86130661e+02,
+         -3.60284218e+11],
+       [ -6.52694616e+10,   1.18242842e+10,   5.18306656e+01,
+          6.52694674e+10],
+       [ -2.86127989e+02,   5.18301801e+01,   6.86721243e-04,
+          2.86128565e+02],
+       [ -3.60284218e+11,   6.52694674e+10,   2.86131226e+02,
+          3.60284250e+11]]), 1.0, 1915.3351840051241)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-25 14:16:25,644 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: fit_result, old value: (array([ 36.17294629,   6.55312913,   2.89296148,  -0.57858424]), array([[  3.60284186e+11,  -6.52694616e+10,  -2.86130661e+02,
+         -3.60284218e+11],
+       [ -6.52694616e+10,   1.18242842e+10,   5.18306656e+01,
+          6.52694674e+10],
+       [ -2.86127989e+02,   5.18301801e+01,   6.86721243e-04,
+          2.86128565e+02],
+       [ -3.60284218e+11,   6.52694674e+10,   2.86131226e+02,
+          3.60284250e+11]]), 1.0, 1915.3351840051241), new value: (array([ 36.17294629,   6.55312913,   2.89296148,  -0.57858424]), array([[  3.60284186e+11,  -6.52694616e+10,  -2.86130661e+02,
+         -3.60284218e+11],
+       [ -6.52694616e+10,   1.18242842e+10,   5.18306656e+01,
+          6.52694674e+10],
+       [ -2.86127989e+02,   5.18301801e+01,   6.86721243e-04,
+          2.86128565e+02],
+       [ -3.60284218e+11,   6.52694674e+10,   2.86131226e+02,
+          3.60284250e+11]]), 1.0, 1915.3351840051241)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-25 14:16:25,747 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: fit_result, old value: (array([ 36.17294629,   6.55312913,   2.89296148,  -0.57858424]), array([[  3.60284186e+11,  -6.52694616e+10,  -2.86130661e+02,
+         -3.60284218e+11],
+       [ -6.52694616e+10,   1.18242842e+10,   5.18306656e+01,
+          6.52694674e+10],
+       [ -2.86127989e+02,   5.18301801e+01,   6.86721243e-04,
+          2.86128565e+02],
+       [ -3.60284218e+11,   6.52694674e+10,   2.86131226e+02,
+          3.60284250e+11]]), 1.0, 1915.3351840051241), new value: (array([ 36.17294629,   6.55312913,   2.89296148,  -0.57858424]), array([[  3.60284186e+11,  -6.52694616e+10,  -2.86130661e+02,
+         -3.60284218e+11],
+       [ -6.52694616e+10,   1.18242842e+10,   5.18306656e+01,
+          6.52694674e+10],
+       [ -2.86127989e+02,   5.18301801e+01,   6.86721243e-04,
+          2.86128565e+02],
+       [ -3.60284218e+11,   6.52694674e+10,   2.86131226e+02,
+          3.60284250e+11]]), 1.0, 1915.3351840051241)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-25 14:16:26,056 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: fit_result, old value: (array([ 36.17294629,   6.55312913,   2.89296148,  -0.57858424]), array([[  3.60284186e+11,  -6.52694616e+10,  -2.86130661e+02,
+         -3.60284218e+11],
+       [ -6.52694616e+10,   1.18242842e+10,   5.18306656e+01,
+          6.52694674e+10],
+       [ -2.86127989e+02,   5.18301801e+01,   6.86721243e-04,
+          2.86128565e+02],
+       [ -3.60284218e+11,   6.52694674e+10,   2.86131226e+02,
+          3.60284250e+11]]), 1.0, 1915.3351840051241), new value: (array([ 36.17294629,   6.55312913,   2.89296148,  -0.57858424]), array([[  3.60284186e+11,  -6.52694616e+10,  -2.86130661e+02,
+         -3.60284218e+11],
+       [ -6.52694616e+10,   1.18242842e+10,   5.18306656e+01,
+          6.52694674e+10],
+       [ -2.86127989e+02,   5.18301801e+01,   6.86721243e-04,
+          2.86128565e+02],
+       [ -3.60284218e+11,   6.52694674e+10,   2.86131226e+02,
+          3.60284250e+11]]), 1.0, 1915.3351840051241)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-25 14:16:26,283 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: fit_result, old value: (array([ 36.17294629,   6.55312913,   2.89296148,  -0.57858424]), array([[  3.60284186e+11,  -6.52694616e+10,  -2.86130661e+02,
+         -3.60284218e+11],
+       [ -6.52694616e+10,   1.18242842e+10,   5.18306656e+01,
+          6.52694674e+10],
+       [ -2.86127989e+02,   5.18301801e+01,   6.86721243e-04,
+          2.86128565e+02],
+       [ -3.60284218e+11,   6.52694674e+10,   2.86131226e+02,
+          3.60284250e+11]]), 1.0, 1915.3351840051241), new value: (array([ 36.17294629,   6.55312913,   2.89296148,  -0.57858424]), array([[  3.60284186e+11,  -6.52694616e+10,  -2.86130661e+02,
+         -3.60284218e+11],
+       [ -6.52694616e+10,   1.18242842e+10,   5.18306656e+01,
+          6.52694674e+10],
+       [ -2.86127989e+02,   5.18301801e+01,   6.86721243e-04,
+          2.86128565e+02],
+       [ -3.60284218e+11,   6.52694674e+10,   2.86131226e+02,
+          3.60284250e+11]]), 1.0, 1915.3351840051241)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-25 14:16:26,759 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: fit_result, old value: (array([ 36.17294629,   6.55312913,   2.89296148,  -0.57858424]), array([[  3.60284186e+11,  -6.52694616e+10,  -2.86130661e+02,
+         -3.60284218e+11],
+       [ -6.52694616e+10,   1.18242842e+10,   5.18306656e+01,
+          6.52694674e+10],
+       [ -2.86127989e+02,   5.18301801e+01,   6.86721243e-04,
+          2.86128565e+02],
+       [ -3.60284218e+11,   6.52694674e+10,   2.86131226e+02,
+          3.60284250e+11]]), 1.0, 1915.3351840051241), new value: (array([ 36.17294629,   6.55312913,   2.89296148,  -0.57858424]), array([[  3.60284186e+11,  -6.52694616e+10,  -2.86130661e+02,
+         -3.60284218e+11],
+       [ -6.52694616e+10,   1.18242842e+10,   5.18306656e+01,
+          6.52694674e+10],
+       [ -2.86127989e+02,   5.18301801e+01,   6.86721243e-04,
+          2.86128565e+02],
+       [ -3.60284218e+11,   6.52694674e+10,   2.86131226e+02,
+          3.60284250e+11]]), 1.0, 1915.3351840051241)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 144, in _update_plot_fit
+    if not np.isnan(self.fit_result[0]):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2017-01-25 14:16:34,098 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <hardware.temperature_sensor.Temperature_Sensor object at 0x14212960>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\hardware\temperature_sensor.py", line 141, in _update_fit
+    self.fit_result = p
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a Temperature_Sensor instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-01-25 16:40:29,375 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-25 16:40:31,813 - emod.start - INFO - Starting Job Manager.
+2017-01-25 16:40:31,816 - cron.run - INFO - Starting Cron Daemon.
+2017-01-25 17:22:15,997 - auto_focus.focus - INFO - Focus: 28.86, 1.85, -3.33
+2017-01-25 17:22:24,957 - auto_focus.focus - INFO - Focus: 28.76, 1.85, -3.36
+2017-01-25 17:22:33,910 - auto_focus.focus - INFO - Focus: 28.76, 1.85, -3.39
+2017-01-25 17:23:21,341 - auto_focus.focus - INFO - Focus: 28.76, 1.75, -3.66
+2017-01-25 17:25:39,891 - auto_focus.focus - INFO - Focus: 28.76, 1.75, -3.47
+2017-01-25 17:26:21,075 - auto_focus.focus - INFO - Focus: 33.56, 6.55, -3.02
+2017-01-25 17:26:30,013 - auto_focus.focus - INFO - Focus: 33.76, 6.45, -2.91
+2017-01-25 17:26:41,926 - auto_focus.focus - INFO - Focus: 29.16, 6.38, -2.91
+2017-01-25 17:26:53,299 - auto_focus.focus - INFO - Focus: 19.50, 5.88, -2.86
+2017-01-25 17:27:02,470 - auto_focus.focus - INFO - Focus: 19.50, 5.98, -2.83
+2017-01-25 17:27:15,542 - auto_focus.focus - INFO - Focus: 19.50, 5.98, -2.70
+2017-01-25 17:27:59,352 - auto_focus.focus - INFO - Focus: 19.50, 5.98, -2.57
+2017-01-25 17:29:16,806 - auto_focus.focus - INFO - Focus: 19.40, 5.88, -2.54
+2017-01-25 17:29:26,789 - auto_focus.focus - INFO - Focus: 19.50, 5.98, -2.41
+2017-01-25 17:40:04,778 - auto_focus.focus - INFO - Focus: 38.75, 11.75, -1.82
+2017-01-25 17:40:13,509 - auto_focus.focus - INFO - Focus: 38.85, 11.55, -1.29
+2017-01-25 17:40:24,072 - auto_focus.focus - INFO - Focus: 38.75, 11.55, -1.26
+2017-01-25 17:40:37,849 - auto_focus.focus - INFO - Focus: 43.13, 16.59, -1.82
+2017-01-25 17:40:47,108 - auto_focus.focus - INFO - Focus: 43.33, 16.99, -2.22
+2017-01-25 17:40:56,000 - auto_focus.focus - INFO - Focus: 43.33, 16.99, -2.46
+2017-01-25 17:41:07,479 - auto_focus.focus - INFO - Focus: 38.50, 11.80, -1.87
+2017-01-25 17:41:16,601 - auto_focus.focus - INFO - Focus: 38.80, 11.60, -1.50
+2017-01-25 17:41:26,957 - auto_focus.focus - INFO - Focus: 38.80, 11.60, -1.37
+2017-01-25 17:41:38,286 - auto_focus.focus - INFO - Focus: 38.70, 11.50, -1.02
+2017-01-25 17:41:48,747 - auto_focus.focus - INFO - Focus: 38.70, 11.50, -0.99
+2017-01-25 18:10:25,451 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-25 18:10:27,842 - emod.start - INFO - Starting Job Manager.
+2017-01-25 18:10:27,845 - cron.run - INFO - Starting Cron Daemon.
+2017-01-25 18:12:01,365 - auto_focus.focus - INFO - Focus: 23.53, 32.23, -0.99
+2017-01-25 18:12:12,819 - auto_focus.focus - INFO - Focus: 23.93, 31.33, -1.47
+2017-01-25 18:12:22,900 - auto_focus.focus - INFO - Focus: 24.03, 31.33, -1.26
+2017-01-26 09:55:54,025 - auto_focus.focus - INFO - Focus: 23.63, 31.73, -1.34
+2017-01-26 09:56:02,460 - auto_focus.focus - INFO - Focus: 23.83, 31.03, -1.34
+2017-01-26 09:57:40,461 - auto_focus.focus - INFO - Focus: 38.74, 10.00, -0.24
+2017-01-26 09:57:54,332 - auto_focus.focus - INFO - Focus: 38.84, 10.40, -0.05
+2017-01-26 09:58:09,316 - auto_focus.focus - INFO - Focus: 38.94, 10.20, 0.08
+2017-01-26 09:58:23,733 - auto_focus.focus - INFO - Focus: 38.94, 10.20, 0.05
+2017-01-26 10:01:29,328 - auto_focus.focus - INFO - Focus: 38.64, 15.68, 0.72
+2017-01-26 10:01:40,831 - auto_focus.focus - INFO - Focus: 38.44, 15.88, 1.23
+2017-01-26 10:01:49,868 - auto_focus.focus - INFO - Focus: 38.64, 15.68, 0.91
+2017-01-26 10:12:12,900 - auto_focus.focus - INFO - Focus: 39.20, 5.28, 0.05
+2017-01-26 10:12:22,359 - auto_focus.focus - INFO - Focus: 39.60, 5.68, -0.19
+2017-01-26 10:12:31,206 - auto_focus.focus - INFO - Focus: 40.00, 5.88, 0.42
+2017-01-26 10:20:48,242 - auto_focus.focus - INFO - Focus: 39.50, 5.38, 0.42
+2017-01-26 10:21:04,029 - auto_focus.focus - INFO - Focus: 39.55, 10.60, 0.42
+2017-01-26 10:21:12,842 - auto_focus.focus - INFO - Focus: 39.45, 10.70, 0.47
+2017-01-26 12:32:23,357 - auto_focus.focus - INFO - Focus: 30.40, 7.99, 0.07
+2017-01-26 12:32:32,355 - auto_focus.focus - INFO - Focus: 30.30, 7.99, -0.09
+2017-01-26 12:32:42,865 - auto_focus.focus - INFO - Focus: 30.30, 7.99, -0.49
+2017-01-26 12:32:56,203 - auto_focus.focus - INFO - Focus: 30.30, 7.99, -0.52
+2017-01-26 12:33:07,601 - auto_focus.focus - INFO - Focus: 44.67, 3.82, -0.52
+2017-01-26 12:33:20,586 - auto_focus.focus - INFO - Focus: 44.77, 3.62, -0.63
+2017-01-26 12:46:07,908 - auto_focus.focus - INFO - Focus: 25.13, 17.59, -0.63
+2017-01-26 12:46:16,762 - auto_focus.focus - INFO - Focus: 24.93, 17.89, -0.87
+2017-01-26 12:46:25,177 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C785600> is already running or in the queue.
+2017-01-26 12:46:25,710 - auto_focus.focus - INFO - Focus: 25.33, 17.79, -0.95
+2017-01-26 12:46:34,638 - auto_focus.focus - INFO - Focus: 25.03, 18.19, -1.35
+2017-01-26 12:46:46,970 - auto_focus.focus - INFO - Focus: 24.92, 22.82, -0.95
+2017-01-26 12:46:54,305 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C785600> is already running or in the queue.
+2017-01-26 12:46:55,825 - auto_focus.focus - INFO - Focus: 24.72, 23.22, -1.35
+2017-01-26 12:47:04,438 - auto_focus.focus - INFO - Focus: 24.62, 23.52, -1.35
+2017-01-26 12:47:14,063 - auto_focus.focus - INFO - Focus: 24.82, 23.52, -0.74
+2017-01-26 12:47:24,736 - auto_focus.focus - INFO - Focus: 24.42, 23.62, -0.74
+2017-01-26 12:47:45,030 - auto_focus.focus - INFO - Focus: 9.75, 22.36, -0.74
+2017-01-26 12:47:50,457 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C785600> is already running or in the queue.
+2017-01-26 12:47:53,918 - auto_focus.focus - INFO - Focus: 9.95, 22.76, -0.82
+2017-01-26 12:48:02,753 - auto_focus.focus - INFO - Focus: 9.45, 22.96, -0.82
+2017-01-26 12:48:11,417 - auto_focus.focus - INFO - Focus: 9.45, 23.06, -0.82
+2017-01-26 12:48:20,312 - auto_focus.focus - INFO - Focus: 9.75, 22.86, -1.01
+2017-01-26 12:48:29,154 - auto_focus.focus - INFO - Focus: 9.75, 22.36, -1.01
+2017-01-26 13:29:55,012 - auto_focus.focus - INFO - Focus: 43.76, 22.56, -0.26
+2017-01-26 14:16:54,762 - auto_focus.focus - INFO - Focus: 38.10, 37.09, -1.01
+2017-01-26 14:17:04,701 - auto_focus.focus - INFO - Focus: 38.70, 37.99, -1.73
+2017-01-26 14:17:13,441 - auto_focus.focus - INFO - Focus: 38.50, 37.89, -1.89
+2017-01-26 14:17:22,742 - auto_focus.focus - INFO - Focus: 38.60, 37.89, -1.68
+2017-01-26 14:20:58,520 - auto_focus.focus - INFO - Focus: 38.50, 37.79, -1.76
+2017-01-26 14:21:18,030 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C9C2300>, trait: get_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xba in position 0: ordinal not in range(128)
+2017-01-26 14:23:36,230 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C9C2300>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-01-26 14:27:11,974 - auto_focus.focus - INFO - Focus: 38.60, 37.79, -1.71
+2017-01-26 14:29:55,732 - auto_focus.focus - INFO - Focus: 38.60, 37.79, -1.74
+2017-01-26 14:32:15,982 - auto_focus.focus - INFO - Focus: 38.60, 37.79, -1.93
+2017-01-26 14:34:22,792 - auto_focus.focus - INFO - Focus: 38.50, 37.79, -1.82
+2017-01-26 14:40:04,842 - auto_focus.focus - INFO - Focus: 38.60, 38.19, -1.85
+2017-01-26 14:44:23,882 - auto_focus.focus - INFO - Focus: 38.60, 37.79, -1.88
+2017-01-26 14:45:33,270 - auto_focus.focus - INFO - Focus: 38.50, 37.79, -2.04
+2017-01-26 14:47:06,345 - auto_focus.focus - INFO - Focus: 38.60, 37.79, -1.83
+2017-01-26 14:52:09,405 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-26 14:52:20,016 - emod.start - INFO - Starting Job Manager.
+2017-01-26 14:52:20,046 - cron.run - INFO - Starting Cron Daemon.
+2017-01-26 14:57:02,447 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-26 14:57:04,858 - emod.start - INFO - Starting Job Manager.
+2017-01-26 14:57:04,868 - cron.run - INFO - Starting Cron Daemon.
+2017-01-26 14:58:04,918 - auto_focus.focus - INFO - Focus: 38.60, 37.89, -1.80
+2017-01-26 15:02:50,289 - auto_focus.focus - INFO - Focus: 38.70, 37.89, -1.77
+2017-01-26 15:02:54,009 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C016300>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-01-26 15:08:11,378 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-01-26 15:13:30,538 - auto_focus.focus - INFO - Focus: 38.60, 37.89, -1.93
+2017-01-26 15:15:32,049 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb1 in position 0: ordinal not in range(128)
+2017-01-26 15:20:43,249 - auto_focus.focus - INFO - Focus: 38.60, 37.89, -1.96
+2017-01-26 15:23:33,582 - auto_focus.focus - INFO - Focus: 38.60, 37.89, -1.91
+2017-01-26 15:28:23,986 - auto_focus.focus - INFO - Focus: 38.60, 37.89, -2.02
+2017-01-26 15:32:29,335 - auto_focus.focus - INFO - Focus: 38.60, 37.89, -1.89
+2017-01-26 15:38:22,479 - auto_focus.focus - INFO - Focus: 38.60, 37.89, -1.92
+2017-01-26 15:38:55,888 - auto_focus.focus - INFO - Focus: 38.50, 37.89, -1.89
+2017-01-26 15:39:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BDBA600>> at time 2017-01-26 15:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BDBA600>>.
+2017-01-26 15:39:11,569 - auto_focus.focus - INFO - Focus: 38.50, 37.89, -1.92
+2017-01-26 15:39:45,359 - auto_focus.focus - INFO - Focus: 38.50, 37.89, -1.89
+2017-01-26 15:41:23,150 - auto_focus.focus - INFO - Focus: 38.60, 37.89, -1.84
+2017-01-26 15:45:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BDBA600>> at time 2017-01-26 15:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BDBA600>>.
+2017-01-26 15:45:43,562 - auto_focus.focus - INFO - Focus: 38.50, 37.89, -1.92
+2017-01-26 15:48:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BDBA600>> at time 2017-01-26 15:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BDBA600>>.
+2017-01-26 15:48:09,802 - auto_focus.focus - INFO - Focus: 38.50, 37.89, -1.71
+2017-01-26 16:24:45,062 - auto_focus.focus - INFO - Focus: 24.59, 37.77, -1.68
+2017-01-26 16:25:30,355 - auto_focus.focus - INFO - Focus: 24.59, 37.77, -1.92
+2017-01-26 16:30:43,749 - auto_focus.focus - INFO - Focus: 24.59, 37.67, -1.55
+2017-01-26 16:33:09,122 - auto_focus.focus - INFO - Focus: 24.59, 37.67, -1.58
+2017-01-26 16:39:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BDBA600>> at time 2017-01-26 16:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BDBA600>>.
+2017-01-26 16:39:08,411 - auto_focus.focus - INFO - Focus: 24.59, 37.77, -1.82
+2017-01-26 16:39:56,017 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 126, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 206, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 153, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.COTask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2017-01-26 16:40:01,497 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 126, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 206, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 154, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.CITask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2017-01-26 16:43:23,477 - pi3diamond.<module> - INFO - Starting logger.
+2017-01-26 16:43:29,197 - emod.start - INFO - Starting Job Manager.
+2017-01-26 16:43:29,217 - cron.run - INFO - Starting Cron Daemon.
+2017-01-26 16:45:36,920 - auto_focus.focus - INFO - Focus: 24.19, 37.87, -1.67
+2017-01-26 16:45:45,092 - auto_focus.focus - INFO - Focus: 24.59, 37.77, -1.67
+2017-01-26 16:47:18,506 - auto_focus.focus - INFO - Focus: 24.59, 37.77, -1.67
+2017-01-26 16:48:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-26 16:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-26 16:48:04,355 - auto_focus.focus - INFO - Focus: 24.59, 37.77, -1.52
+2017-01-26 16:48:46,157 - auto_focus.focus - INFO - Focus: 24.59, 37.77, -1.67
+2017-01-26 16:51:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-26 16:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-26 16:51:04,405 - auto_focus.focus - INFO - Focus: 24.59, 37.77, -1.67
+2017-01-26 16:54:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-26 16:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-26 16:54:05,769 - auto_focus.focus - INFO - Focus: 24.59, 37.77, -1.52
+2017-01-26 16:57:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-26 16:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-26 16:57:05,736 - auto_focus.focus - INFO - Focus: 24.49, 37.67, -1.37
+2017-01-26 16:58:13,655 - auto_focus.focus - INFO - Focus: 24.69, 32.81, -1.37
+2017-01-26 16:58:22,135 - auto_focus.focus - INFO - Focus: 24.69, 32.81, -1.37
+2017-01-26 16:58:29,865 - auto_focus.focus - INFO - Focus: 24.59, 32.71, -1.37
+2017-01-26 19:08:58,516 - auto_focus.focus - INFO - Focus: 24.97, 4.46, 5.42
+2017-01-26 19:09:10,897 - auto_focus.focus - INFO - Focus: 24.97, 4.46, 5.57
+2017-01-26 19:09:16,256 - auto_focus.focus - INFO - Focus: 24.97, 4.46, 5.87
+2017-01-26 19:09:22,016 - auto_focus.focus - INFO - Focus: 24.97, 4.36, 6.17
+2017-01-26 19:09:40,236 - auto_focus.focus - INFO - Focus: 24.97, 4.36, 5.81
+2017-01-26 19:09:47,016 - auto_focus.focus - INFO - Focus: 24.97, 4.36, 5.82
+2017-01-26 19:11:53,036 - auto_focus.focus - INFO - Focus: 30.67, 2.58, 6.09
+2017-01-26 19:12:00,086 - auto_focus.focus - INFO - Focus: 30.67, 2.58, 6.22
+2017-01-27 09:52:03,920 - auto_focus.focus - INFO - Focus: 15.33, 20.30, 6.70
+2017-01-27 09:52:09,710 - auto_focus.focus - INFO - Focus: 15.13, 20.50, 6.70
+2017-01-27 14:39:21,948 - auto_focus.focus - INFO - Focus: 39.10, 16.39, 6.27
+2017-01-27 14:39:28,078 - auto_focus.focus - INFO - Focus: 39.00, 16.39, 5.84
+2017-01-27 14:39:33,588 - auto_focus.focus - INFO - Focus: 39.00, 16.39, 5.97
+2017-01-27 14:39:38,969 - auto_focus.focus - INFO - Focus: 39.00, 16.39, 5.96
+2017-01-27 14:39:47,928 - auto_focus.focus - INFO - Focus: 39.00, 16.29, 6.09
+2017-01-27 14:39:53,918 - auto_focus.focus - INFO - Focus: 39.00, 16.39, 5.59
+2017-01-27 14:49:40,880 - auto_focus.focus - INFO - Focus: 10.10, 36.49, 5.38
+2017-01-27 14:50:06,670 - auto_focus.focus - INFO - Focus: 39.10, 16.32, 5.65
+2017-01-27 14:50:15,480 - auto_focus.focus - INFO - Focus: 39.10, 16.32, 5.66
+2017-01-27 14:50:23,589 - auto_focus.focus - INFO - Focus: 39.10, 16.32, 5.79
+2017-01-27 14:52:52,617 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0B7622D0>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-01-27 14:52:58,831 - auto_focus.focus - INFO - Focus: 39.10, 16.32, 6.20
+2017-01-27 14:54:19,957 - auto_focus.focus - INFO - Focus: 39.10, 16.32, 5.92
+2017-01-27 14:54:29,683 - auto_focus.focus - INFO - Focus: 10.25, 26.57, 5.63
+2017-01-27 14:54:39,384 - auto_focus.focus - INFO - Focus: 24.74, 10.93, 5.14
+2017-01-27 14:54:45,496 - auto_focus.focus - INFO - Focus: 24.74, 10.83, 4.99
+2017-01-27 14:54:55,286 - auto_focus.focus - INFO - Focus: 24.74, 10.73, 4.49
+2017-01-27 14:55:02,036 - auto_focus.focus - INFO - Focus: 24.84, 10.73, 4.34
+2017-01-27 14:55:08,200 - auto_focus.focus - INFO - Focus: 24.84, 10.73, 4.33
+2017-01-27 14:57:14,440 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0B7622D0>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-01-27 14:57:20,576 - auto_focus.focus - INFO - Focus: 24.84, 10.73, 4.46
+2017-01-27 14:59:05,801 - auto_focus.focus - INFO - Focus: 24.84, 10.63, 4.45
+2017-01-27 15:01:11,404 - auto_focus.focus - INFO - Focus: 24.84, 10.63, 4.44
+2017-01-27 15:04:27,430 - auto_focus.focus - INFO - Focus: 24.84, 10.63, 4.50
+2017-01-27 15:08:36,931 - auto_focus.focus - INFO - Focus: 24.84, 10.63, 4.56
+2017-01-27 15:12:49,568 - auto_focus.focus - INFO - Focus: 24.84, 10.63, 4.83
+2017-01-27 15:12:59,727 - auto_focus.focus - INFO - Focus: 24.74, 10.63, 4.84
+2017-01-27 15:15:54,227 - auto_focus.focus - INFO - Focus: 24.74, 10.63, 4.85
+2017-01-27 15:17:55,757 - auto_focus.focus - INFO - Focus: 24.74, 10.63, 5.00
+2017-01-27 15:26:27,355 - auto_focus.focus - INFO - Focus: 10.00, 36.09, 4.51
+2017-01-27 15:26:33,825 - auto_focus.focus - INFO - Focus: 10.00, 36.09, 4.29
+2017-01-27 15:27:28,816 - auto_focus.focus - INFO - Focus: 9.90, 36.09, 4.30
+2017-01-27 15:27:50,826 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-01-27 15:29:24,838 - auto_focus.focus - INFO - Focus: 10.00, 36.09, 4.51
+2017-01-27 15:30:51,309 - auto_focus.focus - INFO - Focus: 10.00, 36.09, 4.59
+2017-01-27 15:32:08,710 - auto_focus.focus - INFO - Focus: 10.00, 36.09, 4.65
+2017-01-27 15:33:23,720 - auto_focus.focus - INFO - Focus: 9.90, 36.09, 4.30
+2017-01-27 15:34:59,869 - auto_focus.focus - INFO - Focus: 9.90, 36.09, 4.36
+2017-01-27 15:39:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-27 15:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-27 15:39:06,369 - auto_focus.focus - INFO - Focus: 9.90, 36.09, 4.63
+2017-01-27 15:42:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-27 15:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-27 15:42:06,401 - auto_focus.focus - INFO - Focus: 9.80, 36.09, 4.85
+2017-01-27 15:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-27 15:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-27 15:45:06,417 - auto_focus.focus - INFO - Focus: 9.80, 36.09, 4.93
+2017-01-27 15:48:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-27 15:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-27 15:48:06,371 - auto_focus.focus - INFO - Focus: 9.80, 36.09, 4.94
+2017-01-27 15:51:34,503 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-27 15:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-27 15:51:39,443 - auto_focus.focus - INFO - Focus: 9.90, 35.99, 5.02
+2017-01-27 15:54:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-27 15:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-27 15:54:05,039 - auto_focus.focus - INFO - Focus: 9.90, 35.99, 4.73
+2017-01-27 15:57:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-27 15:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-27 15:57:05,069 - auto_focus.focus - INFO - Focus: 9.80, 36.09, 4.65
+2017-01-27 15:58:35,910 - auto_focus.focus - INFO - Focus: 14.91, 36.07, 4.87
+2017-01-27 15:58:46,329 - auto_focus.focus - INFO - Focus: 24.16, 36.62, 4.37
+2017-01-27 15:58:53,900 - auto_focus.focus - INFO - Focus: 24.16, 36.52, 4.36
+2017-01-27 15:59:17,440 - auto_focus.focus - INFO - Focus: 28.95, 36.24, 4.63
+2017-01-27 15:59:26,440 - auto_focus.focus - INFO - Focus: 29.05, 36.24, 4.78
+2017-01-27 15:59:52,069 - auto_focus.focus - INFO - Focus: 38.30, 36.67, 4.28
+2017-01-27 15:59:57,539 - auto_focus.focus - INFO - Focus: 38.40, 36.77, 4.27
+2017-01-27 16:00:22,359 - auto_focus.focus - INFO - Focus: 0.38, 30.95, 4.40
+2017-01-27 16:00:29,369 - auto_focus.focus - INFO - Focus: 0.30, 30.95, 4.32
+2017-01-27 16:00:53,509 - auto_focus.focus - INFO - Focus: 5.26, 30.78, 4.40
+2017-01-27 16:00:59,789 - auto_focus.focus - INFO - Focus: 5.26, 30.78, 4.69
+2017-01-27 16:01:06,230 - auto_focus.focus - INFO - Focus: 5.26, 30.78, 4.61
+2017-01-27 16:04:19,911 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0B7622D0>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-01-27 16:04:26,592 - auto_focus.focus - INFO - Focus: 5.26, 30.78, 4.60
+2017-01-27 16:05:54,881 - auto_focus.focus - INFO - Focus: 5.26, 30.78, 4.52
+2017-01-27 16:07:25,982 - auto_focus.focus - INFO - Focus: 38.82, 31.40, 4.37
+2017-01-27 16:07:36,161 - auto_focus.focus - INFO - Focus: 38.52, 31.30, 4.30
+2017-01-27 16:07:56,461 - auto_focus.focus - INFO - Focus: 49.02, 32.13, 4.23
+2017-01-27 16:08:04,691 - auto_focus.focus - INFO - Focus: 49.02, 32.13, 4.31
+2017-01-27 16:08:32,151 - auto_focus.focus - INFO - Focus: 29.07, 26.64, 4.60
+2017-01-27 16:08:37,562 - auto_focus.focus - INFO - Focus: 29.07, 26.64, 4.59
+2017-01-27 16:09:17,211 - auto_focus.focus - INFO - Focus: 10.05, 25.67, 4.58
+2017-01-27 16:09:26,701 - auto_focus.focus - INFO - Focus: 10.05, 25.67, 4.36
+2017-01-27 16:09:35,742 - auto_focus.focus - INFO - Focus: 10.05, 25.67, 4.37
+2017-01-27 16:10:30,772 - auto_focus.focus - INFO - Focus: 10.05, 25.67, 4.38
+2017-01-27 16:11:49,721 - auto_focus.focus - INFO - Focus: 10.05, 25.67, 4.44
+2017-01-27 16:15:29,322 - auto_focus.focus - INFO - Focus: 10.05, 25.67, 4.50
+2017-01-27 16:19:11,592 - auto_focus.focus - INFO - Focus: 10.05, 25.67, 4.08
+2017-01-27 16:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>> at time 2017-01-27 16:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B521600>>.
+2017-01-27 16:24:05,042 - auto_focus.focus - INFO - Focus: 10.15, 25.67, 4.28

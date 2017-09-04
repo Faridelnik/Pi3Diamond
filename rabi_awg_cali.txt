@@ -1,0 +1,67 @@
+
+from tools.utility import edit_singleton
+from datetime import date
+import os
+
+from traits.api import Bool
+import imp
+import numpy as np
+import time
+import threading
+
+from tools.emod import ManagedJob
+from tools.utility import GetSetItemsHandler, GetSetItemsMixin
+
+import hardware.api as ha
+
+class awg_rabi_calibration(ManagedJob):
+
+    def __init__(self,psawg):
+        super(Odmr_field, self).__init__()     
+        self.psawg = psawg
+        
+    def _cali(self):
+        file_pos = 'D:/data/QuantumSim/parallel_1/Property/rabi_awg' 
+        os.path.exists(file_pos)
+        
+        if(freqs is not None):
+            self.e_freqs = freqs
+        if(t_pis is not None):
+            self.e_t_pi = t_pis    
+        
+        label = [[0,1],[1,2]]
+        label_f = [[4.93e6,4.96e6],[4.93e6,4.96e6]]
+        label_p = [0.011, 0.011] # rf have different power in different frequency
+        from measurements.pulsed_awg import N14_Ms0_RF_sweep
+        self.psawg.measurement = N14_Ms0_RF_sweep()
+        
+        self.psawg.measurement.sweeps = 3e5
+        #the power should be the same with power in rabi measurement
+        self.psawg.measurement.power = 0
+        
+        self.psawg.measurement.rf_time = 144e3
+        self.psawg.measurement.wait_time = 80e3
+        
+        for t in range(len(label)):
+           self.psawg.measurement.freq = self.e_freqs[label[t][0]]
+           self.psawg.measurement.freq_2 = self.e_freqs[label[t][1]]
+           self.psawg.measurement.pi_1 = self.e_t_pi[label[t][0]]
+           self.psawg.measurement.pi_2 = self.e_t_pi[label[t][1]]
+           
+           self.psawg.measurement.amp = label_p[t]
+        
+           self.psawg.measurement.tau_begin = label_f[t][0]  #2.767e6
+           self.psawg.measurement.tau_end = label_f[t][1]    #2.794e6
+           self.psawg.measurement.tau_delta = 0.8e3
+           self.psawg.measurement.load()
+           time.sleep(60.0)
+           self.psawg.measurement.submit()
+           
+           while self.psawg.measurement.state != 'done':
+                threading.currentThread().stop_request.wait(1.0)
+                if threading.currentThread().stop_request.isSet():
+                   break
+            
+           file_name = file_pos + '/nmr_spec_med' + '_freq_' + str(t)
+           self.psawg.save_line_plot(file_name + '.png')
+           self.psawg.save(file_name + '.pyd')            

@@ -1,0 +1,2245 @@
+2014-09-22 09:56:49,453 - auto_focus.focus - INFO - Focus: 36.83, 37.87, 10.09
+2014-09-22 09:56:50,145 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BBD69F0> is already running or in the queue.
+2014-09-22 09:57:13,684 - auto_focus.focus - INFO - Focus: 36.78, 37.90, 10.84
+2014-09-22 09:57:21,795 - auto_focus.focus - INFO - Focus: 36.81, 38.01, 11.03
+2014-09-22 09:57:29,806 - auto_focus.focus - INFO - Focus: 36.80, 38.04, 11.03
+2014-09-22 10:00:42,809 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x071F1AE0>, trait: _low_value, old value: 0.0, new value: -0.0959692898273
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 466, in update_axis_li
+    self.x1 = self.figure.index_range.low
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'x1' trait of a Confocal instance must be 0.0 <= a floating point number <= 50.0, but a value of -0.09596928982725528 <type 'float'> was specified.
+2014-09-22 10:00:54,798 - auto_focus.focus - INFO - Focus: 4.07, 44.17, 11.14
+2014-09-22 10:01:02,757 - auto_focus.focus - INFO - Focus: 4.10, 44.16, 11.41
+2014-09-22 10:01:10,313 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BBD69F0> is already running or in the queue.
+2014-09-22 10:01:10,881 - auto_focus.focus - INFO - Focus: 4.13, 44.11, 12.02
+2014-09-22 10:01:34,138 - auto_focus.focus - INFO - Focus: 4.16, 44.02, 12.40
+2014-09-22 10:01:47,908 - auto_focus.focus - INFO - Focus: 4.11, 44.05, 12.16
+2014-09-22 10:02:02,806 - auto_focus.focus - INFO - Focus: 4.10, 44.04, 12.18
+2014-09-22 10:03:27,756 - auto_focus.focus - INFO - Focus: 4.09, 44.07, 12.02
+2014-09-22 10:04:45,904 - auto_focus.focus - INFO - Focus: 4.08, 44.02, 12.20
+2014-09-22 10:06:00,709 - auto_focus.focus - INFO - Focus: 4.07, 43.97, 12.10
+2014-09-22 10:07:46,463 - auto_focus.focus - INFO - Focus: 4.06, 43.96, 12.20
+2014-09-22 10:08:06,540 - auto_focus.focus - INFO - Focus: 4.07, 43.93, 12.26
+2014-09-22 10:16:04,446 - auto_focus.focus - INFO - Focus: 3.97, 43.67, 12.96
+2014-09-22 10:16:23,203 - auto_focus.focus - INFO - Focus: 3.98, 43.72, 13.02
+2014-09-22 10:16:46,377 - auto_focus.focus - INFO - Focus: 3.99, 43.73, 12.84
+2014-09-22 10:17:03,654 - auto_focus.focus - INFO - Focus: 3.97, 43.75, 13.12
+2014-09-22 10:20:37,584 - auto_focus.focus - INFO - Focus: 4.03, 43.81, 12.76
+2014-09-22 10:20:49,315 - auto_focus.focus - INFO - Focus: 4.01, 43.83, 12.64
+2014-09-22 10:21:02,997 - auto_focus.focus - INFO - Focus: 3.99, 43.85, 12.76
+2014-09-22 10:24:03,138 - auto_focus.focus - INFO - Focus: 4.01, 43.87, 12.60
+2014-09-22 10:26:13,104 - auto_focus.focus - INFO - Focus: 4.03, 43.85, 12.80
+2014-09-22 10:26:23,562 - auto_focus.focus - INFO - Focus: 4.05, 43.83, 12.92
+2014-09-22 10:27:30,924 - auto_focus.focus - INFO - Focus: 4.03, 43.81, 13.28
+2014-09-22 10:30:52,292 - auto_focus.focus - INFO - Focus: 8.13, 35.53, 13.24
+2014-09-22 10:31:05,783 - auto_focus.focus - INFO - Focus: 8.12, 35.40, 13.08
+2014-09-22 10:31:13,786 - auto_focus.focus - INFO - Focus: 8.03, 35.31, 12.60
+2014-09-22 10:31:21,841 - auto_focus.focus - INFO - Focus: 7.94, 35.34, 12.57
+2014-09-22 10:31:29,897 - auto_focus.focus - INFO - Focus: 7.85, 35.37, 12.60
+2014-09-22 10:31:42,552 - auto_focus.focus - INFO - Focus: 10.96, 34.77, 12.71
+2014-09-22 10:31:50,480 - auto_focus.focus - INFO - Focus: 10.91, 34.76, 12.39
+2014-09-22 10:32:03,700 - auto_focus.focus - INFO - Focus: 12.79, 35.80, 13.00
+2014-09-22 10:32:11,601 - auto_focus.focus - INFO - Focus: 12.78, 35.87, 13.13
+2014-09-22 10:32:19,677 - auto_focus.focus - INFO - Focus: 12.77, 35.86, 13.42
+2014-09-22 10:32:27,802 - auto_focus.focus - INFO - Focus: 12.76, 35.89, 13.26
+2014-09-22 10:32:44,168 - auto_focus.focus - INFO - Focus: 12.75, 35.88, 13.31
+2014-09-22 10:35:13,997 - auto_focus.focus - INFO - Focus: 12.74, 35.87, 13.42
+2014-09-22 10:35:22,930 - auto_focus.focus - INFO - Focus: 12.77, 35.86, 13.10
+2014-09-22 10:35:30,887 - auto_focus.focus - INFO - Focus: 12.72, 35.85, 13.23
+2014-09-22 10:36:41,345 - auto_focus.focus - INFO - Focus: 12.83, 35.76, 13.92
+2014-09-22 10:36:49,470 - auto_focus.focus - INFO - Focus: 12.78, 35.79, 14.19
+2014-09-22 10:36:57,680 - auto_focus.focus - INFO - Focus: 12.77, 35.82, 14.16
+2014-09-22 10:37:17,486 - auto_focus.focus - INFO - Focus: 12.60, 35.61, 14.75
+2014-09-22 10:37:29,312 - auto_focus.focus - INFO - Focus: 12.35, 35.84, 15.50
+2014-09-22 10:37:37,282 - auto_focus.focus - INFO - Focus: 12.30, 36.07, 14.78
+2014-09-22 10:37:48,278 - auto_focus.focus - INFO - Focus: 12.29, 36.14, 14.46
+2014-09-22 10:37:56,542 - auto_focus.focus - INFO - Focus: 12.24, 36.13, 14.30
+2014-09-22 10:38:08,387 - auto_focus.focus - INFO - Focus: 12.27, 36.08, 14.30
+2014-09-22 10:38:34,292 - auto_focus.focus - INFO - Focus: 12.26, 36.11, 14.57
+2014-09-22 10:38:42,378 - auto_focus.focus - INFO - Focus: 12.29, 36.14, 14.60
+2014-09-22 10:45:00,076 - auto_focus.focus - INFO - Focus: 12.52, 35.89, 14.20
+2014-09-22 10:45:08,055 - auto_focus.focus - INFO - Focus: 12.75, 35.64, 13.80
+2014-09-22 10:45:15,989 - auto_focus.focus - INFO - Focus: 12.78, 35.55, 13.37
+2014-09-22 10:45:24,045 - auto_focus.focus - INFO - Focus: 12.77, 35.58, 13.56
+2014-09-22 10:45:32,677 - auto_focus.focus - INFO - Focus: 12.80, 35.57, 13.85
+2014-09-22 10:45:53,599 - auto_focus.focus - INFO - Focus: 12.83, 35.56, 13.42
+2014-09-22 10:46:02,651 - auto_focus.focus - INFO - Focus: 12.82, 35.59, 13.55
+2014-09-22 10:48:37,719 - auto_focus.focus - INFO - Focus: 12.89, 35.66, 13.60
+2014-09-22 10:48:45,855 - auto_focus.focus - INFO - Focus: 12.88, 35.65, 13.28
+2014-09-22 10:48:54,132 - auto_focus.focus - INFO - Focus: 12.83, 35.64, 13.47
+2014-09-22 10:49:07,102 - auto_focus.focus - INFO - Focus: 12.86, 35.67, 13.51
+2014-09-22 10:49:17,960 - auto_focus.focus - INFO - Focus: 12.85, 35.66, 13.47
+2014-09-22 10:49:32,437 - auto_focus.focus - INFO - Focus: 12.88, 35.61, 13.23
+2014-09-22 10:49:42,073 - auto_focus.focus - INFO - Focus: 12.91, 35.64, 13.27
+2014-09-22 10:49:51,140 - auto_focus.focus - INFO - Focus: 12.90, 35.67, 13.19
+2014-09-22 10:50:00,710 - auto_focus.focus - INFO - Focus: 12.89, 35.66, 13.31
+2014-09-22 10:51:44,275 - auto_focus.focus - INFO - Focus: 8.19, 35.13, 12.71
+2014-09-22 10:51:52,881 - auto_focus.focus - INFO - Focus: 8.02, 35.24, 12.59
+2014-09-22 10:53:14,427 - auto_focus.focus - INFO - Focus: 42.89, 39.12, 12.95
+2014-09-22 10:53:23,140 - auto_focus.focus - INFO - Focus: 42.92, 39.15, 12.79
+2014-09-22 10:53:31,818 - auto_focus.focus - INFO - Focus: 42.91, 39.14, 12.83
+2014-09-22 10:53:56,025 - auto_focus.focus - INFO - Focus: 42.94, 39.17, 13.03
+2014-09-22 10:54:06,625 - auto_focus.focus - INFO - Focus: 42.97, 39.16, 12.87
+2014-09-22 10:54:24,282 - auto_focus.focus - INFO - Focus: 40.53, 40.83, 12.67
+2014-09-22 10:54:36,661 - auto_focus.focus - INFO - Focus: 38.01, 35.41, 12.47
+2014-09-22 10:56:22,595 - auto_focus.focus - INFO - Focus: 34.67, 40.26, 4.71
+2014-09-22 10:56:31,368 - auto_focus.focus - INFO - Focus: 34.82, 40.37, 4.59
+2014-09-22 10:57:32,892 - auto_focus.focus - INFO - Focus: 25.55, 21.97, 5.03
+2014-09-22 10:57:41,573 - auto_focus.focus - INFO - Focus: 25.58, 21.96, 5.23
+2014-09-22 10:57:50,299 - auto_focus.focus - INFO - Focus: 25.53, 21.95, 5.11
+2014-09-22 10:57:59,615 - auto_focus.focus - INFO - Focus: 25.52, 21.98, 5.15
+2014-09-22 10:58:11,325 - auto_focus.focus - INFO - Focus: 25.51, 21.97, 7.15
+2014-09-22 11:00:28,319 - auto_focus.focus - INFO - Focus: 25.54, 21.96, 8.35
+2014-09-22 11:00:40,134 - auto_focus.focus - INFO - Focus: 25.53, 22.03, 8.35
+2014-09-22 11:04:27,352 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: x, old value: 41.3241414141, new value: 40.9090909091
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-22 11:04:27,362 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: y, old value: 25.4825252525, new value: 25.2525252525
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-22 11:04:27,460 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: x, old value: 40.9090909091, new value: 13.1313131313
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-22 11:04:27,572 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: y, old value: 25.2525252525, new value: 34.3434343434
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-22 11:04:27,635 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: x, old value: 13.1313131313, new value: 11.1111111111
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-22 11:04:27,798 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: y, old value: 34.3434343434, new value: 34.8484848485
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-22 11:04:28,516 - auto_focus.focus - INFO - Focus: 41.32, 25.48, 10.08
+2014-09-22 11:04:42,351 - auto_focus.focus - INFO - Focus: 4.80, 36.27, 10.08
+2014-09-22 11:07:13,878 - auto_focus.focus - INFO - Focus: 26.52, 38.61, 9.68
+2014-09-22 11:07:25,226 - auto_focus.focus - INFO - Focus: 26.47, 38.76, 9.76
+2014-09-22 11:07:37,065 - auto_focus.focus - INFO - Focus: 26.38, 38.75, 10.32
+2014-09-22 11:07:49,796 - auto_focus.focus - INFO - Focus: 26.37, 38.70, 10.80
+2014-09-22 11:09:28,111 - auto_focus.focus - INFO - Focus: 26.28, 38.69, 12.56
+2014-09-22 11:09:39,948 - auto_focus.focus - INFO - Focus: 26.23, 38.72, 14.00
+2014-09-22 11:09:53,500 - auto_focus.focus - INFO - Focus: 26.22, 38.83, 14.32
+2014-09-22 11:12:39,809 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BBD69F0> is already running or in the queue.
+2014-09-22 11:12:42,127 - auto_focus.focus - INFO - Focus: 3.02, 11.77, 8.97
+2014-09-22 11:12:50,796 - auto_focus.focus - INFO - Focus: 2.81, 11.52, 9.09
+2014-09-22 11:14:55,769 - auto_focus.focus - INFO - Focus: 47.77, 48.09, 10.01
+2014-09-22 11:15:04,463 - auto_focus.focus - INFO - Focus: 47.92, 48.32, 10.53
+2014-09-22 11:15:38,694 - auto_focus.focus - INFO - Focus: 39.34, 20.22, 10.17
+2014-09-22 11:15:47,430 - auto_focus.focus - INFO - Focus: 39.29, 20.21, 9.77
+2014-09-22 11:15:56,147 - auto_focus.focus - INFO - Focus: 39.08, 20.16, 9.49
+2014-09-22 11:16:04,826 - auto_focus.focus - INFO - Focus: 39.11, 20.15, 9.41
+2014-09-22 11:16:19,963 - auto_focus.focus - INFO - Focus: 39.06, 20.14, 9.51
+2014-09-22 11:17:42,987 - auto_focus.focus - INFO - Focus: 39.09, 20.13, 9.41
+2014-09-22 11:19:07,622 - auto_focus.focus - INFO - Focus: 39.04, 20.16, 9.43
+2014-09-22 11:19:20,443 - auto_focus.focus - INFO - Focus: 39.03, 20.19, 9.25
+2014-09-22 11:19:28,552 - auto_focus.focus - INFO - Focus: 39.02, 20.18, 9.28
+2014-09-22 11:20:36,778 - auto_focus.focus - INFO - Focus: 39.06, 20.18, 9.28
+2014-09-22 11:20:44,822 - auto_focus.focus - INFO - Focus: 39.05, 20.13, 9.28
+2014-09-22 11:21:03,552 - auto_focus.focus - INFO - Focus: 38.96, 20.20, 9.28
+2014-09-22 11:21:12,369 - auto_focus.focus - INFO - Focus: 38.99, 20.19, 9.49
+2014-09-22 11:21:20,585 - auto_focus.focus - INFO - Focus: 38.98, 20.14, 9.49
+2014-09-22 11:21:39,063 - auto_focus.focus - INFO - Focus: 39.05, 20.21, 9.41
+2014-09-22 11:21:48,052 - auto_focus.focus - INFO - Focus: 39.04, 20.16, 9.25
+2014-09-22 11:22:21,214 - auto_focus.focus - INFO - Focus: 39.19, 20.23, 8.53
+2014-09-22 11:22:48,293 - auto_focus.focus - INFO - Focus: 39.06, 20.18, 8.90
+2014-09-22 11:22:56,569 - auto_focus.focus - INFO - Focus: 39.05, 20.25, 9.35
+2014-09-22 11:23:04,670 - auto_focus.focus - INFO - Focus: 39.04, 20.20, 9.40
+2014-09-22 11:23:52,888 - auto_focus.focus - INFO - Focus: 38.99, 20.19, 9.40
+2014-09-22 11:24:01,142 - auto_focus.focus - INFO - Focus: 38.98, 20.22, 9.24
+2014-09-22 11:24:09,405 - auto_focus.focus - INFO - Focus: 38.97, 20.29, 9.16
+2014-09-22 11:24:18,506 - auto_focus.focus - INFO - Focus: 39.00, 20.20, 9.16
+2014-09-22 11:24:33,155 - auto_focus.focus - INFO - Focus: 39.03, 20.23, 9.27
+2014-09-22 11:24:41,273 - auto_focus.focus - INFO - Focus: 39.06, 20.22, 9.27
+2014-09-22 11:25:03,519 - auto_focus.focus - INFO - Focus: 38.97, 20.17, 9.32
+2014-09-22 11:25:11,778 - auto_focus.focus - INFO - Focus: 38.96, 20.24, 9.32
+2014-09-22 11:26:18,232 - auto_focus.focus - INFO - Focus: 38.99, 20.19, 9.29
+2014-09-22 11:26:32,578 - auto_focus.focus - INFO - Focus: 39.06, 20.22, 9.50
+2014-09-22 11:26:40,786 - auto_focus.focus - INFO - Focus: 39.05, 20.25, 9.31
+2014-09-22 11:26:49,305 - auto_focus.focus - INFO - Focus: 39.04, 20.24, 9.34
+2014-09-22 11:34:14,964 - auto_focus.focus - INFO - Focus: 39.03, 20.25, 9.31
+2014-09-22 11:34:23,063 - auto_focus.focus - INFO - Focus: 38.98, 20.24, 9.15
+2014-09-22 11:34:34,635 - auto_focus.focus - INFO - Focus: 38.97, 20.27, 9.18
+2014-09-22 11:46:00,283 - auto_focus.focus - INFO - Focus: 38.98, 20.35, 9.29
+2014-09-22 11:58:07,089 - auto_focus.focus - INFO - Focus: 39.05, 20.47, 9.05
+2014-09-22 11:58:22,173 - auto_focus.focus - INFO - Focus: 38.96, 20.58, 9.18
+2014-09-22 12:50:50,614 - auto_focus.focus - INFO - Focus: 38.91, 20.77, 8.51
+2014-09-22 12:50:58,584 - auto_focus.focus - INFO - Focus: 39.10, 20.72, 9.02
+2014-09-22 12:51:06,630 - auto_focus.focus - INFO - Focus: 39.01, 20.87, 8.67
+2014-09-22 12:51:11,933 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: X, old value: [ 38.3801883], new value: []
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:11,934 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: constant_axis, old value: y, new value: z
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 367, in _constant_axis_changed
+    self.set_mesh_and_aspect_ratio()
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:12,589 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: Y, old value: [ 19.78551409  19.80407752  19.82264096  19.84120439  19.85976782
+  19.87833126  19.89689469  19.91545812  19.93402156  19.95258499
+  19.97114842  19.98971185  20.00827529  20.02683872  20.04540215
+  20.06396559  20.08252902  20.10109245  20.11965589  20.13821932
+  20.15678275  20.17534618  20.19390962  20.21247305  20.23103648
+  20.24959992  20.26816335  20.28672678  20.30529022  20.32385365
+  20.34241708  20.36098051  20.37954395  20.39810738  20.41667081
+  20.43523425  20.45379768  20.47236111  20.49092455  20.50948798
+  20.52805141  20.54661484  20.56517828  20.58374171  20.60230514
+  20.62086858  20.63943201  20.65799544  20.67655888  20.69512231
+  20.71368574  20.73224917  20.75081261  20.76937604  20.78793947
+  20.80650291  20.82506634  20.84362977  20.86219321  20.88075664], new value: [-25.         -24.15254237 -23.30508475 -22.45762712 -21.61016949
+ -20.76271186 -19.91525424 -19.06779661 -18.22033898 -17.37288136
+ -16.52542373 -15.6779661  -14.83050847 -13.98305085 -13.13559322
+ -12.28813559 -11.44067797 -10.59322034  -9.74576271  -8.89830508
+  -8.05084746  -7.20338983  -6.3559322   -5.50847458  -4.66101695
+  -3.81355932  -2.96610169  -2.11864407  -1.27118644  -0.42372881
+   0.42372881   1.27118644   2.11864407   2.96610169   3.81355932
+   4.66101695   5.50847458   6.3559322    7.20338983   8.05084746
+   8.89830508   9.74576271  10.59322034  11.44067797  12.28813559
+  13.13559322  13.98305085  14.83050847  15.6779661   16.52542373
+  17.37288136  18.22033898  19.06779661  19.91525424  20.76271186
+  21.61016949  22.45762712  23.30508475  24.15254237  25.        ]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:12,983 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: X, old value: [], new value: []
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:12,986 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: constant_axis, old value: z, new value: y
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 367, in _constant_axis_changed
+    self.set_mesh_and_aspect_ratio()
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:17,782 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: Y, old value: [-25.         -24.15254237 -23.30508475 -22.45762712 -21.61016949
+ -20.76271186 -19.91525424 -19.06779661 -18.22033898 -17.37288136
+ -16.52542373 -15.6779661  -14.83050847 -13.98305085 -13.13559322
+ -12.28813559 -11.44067797 -10.59322034  -9.74576271  -8.89830508
+  -8.05084746  -7.20338983  -6.3559322   -5.50847458  -4.66101695
+  -3.81355932  -2.96610169  -2.11864407  -1.27118644  -0.42372881
+   0.42372881   1.27118644   2.11864407   2.96610169   3.81355932
+   4.66101695   5.50847458   6.3559322    7.20338983   8.05084746
+   8.89830508   9.74576271  10.59322034  11.44067797  12.28813559
+  13.13559322  13.98305085  14.83050847  15.6779661   16.52542373
+  17.37288136  18.22033898  19.06779661  19.91525424  20.76271186
+  21.61016949  22.45762712  23.30508475  24.15254237  25.        ], new value: [ 19.78551409  19.80407752  19.82264096  19.84120439  19.85976782
+  19.87833126  19.89689469  19.91545812  19.93402156  19.95258499
+  19.97114842  19.98971185  20.00827529  20.02683872  20.04540215
+  20.06396559  20.08252902  20.10109245  20.11965589  20.13821932
+  20.15678275  20.17534618  20.19390962  20.21247305  20.23103648
+  20.24959992  20.26816335  20.28672678  20.30529022  20.32385365
+  20.34241708  20.36098051  20.37954395  20.39810738  20.41667081
+  20.43523425  20.45379768  20.47236111  20.49092455  20.50948798
+  20.52805141  20.54661484  20.56517828  20.58374171  20.60230514
+  20.62086858  20.63943201  20.65799544  20.67655888  20.69512231
+  20.71368574  20.73224917  20.75081261  20.76937604  20.78793947
+  20.80650291  20.82506634  20.84362977  20.86219321  20.88075664]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:17,786 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: X, old value: [], new value: []
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:17,788 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: constant_axis, old value: y, new value: z
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 367, in _constant_axis_changed
+    self.set_mesh_and_aspect_ratio()
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:18,726 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: Y, old value: [ 19.78551409  19.80407752  19.82264096  19.84120439  19.85976782
+  19.87833126  19.89689469  19.91545812  19.93402156  19.95258499
+  19.97114842  19.98971185  20.00827529  20.02683872  20.04540215
+  20.06396559  20.08252902  20.10109245  20.11965589  20.13821932
+  20.15678275  20.17534618  20.19390962  20.21247305  20.23103648
+  20.24959992  20.26816335  20.28672678  20.30529022  20.32385365
+  20.34241708  20.36098051  20.37954395  20.39810738  20.41667081
+  20.43523425  20.45379768  20.47236111  20.49092455  20.50948798
+  20.52805141  20.54661484  20.56517828  20.58374171  20.60230514
+  20.62086858  20.63943201  20.65799544  20.67655888  20.69512231
+  20.71368574  20.73224917  20.75081261  20.76937604  20.78793947
+  20.80650291  20.82506634  20.84362977  20.86219321  20.88075664], new value: [ 19.78551409  19.80407752  19.82264096  19.84120439  19.85976782
+  19.87833126  19.89689469  19.91545812  19.93402156  19.95258499
+  19.97114842  19.98971185  20.00827529  20.02683872  20.04540215
+  20.06396559  20.08252902  20.10109245  20.11965589  20.13821932
+  20.15678275  20.17534618  20.19390962  20.21247305  20.23103648
+  20.24959992  20.26816335  20.28672678  20.30529022  20.32385365
+  20.34241708  20.36098051  20.37954395  20.39810738  20.41667081
+  20.43523425  20.45379768  20.47236111  20.49092455  20.50948798
+  20.52805141  20.54661484  20.56517828  20.58374171  20.60230514
+  20.62086858  20.63943201  20.65799544  20.67655888  20.69512231
+  20.71368574  20.73224917  20.75081261  20.76937604  20.78793947
+  20.80650291  20.82506634  20.84362977  20.86219321  20.88075664]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:18,989 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: X, old value: [], new value: []
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:18,990 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: constant_axis, old value: z, new value: y
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 367, in _constant_axis_changed
+    self.set_mesh_and_aspect_ratio()
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:22,934 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: Y, old value: [ 19.78551409  19.80407752  19.82264096  19.84120439  19.85976782
+  19.87833126  19.89689469  19.91545812  19.93402156  19.95258499
+  19.97114842  19.98971185  20.00827529  20.02683872  20.04540215
+  20.06396559  20.08252902  20.10109245  20.11965589  20.13821932
+  20.15678275  20.17534618  20.19390962  20.21247305  20.23103648
+  20.24959992  20.26816335  20.28672678  20.30529022  20.32385365
+  20.34241708  20.36098051  20.37954395  20.39810738  20.41667081
+  20.43523425  20.45379768  20.47236111  20.49092455  20.50948798
+  20.52805141  20.54661484  20.56517828  20.58374171  20.60230514
+  20.62086858  20.63943201  20.65799544  20.67655888  20.69512231
+  20.71368574  20.73224917  20.75081261  20.76937604  20.78793947
+  20.80650291  20.82506634  20.84362977  20.86219321  20.88075664], new value: [ 19.78551409  19.80407752  19.82264096  19.84120439  19.85976782
+  19.87833126  19.89689469  19.91545812  19.93402156  19.95258499
+  19.97114842  19.98971185  20.00827529  20.02683872  20.04540215
+  20.06396559  20.08252902  20.10109245  20.11965589  20.13821932
+  20.15678275  20.17534618  20.19390962  20.21247305  20.23103648
+  20.24959992  20.26816335  20.28672678  20.30529022  20.32385365
+  20.34241708  20.36098051  20.37954395  20.39810738  20.41667081
+  20.43523425  20.45379768  20.47236111  20.49092455  20.50948798
+  20.52805141  20.54661484  20.56517828  20.58374171  20.60230514
+  20.62086858  20.63943201  20.65799544  20.67655888  20.69512231
+  20.71368574  20.73224917  20.75081261  20.76937604  20.78793947
+  20.80650291  20.82506634  20.84362977  20.86219321  20.88075664]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:25,532 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: X, old value: [], new value: []
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:25,536 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: constant_axis, old value: y, new value: z
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 367, in _constant_axis_changed
+    self.set_mesh_and_aspect_ratio()
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:29,086 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: Y, old value: [ 19.78551409  19.80407752  19.82264096  19.84120439  19.85976782
+  19.87833126  19.89689469  19.91545812  19.93402156  19.95258499
+  19.97114842  19.98971185  20.00827529  20.02683872  20.04540215
+  20.06396559  20.08252902  20.10109245  20.11965589  20.13821932
+  20.15678275  20.17534618  20.19390962  20.21247305  20.23103648
+  20.24959992  20.26816335  20.28672678  20.30529022  20.32385365
+  20.34241708  20.36098051  20.37954395  20.39810738  20.41667081
+  20.43523425  20.45379768  20.47236111  20.49092455  20.50948798
+  20.52805141  20.54661484  20.56517828  20.58374171  20.60230514
+  20.62086858  20.63943201  20.65799544  20.67655888  20.69512231
+  20.71368574  20.73224917  20.75081261  20.76937604  20.78793947
+  20.80650291  20.82506634  20.84362977  20.86219321  20.88075664], new value: [ 19.78551409  19.80407752  19.82264096  19.84120439  19.85976782
+  19.87833126  19.89689469  19.91545812  19.93402156  19.95258499
+  19.97114842  19.98971185  20.00827529  20.02683872  20.04540215
+  20.06396559  20.08252902  20.10109245  20.11965589  20.13821932
+  20.15678275  20.17534618  20.19390962  20.21247305  20.23103648
+  20.24959992  20.26816335  20.28672678  20.30529022  20.32385365
+  20.34241708  20.36098051  20.37954395  20.39810738  20.41667081
+  20.43523425  20.45379768  20.47236111  20.49092455  20.50948798
+  20.52805141  20.54661484  20.56517828  20.58374171  20.60230514
+  20.62086858  20.63943201  20.65799544  20.67655888  20.69512231
+  20.71368574  20.73224917  20.75081261  20.76937604  20.78793947
+  20.80650291  20.82506634  20.84362977  20.86219321  20.88075664]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:29,101 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: X, old value: [], new value: []
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:29,107 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: constant_axis, old value: z, new value: y
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 367, in _constant_axis_changed
+    self.set_mesh_and_aspect_ratio()
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:33,957 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: Y, old value: [ 19.78551409  19.80407752  19.82264096  19.84120439  19.85976782
+  19.87833126  19.89689469  19.91545812  19.93402156  19.95258499
+  19.97114842  19.98971185  20.00827529  20.02683872  20.04540215
+  20.06396559  20.08252902  20.10109245  20.11965589  20.13821932
+  20.15678275  20.17534618  20.19390962  20.21247305  20.23103648
+  20.24959992  20.26816335  20.28672678  20.30529022  20.32385365
+  20.34241708  20.36098051  20.37954395  20.39810738  20.41667081
+  20.43523425  20.45379768  20.47236111  20.49092455  20.50948798
+  20.52805141  20.54661484  20.56517828  20.58374171  20.60230514
+  20.62086858  20.63943201  20.65799544  20.67655888  20.69512231
+  20.71368574  20.73224917  20.75081261  20.76937604  20.78793947
+  20.80650291  20.82506634  20.84362977  20.86219321  20.88075664], new value: [ 19.78551409  19.80407752  19.82264096  19.84120439  19.85976782
+  19.87833126  19.89689469  19.91545812  19.93402156  19.95258499
+  19.97114842  19.98971185  20.00827529  20.02683872  20.04540215
+  20.06396559  20.08252902  20.10109245  20.11965589  20.13821932
+  20.15678275  20.17534618  20.19390962  20.21247305  20.23103648
+  20.24959992  20.26816335  20.28672678  20.30529022  20.32385365
+  20.34241708  20.36098051  20.37954395  20.39810738  20.41667081
+  20.43523425  20.45379768  20.47236111  20.49092455  20.50948798
+  20.52805141  20.54661484  20.56517828  20.58374171  20.60230514
+  20.62086858  20.63943201  20.65799544  20.67655888  20.69512231
+  20.71368574  20.73224917  20.75081261  20.76937604  20.78793947
+  20.80650291  20.82506634  20.84362977  20.86219321  20.88075664]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:33,970 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: X, old value: [], new value: []
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:51:33,976 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E74B0>, trait: constant_axis, old value: y, new value: z
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 367, in _constant_axis_changed
+    self.set_mesh_and_aspect_ratio()
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-22 12:53:24,657 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-22 12:53:26,486 - emod.start - INFO - Starting Job Manager.
+2014-09-22 12:53:26,489 - cron.run - INFO - Starting Cron Daemon.
+2014-09-22 12:55:26,313 - auto_focus.focus - INFO - Focus: 39.98, 7.57, 8.60
+2014-09-22 12:55:34,408 - auto_focus.focus - INFO - Focus: 40.21, 7.44, 8.81
+2014-09-22 12:57:42,763 - auto_focus.focus - INFO - Focus: 21.85, 13.41, 9.08
+2014-09-22 12:57:50,811 - auto_focus.focus - INFO - Focus: 21.88, 13.40, 8.68
+2014-09-22 12:58:47,832 - auto_focus.focus - INFO - Focus: 21.87, 13.39, 8.97
+2014-09-22 13:14:09,063 - auto_focus.focus - INFO - Focus: 21.92, 13.23, 9.08
+2014-09-22 13:14:17,085 - auto_focus.focus - INFO - Focus: 21.87, 13.06, 9.08
+2014-09-22 13:14:25,132 - auto_focus.focus - INFO - Focus: 21.78, 13.13, 9.21
+2014-09-22 13:14:33,118 - auto_focus.focus - INFO - Focus: 21.69, 13.16, 9.05
+2014-09-22 13:16:11,710 - auto_focus.focus - INFO - Focus: 21.82, 13.26, 8.97
+2014-09-22 13:16:20,003 - auto_focus.focus - INFO - Focus: 21.85, 13.33, 9.00
+2014-09-22 13:16:35,483 - auto_focus.focus - INFO - Focus: 21.80, 13.32, 9.08
+2014-09-22 13:16:48,302 - auto_focus.focus - INFO - Focus: 21.83, 13.31, 9.24
+2014-09-22 13:18:33,160 - auto_focus.focus - INFO - Focus: 21.90, 13.38, 9.00
+2014-09-22 13:19:15,960 - auto_focus.focus - INFO - Focus: 21.85, 13.24, 9.00
+2014-09-22 13:21:21,914 - auto_focus.focus - INFO - Focus: 21.83, 13.28, 8.81
+2014-09-22 13:21:31,927 - auto_focus.focus - INFO - Focus: 21.80, 13.37, 8.94
+2014-09-22 13:22:43,901 - auto_focus.focus - INFO - Focus: 21.89, 13.34, 9.37
+2014-09-22 13:22:55,095 - auto_focus.focus - INFO - Focus: 21.92, 13.31, 9.02
+2014-09-22 13:23:04,921 - auto_focus.focus - INFO - Focus: 21.89, 13.34, 9.13
+2014-09-22 13:25:52,441 - auto_focus.focus - INFO - Focus: 21.86, 13.25, 9.05
+2014-09-22 13:26:02,183 - auto_focus.focus - INFO - Focus: 21.89, 13.34, 8.97
+2014-09-22 13:26:12,181 - auto_focus.focus - INFO - Focus: 21.86, 13.25, 8.89
+2014-09-22 13:26:52,447 - auto_focus.focus - INFO - Focus: 22.00, 15.59, 8.94
+2014-09-22 13:27:02,862 - auto_focus.focus - INFO - Focus: 21.97, 15.62, 9.05
+2014-09-22 13:29:38,394 - auto_focus.focus - INFO - Focus: 22.06, 15.53, 9.26
+2014-09-22 13:30:21,762 - auto_focus.focus - INFO - Focus: 21.97, 15.50, 9.23
+2014-09-22 13:31:43,392 - auto_focus.focus - INFO - Focus: 22.00, 15.53, 9.42
+2014-09-22 13:33:31,094 - auto_focus.focus - INFO - Focus: 22.03, 15.56, 9.26
+2014-09-22 13:34:08,403 - auto_focus.focus - INFO - Focus: 22.06, 15.53, 9.26
+2014-09-22 13:34:18,154 - auto_focus.focus - INFO - Focus: 22.03, 15.50, 9.31
+2014-09-22 13:34:31,117 - auto_focus.focus - INFO - Focus: 22.06, 15.53, 9.31
+2014-09-22 13:36:02,878 - auto_focus.focus - INFO - Focus: 22.03, 15.50, 9.23
+2014-09-22 13:37:26,532 - auto_focus.focus - INFO - Focus: 22.06, 15.47, 9.23
+2014-09-22 13:38:05,190 - auto_focus.focus - INFO - Focus: 22.01, 15.54, 9.35
+2014-09-22 13:38:13,052 - auto_focus.focus - INFO - Focus: 22.02, 15.49, 9.55
+2014-09-22 13:38:35,009 - auto_focus.focus - INFO - Focus: 21.91, 15.38, 9.19
+2014-09-22 13:38:44,293 - auto_focus.focus - INFO - Focus: 21.86, 15.33, 9.31
+2014-09-22 13:38:52,437 - auto_focus.focus - INFO - Focus: 21.87, 15.34, 9.31
+2014-09-22 13:39:12,815 - auto_focus.focus - INFO - Focus: 21.94, 15.47, 9.43
+2014-09-22 13:39:20,716 - auto_focus.focus - INFO - Focus: 22.01, 15.48, 9.23
+2014-09-22 13:40:21,898 - auto_focus.focus - INFO - Focus: 21.90, 15.37, 9.43
+2014-09-22 13:40:39,039 - auto_focus.focus - INFO - Focus: 21.97, 15.56, 9.39
+2014-09-22 13:40:46,760 - auto_focus.focus - INFO - Focus: 21.92, 15.51, 9.39
+2014-09-22 13:51:36,358 - auto_focus.focus - INFO - Focus: 21.92, 15.31, 9.43
+2014-09-22 13:51:44,346 - auto_focus.focus - INFO - Focus: 21.93, 15.32, 9.31
+2014-09-22 14:08:29,632 - auto_focus.focus - INFO - Focus: 22.20, 12.98, 8.35
+2014-09-22 14:08:37,499 - auto_focus.focus - INFO - Focus: 22.33, 12.99, 7.35
+2014-09-22 14:08:45,338 - auto_focus.focus - INFO - Focus: 22.40, 12.88, 7.07
+2014-09-22 14:08:53,365 - auto_focus.focus - INFO - Focus: 22.35, 12.89, 6.95
+2014-09-22 14:09:01,270 - auto_focus.focus - INFO - Focus: 22.30, 12.96, 6.95
+2014-09-22 14:09:09,707 - auto_focus.focus - INFO - Focus: 22.19, 12.85, 6.99
+2014-09-22 14:09:20,308 - auto_focus.focus - INFO - Focus: 22.26, 12.98, 6.91
+2014-09-22 14:10:26,632 - auto_focus.focus - INFO - Focus: 22.15, 12.87, 6.83
+2014-09-22 14:11:43,397 - auto_focus.focus - INFO - Focus: 22.22, 12.94, 6.43
+2014-09-22 14:11:53,997 - auto_focus.focus - INFO - Focus: 22.35, 12.89, 6.43
+2014-09-22 14:12:05,526 - auto_focus.focus - INFO - Focus: 22.24, 13.14, 6.35
+2014-09-22 14:14:15,292 - auto_focus.focus - INFO - Focus: 22.37, 12.97, 6.99
+2014-09-22 14:14:26,108 - auto_focus.focus - INFO - Focus: 22.32, 13.04, 6.75
+2014-09-22 14:15:09,961 - auto_focus.focus - INFO - Focus: 21.97, 12.93, 6.27
+2014-09-22 14:15:20,944 - auto_focus.focus - INFO - Focus: 21.92, 12.94, 6.35
+2014-09-22 14:15:49,154 - auto_focus.focus - INFO - Focus: 22.23, 13.01, 6.59
+2014-09-22 14:15:59,596 - auto_focus.focus - INFO - Focus: 22.24, 12.96, 6.19
+2014-09-22 14:18:17,542 - auto_focus.focus - INFO - Focus: 22.21, 12.99, 6.51
+2014-09-22 14:18:28,736 - auto_focus.focus - INFO - Focus: 22.22, 13.06, 6.55
+2014-09-22 14:18:36,714 - auto_focus.focus - INFO - Focus: 22.23, 13.01, 6.47
+2014-09-22 14:18:52,904 - auto_focus.focus - INFO - Focus: 21.88, 12.96, 6.47
+2014-09-22 14:19:00,845 - auto_focus.focus - INFO - Focus: 21.89, 12.97, 6.35
+2014-09-22 14:19:24,426 - auto_focus.focus - INFO - Focus: 22.27, 13.01, 6.55
+2014-09-22 14:20:40,832 - auto_focus.focus - INFO - Focus: 22.22, 13.02, 6.43
+2014-09-22 14:20:48,874 - auto_focus.focus - INFO - Focus: 22.17, 13.03, 6.47
+2014-09-22 14:21:05,233 - auto_focus.focus - INFO - Focus: 22.24, 13.04, 6.43
+2014-09-22 14:21:13,256 - auto_focus.focus - INFO - Focus: 22.31, 13.05, 6.27
+2014-09-22 14:21:21,615 - auto_focus.focus - INFO - Focus: 22.20, 13.00, 6.27
+2014-09-22 14:21:29,654 - auto_focus.focus - INFO - Focus: 22.27, 13.01, 6.47
+2014-09-22 14:22:40,993 - auto_focus.focus - INFO - Focus: 22.22, 13.02, 6.47
+2014-09-22 14:41:10,062 - auto_focus.focus - INFO - Focus: 22.29, 13.08, 6.51
+2014-09-22 14:41:18,036 - auto_focus.focus - INFO - Focus: 22.30, 13.09, 6.39
+2014-09-22 14:47:54,993 - auto_focus.focus - INFO - Focus: 39.57, 29.65, 7.07
+2014-09-22 14:49:12,723 - auto_focus.focus - INFO - Focus: 39.58, 29.66, 6.99
+2014-09-22 14:49:21,072 - auto_focus.focus - INFO - Focus: 39.59, 29.67, 7.11
+2014-09-22 14:52:02,125 - auto_focus.focus - INFO - Focus: 23.69, 12.31, 0.85
+2014-09-22 14:52:10,201 - auto_focus.focus - INFO - Focus: 23.94, 12.50, 0.81
+2014-09-22 14:57:40,697 - auto_focus.focus - INFO - Focus: 22.35, 13.18, 6.06
+2014-09-22 14:57:48,572 - auto_focus.focus - INFO - Focus: 22.42, 13.31, 6.26
+2014-09-22 15:28:38,012 - auto_focus.focus - INFO - Focus: 6.22, 44.25, 6.30
+2014-09-22 15:28:46,043 - auto_focus.focus - INFO - Focus: 5.93, 44.56, 6.50
+2014-09-22 15:28:53,937 - auto_focus.focus - INFO - Focus: 5.94, 44.63, 6.54
+2014-09-22 15:29:03,848 - auto_focus.focus - INFO - Focus: 5.89, 44.64, 6.74
+2014-09-22 15:30:36,444 - auto_focus.focus - INFO - Focus: 5.83, 44.62, 7.02
+2014-09-22 15:30:45,078 - auto_focus.focus - INFO - Focus: 5.84, 44.63, 7.38
+2014-09-22 15:39:00,042 - auto_focus.focus - INFO - Focus: 35.22, 32.00, 7.10
+2014-09-22 15:39:07,980 - auto_focus.focus - INFO - Focus: 35.05, 31.77, 6.38
+2014-09-22 15:39:15,799 - auto_focus.focus - INFO - Focus: 35.06, 31.66, 6.30
+2014-09-22 15:39:23,703 - auto_focus.focus - INFO - Focus: 35.07, 31.67, 6.30
+2014-09-22 15:40:34,737 - auto_focus.focus - INFO - Focus: 26.04, 31.95, 5.98
+2014-09-22 15:41:39,213 - auto_focus.focus - INFO - Focus: 2.48, 6.40, 10.47
+2014-09-22 15:41:47,055 - auto_focus.focus - INFO - Focus: 2.79, 6.29, 10.91
+2014-09-22 15:41:54,990 - auto_focus.focus - INFO - Focus: 2.50, 6.18, 10.91
+2014-09-22 15:43:43,102 - auto_focus.focus - INFO - Focus: 33.55, 17.83, 10.10
+2014-09-22 15:44:31,128 - auto_focus.focus - INFO - Focus: 19.95, 30.35, 10.94
+2014-09-22 15:44:38,960 - auto_focus.focus - INFO - Focus: 20.02, 30.36, 11.06
+2014-09-22 15:45:46,959 - auto_focus.focus - INFO - Focus: 14.91, 25.93, 11.58
+2014-09-22 15:45:54,845 - auto_focus.focus - INFO - Focus: 14.92, 25.94, 11.46
+2014-09-22 15:47:05,510 - auto_focus.focus - INFO - Focus: 14.94, 25.93, 11.58
+2014-09-22 16:16:43,782 - auto_focus.focus - INFO - Focus: 14.32, 26.99, 12.58
+2014-09-22 16:16:52,012 - auto_focus.focus - INFO - Focus: 14.03, 26.70, 13.26
+2014-09-22 16:16:59,941 - auto_focus.focus - INFO - Focus: 14.22, 26.35, 13.18
+2014-09-22 16:17:13,020 - auto_focus.focus - INFO - Focus: 15.72, 26.87, 13.10
+2014-09-22 16:17:21,628 - auto_focus.focus - INFO - Focus: 15.61, 26.70, 13.10
+2014-09-22 16:18:35,703 - auto_focus.focus - INFO - Focus: 15.41, 27.08, 12.16
+2014-09-22 16:19:45,926 - auto_focus.focus - INFO - Focus: 21.02, 23.51, 12.91
+2014-09-22 16:19:53,710 - auto_focus.focus - INFO - Focus: 21.03, 23.52, 13.43
+2014-09-22 16:20:17,780 - auto_focus.focus - INFO - Focus: 19.50, 3.37, 13.95
+2014-09-22 16:20:25,997 - auto_focus.focus - INFO - Focus: 19.81, 3.62, 13.51
+2014-09-22 16:20:34,407 - auto_focus.focus - INFO - Focus: 20.12, 3.75, 13.43
+2014-09-22 16:20:42,365 - auto_focus.focus - INFO - Focus: 20.43, 3.70, 13.71
+2014-09-22 16:20:50,226 - auto_focus.focus - INFO - Focus: 20.56, 3.65, 13.43
+2014-09-22 16:20:58,516 - auto_focus.focus - INFO - Focus: 20.57, 3.66, 13.47
+2014-09-22 16:21:49,249 - auto_focus.focus - INFO - Focus: 16.32, 9.10, 14.47
+2014-09-22 16:21:57,061 - auto_focus.focus - INFO - Focus: 16.45, 9.11, 15.15
+2014-09-22 16:22:04,950 - auto_focus.focus - INFO - Focus: 16.46, 9.18, 15.19
+2014-09-22 16:22:57,730 - auto_focus.focus - INFO - Focus: 20.77, 3.67, 14.71
+2014-09-22 16:23:05,642 - auto_focus.focus - INFO - Focus: 20.78, 3.68, 14.75
+2014-09-22 16:24:19,709 - auto_focus.focus - INFO - Focus: 20.79, 3.69, 14.59
+2014-09-22 16:25:29,260 - auto_focus.focus - INFO - Focus: 20.68, 3.76, 14.87
+2014-09-22 16:25:37,346 - auto_focus.focus - INFO - Focus: 20.69, 3.77, 14.99
+2014-09-22 16:25:48,367 - auto_focus.focus - INFO - Focus: 20.70, 3.78, 14.87
+2014-09-22 16:26:15,815 - auto_focus.focus - INFO - Focus: 20.83, 3.73, 14.63
+2014-09-22 16:26:23,619 - auto_focus.focus - INFO - Focus: 20.78, 3.74, 14.67
+2014-09-22 16:26:34,673 - auto_focus.focus - INFO - Focus: 20.79, 3.75, 14.59
+2014-09-22 16:26:42,638 - auto_focus.focus - INFO - Focus: 20.80, 3.70, 14.63
+2014-09-22 16:27:00,122 - auto_focus.focus - INFO - Focus: 20.81, 3.71, 14.63
+2014-09-22 16:27:15,644 - auto_focus.focus - INFO - Focus: 20.82, 3.72, 14.53
+2014-09-22 16:30:55,653 - auto_focus.focus - INFO - Focus: 30.19, 7.38, 13.24
+2014-09-22 16:31:07,674 - auto_focus.focus - INFO - Focus: 30.20, 7.39, 13.22
+2014-09-22 16:32:12,596 - auto_focus.focus - INFO - Focus: 29.29, 4.02, 13.56
+2014-09-22 16:32:25,660 - auto_focus.focus - INFO - Focus: 29.36, 4.03, 13.70
+2014-09-22 16:32:38,240 - auto_focus.focus - INFO - Focus: 29.37, 4.10, 15.12
+2014-09-22 16:32:58,884 - auto_focus.focus - INFO - Focus: 29.44, 4.23, 16.94
+2014-09-22 16:36:03,003 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB679F0> is already running or in the queue.
+2014-09-22 16:36:04,430 - auto_focus.focus - INFO - Focus: 9.81, 36.25, 18.14
+2014-09-22 16:36:25,206 - auto_focus.focus - INFO - Focus: 9.82, 36.32, 17.90
+2014-09-22 16:36:37,500 - auto_focus.focus - INFO - Focus: 9.77, 36.27, 18.44
+2014-09-22 16:36:49,569 - auto_focus.focus - INFO - Focus: 9.78, 36.46, 20.94
+2014-09-22 16:37:50,966 - auto_focus.focus - INFO - Focus: 12.49, 38.78, 18.76
+2014-09-22 16:41:42,983 - auto_focus.focus - INFO - Focus: 21.67, 15.85, 15.79
+2014-09-22 16:41:54,984 - auto_focus.focus - INFO - Focus: 21.80, 15.98, 16.01
+2014-09-22 16:42:07,250 - auto_focus.focus - INFO - Focus: 21.57, 16.17, 16.35
+2014-09-22 16:42:32,210 - auto_focus.focus - INFO - Focus: 6.72, 30.52, 15.85
+2014-09-22 16:42:44,562 - auto_focus.focus - INFO - Focus: 6.67, 30.59, 15.87
+2014-09-22 16:43:06,875 - auto_focus.focus - INFO - Focus: 28.17, 23.54, 15.93
+2014-09-22 16:43:17,645 - auto_focus.focus - INFO - Focus: 28.18, 23.67, 15.89
+2014-09-22 16:44:11,197 - auto_focus.focus - INFO - Focus: 29.22, 21.38, 15.89
+2014-09-22 16:45:17,423 - auto_focus.focus - INFO - Focus: 29.13, 21.42, 15.89
+2014-09-22 16:46:05,822 - auto_focus.focus - INFO - Focus: 29.02, 21.49, 16.01
+2014-09-22 16:46:15,318 - auto_focus.focus - INFO - Focus: 29.03, 21.44, 15.89
+2014-09-22 16:50:44,783 - auto_focus.focus - INFO - Focus: 29.04, 21.57, 16.01
+2014-09-22 16:50:52,763 - auto_focus.focus - INFO - Focus: 29.05, 21.64, 16.01
+2014-09-22 17:13:01,881 - auto_focus.focus - INFO - Focus: 29.12, 21.89, 16.21
+2014-09-22 17:13:10,552 - auto_focus.focus - INFO - Focus: 29.07, 21.90, 16.01
+2014-09-22 17:25:35,821 - auto_focus.focus - INFO - Focus: 29.08, 21.97, 16.20
+2014-09-22 17:25:46,526 - auto_focus.focus - INFO - Focus: 29.09, 21.98, 16.24
+2014-09-22 17:50:00,263 - auto_focus.focus - INFO - Focus: 29.07, 22.08, 16.52
+2014-09-22 17:50:08,233 - auto_focus.focus - INFO - Focus: 29.08, 22.09, 16.44
+2014-09-22 17:56:28,414 - auto_focus.focus - INFO - Focus: 28.97, 21.98, 16.56
+2014-09-22 17:56:41,134 - auto_focus.focus - INFO - Focus: 29.04, 22.11, 16.40
+2014-09-22 17:59:15,233 - auto_focus.focus - INFO - Focus: 29.23, 22.30, 15.68
+2014-09-22 17:59:25,884 - auto_focus.focus - INFO - Focus: 29.18, 22.43, 14.68
+2014-09-22 17:59:45,573 - auto_focus.focus - INFO - Focus: 29.25, 22.44, 15.68
+2014-09-22 17:59:55,783 - auto_focus.focus - INFO - Focus: 29.06, 22.06, 16.44
+2014-09-22 18:00:03,773 - auto_focus.focus - INFO - Focus: 29.07, 22.07, 16.44
+2014-09-22 18:01:15,213 - auto_focus.focus - INFO - Focus: 29.08, 22.08, 16.56
+2014-09-22 18:14:29,151 - auto_focus.focus - INFO - Focus: 28.91, 22.15, 16.48
+2014-09-22 18:15:47,990 - auto_focus.focus - INFO - Focus: 43.30, 44.17, 17.24
+2014-09-22 18:15:55,571 - auto_focus.focus - INFO - Focus: 43.37, 44.24, 17.28
+2014-09-22 18:21:46,341 - auto_focus.focus - INFO - Focus: 43.32, 44.22, 17.28
+2014-09-22 18:23:56,740 - auto_focus.focus - INFO - Focus: 36.19, 4.77, 17.04
+2014-09-22 18:24:04,500 - auto_focus.focus - INFO - Focus: 36.26, 4.72, 16.80
+2014-09-22 18:24:12,321 - auto_focus.focus - INFO - Focus: 36.27, 4.67, 16.84
+2014-09-22 18:29:14,181 - auto_focus.focus - INFO - Focus: 31.41, 5.79, 16.84
+2014-09-22 18:29:22,451 - auto_focus.focus - INFO - Focus: 31.36, 5.80, 16.68
+2014-09-23 08:50:24,371 - auto_focus.focus - INFO - Focus: 31.34, 5.27, 16.35
+2014-09-23 08:50:32,512 - auto_focus.focus - INFO - Focus: 31.41, 5.16, 16.55
+2014-09-23 08:51:27,871 - auto_focus.focus - INFO - Focus: 31.42, 5.17, 16.51
+2014-09-23 08:51:53,782 - auto_focus.focus - INFO - Focus: 31.67, 4.82, 16.63
+2014-09-23 08:52:01,582 - auto_focus.focus - INFO - Focus: 31.62, 4.83, 16.47
+2014-09-23 08:53:04,621 - auto_focus.focus - INFO - Focus: 31.39, 5.14, 16.43
+2014-09-23 08:53:12,322 - auto_focus.focus - INFO - Focus: 31.40, 5.15, 16.55
+2014-09-23 08:53:20,121 - auto_focus.focus - INFO - Focus: 31.35, 5.16, 16.55
+2014-09-23 09:00:42,352 - auto_focus.focus - INFO - Focus: 46.03, 25.77, 16.67
+2014-09-23 09:02:02,342 - auto_focus.focus - INFO - Focus: 40.26, 22.54, 16.43
+2014-09-23 09:02:10,322 - auto_focus.focus - INFO - Focus: 40.27, 22.49, 16.35
+2014-09-23 09:10:16,263 - auto_focus.focus - INFO - Focus: 39.92, 22.80, 16.35
+2014-09-23 09:10:28,934 - auto_focus.focus - INFO - Focus: 40.23, 22.57, 16.19
+2014-09-23 09:10:36,674 - auto_focus.focus - INFO - Focus: 40.18, 22.58, 16.19
+2014-09-23 09:12:49,053 - auto_focus.focus - INFO - Focus: 40.19, 22.59, 16.19
+2014-09-23 09:12:56,973 - auto_focus.focus - INFO - Focus: 40.14, 22.66, 16.47
+2014-09-23 09:16:18,223 - auto_focus.focus - INFO - Focus: 40.15, 22.61, 16.51
+2014-09-23 09:18:10,803 - auto_focus.focus - INFO - Focus: 40.16, 22.62, 16.35
+2014-09-23 09:18:19,243 - auto_focus.focus - INFO - Focus: 40.17, 22.57, 16.39
+2014-09-23 09:22:04,845 - auto_focus.focus - INFO - Focus: 40.12, 22.52, 16.43
+2014-09-23 09:26:19,424 - auto_focus.focus - INFO - Focus: 40.17, 34.72, 17.11
+2014-09-23 09:26:27,255 - auto_focus.focus - INFO - Focus: 40.24, 34.73, 17.47
+2014-09-23 09:26:35,164 - auto_focus.focus - INFO - Focus: 40.19, 34.74, 17.19
+2014-09-23 09:31:56,145 - auto_focus.focus - INFO - Focus: 40.14, 34.75, 17.07
+2014-09-23 09:33:04,855 - auto_focus.focus - INFO - Focus: 40.09, 34.76, 17.19
+2014-09-23 09:34:02,397 - auto_focus.focus - INFO - Focus: 40.16, 34.71, 16.95
+2014-09-23 09:35:13,526 - auto_focus.focus - INFO - Focus: 40.35, 34.54, 17.07
+2014-09-23 09:35:21,377 - auto_focus.focus - INFO - Focus: 40.36, 34.55, 17.35
+2014-09-23 09:35:37,217 - auto_focus.focus - INFO - Focus: 40.31, 34.62, 17.27
+2014-09-23 09:35:45,076 - auto_focus.focus - INFO - Focus: 40.38, 34.57, 17.03
+2014-09-23 09:37:26,677 - auto_focus.focus - INFO - Focus: 40.33, 34.52, 16.99
+2014-09-23 09:37:57,187 - auto_focus.focus - INFO - Focus: 40.28, 34.47, 17.11
+2014-09-23 09:39:42,367 - auto_focus.focus - INFO - Focus: 40.35, 34.48, 16.75
+2014-09-23 09:39:50,226 - auto_focus.focus - INFO - Focus: 40.30, 34.55, 16.79
+2014-09-23 09:39:58,207 - auto_focus.focus - INFO - Focus: 40.19, 34.56, 16.63
+2014-09-23 09:41:37,207 - auto_focus.focus - INFO - Focus: 40.26, 34.51, 16.47
+2014-09-23 09:41:45,907 - auto_focus.focus - INFO - Focus: 40.27, 34.46, 16.35
+2014-09-23 09:43:17,476 - auto_focus.focus - INFO - Focus: 40.28, 34.47, 16.47
+2014-09-23 09:45:42,607 - auto_focus.focus - INFO - Focus: 40.23, 34.42, 16.59
+2014-09-23 09:45:50,657 - auto_focus.focus - INFO - Focus: 40.24, 34.43, 16.55
+2014-09-23 09:47:30,838 - auto_focus.focus - INFO - Focus: 40.19, 34.50, 16.59
+2014-09-23 09:48:34,868 - auto_focus.focus - INFO - Focus: 40.32, 34.33, 16.79
+2014-09-23 09:49:50,677 - auto_focus.focus - INFO - Focus: 40.27, 34.46, 17.07
+2014-09-23 09:49:58,548 - auto_focus.focus - INFO - Focus: 40.28, 34.47, 17.07
+2014-09-23 09:50:06,358 - auto_focus.focus - INFO - Focus: 40.23, 34.48, 16.83
+2014-09-23 09:51:02,477 - auto_focus.focus - INFO - Focus: 40.24, 34.43, 16.67
+2014-09-23 09:59:22,709 - auto_focus.focus - INFO - Focus: 40.13, 34.56, 16.59
+2014-09-23 09:59:30,438 - auto_focus.focus - INFO - Focus: 40.14, 34.45, 16.95
+2014-09-23 10:01:20,338 - auto_focus.focus - INFO - Focus: 40.27, 34.52, 16.99
+2014-09-23 10:01:28,118 - auto_focus.focus - INFO - Focus: 40.22, 34.53, 16.67
+2014-09-23 10:01:38,448 - auto_focus.focus - INFO - Focus: 40.17, 34.54, 16.83
+2014-09-23 10:01:50,779 - auto_focus.focus - INFO - Focus: 40.24, 34.49, 17.07
+2014-09-23 10:03:39,209 - auto_focus.focus - INFO - Focus: 40.25, 34.56, 17.07
+2014-09-23 10:05:13,559 - auto_focus.focus - INFO - Focus: 40.26, 34.51, 16.27
+2014-09-23 10:05:24,459 - auto_focus.focus - INFO - Focus: 40.21, 34.64, 16.35
+2014-09-23 10:06:43,158 - auto_focus.focus - INFO - Focus: 40.22, 34.53, 16.51
+2014-09-23 14:14:30,479 - auto_focus.focus - INFO - Focus: 3.70, 9.63, -12.98
+2014-09-23 14:14:38,428 - auto_focus.focus - INFO - Focus: 4.01, 9.88, -12.70
+2014-09-23 14:14:46,408 - auto_focus.focus - INFO - Focus: 3.90, 9.77, -12.42
+2014-09-23 14:14:54,368 - auto_focus.focus - INFO - Focus: 3.67, 10.02, -11.50
+2014-09-23 14:15:02,999 - auto_focus.focus - INFO - Focus: 3.74, 9.97, -11.06
+2014-09-23 14:15:12,698 - auto_focus.focus - INFO - Focus: 3.69, 10.10, -11.02
+2014-09-23 14:17:40,969 - auto_focus.focus - INFO - Focus: 3.94, 10.17, -11.22
+2014-09-23 14:17:48,799 - auto_focus.focus - INFO - Focus: 3.77, 10.18, -11.26
+2014-09-23 14:18:09,039 - auto_focus.focus - INFO - Focus: 3.84, 10.19, -11.38
+2014-09-23 14:18:16,888 - auto_focus.focus - INFO - Focus: 3.85, 10.20, -11.26
+2014-09-23 14:19:36,578 - auto_focus.focus - INFO - Focus: 35.97, 30.18, -11.26
+2014-09-23 14:19:44,569 - auto_focus.focus - INFO - Focus: 35.98, 30.07, -11.38
+2014-09-23 14:19:59,799 - auto_focus.focus - INFO - Focus: 45.03, 27.28, -11.26
+2014-09-23 14:20:07,658 - auto_focus.focus - INFO - Focus: 45.10, 27.41, -11.22
+2014-09-23 14:20:34,959 - auto_focus.focus - INFO - Focus: 44.93, 27.42, -12.22
+2014-09-23 14:20:42,878 - auto_focus.focus - INFO - Focus: 45.24, 27.19, -12.74
+2014-09-23 14:20:52,148 - auto_focus.focus - INFO - Focus: 44.95, 27.44, -12.78
+2014-09-23 14:21:00,148 - auto_focus.focus - INFO - Focus: 45.02, 27.45, -13.18
+2014-09-23 14:22:55,838 - auto_focus.focus - INFO - Focus: 45.03, 27.64, -12.82
+2014-09-23 14:23:04,239 - auto_focus.focus - INFO - Focus: 45.04, 27.59, -12.78
+2014-09-23 14:23:53,029 - auto_focus.focus - INFO - Focus: 33.92, 27.05, -12.74
+2014-09-23 14:24:01,078 - auto_focus.focus - INFO - Focus: 33.87, 27.00, -12.90
+2014-09-23 14:24:10,088 - auto_focus.focus - INFO - Focus: 33.88, 27.13, -12.98
+2014-09-23 14:24:25,739 - auto_focus.focus - INFO - Focus: 36.08, 29.00, -12.98
+2014-09-23 14:24:33,609 - auto_focus.focus - INFO - Focus: 36.09, 29.01, -12.86
+2014-09-23 14:24:41,799 - auto_focus.focus - INFO - Focus: 36.10, 29.02, -12.82
+2014-09-23 14:26:29,480 - auto_focus.focus - INFO - Focus: 36.05, 29.03, -13.02
+2014-09-23 14:26:37,410 - auto_focus.focus - INFO - Focus: 36.06, 28.98, -13.14
+2014-09-23 14:27:03,779 - auto_focus.focus - INFO - Focus: 36.07, 29.05, -12.54
+2014-09-23 14:27:11,720 - auto_focus.focus - INFO - Focus: 36.08, 29.00, -12.50
+2014-09-23 14:27:32,460 - auto_focus.focus - INFO - Focus: 36.09, 28.83, -12.30
+2014-09-23 14:27:42,039 - auto_focus.focus - INFO - Focus: 36.22, 28.84, -12.26
+2014-09-23 14:28:41,880 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071F74B0>, trait: X, old value: [ 35.48061541], new value: []
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-23 14:28:41,960 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071F74B0>, trait: constant_axis, old value: y, new value: z
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 367, in _constant_axis_changed
+    self.set_mesh_and_aspect_ratio()
+  File "D:\pi3diamondnew\measurements\confocal.py", line 321, in set_mesh_and_aspect_ratio
+    x1=self.X[0]
+IndexError: index out of bounds
+2014-09-23 14:29:38,039 - auto_focus.focus - INFO - Focus: 36.01, 28.92, -12.50
+2014-09-23 14:30:57,289 - auto_focus.focus - INFO - Focus: 36.14, 29.05, -12.82
+2014-09-23 14:31:05,190 - auto_focus.focus - INFO - Focus: 36.15, 29.06, -12.94
+2014-09-23 14:34:01,960 - auto_focus.focus - INFO - Focus: 36.16, 29.07, -12.94
+2014-09-23 14:34:09,730 - auto_focus.focus - INFO - Focus: 36.17, 28.96, -12.94
+2014-09-23 14:37:35,051 - auto_focus.focus - INFO - Focus: 36.24, 28.97, -12.82
+2014-09-23 14:37:42,921 - auto_focus.focus - INFO - Focus: 36.31, 28.98, -12.70
+2014-09-23 14:38:59,911 - auto_focus.focus - INFO - Focus: 36.32, 28.87, -12.82
+2014-09-23 14:39:13,651 - auto_focus.focus - INFO - Focus: 36.29, 28.84, -12.86
+2014-09-23 14:39:22,601 - auto_focus.focus - INFO - Focus: 36.26, 28.95, -12.86
+2014-09-23 14:39:42,220 - auto_focus.focus - INFO - Focus: 36.30, 28.99, -12.82
+2014-09-23 14:41:05,250 - auto_focus.focus - INFO - Focus: 36.41, 29.03, -12.38
+2014-09-23 14:41:14,750 - auto_focus.focus - INFO - Focus: 36.24, 29.00, -12.46
+2014-09-23 14:43:39,010 - auto_focus.focus - INFO - Focus: 36.28, 28.90, -11.94
+2014-09-23 14:43:49,091 - auto_focus.focus - INFO - Focus: 36.18, 29.01, -12.18
+2014-09-23 14:46:36,161 - auto_focus.focus - INFO - Focus: 36.15, 29.05, -11.90
+2014-09-23 14:46:45,180 - auto_focus.focus - INFO - Focus: 36.19, 29.02, -11.98
+2014-09-23 14:50:13,471 - auto_focus.focus - INFO - Focus: 36.23, 28.99, -11.06
+2014-09-23 14:50:22,211 - auto_focus.focus - INFO - Focus: 36.20, 28.96, -10.86
+2014-09-23 14:50:30,901 - auto_focus.focus - INFO - Focus: 36.17, 29.14, -10.82
+2014-09-23 14:53:41,562 - auto_focus.focus - INFO - Focus: 36.35, 29.18, -10.94
+2014-09-23 14:53:50,171 - auto_focus.focus - INFO - Focus: 36.46, 29.01, -11.10
+2014-09-23 14:53:58,871 - auto_focus.focus - INFO - Focus: 36.29, 29.05, -11.34
+2014-09-23 14:55:28,221 - auto_focus.focus - INFO - Focus: 36.40, 28.60, -11.62
+2014-09-23 14:56:55,451 - auto_focus.focus - INFO - Focus: 36.51, 28.85, -12.30
+2014-09-23 14:57:04,082 - auto_focus.focus - INFO - Focus: 36.48, 28.75, -12.34
+2014-09-23 14:57:12,611 - auto_focus.focus - INFO - Focus: 36.52, 28.79, -12.38
+2014-09-23 14:57:21,502 - auto_focus.focus - INFO - Focus: 36.49, 28.76, -12.18
+2014-09-23 14:59:10,282 - auto_focus.focus - INFO - Focus: 36.46, 28.73, -12.42
+2014-09-23 15:00:27,513 - auto_focus.focus - INFO - Focus: 36.43, 28.91, -12.14
+2014-09-23 15:00:36,193 - auto_focus.focus - INFO - Focus: 36.40, 28.88, -12.26
+2014-09-23 15:02:42,792 - auto_focus.focus - INFO - Focus: 36.30, 28.92, -12.14
+2014-09-23 15:02:52,723 - auto_focus.focus - INFO - Focus: 36.34, 28.96, -12.26
+2014-09-23 15:03:01,332 - auto_focus.focus - INFO - Focus: 36.31, 28.93, -12.14
+2014-09-23 15:06:39,283 - auto_focus.focus - INFO - Focus: 36.28, 29.11, -12.34
+2014-09-23 15:06:47,844 - auto_focus.focus - INFO - Focus: 36.32, 29.15, -12.58
+2014-09-23 15:08:07,374 - auto_focus.focus - INFO - Focus: 36.36, 29.12, -12.46
+2014-09-23 15:08:24,513 - auto_focus.focus - INFO - Focus: 36.39, 29.03, -12.50
+2014-09-23 15:09:23,904 - auto_focus.focus - INFO - Focus: 36.42, 29.18, -12.62
+2014-09-23 15:09:38,924 - auto_focus.focus - INFO - Focus: 36.51, 29.21, -12.62
+2014-09-23 15:09:49,834 - auto_focus.focus - INFO - Focus: 36.42, 29.24, -12.58
+2014-09-23 15:11:28,513 - auto_focus.focus - INFO - Focus: 36.33, 29.21, -12.30
+2014-09-23 15:11:39,614 - auto_focus.focus - INFO - Focus: 36.36, 29.30, -12.50
+2014-09-23 15:11:50,473 - auto_focus.focus - INFO - Focus: 36.51, 29.33, -12.58
+2014-09-23 15:13:16,035 - auto_focus.focus - INFO - Focus: 36.34, 29.37, -12.70
+2014-09-23 15:13:26,825 - auto_focus.focus - INFO - Focus: 36.49, 29.28, -12.78
+2014-09-23 15:18:07,924 - auto_focus.focus - INFO - Focus: 36.22, 29.37, -12.18
+2014-09-23 15:18:18,914 - auto_focus.focus - INFO - Focus: 36.37, 29.34, -11.74
+2014-09-23 15:18:30,305 - auto_focus.focus - INFO - Focus: 36.46, 29.13, -11.62
+2014-09-23 15:20:47,865 - auto_focus.focus - INFO - Focus: 13.75, 3.21, -10.70
+2014-09-23 15:20:58,704 - auto_focus.focus - INFO - Focus: 13.90, 3.24, -11.46
+2014-09-23 15:21:09,694 - auto_focus.focus - INFO - Focus: 13.81, 3.69, -10.86
+2014-09-23 15:21:26,315 - auto_focus.focus - INFO - Focus: 7.13, 3.18, -9.86
+2014-09-23 15:21:37,684 - auto_focus.focus - INFO - Focus: 7.10, 3.21, -9.66
+2014-09-23 15:24:38,956 - auto_focus.focus - INFO - Focus: 7.01, 3.42, -9.30
+2014-09-23 15:24:54,936 - auto_focus.focus - INFO - Focus: 7.04, 3.39, -9.38
+2014-09-23 15:25:12,776 - auto_focus.focus - INFO - Focus: 28.94, 5.41, -10.30
+2014-09-23 15:25:23,736 - auto_focus.focus - INFO - Focus: 28.91, 5.44, -10.78
+2014-09-23 15:25:40,026 - auto_focus.focus - INFO - Focus: 30.36, 7.16, -10.74
+2014-09-23 15:25:51,006 - auto_focus.focus - INFO - Focus: 30.33, 7.19, -10.78
+2014-09-23 15:26:02,335 - auto_focus.focus - INFO - Focus: 30.30, 7.22, -10.74
+2014-09-23 16:24:17,073 - auto_focus.focus - INFO - Focus: 40.40, 31.13, -12.93
+2014-09-23 16:25:36,404 - auto_focus.focus - INFO - Focus: 40.47, 31.21, -12.81
+2014-09-23 16:25:47,394 - auto_focus.focus - INFO - Focus: 40.44, 31.18, -12.77
+2014-09-23 16:26:01,073 - auto_focus.focus - INFO - Focus: 40.35, 31.03, -13.25
+2014-09-23 16:26:12,043 - auto_focus.focus - INFO - Focus: 40.56, 31.18, -13.21
+2014-09-23 16:26:29,584 - auto_focus.focus - INFO - Focus: 40.59, 31.15, -13.25
+2014-09-23 16:26:40,523 - auto_focus.focus - INFO - Focus: 40.56, 31.18, -13.13
+2014-09-23 16:28:37,874 - auto_focus.focus - INFO - Focus: 40.47, 31.21, -13.41
+2014-09-23 16:28:51,664 - auto_focus.focus - INFO - Focus: 40.51, 31.18, -13.61
+2014-09-23 16:29:00,703 - auto_focus.focus - INFO - Focus: 40.41, 31.22, -13.49
+2014-09-23 16:40:35,265 - auto_focus.focus - INFO - Focus: 40.45, 31.19, -13.45
+2014-09-23 16:40:44,305 - auto_focus.focus - INFO - Focus: 40.42, 31.23, -13.61
+2014-09-23 18:19:51,575 - auto_focus.focus - INFO - Focus: 40.12, 30.59, -17.82
+2014-09-23 18:20:00,535 - auto_focus.focus - INFO - Focus: 40.44, 30.42, -17.86
+2014-09-23 18:20:35,345 - auto_focus.focus - INFO - Focus: 7.90, 9.13, -17.10
+2014-09-23 18:20:44,045 - auto_focus.focus - INFO - Focus: 8.22, 8.89, -17.66
+2014-09-23 18:20:52,944 - auto_focus.focus - INFO - Focus: 7.84, 9.07, -18.50
+2014-09-23 18:35:07,336 - auto_focus.focus - INFO - Focus: 28.58, 43.54, -4.80
+2014-09-23 18:35:15,927 - auto_focus.focus - INFO - Focus: 28.69, 43.58, -5.28
+2014-09-23 18:35:24,756 - auto_focus.focus - INFO - Focus: 28.52, 43.83, -5.16
+2014-09-23 18:35:56,756 - auto_focus.focus - INFO - Focus: 28.07, 44.22, -5.24
+2014-09-23 18:37:30,336 - auto_focus.focus - INFO - Focus: 14.04, 45.21, -4.91
+2014-09-23 18:37:38,967 - auto_focus.focus - INFO - Focus: 14.01, 45.46, -4.71
+2014-09-23 18:37:47,556 - auto_focus.focus - INFO - Focus: 13.91, 45.29, -4.79
+2014-09-23 18:37:56,157 - auto_focus.focus - INFO - Focus: 14.09, 45.33, -4.99
+2014-09-23 18:38:04,667 - auto_focus.focus - INFO - Focus: 13.99, 45.30, -4.87
+2014-09-23 18:39:20,137 - auto_focus.focus - INFO - Focus: 14.03, 45.41, -5.19
+2014-09-23 18:39:28,836 - auto_focus.focus - INFO - Focus: 14.07, 45.03, -4.99
+2014-09-23 18:41:32,687 - auto_focus.focus - INFO - Focus: 14.32, 45.21, -4.87
+2014-09-23 18:41:42,897 - auto_focus.focus - INFO - Focus: 14.43, 45.32, -4.03
+2014-09-23 18:42:03,976 - auto_focus.focus - INFO - Focus: 14.54, 45.36, -5.03
+2014-09-23 18:42:12,526 - auto_focus.focus - INFO - Focus: 14.37, 45.33, -5.23
+2014-09-23 18:42:21,276 - auto_focus.focus - INFO - Focus: 14.34, 45.23, -5.35
+2014-09-23 18:42:30,056 - auto_focus.focus - INFO - Focus: 14.38, 45.06, -5.23
+2014-09-24 09:08:38,576 - auto_focus.focus - INFO - Focus: 16.29, 44.79, -7.92
+2014-09-24 09:08:47,226 - auto_focus.focus - INFO - Focus: 16.26, 44.41, -7.56
+2014-09-24 09:08:55,887 - auto_focus.focus - INFO - Focus: 16.30, 44.45, -7.44
+2014-09-24 09:10:57,296 - auto_focus.focus - INFO - Focus: 16.27, 44.35, -7.52
+2014-09-24 09:11:06,147 - auto_focus.focus - INFO - Focus: 16.24, 44.32, -7.48
+2014-09-24 09:11:49,336 - auto_focus.focus - INFO - Focus: 16.35, 44.43, -7.04
+2014-09-24 09:11:57,907 - auto_focus.focus - INFO - Focus: 16.25, 44.47, -7.20
+2014-09-24 09:13:04,437 - auto_focus.focus - INFO - Focus: 16.29, 44.44, -6.84
+2014-09-24 09:13:13,157 - auto_focus.focus - INFO - Focus: 16.26, 44.48, -6.96
+2014-09-24 09:14:41,857 - auto_focus.focus - INFO - Focus: 16.23, 44.31, -6.60
+2014-09-24 09:14:50,816 - auto_focus.focus - INFO - Focus: 16.27, 44.42, -6.56
+2014-09-24 09:15:03,137 - auto_focus.focus - INFO - Focus: 16.24, 44.46, -6.52
+2014-09-24 09:16:15,167 - auto_focus.focus - INFO - Focus: 16.21, 44.43, -6.32
+2014-09-24 09:17:21,967 - auto_focus.focus - INFO - Focus: 16.18, 44.47, -5.96
+2014-09-24 09:18:20,177 - auto_focus.focus - INFO - Focus: 16.36, 44.23, -5.76
+2014-09-24 09:19:35,128 - auto_focus.focus - INFO - Focus: 16.26, 44.41, -5.32
+2014-09-24 09:19:43,737 - auto_focus.focus - INFO - Focus: 16.23, 44.38, -5.40
+2014-09-24 09:19:52,757 - auto_focus.focus - INFO - Focus: 16.27, 44.42, -5.40
+2014-09-24 09:20:03,808 - auto_focus.focus - INFO - Focus: 16.31, 44.46, -5.28
+2014-09-24 09:21:16,138 - auto_focus.focus - INFO - Focus: 16.28, 44.36, -5.24
+2014-09-24 09:22:23,588 - auto_focus.focus - INFO - Focus: 16.25, 44.47, -5.40
+2014-09-24 09:23:21,818 - auto_focus.focus - INFO - Focus: 16.22, 44.44, -5.64
+2014-09-24 09:24:11,437 - auto_focus.focus - INFO - Focus: 16.26, 44.34, -5.92
+2014-09-24 09:24:20,477 - auto_focus.focus - INFO - Focus: 16.23, 44.45, -5.48
+2014-09-24 09:25:58,747 - auto_focus.focus - INFO - Focus: 16.27, 44.42, -6.28
+2014-09-24 09:26:53,697 - auto_focus.focus - INFO - Focus: 16.17, 44.39, -6.24
+2014-09-24 09:27:53,818 - auto_focus.focus - INFO - Focus: 16.21, 44.36, -6.48
+2014-09-24 09:28:40,808 - auto_focus.focus - INFO - Focus: 16.18, 44.33, -6.56
+2014-09-24 09:28:49,328 - auto_focus.focus - INFO - Focus: 16.15, 44.30, -6.84
+2014-09-24 09:30:27,657 - auto_focus.focus - INFO - Focus: 16.12, 44.34, -6.88
+2014-09-24 09:30:36,657 - auto_focus.focus - INFO - Focus: 16.09, 44.38, -6.88
+2014-09-24 09:32:44,408 - auto_focus.focus - INFO - Focus: 16.06, 44.42, -7.08
+2014-09-24 09:34:43,848 - auto_focus.focus - INFO - Focus: 16.10, 44.39, -7.20
+2014-09-24 09:34:53,489 - auto_focus.focus - INFO - Focus: 16.07, 44.43, -7.32
+2014-09-24 09:36:46,618 - auto_focus.focus - INFO - Focus: 16.11, 44.40, -7.28
+2014-09-24 09:38:18,168 - auto_focus.focus - INFO - Focus: 16.15, 44.23, -7.32
+2014-09-24 09:39:23,999 - auto_focus.focus - INFO - Focus: 16.05, 44.27, -7.40
+2014-09-24 09:43:08,410 - auto_focus.focus - INFO - Focus: 15.95, 44.24, -7.64
+2014-09-24 09:43:17,079 - auto_focus.focus - INFO - Focus: 15.50, 44.49, -7.44
+2014-09-24 09:48:19,089 - auto_focus.focus - INFO - Focus: 15.89, 44.32, -7.60
+2014-09-24 09:48:27,650 - auto_focus.focus - INFO - Focus: 15.93, 44.29, -7.48
+2014-09-24 12:46:39,479 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB679F0> is already running or in the queue.
+2014-09-24 12:46:40,049 - auto_focus.focus - INFO - Focus: 24.12, 4.56, -4.87
+2014-09-24 12:46:50,888 - auto_focus.focus - INFO - Focus: 24.51, 4.88, -3.95
+2014-09-24 12:46:59,838 - auto_focus.focus - INFO - Focus: 24.62, 4.92, -3.51
+2014-09-24 12:47:09,368 - auto_focus.focus - INFO - Focus: 24.59, 5.03, -3.39
+2014-09-24 12:51:27,438 - auto_focus.focus - INFO - Focus: 24.70, 4.93, -3.75
+2014-09-24 12:51:38,078 - auto_focus.focus - INFO - Focus: 24.60, 4.90, -3.71
+2014-09-24 12:53:13,448 - auto_focus.focus - INFO - Focus: 33.39, 40.78, -4.19
+2014-09-24 12:53:22,150 - auto_focus.focus - INFO - Focus: 33.43, 40.68, -4.23
+2014-09-24 12:55:56,150 - auto_focus.focus - INFO - Focus: 33.33, 40.72, -4.35
+2014-09-24 12:57:51,769 - auto_focus.focus - INFO - Focus: 33.30, 40.90, -4.31
+2014-09-24 12:58:03,279 - auto_focus.focus - INFO - Focus: 33.34, 40.66, -4.43
+2014-09-24 12:59:51,250 - auto_focus.focus - INFO - Focus: 33.31, 40.77, -4.07
+2014-09-24 13:00:00,210 - auto_focus.focus - INFO - Focus: 33.42, 40.67, -4.03
+2014-09-24 13:01:53,809 - auto_focus.focus - INFO - Focus: 33.39, 40.85, -4.23
+2014-09-24 13:02:02,450 - auto_focus.focus - INFO - Focus: 33.36, 40.75, -4.31
+2014-09-24 13:03:34,119 - auto_focus.focus - INFO - Focus: 33.33, 40.72, -4.27
+2014-09-24 13:03:43,230 - auto_focus.focus - INFO - Focus: 33.30, 40.62, -4.51
+2014-09-24 13:05:02,680 - auto_focus.focus - INFO - Focus: 33.27, 40.80, -3.91
+2014-09-24 13:05:11,500 - auto_focus.focus - INFO - Focus: 33.31, 40.63, -3.87
+2014-09-24 13:06:06,980 - auto_focus.focus - INFO - Focus: 33.35, 40.74, -3.51
+2014-09-24 13:06:15,730 - auto_focus.focus - INFO - Focus: 33.39, 40.71, -3.71
+2014-09-24 13:07:10,220 - auto_focus.focus - INFO - Focus: 33.36, 40.68, -3.51
+2014-09-24 13:07:18,960 - auto_focus.focus - INFO - Focus: 33.40, 40.72, -3.23
+2014-09-24 13:08:00,621 - auto_focus.focus - INFO - Focus: 33.44, 40.76, -3.51
+2014-09-24 13:08:09,871 - auto_focus.focus - INFO - Focus: 33.41, 40.80, -3.31
+2014-09-24 13:09:02,480 - auto_focus.focus - INFO - Focus: 33.38, 40.84, -3.39
+2014-09-24 13:09:11,790 - auto_focus.focus - INFO - Focus: 33.35, 40.74, -3.27
+2014-09-24 13:10:33,950 - auto_focus.focus - INFO - Focus: 33.39, 40.78, -3.27
+2014-09-24 13:11:23,680 - auto_focus.focus - INFO - Focus: 33.36, 40.89, -3.15
+2014-09-24 13:14:00,240 - auto_focus.focus - INFO - Focus: 33.40, 40.86, -3.87
+2014-09-24 13:14:09,260 - auto_focus.focus - INFO - Focus: 33.30, 40.83, -3.75
+2014-09-24 13:16:43,440 - auto_focus.focus - INFO - Focus: 33.48, 40.94, -2.99
+2014-09-24 13:16:52,131 - auto_focus.focus - INFO - Focus: 33.80, 40.56, -2.23
+2014-09-24 13:17:00,740 - auto_focus.focus - INFO - Focus: 33.35, 40.74, -1.47
+2014-09-24 13:17:09,641 - auto_focus.focus - INFO - Focus: 33.25, 40.85, -1.59
+2014-09-24 13:17:18,542 - auto_focus.focus - INFO - Focus: 33.22, 40.89, -1.39
+2014-09-24 13:20:03,542 - auto_focus.focus - INFO - Focus: 33.26, 41.00, -1.71
+2014-09-24 13:20:12,191 - auto_focus.focus - INFO - Focus: 33.30, 40.90, -1.67
+2014-09-24 13:22:15,121 - auto_focus.focus - INFO - Focus: 33.20, 40.94, -1.55
+2014-09-24 13:22:24,361 - auto_focus.focus - INFO - Focus: 33.24, 40.98, -1.51
+2014-09-24 13:24:40,361 - auto_focus.focus - INFO - Focus: 33.21, 41.02, -1.47
+2014-09-24 13:24:49,141 - auto_focus.focus - INFO - Focus: 33.18, 40.99, -1.43
+2014-09-24 13:27:18,532 - auto_focus.focus - INFO - Focus: 33.22, 41.03, -1.23
+2014-09-24 13:27:27,221 - auto_focus.focus - INFO - Focus: 33.19, 41.00, -1.35
+2014-09-24 13:30:28,243 - auto_focus.focus - INFO - Focus: 33.09, 41.04, -1.15
+2014-09-24 13:35:59,753 - auto_focus.focus - INFO - Focus: 32.71, 41.08, -1.11
+2014-09-24 13:36:08,392 - auto_focus.focus - INFO - Focus: 32.68, 41.05, -1.15
+2014-09-24 13:36:17,052 - auto_focus.focus - INFO - Focus: 32.65, 41.16, -1.31
+2014-09-24 13:40:43,953 - auto_focus.focus - INFO - Focus: 32.83, 40.99, -1.31
+2014-09-24 13:40:52,483 - auto_focus.focus - INFO - Focus: 32.80, 40.96, -1.51
+2014-09-24 13:42:47,625 - auto_focus.focus - INFO - Focus: 32.84, 41.00, -0.99
+2014-09-24 13:42:56,244 - auto_focus.focus - INFO - Focus: 32.88, 40.90, -1.19
+2014-09-24 13:43:04,974 - auto_focus.focus - INFO - Focus: 32.85, 41.01, -1.15
+2014-09-24 13:43:42,694 - auto_focus.focus - INFO - Focus: 32.89, 40.98, -1.27
+2014-09-24 13:47:09,825 - auto_focus.focus - INFO - Focus: 32.93, 41.09, -0.67
+2014-09-24 13:49:15,234 - auto_focus.focus - INFO - Focus: 32.76, 40.99, -0.91
+2014-09-24 13:49:23,855 - auto_focus.focus - INFO - Focus: 32.73, 41.03, -0.99
+2014-09-24 13:49:33,224 - auto_focus.focus - INFO - Focus: 32.77, 40.93, -0.87
+2014-09-24 13:53:41,016 - auto_focus.focus - INFO - Focus: 32.74, 40.90, -0.83
+2014-09-24 13:53:49,625 - auto_focus.focus - INFO - Focus: 32.71, 40.94, -0.79
+2014-09-24 13:56:18,645 - auto_focus.focus - INFO - Focus: 32.68, 40.84, -0.67
+2014-09-24 13:56:27,246 - auto_focus.focus - INFO - Focus: 32.65, 40.88, -0.83
+2014-09-24 13:59:52,206 - auto_focus.focus - INFO - Focus: 32.67, 40.85, -0.83
+2014-09-24 14:00:01,055 - auto_focus.focus - INFO - Focus: 32.64, 40.82, -0.91
+2014-09-24 14:01:24,555 - auto_focus.focus - INFO - Focus: 30.77, 38.63, -0.39
+2014-09-24 14:01:33,216 - auto_focus.focus - INFO - Focus: 30.74, 38.60, -0.27
+2014-09-24 14:01:50,355 - auto_focus.focus - INFO - Focus: 37.64, 36.31, -0.75
+2014-09-24 14:01:59,055 - auto_focus.focus - INFO - Focus: 37.68, 36.35, -0.83
+2014-09-24 14:02:16,345 - auto_focus.focus - INFO - Focus: 33.30, 41.28, -0.79
+2014-09-24 14:02:25,046 - auto_focus.focus - INFO - Focus: 33.34, 41.32, -0.83
+2014-09-24 14:03:53,006 - auto_focus.focus - INFO - Focus: 33.17, 41.36, -0.99
+2014-09-24 14:04:01,526 - auto_focus.focus - INFO - Focus: 33.14, 41.33, -0.71
+2014-09-24 14:05:14,387 - auto_focus.focus - INFO - Focus: 33.11, 41.37, -0.67
+2014-09-24 14:06:22,016 - auto_focus.focus - INFO - Focus: 33.08, 41.34, -0.55
+2014-09-24 14:08:28,026 - auto_focus.focus - INFO - Focus: 33.26, 41.45, -0.35
+2014-09-24 14:08:38,617 - auto_focus.focus - INFO - Focus: 33.23, 41.49, -0.39
+2014-09-24 14:11:13,766 - auto_focus.focus - INFO - Focus: 33.27, 41.39, -0.19
+2014-09-24 14:11:59,707 - auto_focus.focus - INFO - Focus: 33.24, 41.43, -0.15
+2014-09-24 14:12:16,197 - auto_focus.focus - INFO - Focus: 33.26, 41.39, -0.27
+2014-09-24 14:16:38,657 - auto_focus.focus - INFO - Focus: 36.45, 39.12, -0.51
+2014-09-24 14:16:49,017 - auto_focus.focus - INFO - Focus: 36.41, 39.26, -0.31
+2014-09-24 14:16:58,628 - auto_focus.focus - INFO - Focus: 36.43, 39.22, -0.39
+2014-09-24 14:18:07,677 - auto_focus.focus - INFO - Focus: 36.63, 39.12, -0.91
+2014-09-24 14:18:17,157 - auto_focus.focus - INFO - Focus: 36.59, 39.02, -0.71
+2014-09-24 14:19:13,318 - auto_focus.focus - INFO - Focus: 36.51, 39.18, -0.59
+2014-09-24 14:19:22,898 - auto_focus.focus - INFO - Focus: 36.53, 39.14, -0.47
+2014-09-24 14:19:33,017 - auto_focus.focus - INFO - Focus: 36.55, 39.22, -0.59
+2014-09-24 14:20:31,927 - auto_focus.focus - INFO - Focus: 36.81, 39.24, -0.87
+2014-09-24 14:20:47,028 - auto_focus.focus - INFO - Focus: 36.82, 39.18, -0.75
+2014-09-24 14:21:07,068 - auto_focus.focus - INFO - Focus: 33.37, 41.42, -0.55
+2014-09-24 14:21:16,638 - auto_focus.focus - INFO - Focus: 33.39, 41.38, -0.43
+2014-09-24 14:21:26,497 - auto_focus.focus - INFO - Focus: 33.29, 41.34, -0.39
+2014-09-24 14:21:49,417 - auto_focus.focus - INFO - Focus: 32.95, 41.42, -0.71
+2014-09-24 14:21:59,088 - auto_focus.focus - INFO - Focus: 32.91, 41.32, -0.71
+2014-09-24 14:22:22,338 - auto_focus.focus - INFO - Focus: 33.37, 41.36, -0.67
+2014-09-24 14:22:35,227 - auto_focus.focus - INFO - Focus: 33.33, 41.38, -0.47
+2014-09-24 14:23:50,338 - auto_focus.focus - INFO - Focus: 33.41, 41.46, -0.79
+2014-09-24 14:24:00,078 - auto_focus.focus - INFO - Focus: 33.43, 41.42, -0.67
+2014-09-24 14:27:22,858 - auto_focus.focus - INFO - Focus: 33.45, 41.32, -0.83
+2014-09-24 14:27:32,507 - auto_focus.focus - INFO - Focus: 33.47, 41.34, -0.71
+2014-09-24 14:27:53,778 - auto_focus.focus - INFO - Focus: 33.25, 41.36, -0.27
+2014-09-24 14:28:03,717 - auto_focus.focus - INFO - Focus: 33.27, 41.38, -0.31
+2014-09-24 14:28:15,457 - auto_focus.focus - INFO - Focus: 33.29, 41.40, -0.71
+2014-09-24 14:28:36,809 - auto_focus.focus - INFO - Focus: 33.43, 41.42, -0.75
+2014-09-24 14:29:52,959 - auto_focus.focus - INFO - Focus: 33.51, 41.32, -0.79
+2014-09-24 14:30:05,928 - auto_focus.focus - INFO - Focus: 33.53, 41.28, -0.67
+2014-09-24 14:30:24,499 - auto_focus.focus - INFO - Focus: 33.31, 41.42, -0.47
+2014-09-24 14:30:34,279 - auto_focus.focus - INFO - Focus: 33.27, 41.38, -0.79
+2014-09-24 14:31:43,299 - auto_focus.focus - INFO - Focus: 33.29, 41.34, -0.59
+2014-09-24 14:31:55,469 - auto_focus.focus - INFO - Focus: 33.37, 41.42, -0.63
+2014-09-24 14:36:49,878 - auto_focus.focus - INFO - Focus: 33.21, 41.20, -0.43
+2014-09-24 14:36:59,200 - auto_focus.focus - INFO - Focus: 33.17, 41.22, -0.43
+2014-09-24 14:37:09,460 - auto_focus.focus - INFO - Focus: 33.13, 41.24, -0.31
+2014-09-24 14:39:31,220 - auto_focus.focus - INFO - Focus: 33.15, 41.32, -0.19
+2014-09-24 14:39:43,309 - auto_focus.focus - INFO - Focus: 33.29, 41.28, -0.35
+2014-09-24 14:39:54,130 - auto_focus.focus - INFO - Focus: 33.19, 41.18, -0.83
+2014-09-24 14:40:09,569 - auto_focus.focus - INFO - Focus: 33.25, 41.29, -0.63
+2014-09-24 14:41:02,700 - auto_focus.focus - INFO - Focus: 33.09, 41.25, -0.27
+2014-09-24 14:41:20,841 - auto_focus.focus - INFO - Focus: 33.14, 41.30, -0.35
+2014-09-24 14:42:43,040 - auto_focus.focus - INFO - Focus: 33.16, 41.26, -0.47
+2014-09-24 14:49:46,200 - auto_focus.focus - INFO - Focus: 33.24, 41.28, -0.43
+2014-09-24 14:50:20,210 - auto_focus.focus - INFO - Focus: 33.20, 41.36, -0.39
+2014-09-24 15:19:38,434 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB679F0> is already running or in the queue.
+2014-09-24 15:19:39,763 - auto_focus.focus - INFO - Focus: 33.09, 41.38, -0.95
+2014-09-24 15:19:59,914 - auto_focus.focus - INFO - Focus: 33.11, 41.22, -0.75
+2014-09-24 15:27:07,323 - auto_focus.focus - INFO - Focus: 33.08, 41.25, -0.63
+2014-09-24 15:52:29,358 - auto_focus.focus - INFO - Focus: 33.09, 41.24, -0.59
+2014-09-24 15:52:44,598 - auto_focus.focus - INFO - Focus: 33.11, 41.26, -0.63
+2014-09-24 16:11:09,598 - auto_focus.focus - INFO - Focus: 32.88, 41.48, -1.51
+2014-09-24 16:11:23,819 - auto_focus.focus - INFO - Focus: 32.90, 41.80, -1.31
+2014-09-24 16:13:16,749 - auto_focus.focus - INFO - Focus: 33.10, 41.40, -1.03
+2014-09-24 16:13:30,539 - auto_focus.focus - INFO - Focus: 33.18, 41.36, -1.11
+2014-09-24 16:13:46,509 - auto_focus.focus - INFO - Focus: 33.14, 41.32, -1.07
+2014-09-24 16:20:02,779 - auto_focus.focus - INFO - Focus: 33.22, 41.40, -1.31
+2014-09-24 16:20:15,559 - auto_focus.focus - INFO - Focus: 33.18, 41.30, -1.35
+2014-09-24 16:20:27,599 - auto_focus.focus - INFO - Focus: 33.14, 41.26, -1.31
+2014-09-24 16:21:04,299 - auto_focus.focus - INFO - Focus: 33.14, 41.36, -1.59
+2014-09-24 16:22:21,609 - auto_focus.focus - INFO - Focus: 33.19, 41.26, -1.23
+2014-09-24 18:08:00,296 - auto_focus.focus - INFO - Focus: 45.12, 4.20, -0.89
+2014-09-24 18:08:10,036 - auto_focus.focus - INFO - Focus: 45.14, 4.08, -0.13
+2014-09-24 18:08:19,486 - auto_focus.focus - INFO - Focus: 45.16, 3.96, 0.07
+2014-09-24 18:08:29,137 - auto_focus.focus - INFO - Focus: 45.18, 3.91, 0.11
+2014-09-24 18:09:46,687 - auto_focus.focus - INFO - Focus: 47.77, 5.35, -0.33
+2014-09-24 18:10:00,357 - auto_focus.focus - INFO - Focus: 45.19, 4.20, -0.13
+2014-09-24 18:11:21,147 - auto_focus.focus - INFO - Focus: 45.33, 4.25, -0.09
+2014-09-24 18:13:15,957 - auto_focus.focus - INFO - Focus: 45.33, 4.30, -0.29
+2014-09-24 18:13:25,746 - auto_focus.focus - INFO - Focus: 45.28, 4.25, -0.01
+2014-09-24 18:15:34,927 - auto_focus.focus - INFO - Focus: 45.33, 4.18, -0.41
+2014-09-24 18:15:46,937 - auto_focus.focus - INFO - Focus: 45.28, 4.13, -0.61
+2014-09-24 18:19:28,667 - auto_focus.focus - INFO - Focus: 45.41, 4.16, -0.59
+2014-09-24 18:20:30,549 - auto_focus.focus - INFO - Focus: 45.36, 4.25, -0.23
+2014-09-24 18:20:40,628 - auto_focus.focus - INFO - Focus: 45.38, 4.20, -0.35
+2014-09-24 18:22:51,168 - auto_focus.focus - INFO - Focus: 45.40, 4.22, -0.23
+2014-09-24 18:23:00,719 - auto_focus.focus - INFO - Focus: 45.42, 4.17, -0.35
+2014-09-24 18:24:06,309 - auto_focus.focus - INFO - Focus: 45.44, 4.19, -0.23
+2014-09-24 18:25:02,719 - auto_focus.focus - INFO - Focus: 45.46, 4.14, -0.19
+2014-09-24 18:26:28,960 - auto_focus.focus - INFO - Focus: 45.48, 4.16, 0.17
+2014-09-24 18:27:56,430 - auto_focus.focus - INFO - Focus: 14.85, 11.60, 1.01
+2014-09-24 18:28:05,890 - auto_focus.focus - INFO - Focus: 14.59, 11.62, 0.85
+2014-09-24 18:28:15,359 - auto_focus.focus - INFO - Focus: 14.61, 11.57, 0.73
+2014-09-24 18:28:56,029 - auto_focus.focus - INFO - Focus: 14.76, 15.99, 1.33
+2014-09-24 18:29:05,589 - auto_focus.focus - INFO - Focus: 14.78, 16.01, 1.45
+2014-09-24 18:29:15,390 - auto_focus.focus - INFO - Focus: 14.73, 15.96, 1.25
+2014-09-24 18:29:25,549 - auto_focus.focus - INFO - Focus: 14.75, 15.91, 1.29
+2014-09-24 18:29:47,450 - auto_focus.focus - INFO - Focus: 14.77, 15.93, 1.19
+2014-09-24 18:29:58,970 - auto_focus.focus - INFO - Focus: 14.72, 15.95, 1.09
+2014-09-24 18:30:14,859 - auto_focus.focus - INFO - Focus: 14.74, 15.97, 1.59
+2014-09-24 18:32:52,549 - auto_focus.focus - INFO - Focus: 14.76, 15.99, 1.89
+2014-09-24 18:33:04,789 - auto_focus.focus - INFO - Focus: 14.78, 16.01, 3.59
+2014-09-24 18:34:20,839 - auto_focus.focus - INFO - Focus: 14.66, 15.89, 3.79
+2014-09-24 18:34:31,920 - auto_focus.focus - INFO - Focus: 14.75, 15.91, 5.09
+2014-09-24 18:34:44,000 - auto_focus.focus - INFO - Focus: 14.77, 16.00, 5.39
+2014-09-24 18:37:34,730 - auto_focus.focus - INFO - Focus: 1.80, 7.50, 6.39
+2014-09-24 18:37:46,089 - auto_focus.focus - INFO - Focus: 1.47, 7.45, 8.29
+2014-09-24 18:37:57,029 - auto_focus.focus - INFO - Focus: 1.49, 7.54, 9.39
+2014-09-24 18:38:08,039 - auto_focus.focus - INFO - Focus: 1.44, 7.56, 9.39
+2014-09-24 18:41:21,740 - auto_focus.focus - INFO - Focus: 1.34, 7.55, 9.79
+2014-09-24 18:41:33,010 - auto_focus.focus - INFO - Focus: 1.36, 7.57, 9.39
+2014-09-24 18:41:48,621 - auto_focus.focus - INFO - Focus: 1.38, 7.52, 9.39
+2014-09-24 18:42:04,391 - auto_focus.focus - INFO - Focus: 1.33, 7.54, 9.19
+2014-09-24 18:42:43,760 - auto_focus.focus - INFO - Focus: 22.70, 40.62, 6.69
+2014-09-24 18:42:53,351 - auto_focus.focus - INFO - Focus: 22.65, 40.57, 4.99
+2014-09-24 18:43:02,871 - auto_focus.focus - INFO - Focus: 22.53, 40.38, 5.09
+2014-09-24 18:43:12,690 - auto_focus.focus - INFO - Focus: 22.48, 40.33, 4.89
+2014-09-24 18:46:56,661 - auto_focus.focus - INFO - Focus: 22.08, 40.63, 7.39
+2014-09-24 18:47:06,230 - auto_focus.focus - INFO - Focus: 22.10, 40.58, 8.29
+2014-09-24 18:47:15,901 - auto_focus.focus - INFO - Focus: 22.19, 40.53, 8.39
+2014-09-24 18:50:17,062 - auto_focus.focus - INFO - Focus: 22.21, 40.55, 8.09
+2014-09-24 18:52:35,401 - auto_focus.focus - INFO - Focus: 1.29, 7.30, 7.79
+2014-09-24 18:52:51,911 - auto_focus.focus - INFO - Focus: 1.24, 7.25, 7.39
+2014-09-24 18:56:31,742 - auto_focus.focus - INFO - Focus: 42.80, 39.05, 14.93
+2014-09-24 18:57:10,022 - auto_focus.focus - INFO - Focus: 41.17, 38.73, 14.53
+2014-09-24 19:00:36,832 - auto_focus.focus - INFO - Focus: 40.44, 38.42, 14.83
+2014-09-24 19:01:40,181 - auto_focus.focus - INFO - Focus: 40.32, 38.34, 14.93
+2014-09-24 19:03:02,032 - auto_focus.focus - INFO - Focus: 40.32, 38.26, 14.63
+2014-09-24 19:03:59,082 - auto_focus.focus - INFO - Focus: 40.36, 38.10, 14.63
+2014-09-24 19:05:22,352 - auto_focus.focus - INFO - Focus: 40.40, 38.26, 14.53
+2014-09-24 19:07:19,292 - auto_focus.focus - INFO - Focus: 40.38, 38.24, 14.63
+2014-09-24 19:08:06,163 - auto_focus.focus - INFO - Focus: 6.01, 8.39, 14.93
+2014-09-24 19:08:17,112 - auto_focus.focus - INFO - Focus: 5.99, 8.41, 14.83
+2014-09-24 19:08:27,993 - auto_focus.focus - INFO - Focus: 5.97, 8.51, 15.13
+2014-09-24 19:08:42,673 - auto_focus.focus - INFO - Focus: 5.97, 8.46, 14.73
+2014-09-24 19:09:42,483 - auto_focus.focus - INFO - Focus: 5.92, 8.36, 15.23
+2014-09-24 19:09:52,183 - auto_focus.focus - INFO - Focus: 5.97, 8.41, 14.93
+2014-09-25 09:11:27,289 - auto_focus.focus - INFO - Focus: 6.27, 8.66, 15.23
+2014-09-25 09:11:39,878 - auto_focus.focus - INFO - Focus: 6.17, 8.31, 15.73
+2014-09-25 09:11:49,628 - auto_focus.focus - INFO - Focus: 6.12, 8.16, 15.83
+2014-09-25 09:12:42,088 - auto_focus.focus - INFO - Focus: 14.32, 43.21, 15.43
+2014-09-25 09:12:52,328 - auto_focus.focus - INFO - Focus: 14.37, 43.26, 15.03
+2014-09-25 10:03:36,523 - auto_focus.focus - INFO - Focus: 14.67, 43.61, 15.73
+2014-09-25 10:03:46,394 - auto_focus.focus - INFO - Focus: 14.72, 43.86, 15.83
+2014-09-25 10:03:56,364 - auto_focus.focus - INFO - Focus: 14.87, 44.21, 15.43
+2014-09-25 10:04:08,094 - auto_focus.focus - INFO - Focus: 14.92, 44.51, 15.53
+2014-09-25 10:04:18,263 - auto_focus.focus - INFO - Focus: 14.82, 44.41, 15.53
+2014-09-25 10:04:32,253 - auto_focus.focus - INFO - Focus: 14.92, 44.41, 15.43
+2014-09-25 10:06:14,424 - auto_focus.focus - INFO - Focus: 14.87, 44.56, 15.53
+2014-09-25 10:06:24,584 - auto_focus.focus - INFO - Focus: 14.77, 44.66, 15.43
+2014-09-25 10:07:09,674 - auto_focus.focus - INFO - Focus: 14.97, 44.56, 15.53
+2014-09-25 10:07:26,065 - auto_focus.focus - INFO - Focus: 14.88, 44.47, 15.63
+2014-09-25 10:07:36,944 - auto_focus.focus - INFO - Focus: 14.73, 44.56, 15.63
+2014-09-25 10:08:40,184 - auto_focus.focus - INFO - Focus: 14.94, 44.77, 15.73
+2014-09-25 10:08:51,434 - auto_focus.focus - INFO - Focus: 14.79, 44.86, 15.73
+2014-09-25 10:09:45,194 - auto_focus.focus - INFO - Focus: 14.82, 44.77, 15.83
+2014-09-25 10:09:56,255 - auto_focus.focus - INFO - Focus: 14.79, 44.74, 15.63
+2014-09-25 10:10:40,825 - auto_focus.focus - INFO - Focus: 14.88, 44.71, 15.73
+2014-09-25 10:10:55,555 - auto_focus.focus - INFO - Focus: 14.97, 44.72, 15.43
+2014-09-25 10:11:05,546 - auto_focus.focus - INFO - Focus: 14.90, 44.73, 15.53
+2014-09-25 10:11:15,155 - auto_focus.focus - INFO - Focus: 14.75, 44.58, 15.33
+2014-09-25 10:11:34,676 - auto_focus.focus - INFO - Focus: 14.76, 44.59, 15.43
+2014-09-25 10:11:44,286 - auto_focus.focus - INFO - Focus: 14.85, 44.60, 15.73
+2014-09-25 10:11:53,885 - auto_focus.focus - INFO - Focus: 14.86, 44.61, 15.43
+2014-09-25 10:13:23,246 - auto_focus.focus - INFO - Focus: 14.79, 44.54, 15.53
+2014-09-25 10:13:33,526 - auto_focus.focus - INFO - Focus: 14.80, 44.55, 15.33
+2014-09-25 10:14:22,986 - auto_focus.focus - INFO - Focus: 14.81, 44.40, 15.43
+2014-09-25 10:14:32,615 - auto_focus.focus - INFO - Focus: 14.90, 44.41, 15.33
+2014-09-25 10:14:42,236 - auto_focus.focus - INFO - Focus: 14.83, 44.58, 15.03
+2014-09-25 10:15:44,206 - auto_focus.focus - INFO - Focus: 14.84, 44.43, 15.13
+2014-09-25 10:15:53,996 - auto_focus.focus - INFO - Focus: 14.85, 44.52, 15.43
+2014-09-25 10:17:10,926 - auto_focus.focus - INFO - Focus: 14.86, 44.69, 15.43
+2014-09-25 10:17:20,476 - auto_focus.focus - INFO - Focus: 14.87, 44.46, 15.73
+2014-09-25 10:17:30,385 - auto_focus.focus - INFO - Focus: 14.88, 44.71, 15.53
+2014-09-25 10:19:40,816 - auto_focus.focus - INFO - Focus: 15.59, 9.17, 17.33
+2014-09-25 10:19:50,367 - auto_focus.focus - INFO - Focus: 15.60, 9.10, 17.43
+2014-09-25 10:19:59,857 - auto_focus.focus - INFO - Focus: 15.53, 9.11, 17.43
+2014-09-25 10:21:51,707 - auto_focus.focus - INFO - Focus: 15.62, 9.04, 17.13
+2014-09-25 10:23:05,996 - auto_focus.focus - INFO - Focus: 15.55, 8.97, 17.23
+2014-09-25 10:23:15,877 - auto_focus.focus - INFO - Focus: 15.56, 8.98, 17.33
+2014-09-25 10:43:43,489 - auto_focus.focus - INFO - Focus: 21.69, 8.16, 17.13
+2014-09-25 10:43:53,108 - auto_focus.focus - INFO - Focus: 21.62, 8.09, 17.23
+2014-09-25 10:44:19,319 - auto_focus.focus - INFO - Focus: 21.54, 8.19, 17.23
+2014-09-25 14:48:17,062 - auto_focus.focus - INFO - Focus: 34.64, 6.68, 7.42
+2014-09-25 14:48:29,903 - auto_focus.focus - INFO - Focus: 34.68, 6.72, 7.52
+2014-09-25 14:48:46,292 - auto_focus.focus - INFO - Focus: 32.19, 3.04, 8.62
+2014-09-25 14:48:58,782 - auto_focus.focus - INFO - Focus: 32.05, 3.02, 8.52
+2014-09-25 14:49:12,773 - auto_focus.focus - INFO - Focus: 32.15, 3.06, 8.62
+2014-09-25 14:50:57,813 - auto_focus.focus - INFO - Focus: 32.22, 6.33, 8.72
+2014-09-25 14:52:33,365 - auto_focus.focus - INFO - Focus: 32.14, 6.43, 8.62
+2014-09-25 14:53:34,015 - auto_focus.focus - INFO - Focus: 32.18, 6.35, 8.72
+2014-09-25 14:54:35,714 - auto_focus.focus - INFO - Focus: 32.18, 6.39, 8.62
+2014-09-25 14:57:43,105 - auto_focus.focus - INFO - Focus: 32.24, 6.51, 8.42
+2014-09-25 14:58:20,875 - auto_focus.focus - INFO - Focus: 32.28, 6.37, 8.72
+2014-09-25 14:58:34,515 - auto_focus.focus - INFO - Focus: 32.32, 6.35, 8.62
+2014-09-25 15:00:18,605 - auto_focus.focus - INFO - Focus: 32.30, 6.35, 8.72
+2014-09-25 15:00:31,595 - auto_focus.focus - INFO - Focus: 32.34, 6.39, 8.52
+2014-09-25 15:01:58,285 - auto_focus.focus - INFO - Focus: 32.36, 6.39, 8.62
+2014-09-25 15:02:10,884 - auto_focus.focus - INFO - Focus: 32.34, 6.31, 8.52
+2014-09-25 15:03:54,085 - auto_focus.focus - INFO - Focus: 32.36, 6.39, 8.62
+2014-09-25 15:04:06,914 - auto_focus.focus - INFO - Focus: 32.40, 6.37, 8.52
+2014-09-25 15:05:51,325 - auto_focus.focus - INFO - Focus: 32.42, 6.45, 8.82
+2014-09-25 15:06:03,885 - auto_focus.focus - INFO - Focus: 32.40, 6.37, 8.92
+2014-09-25 15:07:29,726 - auto_focus.focus - INFO - Focus: 32.36, 6.33, 9.22
+2014-09-25 15:07:42,345 - auto_focus.focus - INFO - Focus: 32.34, 6.31, 9.12
+2014-09-25 15:08:57,375 - auto_focus.focus - INFO - Focus: 32.32, 6.35, 6.62
+2014-09-25 15:09:10,065 - auto_focus.focus - INFO - Focus: 32.66, 6.57, 6.52
+2014-09-25 15:09:22,726 - auto_focus.focus - INFO - Focus: 32.94, 6.25, 6.22
+2014-09-25 15:10:34,655 - auto_focus.focus - INFO - Focus: 33.34, 6.59, 6.02
+2014-09-25 15:10:47,315 - auto_focus.focus - INFO - Focus: 32.84, 7.05, 6.02
+2014-09-25 15:11:54,456 - auto_focus.focus - INFO - Focus: 40.46, 7.80, 6.92
+2014-09-25 15:12:07,216 - auto_focus.focus - INFO - Focus: 40.50, 7.78, 6.62
+2014-09-25 15:12:51,776 - auto_focus.focus - INFO - Focus: 40.54, 7.76, 6.92
+2014-09-25 15:14:17,375 - auto_focus.focus - INFO - Focus: 40.64, 7.74, 6.72
+2014-09-25 15:14:52,476 - auto_focus.focus - INFO - Focus: 40.56, 7.78, 7.02
+2014-09-25 15:15:04,946 - auto_focus.focus - INFO - Focus: 40.66, 7.70, 7.32
+2014-09-25 15:16:06,286 - auto_focus.focus - INFO - Focus: 40.64, 7.62, 7.62
+2014-09-25 15:16:21,207 - auto_focus.focus - INFO - Focus: 40.74, 7.60, 7.72
+2014-09-25 15:17:30,256 - auto_focus.focus - INFO - Focus: 32.43, 6.80, 7.12
+2014-09-25 15:17:43,086 - auto_focus.focus - INFO - Focus: 31.99, 6.72, 7.02
+2014-09-25 15:18:03,197 - auto_focus.focus - INFO - Focus: 40.61, 7.61, 7.52
+2014-09-25 15:18:20,246 - auto_focus.focus - INFO - Focus: 35.87, 6.45, 7.32
+2014-09-25 15:19:22,357 - auto_focus.focus - INFO - Focus: 35.85, 6.55, 7.42
+2014-09-25 15:19:34,596 - auto_focus.focus - INFO - Focus: 35.95, 6.53, 7.52
+2014-09-25 15:21:04,996 - auto_focus.focus - INFO - Focus: 35.87, 6.50, 7.62
+2014-09-25 15:22:26,546 - auto_focus.focus - INFO - Focus: 35.93, 6.50, 7.42
+2014-09-25 15:24:08,536 - auto_focus.focus - INFO - Focus: 35.99, 6.50, 7.52
+2014-09-25 15:25:11,127 - auto_focus.focus - INFO - Focus: 35.99, 6.50, 7.62
+2014-09-25 15:26:34,836 - auto_focus.focus - INFO - Focus: 35.99, 6.51, 7.52
+2014-09-25 15:29:01,028 - auto_focus.focus - INFO - Focus: 37.62, 2.66, 8.61
+2014-09-25 15:29:13,657 - auto_focus.focus - INFO - Focus: 37.66, 2.70, 8.41
+2014-09-25 15:29:57,358 - auto_focus.focus - INFO - Focus: 38.17, 3.88, 8.01
+2014-09-25 15:30:12,148 - auto_focus.focus - INFO - Focus: 38.21, 3.86, 8.11
+2014-09-25 15:31:35,078 - auto_focus.focus - INFO - Focus: 38.23, 3.82, 7.91
+2014-09-25 15:33:11,148 - auto_focus.focus - INFO - Focus: 38.29, 3.82, 7.91
+2014-09-25 15:34:50,398 - auto_focus.focus - INFO - Focus: 38.29, 3.88, 8.01
+2014-09-25 15:35:35,288 - auto_focus.focus - INFO - Focus: 38.29, 3.82, 7.91
+2014-09-25 15:38:22,848 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB679F0> is already running or in the queue.
+2014-09-25 15:38:23,118 - auto_focus.focus - INFO - Focus: 32.80, 6.65, 8.21
+2014-09-25 15:38:36,697 - auto_focus.focus - INFO - Focus: 32.84, 6.39, 8.51
+2014-09-25 15:38:49,638 - auto_focus.focus - INFO - Focus: 32.76, 6.43, 8.31
+2014-09-25 15:39:04,138 - auto_focus.focus - INFO - Focus: 32.74, 6.59, 8.21
+2014-09-25 15:39:33,417 - auto_focus.focus - INFO - Focus: 43.82, 5.40, 8.51
+2014-09-25 15:39:46,167 - auto_focus.focus - INFO - Focus: 43.86, 5.44, 8.41
+2014-09-25 15:40:24,358 - auto_focus.focus - INFO - Focus: 43.42, 5.36, 7.10
+2014-09-25 15:41:24,938 - auto_focus.focus - INFO - Focus: 43.88, 5.34, 8.50
+2014-09-25 15:41:37,398 - auto_focus.focus - INFO - Focus: 43.86, 5.44, 8.60
+2014-09-25 15:42:40,039 - auto_focus.focus - INFO - Focus: 32.85, 6.35, 8.40
+2014-09-25 15:42:52,959 - auto_focus.focus - INFO - Focus: 32.77, 6.39, 8.50
+2014-09-25 15:44:03,078 - auto_focus.focus - INFO - Focus: 32.81, 6.31, 8.30
+2014-09-25 15:44:16,979 - auto_focus.focus - INFO - Focus: 32.79, 6.41, 8.30
+2014-09-25 15:44:44,448 - auto_focus.focus - INFO - Focus: 32.83, 6.39, 8.30
+2014-09-25 15:44:57,608 - auto_focus.focus - INFO - Focus: 32.81, 6.43, 8.40
+2014-09-25 15:46:24,209 - auto_focus.focus - INFO - Focus: 32.86, 6.41, 8.10
+2014-09-25 15:46:41,569 - auto_focus.focus - INFO - Focus: 32.84, 6.57, 8.00
+2014-09-25 15:48:21,759 - auto_focus.focus - INFO - Focus: 32.86, 6.45, 8.20
+2014-09-25 15:48:33,750 - auto_focus.focus - INFO - Focus: 32.84, 6.37, 8.20
+2014-09-25 15:49:21,230 - auto_focus.focus - INFO - Focus: 32.86, 6.35, 8.20
+2014-09-25 15:50:26,390 - auto_focus.focus - INFO - Focus: 32.78, 6.51, 8.00
+2014-09-25 15:50:38,690 - auto_focus.focus - INFO - Focus: 32.82, 6.31, 8.10
+2014-09-25 15:52:14,040 - auto_focus.focus - INFO - Focus: 32.92, 6.57, 7.90
+2014-09-25 15:52:25,950 - auto_focus.focus - INFO - Focus: 32.84, 6.61, 7.90
+2014-09-25 15:53:50,980 - auto_focus.focus - INFO - Focus: 32.85, 6.57, 8.10
+2014-09-25 15:54:02,980 - auto_focus.focus - INFO - Focus: 32.89, 6.55, 8.00
+2014-09-25 15:56:33,411 - auto_focus.focus - INFO - Focus: 32.93, 6.47, 8.30
+2014-09-25 15:56:45,331 - auto_focus.focus - INFO - Focus: 32.85, 6.45, 8.40
+2014-09-25 15:58:53,290 - auto_focus.focus - INFO - Focus: 32.91, 6.39, 8.20
+2014-09-25 16:56:00,217 - auto_focus.focus - INFO - Focus: 36.59, 7.69, 8.84
+2014-09-25 16:56:12,016 - auto_focus.focus - INFO - Focus: 36.51, 7.67, 8.74
+2014-09-25 16:56:26,667 - auto_focus.focus - INFO - Focus: 36.49, 7.71, 8.84
+2014-09-25 16:57:37,177 - auto_focus.focus - INFO - Focus: 36.71, 7.69, 8.94
+2014-09-25 16:57:49,026 - auto_focus.focus - INFO - Focus: 36.75, 7.55, 8.94
+2014-09-25 16:58:47,296 - auto_focus.focus - INFO - Focus: 37.15, 7.83, 9.14
+2014-09-25 16:59:48,967 - auto_focus.focus - INFO - Focus: 32.60, 6.84, 9.04
+2014-09-25 17:00:01,117 - auto_focus.focus - INFO - Focus: 32.58, 6.88, 9.04
+2014-09-25 17:00:18,967 - auto_focus.focus - INFO - Focus: 32.62, 6.92, 8.94
+2014-09-25 17:01:42,826 - auto_focus.focus - INFO - Focus: 32.66, 7.02, 8.84
+2014-09-25 17:01:57,877 - auto_focus.focus - INFO - Focus: 32.76, 6.94, 8.74
+2014-09-25 17:02:34,016 - auto_focus.focus - INFO - Focus: 32.72, 7.08, 8.84
+2014-09-25 17:03:48,568 - auto_focus.focus - INFO - Focus: 32.88, 7.00, 8.54
+2014-09-25 17:04:08,657 - auto_focus.focus - INFO - Focus: 32.86, 7.16, 8.64
+2014-09-25 17:04:45,568 - auto_focus.focus - INFO - Focus: 32.88, 7.11, 8.54
+2014-09-25 17:06:20,677 - auto_focus.focus - INFO - Focus: 32.98, 7.09, 8.34
+2014-09-25 17:06:34,497 - auto_focus.focus - INFO - Focus: 33.02, 7.19, 8.24
+2014-09-25 17:07:18,437 - auto_focus.focus - INFO - Focus: 32.70, 7.05, 8.84
+2014-09-25 17:07:30,148 - auto_focus.focus - INFO - Focus: 33.10, 7.09, 8.34
+2014-09-25 17:07:42,467 - auto_focus.focus - INFO - Focus: 33.08, 7.19, 8.24
+2014-09-25 17:08:57,767 - auto_focus.focus - INFO - Focus: 33.12, 7.17, 8.44
+2014-09-25 17:09:11,757 - auto_focus.focus - INFO - Focus: 33.16, 7.27, 8.24
+2014-09-25 17:38:59,891 - auto_focus.focus - INFO - Focus: 33.60, 9.05, 10.35
+2014-09-25 17:39:23,671 - auto_focus.focus - INFO - Focus: 33.58, 9.09, 10.05
+2014-09-25 17:39:45,252 - auto_focus.focus - INFO - Focus: 33.56, 9.07, 9.95
+2014-09-25 17:40:45,351 - auto_focus.focus - INFO - Focus: 37.24, 5.96, 8.95
+2014-09-25 17:41:00,032 - auto_focus.focus - INFO - Focus: 36.86, 6.36, 8.65
+2014-09-25 17:41:12,191 - auto_focus.focus - INFO - Focus: 37.32, 6.40, 8.35
+2014-09-25 17:41:24,711 - auto_focus.focus - INFO - Focus: 37.30, 6.44, 8.25
+2014-09-25 17:41:36,502 - auto_focus.focus - INFO - Focus: 37.16, 6.30, 8.15
+2014-09-25 17:42:21,351 - auto_focus.focus - INFO - Focus: 33.23, 7.09, 8.25
+2014-09-25 17:42:33,961 - auto_focus.focus - INFO - Focus: 33.27, 7.07, 8.35
+2014-09-25 17:43:04,381 - auto_focus.focus - INFO - Focus: 33.31, 6.57, 8.95
+2014-09-25 17:43:18,012 - auto_focus.focus - INFO - Focus: 33.41, 6.13, 9.45
+2014-09-25 17:44:11,961 - auto_focus.focus - INFO - Focus: 37.25, 6.30, 9.35
+2014-09-25 17:44:24,221 - auto_focus.focus - INFO - Focus: 37.23, 6.46, 9.45
+2014-09-25 17:45:20,832 - auto_focus.focus - INFO - Focus: 37.21, 6.38, 8.45
+2014-09-25 17:45:33,441 - auto_focus.focus - INFO - Focus: 37.25, 6.42, 8.15
+2014-09-25 17:45:45,421 - auto_focus.focus - INFO - Focus: 37.23, 6.34, 8.05
+2014-09-25 17:49:04,971 - auto_focus.focus - INFO - Focus: 37.33, 6.44, 7.75
+2014-09-25 17:50:12,641 - auto_focus.focus - INFO - Focus: 37.43, 6.48, 7.85
+2014-09-25 17:50:35,711 - auto_focus.focus - INFO - Focus: 37.41, 6.52, 7.95
+2014-09-25 17:50:54,322 - auto_focus.focus - INFO - Focus: 37.33, 6.44, 7.95
+2014-09-25 17:52:36,642 - auto_focus.focus - INFO - Focus: 37.37, 6.48, 7.75
+2014-09-25 17:53:34,622 - auto_focus.focus - INFO - Focus: 33.42, 7.15, 7.95
+2014-09-25 17:53:46,523 - auto_focus.focus - INFO - Focus: 33.46, 7.19, 7.95
+2014-09-25 18:01:35,392 - auto_focus.focus - INFO - Focus: 33.32, 7.23, 8.50
+2014-09-25 18:01:47,872 - auto_focus.focus - INFO - Focus: 33.36, 7.27, 7.70
+2014-09-25 18:04:27,434 - auto_focus.focus - INFO - Focus: 33.46, 7.25, 8.00
+2014-09-25 18:04:43,753 - auto_focus.focus - INFO - Focus: 33.50, 7.23, 7.90
+2014-09-25 18:10:34,033 - auto_focus.focus - INFO - Focus: 33.66, 7.27, 7.90
+2014-09-25 18:18:29,214 - auto_focus.focus - INFO - Focus: 33.64, 7.37, 8.10
+2014-09-25 18:25:32,835 - auto_focus.focus - INFO - Focus: 33.68, 7.41, 7.80
+2014-09-25 18:25:48,224 - auto_focus.focus - INFO - Focus: 33.66, 7.39, 7.90
+2014-09-25 18:27:20,776 - auto_focus.focus - INFO - Focus: 33.52, 7.61, 8.10
+2014-09-25 18:27:39,456 - auto_focus.focus - INFO - Focus: 33.38, 7.83, 8.50
+2014-09-25 18:28:15,006 - auto_focus.focus - INFO - Focus: 33.42, 7.45, 8.40
+2014-09-25 18:28:27,546 - auto_focus.focus - INFO - Focus: 33.70, 7.37, 7.90
+2014-09-25 18:28:40,385 - auto_focus.focus - INFO - Focus: 33.62, 7.35, 8.10
+2014-09-25 18:39:22,778 - auto_focus.focus - INFO - Focus: 33.67, 7.50, 8.00
+2014-09-25 18:39:36,017 - auto_focus.focus - INFO - Focus: 33.71, 7.48, 7.90
+2014-09-25 18:45:06,497 - auto_focus.focus - INFO - Focus: 33.69, 7.41, 8.00
+2014-09-25 18:54:48,529 - auto_focus.focus - INFO - Focus: 33.75, 7.44, 7.80
+2014-09-25 18:55:11,398 - auto_focus.focus - INFO - Focus: 33.73, 7.48, 7.90
+2014-09-25 19:16:25,970 - auto_focus.focus - INFO - Focus: 33.77, 7.64, 7.90
+2014-09-25 19:16:38,680 - auto_focus.focus - INFO - Focus: 33.75, 7.62, 7.70
+2014-09-25 19:20:57,921 - auto_focus.focus - INFO - Focus: 33.79, 7.60, 7.80
+2014-09-25 19:27:41,951 - auto_focus.focus - INFO - Focus: 33.77, 7.64, 7.80
+2014-09-25 19:40:30,963 - auto_focus.focus - INFO - Focus: 33.65, 7.61, 8.00
+2014-09-25 19:40:45,563 - auto_focus.focus - INFO - Focus: 33.69, 7.65, 8.10
+2014-09-26 16:40:15,101 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-26 16:40:17,092 - emod.start - INFO - Starting Job Manager.
+2014-09-26 16:40:17,101 - cron.run - INFO - Starting Cron Daemon.
+2014-09-26 16:42:06,482 - auto_focus.focus - INFO - Focus: 43.86, 3.91, 6.34
+2014-09-26 16:42:14,502 - auto_focus.focus - INFO - Focus: 44.09, 3.66, 6.53
+2014-09-26 16:42:22,482 - auto_focus.focus - INFO - Focus: 44.32, 3.61, 6.66
+2014-09-26 16:42:30,542 - auto_focus.focus - INFO - Focus: 44.31, 3.60, 6.42
+2014-09-26 16:42:38,601 - auto_focus.focus - INFO - Focus: 44.30, 3.59, 6.79
+2014-09-26 16:43:29,242 - auto_focus.focus - INFO - Focus: 44.37, 3.50, 6.79
+2014-09-26 16:43:37,641 - auto_focus.focus - INFO - Focus: 44.40, 3.57, 6.55
+2014-09-26 16:44:22,401 - auto_focus.focus - INFO - Focus: 43.44, 3.32, 5.96
+2014-09-26 16:44:30,361 - auto_focus.focus - INFO - Focus: 43.31, 3.19, 5.72
+2014-09-26 16:44:40,671 - auto_focus.focus - INFO - Focus: 44.45, 3.60, 6.39
+2014-09-26 16:44:48,721 - auto_focus.focus - INFO - Focus: 44.52, 3.51, 6.52
+2014-09-26 16:44:56,611 - auto_focus.focus - INFO - Focus: 44.51, 3.46, 6.33
+2014-09-26 16:46:51,312 - auto_focus.focus - INFO - Focus: 44.38, 3.21, 5.58
+2014-09-26 16:47:01,012 - auto_focus.focus - INFO - Focus: 44.21, 2.83, 4.83
+2014-09-26 16:47:09,691 - auto_focus.focus - INFO - Focus: 44.40, 2.58, 4.83
+2014-09-26 16:47:23,532 - auto_focus.focus - INFO - Focus: 44.15, 2.33, 4.24
+2014-09-26 16:47:32,401 - auto_focus.focus - INFO - Focus: 44.38, 2.08, 3.84
+2014-09-26 16:47:44,431 - auto_focus.focus - INFO - Focus: 44.98, 4.49, 3.36
+2014-09-26 16:48:22,802 - auto_focus.focus - INFO - Focus: 46.70, 2.99, 3.81
+2014-09-26 16:48:30,802 - auto_focus.focus - INFO - Focus: 46.73, 2.78, 3.81
+2014-09-26 16:48:49,193 - auto_focus.focus - INFO - Focus: 46.68, 2.93, 3.81
+2014-09-26 16:49:21,042 - auto_focus.focus - INFO - Focus: 40.55, 0.35, 4.34
+2014-09-26 16:49:29,032 - auto_focus.focus - INFO - Focus: 40.70, 0.38, 4.34
+2014-09-26 16:49:37,082 - auto_focus.focus - INFO - Focus: 40.77, 0.33, 4.45
+2014-09-26 16:51:11,763 - auto_focus.focus - INFO - Focus: 48.80, 2.95, 4.21
+2014-09-26 16:51:19,832 - auto_focus.focus - INFO - Focus: 48.55, 2.94, 4.72
+2014-09-26 16:52:20,862 - auto_focus.focus - INFO - Focus: 45.92, 3.88, 4.87
+2014-09-26 16:52:28,753 - auto_focus.focus - INFO - Focus: 45.91, 3.87, 4.76
+2014-09-26 16:52:36,592 - auto_focus.focus - INFO - Focus: 45.94, 3.94, 4.57
+2014-09-26 16:52:44,552 - auto_focus.focus - INFO - Focus: 45.93, 4.05, 4.62
+2014-09-26 16:52:52,862 - auto_focus.focus - INFO - Focus: 46.04, 3.96, 4.54
+2014-09-26 16:53:55,292 - auto_focus.focus - INFO - Focus: 46.03, 3.95, 4.43
+2014-09-26 16:54:57,323 - auto_focus.focus - INFO - Focus: 46.37, 5.47, 4.72
+2014-09-26 16:55:09,874 - auto_focus.focus - INFO - Focus: 46.32, 5.54, 4.75
+2014-09-26 16:55:24,654 - auto_focus.focus - INFO - Focus: 46.51, 5.61, 4.27
+2014-09-26 16:55:50,604 - auto_focus.focus - INFO - Focus: 46.54, 5.84, 4.71
+2014-09-26 16:55:58,594 - auto_focus.focus - INFO - Focus: 46.45, 5.75, 4.71
+2014-09-26 16:57:03,834 - auto_focus.focus - INFO - Focus: 45.47, 4.39, 5.14
+2014-09-26 16:57:14,203 - auto_focus.focus - INFO - Focus: 45.54, 4.42, 6.60
+2014-09-26 16:57:24,444 - auto_focus.focus - INFO - Focus: 45.45, 4.49, 7.14
+2014-09-26 16:57:34,844 - auto_focus.focus - INFO - Focus: 45.36, 4.44, 7.20
+2014-09-26 16:57:46,303 - auto_focus.focus - INFO - Focus: 45.39, 4.47, 7.20
+2014-09-26 17:00:55,825 - auto_focus.focus - INFO - Focus: 28.17, 5.98, 4.81
+2014-09-26 17:01:05,845 - auto_focus.focus - INFO - Focus: 28.40, 5.73, 4.33
+2014-09-26 17:01:16,085 - auto_focus.focus - INFO - Focus: 28.35, 5.48, 4.35
+2014-09-26 17:01:16,105 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:01:29,115 - auto_focus.focus - INFO - Focus: 28.46, 5.23, 4.21
+2014-09-26 17:01:43,164 - auto_focus.focus - INFO - Focus: 28.21, 5.42, 3.01
+2014-09-26 17:01:56,924 - auto_focus.focus - INFO - Focus: 24.21, 2.57, 4.23
+2014-09-26 17:02:07,714 - auto_focus.focus - INFO - Focus: 24.36, 2.32, 3.77
+2014-09-26 17:02:42,644 - auto_focus.focus - INFO - Focus: 31.46, 4.74, 4.83
+2014-09-26 17:02:53,664 - auto_focus.focus - INFO - Focus: 31.41, 4.61, 5.49
+2014-09-26 17:03:01,744 - emod.submit - INFO - The job <measurements.confocal.Confocal object at 0x071FD4B0> is already running or in the queue.
+2014-09-26 17:03:31,684 - auto_focus.focus - INFO - Focus: 23.43, 3.89, 4.45
+2014-09-26 17:03:42,525 - auto_focus.focus - INFO - Focus: 23.38, 3.80, 4.79
+2014-09-26 17:03:52,575 - auto_focus.focus - INFO - Focus: 23.61, 3.59, 4.89
+2014-09-26 17:04:32,845 - auto_focus.focus - INFO - Focus: 23.40, 3.78, 4.41
+2014-09-26 17:04:43,674 - auto_focus.focus - INFO - Focus: 23.51, 3.85, 4.43
+2014-09-26 17:04:53,545 - auto_focus.focus - INFO - Focus: 23.38, 3.96, 4.13
+2014-09-26 17:05:31,515 - auto_focus.focus - INFO - Focus: 23.45, 3.91, 4.19
+2014-09-26 17:06:21,765 - auto_focus.focus - INFO - Focus: 25.36, 5.01, 4.13
+2014-09-26 17:06:35,474 - auto_focus.focus - INFO - Focus: 25.35, 4.96, 4.23
+2014-09-26 17:06:45,684 - auto_focus.focus - INFO - Focus: 25.34, 5.03, 4.25
+2014-09-26 17:07:07,164 - auto_focus.focus - INFO - Focus: 25.44, 4.93, 4.19
+2014-09-26 17:08:48,535 - auto_focus.focus - INFO - Focus: 25.24, 5.03, 4.57
+2014-09-26 17:10:02,694 - auto_focus.focus - INFO - Focus: 25.44, 4.78, 4.11
+2014-09-26 17:10:14,575 - auto_focus.focus - INFO - Focus: 25.54, 4.83, 4.11
+2014-09-26 17:10:25,944 - auto_focus.focus - INFO - Focus: 25.39, 4.93, 3.87
+2014-09-26 17:10:37,355 - auto_focus.focus - INFO - Focus: 25.49, 4.88, 4.13
+2014-09-26 17:10:48,825 - auto_focus.focus - INFO - Focus: 25.49, 4.83, 4.15
+2014-09-26 17:11:14,765 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 90, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 203, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 150, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.COTask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-26 17:11:17,224 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 90, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 203, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 151, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.CITask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-26 17:12:43,825 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:44,905 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,186 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,216 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,286 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,315 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,345 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,385 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,415 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,476 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,516 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,546 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,575 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,615 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,676 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,716 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,746 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,776 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,805 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,875 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,905 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,946 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:47,976 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,006 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,075 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,105 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,135 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,176 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,206 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,236 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,305 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,335 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,385 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,405 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,436 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,506 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,536 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,565 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,605 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,635 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,706 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,736 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,776 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,796 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,835 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,895 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,936 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,976 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:48,996 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,036 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,095 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,125 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,165 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,196 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,226 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,296 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,325 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,375 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,395 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,426 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,496 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,526 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,565 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,595 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,625 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,696 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,726 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,756 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:12:49,786 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB459F0> is already running or in the queue.
+2014-09-26 17:13:11,766 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-26 17:13:13,555 - emod.start - INFO - Starting Job Manager.
+2014-09-26 17:13:13,555 - cron.run - INFO - Starting Cron Daemon.
+2014-09-26 17:14:06,466 - auto_focus.focus - INFO - Focus: 25.59, 4.78, 3.99
+2014-09-26 17:14:39,055 - auto_focus.focus - INFO - Focus: 25.54, 4.78, 3.83
+2014-09-26 17:15:01,585 - auto_focus.focus - INFO - Focus: 25.59, 4.83, 3.77
+2014-09-26 17:15:20,155 - auto_focus.focus - INFO - Focus: 25.54, 4.93, 3.69
+2014-09-26 17:15:43,246 - auto_focus.focus - INFO - Focus: 25.54, 4.73, 3.87
+2014-09-26 17:16:06,305 - auto_focus.focus - INFO - Focus: 25.59, 4.68, 3.97
+2014-09-26 17:28:03,336 - auto_focus.focus - INFO - Focus: 25.83, 4.74, 3.97
+2014-09-26 17:28:21,197 - auto_focus.focus - INFO - Focus: 25.78, 4.69, 3.81
+2014-09-28 14:00:15,134 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BA84990> is already running or in the queue.
+2014-09-28 14:00:17,234 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BA84990> is already running or in the queue.
+2014-09-28 14:00:17,454 - auto_focus.focus - INFO - Focus: 41.62, 5.74, 3.86
+2014-09-28 14:00:38,634 - auto_focus.focus - INFO - Focus: 41.67, 5.79, 3.30
+2014-09-28 14:02:54,236 - auto_focus.focus - INFO - Focus: 36.37, 3.96, 3.24
+2014-09-28 14:03:07,036 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 36.1150122016, new value: 35.9779718264
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,055 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: y, old value: 3.60875246539, new value: 3.47279966937
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,335 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 35.9779718264, new value: 35.8805637514
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,345 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 35.8805637514, new value: 35.6857476013
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,355 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 35.6857476013, new value: 35.4909314513
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,365 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 35.4909314513, new value: 35.3935233762
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,375 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 35.3935233762, new value: 35.2961153012
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,395 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 35.2961153012, new value: 35.0038910761
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,415 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 35.0038910761, new value: 34.711666851
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,426 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 34.711666851, new value: 34.4194426259
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,446 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 34.4194426259, new value: 34.2246264759
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,466 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 34.2246264759, new value: 34.0298103258
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,486 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 34.0298103258, new value: 33.9324022508
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,506 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 33.9324022508, new value: 33.8349941757
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,526 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 33.8349941757, new value: 33.6401780257
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,546 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 33.6401780257, new value: 33.5427699506
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,565 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 33.5427699506, new value: 33.3479538006
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,585 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 33.3479538006, new value: 33.2505457255
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,615 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 33.2505457255, new value: 32.9583215005
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,645 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 32.9583215005, new value: 32.7635053504
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,655 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: y, old value: 3.47279966937, new value: 3.37514087004
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,665 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 32.7635053504, new value: 32.5686892003
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,686 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 32.5686892003, new value: 32.4712811253
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,706 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 32.4712811253, new value: 32.2764649752
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,736 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 32.2764649752, new value: 32.1790569002
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:07,825 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071D9450>, trait: x, old value: 32.1790569002, new value: 32.2764649752
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:03:08,665 - auto_focus.focus - INFO - Focus: 36.12, 3.61, 3.30
+2014-09-28 14:03:24,486 - auto_focus.focus - INFO - Focus: 30.96, 2.94, 3.32
+2014-09-28 14:04:48,436 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BA84990> is already running or in the queue.
+2014-09-28 14:04:48,526 - auto_focus.focus - INFO - Focus: 29.26, 11.15, 2.54
+2014-09-28 14:04:58,756 - auto_focus.focus - INFO - Focus: 29.45, 11.16, 3.08
+2014-09-28 14:10:30,436 - auto_focus.focus - INFO - Focus: 17.33, 16.41, 1.72
+2014-09-28 14:10:39,756 - auto_focus.focus - INFO - Focus: 16.98, 16.36, 1.72
+2014-09-28 14:10:48,865 - auto_focus.focus - INFO - Focus: 16.99, 16.31, 1.72
+2014-09-28 14:10:58,026 - auto_focus.focus - INFO - Focus: 16.82, 16.20, 2.22
+2014-09-28 14:11:31,145 - auto_focus.focus - INFO - Focus: 22.60, 10.00, 2.40
+2014-09-28 14:11:40,276 - auto_focus.focus - INFO - Focus: 22.61, 9.89, 2.58
+2014-09-28 14:11:53,555 - auto_focus.focus - INFO - Focus: 22.50, 9.84, 2.80
+2014-09-28 14:12:40,506 - auto_focus.focus - INFO - Focus: 19.90, 9.14, 3.22
+2014-09-28 14:12:49,696 - auto_focus.focus - INFO - Focus: 20.09, 9.27, 3.60
+2014-09-28 14:12:58,835 - auto_focus.focus - INFO - Focus: 19.80, 9.22, 3.36
+2014-09-28 14:14:08,855 - auto_focus.focus - INFO - Focus: 19.88, 9.06, 3.36
+2014-09-28 14:14:18,196 - auto_focus.focus - INFO - Focus: 20.07, 9.31, 3.74
+2014-09-28 14:14:27,437 - auto_focus.focus - INFO - Focus: 20.08, 9.08, 3.52
+2014-09-28 14:15:44,917 - auto_focus.focus - INFO - Focus: 19.97, 9.21, 3.30
+2014-09-28 14:15:53,806 - auto_focus.focus - INFO - Focus: 19.86, 8.92, 3.56
+2014-09-28 14:16:53,197 - auto_focus.focus - INFO - Focus: 19.75, 9.05, 3.62
+2014-09-28 14:17:02,357 - auto_focus.focus - INFO - Focus: 19.40, 9.24, 3.76
+2014-09-28 14:17:11,437 - auto_focus.focus - INFO - Focus: 19.35, 9.31, 4.06
+2014-09-28 14:17:20,496 - auto_focus.focus - INFO - Focus: 19.36, 9.44, 4.12
+2014-09-28 14:19:29,397 - auto_focus.focus - INFO - Focus: 15.67, 14.48, 6.80
+2014-09-28 14:19:38,556 - auto_focus.focus - INFO - Focus: 15.32, 14.13, 7.46
+2014-09-28 14:19:47,826 - auto_focus.focus - INFO - Focus: 15.15, 13.78, 8.12
+2014-09-28 14:19:56,927 - auto_focus.focus - INFO - Focus: 15.10, 13.73, 7.90
+2014-09-28 14:20:57,826 - auto_focus.focus - INFO - Focus: 4.88, 30.76, 7.50
+2014-09-28 14:21:06,877 - auto_focus.focus - INFO - Focus: 5.19, 30.47, 7.60
+2014-09-28 14:21:16,236 - auto_focus.focus - INFO - Focus: 5.44, 30.24, 7.70
+2014-09-28 14:21:31,046 - auto_focus.focus - INFO - Focus: 23.39, 16.35, 7.32
+2014-09-28 14:21:40,167 - auto_focus.focus - INFO - Focus: 23.04, 16.42, 8.78
+2014-09-28 14:21:49,336 - auto_focus.focus - INFO - Focus: 22.75, 16.37, 9.36
+2014-09-28 14:21:57,877 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x07093780>, trait: current_index, old value: (45, 32), new value: (45, 81)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-09-28 14:21:57,907 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x07093780>, trait: current_index, old value: (45, 81), new value: (45, 80)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-09-28 14:21:57,907 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x07093780>, trait: current_index, old value: (45, 80), new value: (45, 79)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-09-28 14:22:19,887 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-28 14:22:21,667 - emod.start - INFO - Starting Job Manager.
+2014-09-28 14:22:21,667 - cron.run - INFO - Starting Cron Daemon.
+2014-09-28 14:24:54,276 - auto_focus.focus - INFO - Focus: 26.97, 0.64, 6.58
+2014-09-28 14:25:03,127 - auto_focus.focus - INFO - Focus: 26.98, 0.47, 6.84
+2014-09-28 14:25:58,947 - auto_focus.focus - INFO - Focus: 25.73, 9.44, 7.06
+2014-09-28 14:26:08,048 - auto_focus.focus - INFO - Focus: 25.68, 9.39, 7.52
+2014-09-28 14:26:57,148 - auto_focus.focus - INFO - Focus: 25.63, 9.16, 7.62
+2014-09-28 14:27:08,378 - auto_focus.focus - INFO - Focus: 25.70, 9.05, 7.54
+2014-09-28 14:28:14,549 - auto_focus.focus - INFO - Focus: 25.68, 8.99, 7.56
+2014-09-28 14:29:38,628 - auto_focus.focus - INFO - Focus: 25.87, 9.24, 7.50
+2014-09-28 14:29:47,749 - auto_focus.focus - INFO - Focus: 25.82, 9.19, 7.72
+2014-09-28 14:31:27,969 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07219450>, trait: x, old value: 25.0225252525, new value: 24.7474747475
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:31:27,979 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x07219450>, trait: y, old value: 44.4544444444, new value: 43.9393939394
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 121, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 14:31:28,059 - auto_focus.focus - INFO - Focus: 25.02, 44.45, 7.34
+2014-09-28 14:31:39,719 - auto_focus.focus - INFO - Focus: 26.42, 30.25, 7.44
+2014-09-28 14:31:48,789 - auto_focus.focus - INFO - Focus: 26.13, 29.96, 7.66
+2014-09-28 14:31:57,888 - auto_focus.focus - INFO - Focus: 26.26, 30.15, 7.80
+2014-09-28 14:32:06,878 - auto_focus.focus - INFO - Focus: 26.27, 30.10, 7.58
+2014-09-28 14:32:16,249 - auto_focus.focus - INFO - Focus: 26.28, 30.17, 7.72
+2014-09-28 14:33:08,019 - auto_focus.focus - INFO - Focus: 26.11, 29.94, 7.64
+2014-09-28 14:33:26,158 - auto_focus.focus - INFO - Focus: 41.57, 47.66, 7.34
+2014-09-28 14:33:35,249 - auto_focus.focus - INFO - Focus: 41.28, 47.67, 7.04
+2014-09-28 14:33:46,188 - auto_focus.focus - INFO - Focus: 41.29, 47.74, 6.96
+2014-09-28 14:34:11,759 - auto_focus.focus - INFO - Focus: 41.12, 48.05, 7.02
+2014-09-28 14:35:51,059 - auto_focus.focus - INFO - Focus: 41.31, 48.00, 6.96
+2014-09-28 14:36:00,178 - auto_focus.focus - INFO - Focus: 41.32, 47.89, 7.14
+2014-09-28 14:36:09,229 - auto_focus.focus - INFO - Focus: 41.33, 47.84, 7.20
+2014-09-28 14:36:55,188 - auto_focus.focus - INFO - Focus: 46.16, 44.44, 7.38
+2014-09-28 14:37:04,299 - auto_focus.focus - INFO - Focus: 45.99, 44.21, 7.38
+2014-09-28 14:37:23,148 - auto_focus.focus - INFO - Focus: 46.06, 44.34, 7.72
+2014-09-28 14:37:32,168 - auto_focus.focus - INFO - Focus: 46.07, 44.47, 7.78
+2014-09-28 14:37:41,168 - auto_focus.focus - INFO - Focus: 46.02, 44.36, 7.70
+2014-09-28 15:22:26,424 - auto_focus.focus - INFO - Focus: 45.91, 44.37, 7.46
+2014-09-28 15:22:35,973 - auto_focus.focus - INFO - Focus: 45.92, 44.44, 7.16
+2014-09-28 15:24:08,773 - auto_focus.focus - INFO - Focus: 45.93, 44.51, 7.54
+2014-09-28 15:24:18,374 - auto_focus.focus - INFO - Focus: 45.88, 44.52, 7.32
+2014-09-28 15:24:54,493 - auto_focus.focus - INFO - Focus: 45.79, 44.37, 7.54
+2014-09-28 15:25:03,773 - auto_focus.focus - INFO - Focus: 45.86, 44.38, 7.48
+2014-09-28 15:26:05,315 - auto_focus.focus - INFO - Focus: 45.87, 44.33, 7.16
+2014-09-28 15:26:18,555 - auto_focus.focus - INFO - Focus: 45.94, 44.46, 7.50
+2014-09-28 15:26:28,025 - auto_focus.focus - INFO - Focus: 45.83, 44.41, 7.68
+2014-09-28 15:27:23,954 - auto_focus.focus - INFO - Focus: 45.96, 44.42, 7.20
+2014-09-28 15:27:33,224 - auto_focus.focus - INFO - Focus: 45.97, 44.37, 7.38
+2014-09-28 15:28:42,095 - auto_focus.focus - INFO - Focus: 45.92, 44.26, 7.44
+2014-09-28 15:28:52,555 - auto_focus.focus - INFO - Focus: 45.87, 44.33, 7.54
+2014-09-28 15:29:20,065 - auto_focus.focus - INFO - Focus: 45.98, 44.37, 7.22
+2014-09-28 15:29:29,015 - auto_focus.focus - INFO - Focus: 45.93, 44.26, 7.48
+2014-09-28 15:30:08,535 - auto_focus.focus - INFO - Focus: 45.94, 44.27, 7.42
+2014-09-28 15:30:17,565 - auto_focus.focus - INFO - Focus: 45.95, 44.40, 7.64
+2014-09-28 15:31:05,144 - auto_focus.focus - INFO - Focus: 45.88, 44.34, 7.50
+2014-09-28 15:31:21,974 - auto_focus.focus - INFO - Focus: 45.93, 44.44, 7.56
+2014-09-28 15:33:03,815 - auto_focus.focus - INFO - Focus: 45.93, 44.39, 7.56
+2014-09-28 16:17:00,979 - auto_focus.focus - INFO - Focus: 38.31, 44.75, 9.05
+2014-09-28 16:17:15,118 - auto_focus.focus - INFO - Focus: 38.56, 45.10, 8.91
+2014-09-28 16:17:28,019 - auto_focus.focus - INFO - Focus: 38.45, 44.87, 8.97
+2014-09-28 16:17:37,319 - auto_focus.focus - INFO - Focus: 38.46, 44.94, 8.97
+2014-09-28 16:18:36,779 - auto_focus.focus - INFO - Focus: 38.24, 47.74, 8.25
+2014-09-28 16:19:55,779 - auto_focus.focus - INFO - Focus: 6.02, 10.52, 9.31
+2014-09-28 16:20:05,039 - auto_focus.focus - INFO - Focus: 6.21, 10.65, 9.07
+2014-09-28 16:20:14,180 - auto_focus.focus - INFO - Focus: 6.22, 10.66, 9.07
+2014-09-28 16:21:31,380 - auto_focus.focus - INFO - Focus: 6.17, 10.55, 9.07
+2014-09-28 16:21:40,630 - auto_focus.focus - INFO - Focus: 5.94, 10.50, 9.41
+2014-09-28 16:25:56,831 - auto_focus.focus - INFO - Focus: 6.19, 10.57, 8.53
+2014-09-28 16:26:05,581 - auto_focus.focus - INFO - Focus: 6.32, 10.40, 8.37
+2014-09-28 16:26:14,671 - auto_focus.focus - INFO - Focus: 6.33, 10.41, 8.21
+2014-09-28 16:27:05,921 - auto_focus.focus - INFO - Focus: 11.79, 11.99, 7.81
+2014-09-28 16:27:15,010 - auto_focus.focus - INFO - Focus: 11.92, 12.06, 8.07
+2014-09-28 16:27:24,240 - auto_focus.focus - INFO - Focus: 12.05, 12.13, 7.53
+2014-09-28 16:28:26,811 - auto_focus.focus - INFO - Focus: 12.00, 11.96, 7.45
+2014-09-28 16:28:35,970 - auto_focus.focus - INFO - Focus: 12.01, 12.03, 7.45
+2014-09-28 16:29:37,331 - auto_focus.focus - INFO - Focus: 12.08, 11.86, 6.89
+2014-09-28 16:29:48,960 - auto_focus.focus - INFO - Focus: 12.21, 11.81, 7.07
+2014-09-28 16:31:11,470 - auto_focus.focus - INFO - Focus: 12.16, 11.88, 6.99
+2014-09-28 16:31:21,030 - auto_focus.focus - INFO - Focus: 12.11, 11.83, 6.99
+2014-09-28 16:32:22,871 - auto_focus.focus - INFO - Focus: 12.18, 11.84, 6.83
+2014-09-28 16:32:32,081 - auto_focus.focus - INFO - Focus: 12.19, 11.85, 6.75
+2014-09-28 16:36:14,411 - auto_focus.focus - INFO - Focus: 16.62, 7.15, 7.17
+2014-09-28 16:36:23,581 - auto_focus.focus - INFO - Focus: 16.57, 7.10, 7.27
+2014-09-28 16:36:32,740 - auto_focus.focus - INFO - Focus: 16.58, 7.11, 7.29
+2014-09-28 16:37:30,961 - auto_focus.focus - INFO - Focus: 16.65, 7.06, 7.21
+2014-09-28 16:38:42,971 - auto_focus.focus - INFO - Focus: 16.66, 7.07, 7.23
+2014-09-28 16:39:20,272 - auto_focus.focus - INFO - Focus: 16.67, 7.14, 7.01
+2014-09-28 16:40:11,762 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 90, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 203, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 150, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.COTask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 16:40:13,601 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 90, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 203, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 151, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.CITask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2014-09-28 16:41:24,961 - pi3diamond.<module> - INFO - Starting logger.
+2014-09-28 16:41:26,752 - emod.start - INFO - Starting Job Manager.
+2014-09-28 16:41:26,752 - cron.run - INFO - Starting Cron Daemon.
+2014-09-28 16:42:09,052 - auto_focus.focus - INFO - Focus: 16.81, 7.04, 7.19
+2014-09-28 16:42:18,772 - auto_focus.focus - INFO - Focus: 16.76, 6.99, 7.13
+2014-09-28 16:43:10,752 - auto_focus.focus - INFO - Focus: 16.83, 7.06, 7.07
+2014-09-28 16:44:44,752 - auto_focus.focus - INFO - Focus: 16.78, 6.95, 7.09
+2014-09-28 16:46:03,552 - auto_focus.focus - INFO - Focus: 16.85, 6.96, 7.11
+2014-09-28 16:46:37,042 - auto_focus.focus - INFO - Focus: 16.86, 6.97, 7.25
+2014-09-28 16:47:33,562 - auto_focus.focus - INFO - Focus: 16.63, 6.86, 6.93
+2014-09-28 16:47:45,302 - auto_focus.focus - INFO - Focus: 16.82, 6.75, 6.99
+2014-09-28 16:48:17,782 - auto_focus.focus - INFO - Focus: 15.79, 5.89, 7.29
+2014-09-28 16:48:38,042 - auto_focus.focus - INFO - Focus: 15.74, 5.90, 7.35
+2014-09-28 16:49:24,443 - auto_focus.focus - INFO - Focus: 15.83, 3.02, 7.11
+2014-09-28 16:49:33,703 - auto_focus.focus - INFO - Focus: 15.84, 3.03, 7.21
+2014-09-28 16:49:44,233 - auto_focus.focus - INFO - Focus: 15.85, 2.98, 7.35
+2014-09-28 16:50:45,112 - auto_focus.focus - INFO - Focus: 15.86, 2.99, 7.45
+2014-09-28 17:09:03,253 - auto_focus.focus - INFO - Focus: 12.96, 4.32, 8.63
+2014-09-28 17:09:12,594 - auto_focus.focus - INFO - Focus: 13.03, 4.27, 8.57
+2014-09-28 17:09:55,493 - auto_focus.focus - INFO - Focus: 18.96, 2.76, 8.35
+2014-09-28 17:18:04,905 - auto_focus.focus - INFO - Focus: 18.92, 2.93, 9.21
+2014-09-28 17:18:14,405 - auto_focus.focus - INFO - Focus: 18.99, 3.00, 9.07
+2014-09-28 17:18:23,676 - auto_focus.focus - INFO - Focus: 19.18, 2.89, 9.01
+2014-09-28 17:38:34,757 - auto_focus.focus - INFO - Focus: 19.01, 2.60, 9.11
+2014-09-28 17:42:26,977 - auto_focus.focus - INFO - Focus: 19.26, 2.73, 9.85
+2014-09-28 17:42:36,298 - auto_focus.focus - INFO - Focus: 19.39, 2.62, 9.99
+2014-09-28 17:42:45,398 - auto_focus.focus - INFO - Focus: 19.34, 2.63, 10.01
+2014-09-28 17:44:53,038 - auto_focus.focus - INFO - Focus: 19.41, 2.64, 9.77
+2014-09-28 17:45:02,227 - auto_focus.focus - INFO - Focus: 19.36, 2.59, 9.69
+2014-09-28 17:46:19,618 - auto_focus.focus - INFO - Focus: 19.43, 2.60, 10.03
+2014-09-28 17:46:28,717 - auto_focus.focus - INFO - Focus: 19.44, 2.61, 10.09
+2014-09-28 17:49:19,999 - auto_focus.focus - INFO - Focus: 19.45, 2.56, 10.27
+2014-09-28 17:50:07,499 - auto_focus.focus - INFO - Focus: 19.46, 2.63, 10.11
+2014-09-28 17:50:52,878 - auto_focus.focus - INFO - Focus: 19.47, 2.64, 10.41
+2014-09-28 17:51:03,959 - auto_focus.focus - INFO - Focus: 19.48, 2.59, 10.25
+2014-09-28 18:32:48,903 - auto_focus.focus - INFO - Focus: 19.33, 2.57, 11.44
+2014-09-28 18:32:58,142 - auto_focus.focus - INFO - Focus: 19.40, 2.64, 11.62
+2014-09-28 18:35:19,312 - auto_focus.focus - INFO - Focus: 19.47, 2.65, 11.24
+2014-09-28 18:35:29,173 - auto_focus.focus - INFO - Focus: 19.42, 2.66, 11.30
+2014-09-28 18:36:11,792 - auto_focus.focus - INFO - Focus: 19.49, 2.61, 10.92
+2014-09-28 18:36:20,812 - auto_focus.focus - INFO - Focus: 19.44, 2.62, 11.06
+2014-09-28 18:38:07,723 - auto_focus.focus - INFO - Focus: 19.45, 2.45, 11.12
+2014-09-28 18:38:16,802 - auto_focus.focus - INFO - Focus: 19.46, 2.52, 11.06
+2014-09-28 18:40:24,142 - auto_focus.focus - INFO - Focus: 19.47, 2.59, 11.16
+2014-09-28 18:41:23,362 - auto_focus.focus - INFO - Focus: 19.48, 2.60, 10.92
+2014-09-28 18:41:32,473 - auto_focus.focus - INFO - Focus: 19.49, 2.55, 10.84
+2014-09-28 18:44:13,122 - auto_focus.focus - INFO - Focus: 19.50, 2.50, 11.14
+2014-09-28 18:44:22,303 - auto_focus.focus - INFO - Focus: 19.51, 2.45, 11.24
+2014-09-28 18:58:23,315 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x071FBBD0>, trait: _low_value, old value: -25.0, new value: -25.1919385797
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 478, in update_axis_lv
+    self.z1 = self.figure.value_range.low
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'z1' trait of a Confocal instance must be -25.0 <= a floating point number <= 25.0, but a value of -25.19193857965451 <type 'float'> was specified.
+2014-09-28 18:59:00,045 - auto_focus.focus - INFO - Focus: 42.14, 5.21, 15.99
+2014-09-28 18:59:08,545 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BC34990> is already running or in the queue.
+2014-09-28 18:59:09,134 - auto_focus.focus - INFO - Focus: 42.21, 5.52, 16.41
+2014-09-28 18:59:22,805 - auto_focus.focus - INFO - Focus: 42.28, 5.83, 16.71
+2014-09-28 18:59:34,095 - auto_focus.focus - INFO - Focus: 42.41, 6.02, 16.93
+2014-09-28 19:00:15,384 - auto_focus.focus - INFO - Focus: 44.57, 24.29, 16.99
+2014-09-28 19:01:16,654 - auto_focus.focus - INFO - Focus: 27.43, 34.70, 18.33
+2014-09-28 19:01:26,444 - auto_focus.focus - INFO - Focus: 27.74, 34.95, 18.51
+2014-09-28 19:01:56,944 - auto_focus.focus - INFO - Focus: 9.74, 35.13, 17.79
+2014-09-28 19:02:06,214 - auto_focus.focus - INFO - Focus: 9.81, 34.96, 17.89
+2014-09-28 19:02:15,585 - auto_focus.focus - INFO - Focus: 9.82, 34.91, 17.95
+2014-09-28 19:04:31,684 - auto_focus.focus - INFO - Focus: 9.95, 34.98, 18.65
+2014-09-28 19:04:40,964 - auto_focus.focus - INFO - Focus: 10.08, 34.99, 18.59
+2014-09-28 19:05:15,296 - auto_focus.focus - INFO - Focus: 10.09, 35.12, 18.89
+2014-09-28 19:05:24,546 - auto_focus.focus - INFO - Focus: 10.16, 35.13, 18.83
+2014-09-28 19:05:33,575 - auto_focus.focus - INFO - Focus: 10.11, 35.08, 18.89

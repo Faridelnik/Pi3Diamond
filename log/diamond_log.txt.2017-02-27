@@ -1,0 +1,833 @@
+2017-02-27 12:26:11,460 - auto_focus.focus - INFO - Focus: 17.18, 20.00, 1.47
+2017-02-27 12:26:19,789 - auto_focus.focus - INFO - Focus: 17.20, 20.02, 1.47
+2017-02-27 12:26:28,529 - auto_focus.focus - INFO - Focus: 17.15, 19.97, 1.47
+2017-02-27 12:27:35,571 - auto_focus.focus - INFO - Focus: 17.09, 19.84, 1.52
+2017-02-27 12:27:43,881 - auto_focus.focus - INFO - Focus: 17.04, 20.00, 1.57
+2017-02-27 12:29:53,301 - auto_focus.focus - INFO - Focus: 32.82, 20.37, -6.32
+2017-02-27 12:30:01,811 - auto_focus.focus - INFO - Focus: 32.56, 20.74, -6.07
+2017-02-27 12:41:44,181 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B3CE090> is already running or in the queue.
+2017-02-27 12:41:45,322 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B3CE090> is already running or in the queue.
+2017-02-27 12:41:45,572 - auto_focus.focus - INFO - Focus: 26.85, 20.48, -7.18
+2017-02-27 12:41:53,901 - auto_focus.focus - INFO - Focus: 27.15, 20.15, -7.33
+2017-02-27 12:42:55,792 - auto_focus.focus - INFO - Focus: 23.52, 19.24, 2.35
+2017-02-27 12:43:32,354 - auto_focus.focus - INFO - Focus: 26.60, 15.80, 2.75
+2017-02-27 12:43:41,174 - auto_focus.focus - INFO - Focus: 26.97, 15.47, 3.20
+2017-02-27 12:44:41,055 - auto_focus.focus - INFO - Focus: 33.31, 15.70, -0.60
+2017-02-27 12:44:49,095 - auto_focus.focus - INFO - Focus: 33.19, 15.72, -0.45
+2017-02-27 12:44:57,206 - auto_focus.focus - INFO - Focus: 33.21, 15.74, -0.15
+2017-02-27 12:46:25,707 - auto_focus.focus - INFO - Focus: 30.23, 11.48, -0.25
+2017-02-28 13:16:16,219 - auto_focus.focus - INFO - Focus: 4.58, 1.61, 1.13
+2017-02-28 13:18:37,125 - auto_focus.focus - INFO - Focus: 24.81, 25.30, 1.53
+2017-02-28 13:18:45,285 - auto_focus.focus - INFO - Focus: 25.18, 25.67, 2.03
+2017-02-28 13:18:53,285 - auto_focus.focus - INFO - Focus: 24.85, 25.97, 2.28
+2017-02-28 13:19:01,595 - auto_focus.focus - INFO - Focus: 24.52, 26.06, 2.78
+2017-02-28 13:19:09,775 - auto_focus.focus - INFO - Focus: 24.75, 26.08, 2.63
+2017-02-28 13:24:12,040 - auto_focus.focus - INFO - Focus: 25.02, 24.74, 2.53
+2017-02-28 13:24:20,171 - auto_focus.focus - INFO - Focus: 25.04, 24.41, 3.03
+2017-02-28 13:24:28,321 - auto_focus.focus - INFO - Focus: 24.99, 24.43, 3.33
+2017-02-28 13:24:37,210 - auto_focus.focus - INFO - Focus: 25.01, 24.45, 3.23
+2017-02-28 13:28:48,812 - auto_focus.focus - INFO - Focus: 38.18, 7.46, 3.28
+2017-02-28 13:28:56,411 - auto_focus.focus - INFO - Focus: 38.39, 7.39, 3.58
+2017-02-28 13:29:11,711 - auto_focus.focus - INFO - Focus: 29.89, 4.63, 4.08
+2017-02-28 13:29:20,072 - auto_focus.focus - INFO - Focus: 29.49, 4.30, 4.48
+2017-02-28 13:29:28,272 - auto_focus.focus - INFO - Focus: 29.58, 3.90, 4.68
+2017-02-28 13:29:36,592 - auto_focus.focus - INFO - Focus: 29.53, 3.92, 4.68
+2017-02-28 13:34:19,477 - auto_focus.focus - INFO - Focus: 24.74, 25.37, 4.83
+2017-02-28 13:34:28,977 - auto_focus.focus - INFO - Focus: 24.34, 25.74, 5.23
+2017-02-28 13:34:37,088 - auto_focus.focus - INFO - Focus: 23.94, 25.41, 5.43
+2017-02-28 13:35:57,997 - auto_focus.focus - INFO - Focus: 18.58, 15.93, 4.93
+2017-02-28 13:36:05,997 - auto_focus.focus - INFO - Focus: 18.95, 15.74, 5.23
+2017-02-28 13:36:14,217 - auto_focus.focus - INFO - Focus: 18.90, 15.69, 5.18
+2017-02-28 13:42:30,365 - auto_focus.focus - INFO - Focus: 24.47, 24.60, -0.18
+2017-02-28 13:46:41,973 - auto_focus.focus - INFO - Focus: 24.28, 24.97, -0.63
+2017-02-28 13:46:50,263 - auto_focus.focus - INFO - Focus: 24.16, 25.13, -1.08
+2017-02-28 13:46:58,342 - auto_focus.focus - INFO - Focus: 24.25, 25.15, -1.53
+2017-02-28 13:47:06,453 - auto_focus.focus - INFO - Focus: 24.27, 25.52, -1.28
+2017-03-01 15:08:55,773 - auto_focus.focus - INFO - Focus: 26.25, 24.88, -3.10
+2017-03-01 15:21:06,653 - auto_focus.focus - INFO - Focus: 25.16, 25.37, -1.68
+2017-03-01 15:28:44,161 - auto_focus.focus - INFO - Focus: 25.23, 24.95, -1.88
+2017-03-01 15:28:52,542 - auto_focus.focus - INFO - Focus: 25.60, 24.97, -1.98
+2017-03-01 15:29:00,691 - auto_focus.focus - INFO - Focus: 25.97, 25.06, -1.53
+2017-03-01 15:29:10,232 - auto_focus.focus - INFO - Focus: 26.34, 25.01, -1.03
+2017-03-01 15:29:18,282 - auto_focus.focus - INFO - Focus: 26.43, 24.96, -0.58
+2017-03-01 15:29:26,322 - auto_focus.focus - INFO - Focus: 26.80, 25.12, -0.58
+2017-03-01 15:29:34,361 - auto_focus.focus - INFO - Focus: 27.03, 25.00, -0.68
+2017-03-01 15:38:00,562 - pi3diamond.<module> - INFO - Starting logger.
+2017-03-01 15:38:08,882 - emod.start - INFO - Starting Job Manager.
+2017-03-01 15:38:08,913 - cron.run - INFO - Starting Cron Daemon.
+2017-03-02 09:56:36,234 - auto_focus.focus - INFO - Focus: 22.41, 25.10, 1.28
+2017-03-02 09:56:47,045 - auto_focus.focus - INFO - Focus: 22.11, 25.10, 1.13
+2017-03-02 09:56:56,265 - auto_focus.focus - INFO - Focus: 22.11, 25.20, 1.13
+2017-03-02 09:57:03,894 - auto_focus.focus - INFO - Focus: 22.11, 25.20, 1.13
+2017-03-02 09:57:39,244 - auto_focus.focus - INFO - Focus: 21.91, 25.10, 0.83
+2017-03-02 09:57:44,644 - auto_focus.focus - INFO - Focus: 22.01, 25.10, 0.83
+2017-03-02 09:58:51,815 - auto_focus.focus - INFO - Focus: 21.91, 25.10, 0.83
+2017-03-02 09:59:33,954 - auto_focus.focus - INFO - Focus: 21.91, 25.10, 0.63
+2017-03-02 10:00:13,904 - auto_focus.focus - INFO - Focus: 21.91, 25.10, 0.63
+2017-03-02 10:00:24,295 - auto_focus.focus - INFO - Focus: 21.81, 25.20, 0.73
+2017-03-02 10:00:35,934 - auto_focus.focus - INFO - Focus: 21.81, 25.20, 0.83
+2017-03-02 10:02:56,065 - auto_focus.focus - INFO - Focus: 28.69, 18.64, 0.53
+2017-03-02 10:03:03,926 - auto_focus.focus - INFO - Focus: 28.69, 18.74, 0.53
+2017-03-02 10:03:09,216 - auto_focus.focus - INFO - Focus: 28.69, 18.64, 0.73
+2017-03-02 10:03:22,635 - auto_focus.focus - INFO - Focus: 28.69, 18.64, 0.63
+2017-03-02 10:03:32,736 - auto_focus.focus - INFO - Focus: 28.69, 18.64, 0.73
+2017-03-02 10:03:38,565 - auto_focus.focus - INFO - Focus: 28.69, 18.74, 0.73
+2017-03-02 10:09:03,279 - auto_focus.focus - INFO - Focus: 28.85, 21.91, 0.63
+2017-03-02 10:09:10,160 - auto_focus.focus - INFO - Focus: 28.85, 21.91, 0.63
+2017-03-02 10:20:40,819 - auto_focus.focus - INFO - Focus: 27.26, 8.76, 0.93
+2017-03-02 10:20:48,069 - auto_focus.focus - INFO - Focus: 27.26, 8.76, 1.13
+2017-03-02 10:28:15,019 - auto_focus.focus - INFO - Focus: 22.31, 39.76, 0.73
+2017-03-02 10:28:21,099 - auto_focus.focus - INFO - Focus: 21.81, 40.16, 0.83
+2017-03-02 10:28:28,680 - auto_focus.focus - INFO - Focus: 21.31, 40.46, 1.23
+2017-03-02 10:28:34,019 - auto_focus.focus - INFO - Focus: 21.11, 40.46, 0.73
+2017-03-02 10:28:39,220 - auto_focus.focus - INFO - Focus: 21.11, 40.46, 0.93
+2017-03-02 10:31:24,650 - auto_focus.focus - INFO - Focus: 19.07, 39.66, 0.93
+2017-03-02 10:32:05,697 - auto_focus.focus - INFO - Focus: 48.90, 2.07, 1.33
+2017-03-02 10:32:10,747 - auto_focus.focus - INFO - Focus: 48.90, 2.07, 1.33
+2017-03-02 10:32:15,747 - auto_focus.focus - INFO - Focus: 48.90, 2.07, 1.33
+2017-03-02 10:32:22,598 - auto_focus.focus - INFO - Focus: 48.90, 2.07, 1.13
+2017-03-02 10:33:42,427 - auto_focus.focus - INFO - Focus: 27.49, 7.86, 0.93
+2017-03-02 10:33:48,058 - auto_focus.focus - INFO - Focus: 27.49, 7.36, 0.93
+2017-03-02 10:33:53,348 - auto_focus.focus - INFO - Focus: 27.89, 7.16, 1.13
+2017-03-02 10:33:58,848 - auto_focus.focus - INFO - Focus: 27.39, 7.26, 1.43
+2017-03-02 10:34:07,917 - auto_focus.focus - INFO - Focus: 27.62, 9.60, 1.13
+2017-03-02 10:34:12,927 - auto_focus.focus - INFO - Focus: 27.62, 9.80, 1.23
+2017-03-02 10:34:20,648 - auto_focus.focus - INFO - Focus: 27.52, 9.90, 1.13
+2017-03-02 10:34:25,987 - auto_focus.focus - INFO - Focus: 27.62, 9.90, 1.13
+2017-03-02 10:34:37,417 - auto_focus.focus - INFO - Focus: 27.62, 9.90, 1.28
+2017-03-02 10:34:43,648 - auto_focus.focus - INFO - Focus: 27.62, 9.90, 1.20
+2017-03-02 10:45:00,763 - auto_focus.focus - INFO - Focus: 16.09, 42.51, 1.13
+2017-03-02 10:45:06,253 - auto_focus.focus - INFO - Focus: 16.09, 42.51, 1.26
+2017-03-02 10:45:53,362 - auto_focus.focus - INFO - Focus: 16.19, 42.51, 1.25
+2017-03-02 10:48:26,483 - auto_focus.focus - INFO - Focus: 16.19, 42.41, 1.24
+2017-03-02 10:48:36,892 - auto_focus.focus - INFO - Focus: 16.19, 42.41, 1.23
+2017-03-02 10:49:14,243 - auto_focus.focus - INFO - Focus: 18.53, 42.44, 1.09
+2017-03-02 10:49:23,483 - auto_focus.focus - INFO - Focus: 37.26, 43.95, 0.81
+2017-03-02 10:49:34,812 - auto_focus.focus - INFO - Focus: 39.70, 44.15, 0.89
+2017-03-02 10:49:40,183 - auto_focus.focus - INFO - Focus: 39.70, 44.05, 0.90
+2017-03-02 10:52:03,793 - auto_focus.focus - INFO - Focus: 39.80, 44.05, 0.91
+2017-03-02 10:53:31,523 - auto_focus.focus - INFO - Focus: 39.80, 44.05, 1.04
+2017-03-02 10:54:47,553 - auto_focus.focus - INFO - Focus: 39.90, 43.95, 1.33
+2017-03-02 10:54:54,243 - auto_focus.focus - INFO - Focus: 39.90, 43.95, 1.46
+2017-03-02 10:58:13,614 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0A842D20>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 10:58:21,344 - auto_focus.focus - INFO - Focus: 39.90, 43.95, 1.38
+2017-03-02 11:00:02,604 - auto_focus.focus - INFO - Focus: 39.90, 43.95, 1.53
+2017-03-02 11:04:23,384 - auto_focus.focus - INFO - Focus: 40.00, 43.75, 1.45
+2017-03-02 11:09:34,776 - auto_focus.focus - INFO - Focus: 40.10, 43.75, 1.30
+2017-03-02 11:09:43,476 - auto_focus.focus - INFO - Focus: 40.10, 43.75, 1.15
+2017-03-02 11:10:04,806 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-03-02 11:12:59,729 - auto_focus.focus - INFO - Focus: 40.10, 43.65, 1.16
+2017-03-02 11:13:05,128 - auto_focus.focus - INFO - Focus: 40.10, 43.65, 1.17
+2017-03-02 11:13:10,638 - auto_focus.focus - INFO - Focus: 40.10, 43.65, 1.30
+2017-03-02 11:57:33,851 - auto_focus.focus - INFO - Focus: 40.30, 43.35, 1.38
+2017-03-02 11:57:39,351 - auto_focus.focus - INFO - Focus: 40.30, 43.35, 1.46
+2017-03-02 12:01:11,154 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0A842D20>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 12:01:13,944 - auto_focus.focus - INFO - Focus: 40.30, 43.35, 1.38
+2017-03-02 12:04:01,644 - auto_focus.focus - INFO - Focus: 40.30, 43.35, 1.37
+2017-03-02 12:04:23,974 - auto_focus.focus - INFO - Focus: 40.30, 43.35, 1.36
+2017-03-02 12:08:33,105 - auto_focus.focus - INFO - Focus: 40.30, 43.35, 1.56
+2017-03-02 12:10:55,515 - auto_focus.focus - INFO - Focus: 40.30, 43.35, 1.41
+2017-03-02 12:15:43,706 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0A842D20>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 12:16:46,595 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.49
+2017-03-02 12:19:10,125 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.55
+2017-03-02 12:23:04,075 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.41
+2017-03-02 12:25:51,096 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0A842D20>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 12:27:33,397 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.27
+2017-03-02 12:29:07,957 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.56
+2017-03-02 12:29:59,117 - auto_focus.focus - INFO - Focus: 40.40, 43.25, 1.76
+2017-03-02 12:31:24,756 - auto_focus.focus - INFO - Focus: 40.40, 43.25, 1.61
+2017-03-02 12:34:22,637 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.46
+2017-03-02 12:34:30,447 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.61
+2017-03-02 12:34:37,336 - auto_focus.focus - INFO - Focus: 40.40, 43.15, 1.69
+2017-03-02 12:36:30,407 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.61
+2017-03-02 12:36:36,457 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.47
+2017-03-02 12:38:08,868 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.60
+2017-03-02 12:40:06,048 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.73
+2017-03-02 12:44:17,657 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.58
+2017-03-02 12:45:47,997 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.71
+2017-03-02 12:51:07,868 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.72
+2017-03-02 12:51:26,178 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-03-02 12:51:56,858 - auto_focus.focus - INFO - Focus: 40.40, 43.25, 2.20
+2017-03-02 12:52:05,688 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.98
+2017-03-02 12:52:11,178 - auto_focus.focus - INFO - Focus: 40.30, 43.35, 2.18
+2017-03-02 12:52:18,509 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.83
+2017-03-02 12:52:24,709 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.91
+2017-03-02 12:54:27,088 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.76
+2017-03-02 12:55:57,269 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.75
+2017-03-02 12:56:49,029 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.60
+2017-03-02 12:58:28,888 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0A842D20>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 13:00:06,109 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.39
+2017-03-02 13:01:58,789 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.59
+2017-03-02 13:03:41,174 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.45
+2017-03-02 13:08:57,273 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.58
+2017-03-02 13:10:32,553 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0A842D20>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 13:11:59,154 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.73
+2017-03-02 13:12:18,525 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.51
+2017-03-02 13:12:24,444 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.52
+2017-03-02 13:17:20,155 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.65
+2017-03-02 13:19:46,996 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.58
+2017-03-02 13:23:40,905 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.64
+2017-03-02 13:24:45,226 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.63
+2017-03-02 13:24:53,536 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0A842D20>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 13:28:36,357 - pi3diamond.<module> - INFO - Starting logger.
+2017-03-02 13:28:43,367 - emod.start - INFO - Starting Job Manager.
+2017-03-02 13:28:43,387 - cron.run - INFO - Starting Cron Daemon.
+2017-03-02 13:29:30,256 - auto_focus.focus - INFO - Focus: 40.40, 43.45, 1.85
+2017-03-02 13:29:40,986 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.62
+2017-03-02 13:29:59,086 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.61
+2017-03-02 13:34:21,026 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.74
+2017-03-02 13:36:30,197 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.80
+2017-03-02 13:36:39,226 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 13:38:05,756 - auto_focus.focus - INFO - Focus: 40.30, 43.25, 1.59
+2017-03-02 13:39:34,556 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.65
+2017-03-02 13:39:44,657 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.57
+2017-03-02 13:40:51,838 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.56
+2017-03-02 13:41:39,828 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.69
+2017-03-02 13:43:31,638 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.82
+2017-03-02 13:44:56,318 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.60
+2017-03-02 13:45:53,437 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.80
+2017-03-02 13:47:06,997 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.65
+2017-03-02 13:49:23,068 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.78
+2017-03-02 13:51:58,739 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 13:52:05,088 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.49
+2017-03-02 13:55:04,019 - auto_focus.focus - INFO - Focus: 40.20, 43.15, 1.64
+2017-03-02 13:56:14,898 - auto_focus.focus - INFO - Focus: 40.20, 43.15, 1.72
+2017-03-02 13:57:43,569 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.71
+2017-03-02 14:01:16,401 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 14:01:23,868 - auto_focus.focus - INFO - Focus: 40.20, 43.15, 1.57
+2017-03-02 14:03:22,526 - auto_focus.focus - INFO - Focus: 40.20, 43.15, 1.77
+2017-03-02 14:03:32,496 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.78
+2017-03-02 14:05:38,075 - auto_focus.focus - INFO - Focus: 40.20, 43.15, 1.50
+2017-03-02 14:05:43,486 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.77
+2017-03-02 14:08:38,206 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.69
+2017-03-02 14:10:13,456 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 14:11:49,036 - auto_focus.focus - INFO - Focus: 40.20, 43.15, 1.75
+2017-03-02 14:12:45,637 - auto_focus.focus - INFO - Focus: 40.30, 43.15, 1.60
+2017-03-02 14:13:02,897 - auto_focus.focus - INFO - Focus: 40.20, 43.05, 1.68
+2017-03-02 14:15:16,697 - auto_focus.focus - INFO - Focus: 40.20, 43.15, 1.69
+2017-03-02 14:16:23,546 - auto_focus.focus - INFO - Focus: 40.20, 43.15, 1.91
+2017-03-02 14:21:25,318 - auto_focus.focus - INFO - Focus: 40.30, 43.05, 1.69
+2017-03-02 14:24:22,489 - auto_focus.focus - INFO - Focus: 40.30, 43.05, 1.96
+2017-03-02 14:24:28,598 - auto_focus.focus - INFO - Focus: 40.20, 43.05, 1.75
+2017-03-02 14:26:24,608 - auto_focus.focus - INFO - Focus: 40.20, 43.05, 1.95
+2017-03-02 14:27:45,039 - auto_focus.focus - INFO - Focus: 40.20, 43.05, 1.74
+2017-03-02 14:35:44,578 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-03-02 14:39:46,309 - auto_focus.focus - INFO - Focus: 40.20, 43.05, 1.89
+2017-03-02 14:45:46,240 - auto_focus.focus - INFO - Focus: 40.20, 42.95, 1.97
+2017-03-02 14:47:37,589 - auto_focus.focus - INFO - Focus: 40.20, 42.95, 1.82
+2017-03-02 14:49:52,790 - auto_focus.focus - INFO - Focus: 40.20, 42.95, 1.81
+2017-03-02 14:52:56,061 - auto_focus.focus - INFO - Focus: 40.20, 42.95, 1.89
+2017-03-02 14:54:31,490 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-03-02 15:03:23,161 - auto_focus.focus - INFO - Focus: 40.20, 42.95, 1.90
+2017-03-02 15:05:55,772 - auto_focus.focus - INFO - Focus: 40.20, 42.85, 1.76
+2017-03-02 15:06:02,732 - auto_focus.focus - INFO - Focus: 40.20, 42.85, 1.77
+2017-03-02 15:07:14,782 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 15:09:17,502 - auto_focus.focus - INFO - Focus: 40.20, 42.95, 1.91
+2017-03-02 15:17:33,413 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.34
+2017-03-02 15:17:38,862 - auto_focus.focus - INFO - Focus: 40.00, 43.35, 2.47
+2017-03-02 15:19:13,642 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.48
+2017-03-02 15:21:18,426 - auto_focus.focus - INFO - Focus: 39.90, 43.45, 2.61
+2017-03-02 15:21:24,276 - auto_focus.focus - INFO - Focus: 39.90, 43.45, 2.32
+2017-03-02 15:22:56,865 - auto_focus.focus - INFO - Focus: 39.90, 43.45, 2.45
+2017-03-02 15:26:22,635 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.46
+2017-03-02 15:26:52,405 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.59
+2017-03-02 15:28:33,216 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.60
+2017-03-02 15:31:17,891 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.38
+2017-03-02 15:32:45,296 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.58
+2017-03-02 15:35:05,927 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.71
+2017-03-02 15:37:43,157 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 15:37:50,967 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.70
+2017-03-02 15:37:57,058 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.49
+2017-03-02 15:39:55,447 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.55
+2017-03-02 15:41:18,948 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.68
+2017-03-02 15:43:27,299 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.67
+2017-03-02 15:47:22,869 - auto_focus.focus - INFO - Focus: 39.80, 43.35, 2.89
+2017-03-02 15:47:30,500 - auto_focus.focus - INFO - Focus: 39.80, 43.35, 3.11
+2017-03-02 15:50:13,700 - auto_focus.focus - INFO - Focus: 39.80, 43.35, 2.83
+2017-03-02 15:50:19,400 - auto_focus.focus - INFO - Focus: 39.80, 43.35, 2.84
+2017-03-02 15:52:40,599 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 15:52:46,920 - auto_focus.focus - INFO - Focus: 39.80, 43.35, 2.85
+2017-03-02 15:53:53,359 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C417090> is already running or in the queue.
+2017-03-02 15:53:58,119 - auto_focus.focus - INFO - Focus: 39.80, 43.35, 2.91
+2017-03-02 15:55:23,680 - auto_focus.focus - INFO - Focus: 39.90, 43.35, 2.97
+2017-03-02 15:55:30,160 - auto_focus.focus - INFO - Focus: 39.80, 43.25, 3.27
+2017-03-02 15:55:35,849 - auto_focus.focus - INFO - Focus: 39.70, 43.35, 3.20
+2017-03-02 15:55:41,430 - auto_focus.focus - INFO - Focus: 39.80, 43.25, 3.26
+2017-03-02 15:55:46,990 - auto_focus.focus - INFO - Focus: 39.70, 43.35, 2.98
+2017-03-02 15:55:52,390 - auto_focus.focus - INFO - Focus: 39.80, 43.35, 2.91
+2017-03-02 15:55:57,950 - auto_focus.focus - INFO - Focus: 39.80, 43.35, 2.83
+2017-03-02 15:56:03,660 - auto_focus.focus - INFO - Focus: 39.90, 43.25, 2.98
+2017-03-02 15:56:28,470 - auto_focus.focus - INFO - Focus: 39.90, 43.25, 3.32
+2017-03-02 15:56:33,950 - auto_focus.focus - INFO - Focus: 39.90, 43.25, 3.17
+2017-03-02 15:57:47,690 - auto_focus.focus - INFO - Focus: 39.80, 43.35, 2.89
+2017-03-02 15:57:53,151 - auto_focus.focus - INFO - Focus: 39.80, 43.25, 2.81
+2017-03-02 15:57:58,581 - auto_focus.focus - INFO - Focus: 39.80, 43.25, 3.08
+2017-03-02 15:58:09,480 - auto_focus.focus - INFO - Focus: 39.80, 43.35, 2.80
+2017-03-02 15:59:48,351 - auto_focus.focus - INFO - Focus: 25.52, 8.86, 3.23
+2017-03-02 15:59:53,730 - auto_focus.focus - INFO - Focus: 25.52, 8.86, 3.31
+2017-03-02 15:59:59,081 - auto_focus.focus - INFO - Focus: 25.52, 8.86, 3.37
+2017-03-02 16:06:54,831 - auto_focus.focus - INFO - Focus: 39.83, 43.34, 2.87
+2017-03-02 16:07:03,381 - auto_focus.focus - INFO - Focus: 39.83, 43.34, 2.66
+2017-03-02 16:07:09,480 - auto_focus.focus - INFO - Focus: 39.83, 43.34, 2.74
+2017-03-02 16:07:16,591 - auto_focus.focus - INFO - Focus: 39.83, 43.34, 2.46
+2017-03-02 16:07:22,591 - auto_focus.focus - INFO - Focus: 39.83, 43.34, 2.54
+2017-03-02 16:09:08,750 - auto_focus.focus - INFO - Focus: 39.83, 43.34, 2.69
+2017-03-02 16:09:27,552 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-03-02 16:21:49,423 - auto_focus.focus - INFO - Focus: 39.83, 43.34, 2.86
+2017-03-02 16:22:50,943 - auto_focus.focus - INFO - Focus: 39.83, 43.34, 2.71
+2017-03-02 16:23:37,042 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-03-02 16:24:53,173 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.72
+2017-03-02 16:24:58,663 - auto_focus.focus - INFO - Focus: 39.73, 43.34, 2.73
+2017-03-02 16:26:41,542 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 16:26:47,723 - auto_focus.focus - INFO - Focus: 39.83, 43.34, 2.79
+2017-03-02 16:30:03,062 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.94
+2017-03-02 16:30:08,622 - auto_focus.focus - INFO - Focus: 39.73, 43.34, 2.86
+2017-03-02 16:30:14,153 - auto_focus.focus - INFO - Focus: 39.83, 43.34, 2.65
+2017-03-02 16:33:40,743 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 16:38:13,184 - auto_focus.focus - INFO - Focus: 39.73, 43.34, 2.72
+2017-03-02 16:38:18,813 - auto_focus.focus - INFO - Focus: 39.73, 43.34, 2.51
+2017-03-02 16:38:25,094 - auto_focus.focus - INFO - Focus: 39.73, 43.34, 2.73
+2017-03-02 16:40:13,233 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-03-02 16:41:23,733 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.81
+2017-03-02 16:41:29,934 - auto_focus.focus - INFO - Focus: 39.73, 43.34, 2.73
+2017-03-02 16:43:26,293 - auto_focus.focus - INFO - Focus: 39.73, 43.34, 2.74
+2017-03-02 16:46:03,515 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.60
+2017-03-02 16:46:09,555 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.61
+2017-03-02 16:47:51,894 - emod.submit - INFO - The job <measurements.magnet_control.Magnet_alignment object at 0x0C648C90> is already running or in the queue.
+2017-03-02 16:56:38,535 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.83
+2017-03-02 16:58:32,696 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 3.03
+2017-03-02 16:58:42,256 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.95
+2017-03-02 17:00:02,002 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.87
+2017-03-02 17:01:58,322 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.88
+2017-03-02 17:02:03,802 - auto_focus.focus - INFO - Focus: 39.63, 43.24, 2.80
+2017-03-02 17:04:35,082 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.93
+2017-03-02 17:04:40,483 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.85
+2017-03-02 17:04:46,213 - auto_focus.focus - INFO - Focus: 39.63, 43.24, 2.57
+2017-03-02 17:04:52,072 - auto_focus.focus - INFO - Focus: 39.63, 43.24, 2.77
+2017-03-02 17:06:50,782 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-03-02 17:08:10,173 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.69
+2017-03-02 17:08:15,723 - auto_focus.focus - INFO - Focus: 39.63, 43.24, 2.70
+2017-03-02 17:08:19,602 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 17:08:21,233 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.78
+2017-03-02 17:10:04,713 - auto_focus.focus - INFO - Focus: 39.73, 43.24, 2.70
+2017-03-02 17:10:10,154 - auto_focus.focus - INFO - Focus: 39.63, 43.24, 2.49
+2017-03-02 17:10:25,273 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-03-02 17:13:02,484 - auto_focus.focus - INFO - Focus: 37.29, 43.08, 2.83
+2017-03-02 17:13:07,924 - auto_focus.focus - INFO - Focus: 37.19, 43.08, 2.89
+2017-03-02 17:13:13,295 - auto_focus.focus - INFO - Focus: 37.19, 43.08, 2.90
+2017-03-02 17:13:51,154 - auto_focus.focus - INFO - Focus: 9.87, 25.39, 2.89
+2017-03-02 17:13:56,525 - auto_focus.focus - INFO - Focus: 9.37, 24.89, 2.39
+2017-03-02 17:14:01,474 - auto_focus.focus - INFO - Focus: 9.77, 25.39, 3.30
+2017-03-02 17:14:07,894 - auto_focus.focus - INFO - Focus: 9.87, 25.39, 3.29
+2017-03-02 17:14:13,674 - auto_focus.focus - INFO - Focus: 9.87, 25.39, 3.28
+2017-03-02 17:14:19,174 - auto_focus.focus - INFO - Focus: 9.87, 25.39, 3.27
+2017-03-02 17:15:02,055 - auto_focus.focus - INFO - Focus: 39.60, 43.14, 2.78
+2017-03-02 17:15:07,454 - auto_focus.focus - INFO - Focus: 39.60, 43.14, 2.70
+2017-03-02 17:15:13,285 - auto_focus.focus - INFO - Focus: 39.60, 43.14, 2.76
+2017-03-02 17:24:44,197 - auto_focus.focus - INFO - Focus: 25.60, 8.42, -2.44
+2017-03-02 17:24:49,667 - auto_focus.focus - INFO - Focus: 25.60, 8.42, -2.52
+2017-03-02 17:24:55,387 - auto_focus.focus - INFO - Focus: 25.60, 8.42, -2.51
+2017-03-02 17:31:44,232 - auto_focus.focus - INFO - Focus: 25.62, 8.53, -2.79
+2017-03-02 17:31:49,532 - auto_focus.focus - INFO - Focus: 25.62, 8.53, -2.73
+2017-03-02 17:32:31,171 - auto_focus.focus - INFO - Focus: 18.13, 15.65, -2.72
+2017-03-02 17:32:36,701 - auto_focus.focus - INFO - Focus: 18.13, 15.65, -2.73
+2017-03-02 17:33:27,562 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb2 in position 0: ordinal not in range(128)
+2017-03-02 17:34:44,272 - auto_focus.focus - INFO - Focus: 39.93, 42.88, -3.16
+2017-03-02 17:34:49,701 - auto_focus.focus - INFO - Focus: 39.93, 42.88, -3.15
+2017-03-02 17:34:55,411 - auto_focus.focus - INFO - Focus: 39.93, 42.88, -3.43
+2017-03-02 17:35:01,092 - auto_focus.focus - INFO - Focus: 39.93, 42.88, -3.23
+2017-03-02 17:38:06,211 - auto_focus.focus - INFO - Focus: 39.93, 42.98, -3.10
+2017-03-02 17:38:12,032 - auto_focus.focus - INFO - Focus: 40.03, 42.88, -3.25
+2017-03-02 17:40:57,003 - auto_focus.focus - INFO - Focus: 39.93, 42.88, -3.17
+2017-03-02 17:42:25,153 - auto_focus.focus - INFO - Focus: 36.39, 21.91, -2.81
+2017-03-02 17:42:30,592 - auto_focus.focus - INFO - Focus: 36.39, 21.91, -2.82
+2017-03-02 17:43:56,862 - auto_focus.focus - INFO - Focus: 17.76, 18.19, -2.81
+2017-03-02 17:44:02,213 - auto_focus.focus - INFO - Focus: 17.76, 18.19, -2.68
+2017-03-02 17:48:36,943 - auto_focus.focus - INFO - Focus: 17.76, 18.19, -2.96
+2017-03-02 18:33:31,066 - auto_focus.focus - INFO - Focus: 17.66, 18.09, -2.96
+2017-03-02 18:35:41,670 - auto_focus.focus - INFO - Focus: 17.76, 18.09, -2.97
+2017-03-02 18:35:47,690 - auto_focus.focus - INFO - Focus: 17.76, 18.09, -2.77
+2017-03-02 18:37:12,970 - auto_focus.focus - INFO - Focus: 17.76, 18.09, -2.78
+2017-03-02 18:37:19,329 - auto_focus.focus - INFO - Focus: 17.66, 18.09, -2.85
+2017-03-02 18:39:04,177 - auto_focus.focus - INFO - Focus: 17.66, 18.09, -2.79
+2017-03-02 18:39:57,517 - auto_focus.focus - INFO - Focus: 17.66, 18.09, -2.80
+2017-03-02 18:40:07,868 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-02 18:42:03,727 - auto_focus.focus - INFO - Focus: 17.66, 18.09, -2.88
+2017-03-02 18:43:24,638 - auto_focus.focus - INFO - Focus: 17.66, 18.09, -2.75
+2017-03-02 18:45:39,378 - auto_focus.focus - INFO - Focus: 17.66, 18.09, -2.67
+2017-03-02 18:47:03,549 - auto_focus.focus - INFO - Focus: 17.66, 18.09, -2.82
+2017-03-02 18:48:25,338 - auto_focus.focus - INFO - Focus: 17.66, 17.99, -2.74
+2017-03-02 18:50:41,928 - auto_focus.focus - INFO - Focus: 17.66, 17.99, -2.82
+2017-03-02 18:51:49,789 - auto_focus.focus - INFO - Focus: 17.66, 17.99, -2.83
+2017-03-02 18:52:27,948 - auto_focus.focus - INFO - Focus: 17.66, 17.99, -2.91
+2017-03-02 19:00:33,559 - auto_focus.focus - INFO - Focus: 17.66, 17.99, -2.85
+2017-03-02 19:01:32,789 - auto_focus.focus - INFO - Focus: 17.66, 17.99, -2.70
+2017-03-03 18:31:13,385 - auto_focus.focus - INFO - Focus: 31.54, 25.30, -0.21
+2017-03-03 18:31:44,196 - auto_focus.focus - INFO - Focus: 5.30, 4.93, -0.56
+2017-03-03 18:31:50,476 - auto_focus.focus - INFO - Focus: 5.30, 4.93, -0.64
+2017-03-03 18:31:56,717 - auto_focus.focus - INFO - Focus: 5.20, 4.93, -0.42
+2017-03-03 18:37:29,121 - auto_focus.focus - INFO - Focus: 40.44, 1.51, 0.01
+2017-03-03 18:37:35,220 - auto_focus.focus - INFO - Focus: 39.94, 1.01, 0.14
+2017-03-03 18:37:41,290 - auto_focus.focus - INFO - Focus: 39.64, 0.61, 0.36
+2017-03-03 18:37:47,480 - auto_focus.focus - INFO - Focus: 39.74, 0.41, 0.86
+2017-03-03 18:37:55,000 - auto_focus.focus - INFO - Focus: 39.94, 0.20, 1.22
+2017-03-03 18:38:00,921 - auto_focus.focus - INFO - Focus: 39.94, 0.00, 1.65
+2017-03-03 18:41:24,513 - auto_focus.focus - INFO - Focus: 33.06, 17.69, 2.15
+2017-03-03 18:41:30,413 - auto_focus.focus - INFO - Focus: 32.96, 17.69, 2.23
+2017-03-03 18:41:36,503 - auto_focus.focus - INFO - Focus: 32.96, 17.69, 2.36
+2017-03-03 18:45:51,392 - auto_focus.focus - INFO - Focus: 9.05, 44.07, 2.35
+2017-03-03 18:45:57,473 - auto_focus.focus - INFO - Focus: 8.95, 44.07, 2.14
+2017-03-03 18:46:55,802 - auto_focus.focus - INFO - Focus: 6.54, 41.56, 2.00
+2017-03-03 18:47:01,941 - auto_focus.focus - INFO - Focus: 6.54, 41.56, 2.27
+2017-03-03 18:50:51,062 - auto_focus.focus - INFO - Focus: 29.95, 10.30, 2.49
+2017-03-03 18:50:57,141 - auto_focus.focus - INFO - Focus: 29.85, 10.50, 2.55
+2017-03-03 18:51:08,641 - auto_focus.focus - INFO - Focus: 39.25, 7.84, 2.12
+2017-03-03 18:51:14,762 - auto_focus.focus - INFO - Focus: 39.25, 7.84, 2.32
+2017-03-03 18:53:41,961 - auto_focus.focus - INFO - Focus: 39.25, 7.84, 2.31
+2017-03-03 18:53:52,631 - auto_focus.focus - INFO - Focus: 43.87, 10.35, 2.17
+2017-03-03 18:54:00,441 - auto_focus.focus - INFO - Focus: 43.97, 10.45, 2.37
+2017-03-03 18:55:20,342 - auto_focus.focus - INFO - Focus: 46.58, 15.43, 2.36
+2017-03-03 18:55:26,582 - auto_focus.focus - INFO - Focus: 46.58, 15.43, 2.28
+2017-03-03 18:56:59,322 - auto_focus.focus - INFO - Focus: 41.91, 25.98, 2.20
+2017-03-03 18:57:05,342 - auto_focus.focus - INFO - Focus: 41.91, 25.88, 2.26
+2017-03-03 18:58:16,993 - auto_focus.focus - INFO - Focus: 22.87, 20.81, 2.25
+2017-03-03 18:58:23,013 - auto_focus.focus - INFO - Focus: 22.97, 20.91, 2.68
+2017-03-03 18:59:42,852 - auto_focus.focus - INFO - Focus: 8.49, 15.68, 2.46
+2017-03-03 18:59:49,322 - auto_focus.focus - INFO - Focus: 8.49, 15.68, 2.25
+2017-03-03 19:01:05,153 - auto_focus.focus - INFO - Focus: 8.39, 15.78, 2.38
+2017-03-03 19:01:15,683 - auto_focus.focus - INFO - Focus: 6.48, 41.46, 2.16
+2017-03-03 19:01:21,792 - auto_focus.focus - INFO - Focus: 6.48, 41.46, 2.15
+2017-03-03 19:01:33,782 - auto_focus.focus - INFO - Focus: 6.13, 33.72, 2.28
+2017-03-03 19:01:39,862 - auto_focus.focus - INFO - Focus: 6.13, 33.72, 2.13
+2017-03-03 19:03:44,953 - auto_focus.focus - INFO - Focus: 6.13, 33.72, 2.14
+2017-03-03 19:06:09,703 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C648C90>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-03-03 19:06:23,842 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-03-03 19:06:43,362 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 409, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2017-03-03 19:08:07,063 - auto_focus.focus - INFO - Focus: 6.13, 33.82, 2.15
+2017-03-03 19:09:56,473 - pulsed._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed.py", line 237, in _run
+    self.apply_parameters()
+  File "D:\pi3diamondnew\measurements\pulsed.py", line 220, in apply_parameters
+    FC.Configure(self.laser, self.bin_width, self.sequence_points)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 381, in __call__
+    return self.__send(self.__name, args, kwargs)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 455, in _invokePYRO
+    self.adapter.bindToURI(self.URI)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\protocol.py", line 330, in bindToURI
+    raise ProtocolError('connection failed')
+ProtocolError: connection failed
+2017-03-03 19:10:39,513 - pulsed._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed.py", line 237, in _run
+    self.apply_parameters()
+  File "D:\pi3diamondnew\measurements\pulsed.py", line 220, in apply_parameters
+    FC.Configure(self.laser, self.bin_width, self.sequence_points)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 381, in __call__
+    return self.__send(self.__name, args, kwargs)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 455, in _invokePYRO
+    self.adapter.bindToURI(self.URI)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\protocol.py", line 330, in bindToURI
+    raise ProtocolError('connection failed')
+ProtocolError: connection failed
+2017-03-03 19:12:05,674 - auto_focus.focus - INFO - Focus: 6.13, 33.72, 2.28

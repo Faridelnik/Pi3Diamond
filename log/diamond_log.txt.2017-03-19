@@ -1,0 +1,40 @@
+2017-03-24 15:11:02,479 - pi3diamond.<module> - INFO - Starting logger.
+2017-03-24 15:11:12,908 - emod.start - INFO - Starting Job Manager.
+2017-03-24 15:11:12,928 - cron.run - INFO - Starting Cron Daemon.
+2017-03-24 15:27:20,233 - auto_focus.focus - INFO - Focus: 24.50, 24.50, 0.00
+2017-03-24 15:27:25,832 - auto_focus.focus - INFO - Focus: 24.50, 24.80, -0.01
+2017-03-24 15:27:34,647 - auto_focus.focus - INFO - Focus: 24.90, 24.50, -0.51
+2017-03-24 15:27:42,263 - auto_focus.focus - INFO - Focus: 24.80, 24.50, -0.43
+2017-03-24 15:27:49,150 - auto_focus.focus - INFO - Focus: 24.90, 24.50, -0.42
+2017-03-24 15:39:34,743 - auto_focus.focus - INFO - Focus: 25.00, 24.50, -0.49
+2017-03-24 15:39:41,032 - auto_focus.focus - INFO - Focus: 24.90, 24.60, -0.57
+2017-03-24 15:39:47,177 - auto_focus.focus - INFO - Focus: 24.90, 24.60, -0.65
+2017-03-24 15:42:45,904 - auto_focus.focus - INFO - Focus: 31.95, 8.45, -0.29
+2017-03-24 15:42:52,079 - auto_focus.focus - INFO - Focus: 31.95, 8.55, -0.21
+2017-03-24 15:42:58,648 - auto_focus.focus - INFO - Focus: 31.95, 8.55, -0.13
+2017-03-24 15:43:05,092 - auto_focus.focus - INFO - Focus: 32.05, 8.55, -0.21
+2017-03-24 15:44:04,118 - auto_focus.focus - INFO - Focus: 31.95, 8.55, -0.35
+2017-03-24 15:51:59,012 - auto_focus.focus - INFO - Focus: 32.05, 8.65, -0.49
+2017-03-24 15:52:07,576 - auto_focus.focus - INFO - Focus: 32.05, 8.55, -0.36
+2017-03-24 15:52:51,536 - auto_focus.focus - INFO - Focus: 32.15, 8.65, -0.37
+2017-03-24 15:53:39,306 - auto_focus.focus - INFO - Focus: 32.05, 8.55, -0.45
+2017-03-24 18:13:59,427 - auto_focus.focus - INFO - Focus: 17.08, 25.20, -5.60
+2017-03-24 18:28:59,368 - auto_focus.focus - INFO - Focus: 38.43, 24.50, -8.22
+2017-03-24 18:29:04,947 - auto_focus.focus - INFO - Focus: 38.43, 24.50, -8.22
+2017-03-24 18:30:36,267 - auto_focus.focus - INFO - Focus: 37.93, 24.00, -8.72
+2017-03-24 18:31:13,457 - auto_focus.focus - INFO - Focus: 41.68, 23.70, -8.71
+2017-03-24 18:31:19,757 - auto_focus.focus - INFO - Focus: 41.98, 23.20, -8.71
+2017-03-24 18:31:26,098 - auto_focus.focus - INFO - Focus: 41.58, 22.80, -8.92
+2017-03-24 18:33:33,517 - auto_focus.focus - INFO - Focus: 20.74, 22.32, -8.51
+2017-03-24 18:44:18,658 - auto_focus.focus - INFO - Focus: 21.01, 24.50, -6.22
+2017-03-24 18:44:24,688 - auto_focus.focus - INFO - Focus: 20.91, 24.00, -6.72
+2017-03-24 18:44:30,979 - auto_focus.focus - INFO - Focus: 20.91, 23.50, -7.22
+2017-03-24 18:46:24,299 - auto_focus.focus - INFO - Focus: 22.55, 23.90, -8.78
+2017-03-24 18:46:30,339 - auto_focus.focus - INFO - Focus: 22.55, 23.90, -8.79
+2017-03-24 18:46:36,569 - auto_focus.focus - INFO - Focus: 22.55, 23.90, -8.78
+2017-03-24 18:48:08,700 - auto_focus.focus - INFO - Focus: 22.11, 13.92, -9.21
+2017-03-24 18:48:14,759 - auto_focus.focus - INFO - Focus: 22.01, 13.62, -9.35
+2017-03-24 18:48:24,670 - auto_focus.focus - INFO - Focus: 27.99, 15.13, -8.85
+2017-03-24 18:48:32,490 - auto_focus.focus - INFO - Focus: 27.99, 15.13, -8.35
+2017-03-24 18:48:38,769 - auto_focus.focus - INFO - Focus: 27.99, 15.13, -8.34
+2017-03-24 18:48:45,740 - auto_focus.focus - INFO - Focus: 27.99, 15.13, -8.33

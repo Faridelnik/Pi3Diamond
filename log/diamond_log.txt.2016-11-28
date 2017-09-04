@@ -1,0 +1,1234 @@
+2016-12-01 11:57:58,125 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x077C8B10>, trait: x, old value: 31.5397993311, new value: 25.0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-12-01 11:57:58,426 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x077C8B10>, trait: y, old value: 42.3576923077, new value: 25.0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-12-01 11:58:08,046 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x077C8B10>, trait: z, old value: 2.43777777778, new value: 0.0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 438, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 255, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-12-01 12:01:28,447 - pi3diamond.<module> - INFO - Starting logger.
+2016-12-01 12:01:37,687 - emod.start - INFO - Starting Job Manager.
+2016-12-01 12:01:37,707 - cron.run - INFO - Starting Cron Daemon.
+2016-12-01 12:04:31,325 - auto_focus.focus - INFO - Focus: 29.88, 24.90, -0.68
+2016-12-01 12:04:44,516 - auto_focus.focus - INFO - Focus: 29.93, 24.85, -0.60
+2016-12-01 12:08:07,976 - auto_focus.focus - INFO - Focus: 29.95, 24.90, -0.50
+2016-12-01 12:09:46,256 - auto_focus.focus - INFO - Focus: 29.95, 24.85, -0.40
+2016-12-01 12:10:27,686 - auto_focus.focus - INFO - Focus: 29.95, 24.85, -0.42
+2016-12-01 12:11:03,236 - auto_focus.focus - INFO - Focus: 29.90, 24.85, -0.26
+2016-12-01 12:19:26,196 - auto_focus.focus - INFO - Focus: 32.67, 25.98, -0.28
+2016-12-01 12:21:17,605 - auto_focus.focus - INFO - Focus: 37.05, 25.08, -0.18
+2016-12-01 12:21:30,155 - auto_focus.focus - INFO - Focus: 37.10, 25.18, -0.24
+2016-12-01 12:24:32,726 - auto_focus.focus - INFO - Focus: 37.15, 25.18, -0.08
+2016-12-01 12:26:15,946 - auto_focus.focus - INFO - Focus: 32.72, 25.98, -0.14
+2016-12-01 12:26:26,976 - auto_focus.focus - INFO - Focus: 32.67, 25.98, 0.02
+2016-12-01 12:26:42,055 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xba in position 0: ordinal not in range(128)
+2016-12-01 12:28:22,226 - auto_focus.focus - INFO - Focus: 32.72, 25.98, -0.04
+2016-12-01 12:28:35,957 - auto_focus.focus - INFO - Focus: 32.07, 20.80, -0.16
+2016-12-01 12:29:49,877 - auto_focus.focus - INFO - Focus: 37.85, 29.40, 0.06
+2016-12-01 12:30:06,746 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-12-01 12:31:51,687 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0CAA4150>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-12-01 12:32:05,877 - auto_focus.focus - INFO - Focus: 37.85, 29.40, 0.08
+2016-12-01 12:35:08,377 - auto_focus.focus - INFO - Focus: 37.90, 29.40, 0.10
+2016-12-01 12:36:38,526 - auto_focus.focus - INFO - Focus: 37.90, 29.40, 0.12
+2016-12-01 12:38:33,056 - auto_focus.focus - INFO - Focus: 37.90, 29.40, 0.20
+2016-12-01 12:40:30,917 - auto_focus.focus - INFO - Focus: 37.95, 29.40, 0.30
+2016-12-01 12:43:28,237 - auto_focus.focus - INFO - Focus: 37.95, 29.40, 0.64
+2016-12-01 12:45:10,138 - auto_focus.focus - INFO - Focus: 37.95, 29.50, 0.52
+2016-12-01 12:45:23,578 - auto_focus.focus - INFO - Focus: 37.95, 29.45, 0.84
+2016-12-01 12:45:39,267 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-12-01 12:47:25,437 - auto_focus.focus - INFO - Focus: 37.95, 29.40, 0.64
+2016-12-01 12:49:31,717 - auto_focus.focus - INFO - Focus: 37.90, 29.40, 0.58
+2016-12-01 12:51:08,049 - auto_focus.focus - INFO - Focus: 37.95, 29.40, 0.46
+2016-12-01 12:59:37,990 - auto_focus.focus - INFO - Focus: 32.60, 25.38, 0.44
+2016-12-01 12:59:52,071 - auto_focus.focus - INFO - Focus: 32.55, 25.28, 0.32
+2016-12-01 13:04:32,253 - auto_focus.focus - INFO - Focus: 32.60, 25.33, 0.72
+2016-12-01 13:06:57,532 - auto_focus.focus - INFO - Focus: 32.60, 25.28, 0.76
+2016-12-01 13:10:26,773 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.pulsed_awg.Rabi object at 0x155E9660>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 113, in _load_button_changed
+    self.load()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 123, in load
+    self.prepare_awg()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 429, in prepare_awg
+    AWG.set_vpp(self.vpp)
+  File "D:\pi3diamondnew\hardware\awg.py", line 196, in set_vpp
+    self.tell('SOUR2:VOLT %.4GV' % voltage)
+  File "D:\pi3diamondnew\hardware\awg.py", line 127, in tell
+    self.gpib.write(command)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 207, in write
+    count = self.write_raw(message.encode(enco))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 185, in write_raw
+    return self.visalib.write(self.session, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1864, in write
+    ret = library.viWrite(session, data, len(data), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_TMO (-1073807339): Timeout expired before operation completed.
+2016-12-01 13:10:38,203 - auto_focus.focus - INFO - Focus: 32.60, 25.28, 0.80
+2016-12-01 13:11:50,453 - auto_focus.focus - INFO - Focus: 32.60, 25.28, 0.84
+2016-12-01 13:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:12:11,854 - auto_focus.focus - INFO - Focus: 32.60, 25.28, 0.82
+2016-12-01 13:14:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:14:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:14:10,351 - auto_focus.focus - INFO - Focus: 32.35, 25.03, 1.32
+2016-12-01 13:14:25,730 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.DoubleExponentialDecayFit object at 0x14F41BD0>, trait: normalized_counts, old value: [ 0.  0.], new value: [-1.19346514  0.04049373 -0.59990947 -1.78318653 -0.34720838 -1.70841044
+ -0.18816078 -0.34134445 -2.60009816 -0.62142725 -0.97203308 -1.09558576
+ -1.25654846 -1.67942981 -0.8075773  -0.08401436 -0.89161042 -1.51314832
+ -0.05389502 -0.92916095 -0.02125874 -1.15727361 -0.00648126 -1.26019876
+ -1.08608075]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 1126, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleExponentialDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2016-12-01 13:14:41,720 - auto_focus.focus - INFO - Focus: 32.45, 25.43, 1.14
+2016-12-01 13:14:59,101 - auto_focus.focus - INFO - Focus: 32.65, 25.38, 1.16
+2016-12-01 13:16:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:16:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:16:11,250 - auto_focus.focus - INFO - Focus: 32.70, 25.38, 1.39
+2016-12-01 13:18:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:18:11,260 - auto_focus.focus - INFO - Focus: 32.65, 25.33, 1.62
+2016-12-01 13:20:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:20:12,720 - auto_focus.focus - INFO - Focus: 32.65, 25.33, 1.71
+2016-12-01 13:22:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:22:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:22:12,707 - auto_focus.focus - INFO - Focus: 32.60, 25.33, 1.83
+2016-12-01 13:24:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:24:12,717 - auto_focus.focus - INFO - Focus: 32.65, 25.33, 1.69
+2016-12-01 13:26:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:26:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:26:12,678 - auto_focus.focus - INFO - Focus: 32.70, 25.33, 1.64
+2016-12-01 13:28:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:28:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:28:12,657 - auto_focus.focus - INFO - Focus: 32.70, 25.33, 1.66
+2016-12-01 13:30:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:30:12,642 - auto_focus.focus - INFO - Focus: 32.70, 25.33, 1.78
+2016-12-01 13:33:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:33:12,713 - auto_focus.focus - INFO - Focus: 32.70, 25.28, 1.66
+2016-12-01 13:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:36:12,674 - auto_focus.focus - INFO - Focus: 32.70, 25.33, 1.78
+2016-12-01 13:39:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:39:12,634 - auto_focus.focus - INFO - Focus: 32.75, 25.33, 1.80
+2016-12-01 13:42:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:42:12,723 - auto_focus.focus - INFO - Focus: 32.75, 25.33, 1.75
+2016-12-01 13:45:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:45:12,694 - auto_focus.focus - INFO - Focus: 32.80, 25.28, 1.77
+2016-12-01 13:48:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:48:12,674 - auto_focus.focus - INFO - Focus: 32.80, 25.33, 1.86
+2016-12-01 13:51:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:51:12,632 - auto_focus.focus - INFO - Focus: 32.80, 25.28, 1.88
+2016-12-01 13:54:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:54:12,717 - auto_focus.focus - INFO - Focus: 32.80, 25.33, 1.88
+2016-12-01 13:57:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 13:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 13:57:12,627 - auto_focus.focus - INFO - Focus: 32.85, 25.33, 1.97
+2016-12-01 14:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:00:12,732 - auto_focus.focus - INFO - Focus: 32.75, 25.18, 2.30
+2016-12-01 14:00:24,002 - auto_focus.focus - INFO - Focus: 32.80, 25.33, 2.02
+2016-12-01 14:05:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:05:12,713 - auto_focus.focus - INFO - Focus: 32.85, 25.33, 2.04
+2016-12-01 14:10:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:10:12,654 - auto_focus.focus - INFO - Focus: 32.85, 25.28, 2.13
+2016-12-01 14:15:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:15:12,611 - auto_focus.focus - INFO - Focus: 32.80, 25.28, 2.08
+2016-12-01 14:20:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:20:12,650 - auto_focus.focus - INFO - Focus: 32.85, 25.38, 2.20
+2016-12-01 14:25:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:25:12,651 - auto_focus.focus - INFO - Focus: 32.85, 25.38, 2.20
+2016-12-01 14:30:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:30:12,732 - auto_focus.focus - INFO - Focus: 32.90, 25.38, 2.29
+2016-12-01 14:35:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:35:12,647 - auto_focus.focus - INFO - Focus: 32.90, 25.33, 2.38
+2016-12-01 14:40:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:40:12,720 - auto_focus.focus - INFO - Focus: 32.95, 25.38, 2.40
+2016-12-01 14:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:45:12,710 - auto_focus.focus - INFO - Focus: 32.90, 25.43, 2.33
+2016-12-01 14:50:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:50:12,638 - auto_focus.focus - INFO - Focus: 33.00, 25.43, 2.42
+2016-12-01 14:55:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 14:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 14:55:12,711 - auto_focus.focus - INFO - Focus: 32.95, 25.38, 2.44
+2016-12-01 15:00:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:00:12,663 - auto_focus.focus - INFO - Focus: 32.95, 25.43, 2.44
+2016-12-01 15:05:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:05:12,632 - auto_focus.focus - INFO - Focus: 33.00, 25.38, 2.39
+2016-12-01 15:10:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:10:12,724 - auto_focus.focus - INFO - Focus: 33.00, 25.43, 2.39
+2016-12-01 15:15:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:15:12,714 - auto_focus.focus - INFO - Focus: 33.00, 25.43, 2.39
+2016-12-01 15:15:31,595 - auto_focus.focus - INFO - Focus: 33.05, 25.48, 2.58
+2016-12-01 15:20:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:20:12,667 - auto_focus.focus - INFO - Focus: 33.05, 25.43, 2.23
+2016-12-01 15:25:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:25:12,628 - auto_focus.focus - INFO - Focus: 33.10, 25.43, 2.28
+2016-12-01 15:30:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:30:12,688 - auto_focus.focus - INFO - Focus: 33.10, 25.43, 2.14
+2016-12-01 15:35:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:35:12,674 - auto_focus.focus - INFO - Focus: 33.10, 25.43, 2.26
+2016-12-01 15:40:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:40:12,644 - auto_focus.focus - INFO - Focus: 33.15, 25.48, 2.12
+2016-12-01 15:45:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:45:12,706 - auto_focus.focus - INFO - Focus: 33.20, 25.43, 2.17
+2016-12-01 15:50:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:50:12,676 - auto_focus.focus - INFO - Focus: 33.25, 25.43, 2.12
+2016-12-01 15:55:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 15:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 15:55:12,627 - auto_focus.focus - INFO - Focus: 33.25, 25.43, 2.17
+2016-12-01 16:00:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 16:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 16:00:12,717 - auto_focus.focus - INFO - Focus: 33.30, 25.43, 1.96
+2016-12-01 16:05:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 16:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 16:05:12,687 - auto_focus.focus - INFO - Focus: 33.35, 25.48, 2.12
+2016-12-01 16:08:44,055 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <tools.equation18.Distance_to_NV object at 0x14A0BB40>, trait: import_data_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\tools\equation18.py", line 217, in _import_data_button_fired
+    self.rabi_contrast=File2['measurement']['rabi_contrast']
+KeyError: 'rabi_contrast'
+2016-12-01 16:10:00,345 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 16:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 16:10:13,051 - auto_focus.focus - INFO - Focus: 33.35, 25.48, 1.98
+2016-12-01 16:15:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 16:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 16:15:13,246 - auto_focus.focus - INFO - Focus: 33.35, 25.53, 2.10
+2016-12-01 16:20:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 16:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 16:20:12,720 - auto_focus.focus - INFO - Focus: 33.40, 25.48, 2.19
+2016-12-01 16:25:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>> at time 2016-12-01 16:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C8644B0>>.
+2016-12-01 16:25:13,165 - auto_focus.focus - INFO - Focus: 33.35, 25.48, 2.31
+2016-12-01 16:33:19,926 - pi3diamond.<module> - INFO - Starting logger.
+2016-12-01 16:33:26,875 - emod.start - INFO - Starting Job Manager.
+2016-12-01 16:33:26,905 - cron.run - INFO - Starting Cron Daemon.
+2016-12-01 16:39:16,878 - auto_focus.focus - INFO - Focus: 31.01, 25.05, 1.87
+2016-12-01 16:43:35,747 - auto_focus.focus - INFO - Focus: 33.35, 25.56, 1.96
+2016-12-01 16:44:49,257 - auto_focus.focus - INFO - Focus: 33.35, 25.56, 1.96
+2016-12-01 16:45:00,858 - auto_focus.focus - INFO - Focus: 33.45, 25.56, 2.00
+2016-12-01 16:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 16:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 16:48:25,000 - auto_focus.focus - INFO - Focus: 33.40, 25.56, 2.04
+2016-12-01 16:50:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 16:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 16:50:11,720 - auto_focus.focus - INFO - Focus: 33.45, 25.61, 2.26
+2016-12-01 16:52:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 16:52:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 16:52:11,780 - auto_focus.focus - INFO - Focus: 33.35, 25.61, 2.54
+2016-12-01 16:54:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 16:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 16:54:12,151 - auto_focus.focus - INFO - Focus: 33.35, 25.66, 2.68
+2016-12-01 16:56:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 16:56:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 16:56:11,792 - auto_focus.focus - INFO - Focus: 33.35, 25.66, 2.72
+2016-12-01 16:58:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 16:58:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 16:58:11,832 - auto_focus.focus - INFO - Focus: 33.30, 25.61, 2.94
+2016-12-01 17:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:00:11,901 - auto_focus.focus - INFO - Focus: 33.20, 25.61, 2.82
+2016-12-01 17:02:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:02:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:02:12,384 - auto_focus.focus - INFO - Focus: 33.30, 25.61, 2.90
+2016-12-01 17:04:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:04:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:04:14,003 - auto_focus.focus - INFO - Focus: 33.20, 25.56, 2.54
+2016-12-01 17:06:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:06:11,763 - auto_focus.focus - INFO - Focus: 33.35, 25.56, 2.76
+2016-12-01 17:08:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:08:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:08:10,354 - auto_focus.focus - INFO - Focus: 33.25, 25.56, 2.46
+2016-12-01 17:09:58,033 - auto_focus.focus - INFO - Focus: 33.25, 25.56, 2.28
+2016-12-01 17:10:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:10:10,354 - auto_focus.focus - INFO - Focus: 33.30, 25.56, 2.16
+2016-12-01 17:10:31,384 - auto_focus.focus - INFO - Focus: 33.30, 25.56, 2.18
+2016-12-01 17:11:52,664 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0BA54210>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-12-01 17:12:04,213 - auto_focus.focus - INFO - Focus: 33.35, 25.56, 2.06
+2016-12-01 17:13:04,845 - auto_focus.focus - INFO - Focus: 33.35, 25.56, 1.74
+2016-12-01 17:15:09,444 - auto_focus.focus - INFO - Focus: 33.45, 25.61, 1.90
+2016-12-01 17:17:31,494 - auto_focus.focus - INFO - Focus: 33.45, 25.56, 1.90
+2016-12-01 17:20:10,625 - auto_focus.focus - INFO - Focus: 33.45, 25.61, 1.94
+2016-12-01 17:22:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:22:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:22:10,555 - auto_focus.focus - INFO - Focus: 33.45, 25.61, 1.94
+2016-12-01 17:24:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:24:10,355 - auto_focus.focus - INFO - Focus: 33.45, 25.61, 1.88
+2016-12-01 17:26:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:26:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:26:10,357 - auto_focus.focus - INFO - Focus: 33.45, 25.61, 1.88
+2016-12-01 17:28:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:28:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:28:11,779 - auto_focus.focus - INFO - Focus: 33.45, 25.61, 2.04
+2016-12-01 17:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:30:11,720 - auto_focus.focus - INFO - Focus: 33.50, 25.66, 2.20
+2016-12-01 17:32:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:32:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:32:11,770 - auto_focus.focus - INFO - Focus: 33.45, 25.71, 2.70
+2016-12-01 17:32:53,802 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B7F8570> is already running or in the queue.
+2016-12-01 17:33:04,178 - auto_focus.focus - INFO - Focus: 33.35, 25.66, 2.64
+2016-12-01 17:34:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:34:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:34:11,704 - auto_focus.focus - INFO - Focus: 33.35, 25.66, 2.72
+2016-12-01 17:36:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:36:11,815 - auto_focus.focus - INFO - Focus: 33.30, 25.66, 3.16
+2016-12-01 17:37:04,154 - auto_focus.focus - INFO - Focus: 33.25, 25.66, 2.92
+2016-12-01 17:38:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:38:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:38:11,714 - auto_focus.focus - INFO - Focus: 33.25, 25.66, 2.84
+2016-12-01 17:40:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:40:11,714 - auto_focus.focus - INFO - Focus: 33.35, 25.66, 3.24
+2016-12-01 17:42:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:42:11,805 - auto_focus.focus - INFO - Focus: 33.25, 25.71, 3.50
+2016-12-01 17:44:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:44:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:44:11,796 - auto_focus.focus - INFO - Focus: 33.25, 25.71, 3.54
+2016-12-01 17:46:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:46:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:46:11,756 - auto_focus.focus - INFO - Focus: 33.15, 25.71, 3.82
+2016-12-01 17:48:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:48:11,796 - auto_focus.focus - INFO - Focus: 33.10, 25.66, 3.92
+2016-12-01 17:50:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:50:11,763 - auto_focus.focus - INFO - Focus: 33.05, 25.66, 3.94
+2016-12-01 17:52:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:52:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:52:11,737 - auto_focus.focus - INFO - Focus: 33.05, 25.71, 3.96
+2016-12-01 17:54:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:54:11,805 - auto_focus.focus - INFO - Focus: 33.00, 25.71, 3.98
+2016-12-01 17:56:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:56:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:56:11,766 - auto_focus.focus - INFO - Focus: 33.00, 25.71, 4.06
+2016-12-01 17:58:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 17:58:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 17:58:11,736 - auto_focus.focus - INFO - Focus: 33.00, 25.66, 3.98
+2016-12-01 18:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:00:11,801 - auto_focus.focus - INFO - Focus: 32.95, 25.71, 4.12
+2016-12-01 18:02:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:02:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:02:11,766 - auto_focus.focus - INFO - Focus: 32.95, 25.71, 4.16
+2016-12-01 18:04:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:04:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:04:11,756 - auto_focus.focus - INFO - Focus: 32.90, 25.71, 4.08
+2016-12-01 18:06:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:06:11,711 - auto_focus.focus - INFO - Focus: 32.90, 25.71, 4.22
+2016-12-01 18:08:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:08:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:08:11,786 - auto_focus.focus - INFO - Focus: 32.80, 25.76, 4.30
+2016-12-01 18:09:04,377 - auto_focus.focus - INFO - Focus: 32.80, 25.71, 3.82
+2016-12-01 18:10:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:10:11,796 - auto_focus.focus - INFO - Focus: 32.85, 25.71, 3.58
+2016-12-01 18:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:12:10,351 - auto_focus.focus - INFO - Focus: 32.80, 25.66, 3.16
+2016-12-01 18:14:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:14:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:14:11,736 - auto_focus.focus - INFO - Focus: 32.95, 25.96, 3.48
+2016-12-01 18:14:22,117 - auto_focus.focus - INFO - Focus: 32.95, 25.66, 2.98
+2016-12-01 18:15:14,302 - auto_focus.focus - INFO - Focus: 33.00, 25.66, 2.68
+2016-12-01 18:16:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:16:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:16:11,786 - auto_focus.focus - INFO - Focus: 33.05, 25.71, 2.70
+2016-12-01 18:18:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:18:11,753 - auto_focus.focus - INFO - Focus: 33.10, 25.76, 3.20
+2016-12-01 18:20:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:20:10,352 - auto_focus.focus - INFO - Focus: 32.95, 25.71, 3.02
+2016-12-01 18:21:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:21:11,798 - auto_focus.focus - INFO - Focus: 33.10, 25.76, 3.24
+2016-12-01 18:22:37,062 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.DoubleExponentialDecayFit object at 0x11677120>, trait: normalized_counts, old value: [ 0.  0.], new value: [-1.37696974 -0.74527451 -0.70947724 -0.58596976  1.2028737  -0.59884254
+  1.19617898 -1.8936999  -1.04376187  1.19335965  1.29284657 -1.68531428
+ -0.45155545  0.32934459 -4.46761604 -4.71501713  0.00535871  0.96269225
+ -1.71828414 -0.47808652]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 1126, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleExponentialDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2016-12-01 18:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:24:11,753 - auto_focus.focus - INFO - Focus: 33.05, 25.76, 3.12
+2016-12-01 18:27:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:27:11,809 - auto_focus.focus - INFO - Focus: 33.10, 25.76, 3.06
+2016-12-01 18:28:55,250 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.DoubleExponentialDecayFit object at 0x0AD55540>, trait: normalized_counts, old value: [ 0.  0.], new value: [-1.00447425 -1.06759506 -0.92883061 -1.02093572 -0.92577853 -0.88318201
+ -0.66842281 -0.70540963 -0.84908752 -0.64638943 -0.8993759  -0.94080299
+ -0.80673444 -0.63718231 -0.67635219 -0.82767951 -0.81088385 -0.6645604
+ -0.50463126 -0.3201488  -0.40270302 -0.47913118 -0.31727588 -0.37770663
+ -0.29508288]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 1126, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleExponentialDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2016-12-01 18:30:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:30:11,806 - auto_focus.focus - INFO - Focus: 33.10, 25.76, 3.14
+2016-12-01 18:33:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:33:11,780 - auto_focus.focus - INFO - Focus: 33.10, 25.81, 2.96
+2016-12-01 18:36:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:36:11,736 - auto_focus.focus - INFO - Focus: 33.10, 25.81, 2.96
+2016-12-01 18:39:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:39:11,802 - auto_focus.focus - INFO - Focus: 33.10, 25.81, 3.00
+2016-12-01 18:42:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:42:11,776 - auto_focus.focus - INFO - Focus: 33.10, 25.76, 3.22
+2016-12-01 18:45:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:45:11,752 - auto_focus.focus - INFO - Focus: 32.80, 25.51, 3.72
+2016-12-01 18:46:02,907 - auto_focus.focus - INFO - Focus: 32.85, 25.91, 3.62
+2016-12-01 18:46:13,286 - auto_focus.focus - INFO - Focus: 33.05, 25.86, 3.04
+2016-12-01 18:48:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:48:11,782 - auto_focus.focus - INFO - Focus: 33.05, 25.86, 3.26
+2016-12-01 18:51:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:51:11,737 - auto_focus.focus - INFO - Focus: 33.00, 25.81, 3.18
+2016-12-01 18:54:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:54:11,822 - auto_focus.focus - INFO - Focus: 32.95, 25.86, 3.26
+2016-12-01 18:57:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 18:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 18:57:11,812 - auto_focus.focus - INFO - Focus: 32.90, 25.81, 3.20
+2016-12-01 19:00:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:00:11,782 - auto_focus.focus - INFO - Focus: 32.90, 25.81, 3.06
+2016-12-01 19:03:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:03:11,743 - auto_focus.focus - INFO - Focus: 32.85, 25.81, 3.08
+2016-12-01 19:06:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:06:11,834 - auto_focus.focus - INFO - Focus: 32.85, 25.86, 3.08
+2016-12-01 19:09:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:09:11,809 - auto_focus.focus - INFO - Focus: 32.80, 25.86, 3.16
+2016-12-01 19:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:12:11,789 - auto_focus.focus - INFO - Focus: 32.80, 25.81, 2.98
+2016-12-01 19:15:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:15:11,753 - auto_focus.focus - INFO - Focus: 32.80, 25.81, 3.12
+2016-12-01 19:18:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:18:11,834 - auto_focus.focus - INFO - Focus: 32.75, 25.81, 3.14
+2016-12-01 19:21:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:21:11,793 - auto_focus.focus - INFO - Focus: 32.70, 25.81, 3.30
+2016-12-01 19:25:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:25:11,749 - auto_focus.focus - INFO - Focus: 32.65, 25.81, 3.28
+2016-12-01 19:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:30:11,829 - auto_focus.focus - INFO - Focus: 32.60, 25.81, 3.16
+2016-12-01 19:35:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:35:11,779 - auto_focus.focus - INFO - Focus: 32.60, 25.81, 3.24
+2016-12-01 19:40:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:40:11,736 - auto_focus.focus - INFO - Focus: 32.50, 25.81, 3.26
+2016-12-01 19:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:45:11,821 - auto_focus.focus - INFO - Focus: 32.45, 25.81, 3.28
+2016-12-01 19:50:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:50:11,792 - auto_focus.focus - INFO - Focus: 32.45, 25.76, 3.20
+2016-12-01 19:55:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 19:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 19:55:11,782 - auto_focus.focus - INFO - Focus: 32.40, 25.76, 3.34
+2016-12-01 20:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:00:11,756 - auto_focus.focus - INFO - Focus: 32.30, 25.76, 3.36
+2016-12-01 20:05:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:05:11,727 - auto_focus.focus - INFO - Focus: 32.30, 25.76, 3.34
+2016-12-01 20:10:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:10:11,788 - auto_focus.focus - INFO - Focus: 32.25, 25.76, 3.36
+2016-12-01 20:15:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:15:11,779 - auto_focus.focus - INFO - Focus: 32.20, 25.71, 3.40
+2016-12-01 20:20:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:20:11,763 - auto_focus.focus - INFO - Focus: 32.15, 25.76, 3.42
+2016-12-01 20:25:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:25:11,729 - auto_focus.focus - INFO - Focus: 32.10, 25.71, 3.50
+2016-12-01 20:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:30:11,825 - auto_focus.focus - INFO - Focus: 32.05, 25.86, 3.42
+2016-12-01 20:30:22,204 - auto_focus.focus - INFO - Focus: 32.10, 25.71, 3.42
+2016-12-01 20:35:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:35:11,805 - auto_focus.focus - INFO - Focus: 32.05, 25.71, 3.44
+2016-12-01 20:40:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:40:11,766 - auto_focus.focus - INFO - Focus: 32.05, 25.71, 3.52
+2016-12-01 20:45:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:45:11,726 - auto_focus.focus - INFO - Focus: 32.00, 25.66, 3.44
+2016-12-01 20:50:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:50:11,776 - auto_focus.focus - INFO - Focus: 32.00, 25.66, 3.36
+2016-12-01 20:55:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 20:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 20:55:11,776 - auto_focus.focus - INFO - Focus: 31.95, 25.66, 3.50
+2016-12-01 21:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:00:11,736 - auto_focus.focus - INFO - Focus: 31.95, 25.66, 3.38
+2016-12-01 21:05:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:05:12,348 - auto_focus.focus - INFO - Focus: 31.95, 25.66, 3.38
+2016-12-01 21:10:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:10:11,767 - auto_focus.focus - INFO - Focus: 31.95, 25.61, 3.40
+2016-12-01 21:15:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:15:12,279 - auto_focus.focus - INFO - Focus: 31.95, 25.61, 3.38
+2016-12-01 21:20:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:20:11,799 - auto_focus.focus - INFO - Focus: 31.90, 25.61, 3.40
+2016-12-01 21:25:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:25:11,749 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.38
+2016-12-01 21:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:30:12,250 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.32
+2016-12-01 21:35:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:35:11,819 - auto_focus.focus - INFO - Focus: 31.90, 25.61, 3.20
+2016-12-01 21:40:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:40:12,301 - auto_focus.focus - INFO - Focus: 31.90, 25.61, 3.22
+2016-12-01 21:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:45:11,750 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.16
+2016-12-01 21:50:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:50:12,232 - auto_focus.focus - INFO - Focus: 31.95, 25.61, 3.10
+2016-12-01 21:55:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 21:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 21:55:12,312 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.18
+2016-12-01 22:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:00:11,742 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.12
+2016-12-01 22:05:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:05:11,812 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.16
+2016-12-01 22:10:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:10:11,782 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.16
+2016-12-01 22:15:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:15:12,283 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.18
+2016-12-01 22:20:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:20:12,233 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.12
+2016-12-01 22:25:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:25:11,765 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.12
+2016-12-01 22:30:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:30:11,755 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.04
+2016-12-01 22:35:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:35:12,255 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.18
+2016-12-01 22:40:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:40:12,325 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.12
+2016-12-01 22:45:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:45:11,756 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.14
+2016-12-01 22:50:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:50:12,236 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.14
+2016-12-01 22:55:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 22:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 22:55:12,296 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.06
+2016-12-01 23:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:00:11,756 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 2.94
+2016-12-01 23:05:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:05:12,338 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.02
+2016-12-01 23:10:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:10:11,788 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.02
+2016-12-01 23:15:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:15:12,279 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.04
+2016-12-01 23:20:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:20:12,348 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.06
+2016-12-01 23:25:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:25:11,809 - auto_focus.focus - INFO - Focus: 32.15, 25.76, 3.14
+2016-12-01 23:25:22,180 - auto_focus.focus - INFO - Focus: 31.90, 25.56, 3.00
+2016-12-01 23:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:30:12,279 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 2.98
+2016-12-01 23:35:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:35:12,250 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 2.98
+2016-12-01 23:40:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:40:11,750 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.06
+2016-12-01 23:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:45:12,260 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.20
+2016-12-01 23:50:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:50:11,812 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 2.96
+2016-12-01 23:55:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-01 23:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-01 23:55:12,282 - auto_focus.focus - INFO - Focus: 32.00, 25.56, 2.94
+2016-12-02 00:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:00:11,743 - auto_focus.focus - INFO - Focus: 31.95, 25.56, 3.08
+2016-12-02 00:05:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:05:11,812 - auto_focus.focus - INFO - Focus: 32.00, 25.56, 2.90
+2016-12-02 00:10:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:10:11,792 - auto_focus.focus - INFO - Focus: 32.00, 25.56, 2.94
+2016-12-02 00:15:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:15:11,743 - auto_focus.focus - INFO - Focus: 32.00, 25.56, 2.96
+2016-12-02 00:20:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:20:11,823 - auto_focus.focus - INFO - Focus: 32.00, 25.56, 2.64
+2016-12-02 00:25:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:25:11,785 - auto_focus.focus - INFO - Focus: 32.05, 25.56, 2.86
+2016-12-02 00:30:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:30:11,775 - auto_focus.focus - INFO - Focus: 32.15, 25.36, 2.54
+2016-12-02 00:35:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:35:11,724 - auto_focus.focus - INFO - Focus: 32.10, 25.66, 2.82
+2016-12-02 00:40:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:40:11,815 - auto_focus.focus - INFO - Focus: 32.05, 25.56, 2.92
+2016-12-02 00:45:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:45:11,786 - auto_focus.focus - INFO - Focus: 32.05, 25.56, 2.96
+2016-12-02 00:50:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:50:11,756 - auto_focus.focus - INFO - Focus: 32.00, 25.56, 3.04
+2016-12-02 00:55:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 00:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 00:55:11,836 - auto_focus.focus - INFO - Focus: 32.05, 25.51, 2.96
+2016-12-02 01:00:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:00:11,788 - auto_focus.focus - INFO - Focus: 32.05, 25.56, 3.00
+2016-12-02 01:05:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:05:11,747 - auto_focus.focus - INFO - Focus: 32.00, 25.61, 2.94
+2016-12-02 01:10:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:10:11,808 - auto_focus.focus - INFO - Focus: 32.05, 25.56, 3.10
+2016-12-02 01:15:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:15:11,779 - auto_focus.focus - INFO - Focus: 32.05, 25.56, 3.04
+2016-12-02 01:20:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:20:11,769 - auto_focus.focus - INFO - Focus: 32.05, 25.56, 2.96
+2016-12-02 01:25:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:25:11,750 - auto_focus.focus - INFO - Focus: 32.10, 25.56, 3.04
+2016-12-02 01:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:30:11,730 - auto_focus.focus - INFO - Focus: 32.05, 25.56, 3.06
+2016-12-02 01:35:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:35:11,809 - auto_focus.focus - INFO - Focus: 32.10, 25.61, 3.06
+2016-12-02 01:40:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:40:11,760 - auto_focus.focus - INFO - Focus: 32.10, 25.56, 3.10
+2016-12-02 01:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:45:11,720 - auto_focus.focus - INFO - Focus: 32.05, 25.56, 3.10
+2016-12-02 01:50:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:50:11,792 - auto_focus.focus - INFO - Focus: 32.10, 25.56, 3.02
+2016-12-02 01:55:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 01:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 01:55:11,772 - auto_focus.focus - INFO - Focus: 32.10, 25.56, 3.12
+2016-12-02 02:00:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:00:11,753 - auto_focus.focus - INFO - Focus: 32.10, 25.56, 3.04
+2016-12-02 02:05:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:05:11,723 - auto_focus.focus - INFO - Focus: 32.10, 25.56, 3.08
+2016-12-02 02:10:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:10:11,773 - auto_focus.focus - INFO - Focus: 32.15, 25.56, 3.02
+2016-12-02 02:15:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:15:11,733 - auto_focus.focus - INFO - Focus: 32.10, 25.56, 3.04
+2016-12-02 02:20:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:20:11,813 - auto_focus.focus - INFO - Focus: 32.15, 25.56, 3.08
+2016-12-02 02:25:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:25:11,785 - auto_focus.focus - INFO - Focus: 32.10, 25.56, 3.10
+2016-12-02 02:30:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:30:11,755 - auto_focus.focus - INFO - Focus: 32.10, 25.56, 3.04
+2016-12-02 02:35:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:35:11,746 - auto_focus.focus - INFO - Focus: 32.15, 25.56, 3.02
+2016-12-02 02:40:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:40:11,805 - auto_focus.focus - INFO - Focus: 32.20, 25.51, 2.94
+2016-12-02 02:45:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:45:11,796 - auto_focus.focus - INFO - Focus: 32.15, 25.56, 3.04
+2016-12-02 02:50:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:50:11,776 - auto_focus.focus - INFO - Focus: 32.15, 25.56, 2.96
+2016-12-02 02:55:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 02:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 02:55:11,766 - auto_focus.focus - INFO - Focus: 32.20, 25.56, 2.90
+2016-12-02 03:00:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:00:11,727 - auto_focus.focus - INFO - Focus: 32.20, 25.56, 2.92
+2016-12-02 03:05:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:05:11,818 - auto_focus.focus - INFO - Focus: 32.20, 25.56, 2.92
+2016-12-02 03:10:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:10:11,798 - auto_focus.focus - INFO - Focus: 32.20, 25.56, 2.96
+2016-12-02 03:15:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:15:11,789 - auto_focus.focus - INFO - Focus: 32.25, 25.51, 2.94
+2016-12-02 03:20:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:20:11,759 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.96
+2016-12-02 03:25:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:25:11,720 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 3.00
+2016-12-02 03:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:30:11,809 - auto_focus.focus - INFO - Focus: 32.20, 25.56, 3.08
+2016-12-02 03:35:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:35:11,750 - auto_focus.focus - INFO - Focus: 32.20, 25.56, 3.12
+2016-12-02 03:40:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:40:11,730 - auto_focus.focus - INFO - Focus: 32.20, 25.56, 3.16
+2016-12-02 03:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:45:11,801 - auto_focus.focus - INFO - Focus: 32.20, 25.56, 2.98
+2016-12-02 03:50:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:50:11,762 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.98
+2016-12-02 03:55:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 03:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 03:55:11,721 - auto_focus.focus - INFO - Focus: 32.20, 25.56, 2.92
+2016-12-02 04:00:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:00:11,773 - auto_focus.focus - INFO - Focus: 32.20, 25.41, 2.86
+2016-12-02 04:05:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:05:11,723 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.90
+2016-12-02 04:10:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:10:11,773 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.94
+2016-12-02 04:15:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:15:11,763 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.98
+2016-12-02 04:20:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:20:11,713 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.72
+2016-12-02 04:25:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:25:11,795 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.98
+2016-12-02 04:30:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:30:11,744 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.92
+2016-12-02 04:35:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:35:11,796 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 3.06
+2016-12-02 04:40:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:40:11,786 - auto_focus.focus - INFO - Focus: 32.40, 25.31, 2.88
+2016-12-02 04:40:22,155 - auto_focus.focus - INFO - Focus: 32.20, 25.56, 3.00
+2016-12-02 04:45:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:45:11,746 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 3.04
+2016-12-02 04:50:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:50:11,806 - auto_focus.focus - INFO - Focus: 32.20, 25.56, 3.06
+2016-12-02 04:55:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 04:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 04:55:11,756 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.94
+2016-12-02 05:00:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:00:11,747 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 3.08
+2016-12-02 05:05:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:05:11,828 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 3.00
+2016-12-02 05:10:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:10:11,779 - auto_focus.focus - INFO - Focus: 32.30, 25.56, 3.04
+2016-12-02 05:15:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:15:11,779 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.96
+2016-12-02 05:20:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:20:11,759 - auto_focus.focus - INFO - Focus: 32.30, 25.56, 3.06
+2016-12-02 05:25:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:25:11,730 - auto_focus.focus - INFO - Focus: 32.30, 25.56, 3.04
+2016-12-02 05:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:30:11,809 - auto_focus.focus - INFO - Focus: 32.30, 25.56, 2.86
+2016-12-02 05:35:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:35:11,760 - auto_focus.focus - INFO - Focus: 32.30, 25.56, 2.68
+2016-12-02 05:40:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:40:11,750 - auto_focus.focus - INFO - Focus: 32.35, 25.56, 2.96
+2016-12-02 05:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:45:11,700 - auto_focus.focus - INFO - Focus: 32.30, 25.51, 2.88
+2016-12-02 05:50:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:50:11,762 - auto_focus.focus - INFO - Focus: 32.30, 25.56, 2.92
+2016-12-02 05:55:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 05:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 05:55:11,721 - auto_focus.focus - INFO - Focus: 32.30, 25.56, 2.74
+2016-12-02 06:00:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:00:11,782 - auto_focus.focus - INFO - Focus: 32.30, 25.56, 2.76
+2016-12-02 06:05:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:05:11,753 - auto_focus.focus - INFO - Focus: 32.35, 25.56, 2.68
+2016-12-02 06:10:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:10:11,813 - auto_focus.focus - INFO - Focus: 32.30, 25.56, 2.70
+2016-12-02 06:15:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:15:11,783 - auto_focus.focus - INFO - Focus: 32.30, 25.56, 2.72
+2016-12-02 06:20:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:20:11,763 - auto_focus.focus - INFO - Focus: 32.30, 25.56, 2.66
+2016-12-02 06:25:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:25:11,724 - auto_focus.focus - INFO - Focus: 32.35, 25.61, 2.60
+2016-12-02 06:30:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:30:11,785 - auto_focus.focus - INFO - Focus: 32.35, 25.61, 2.54
+2016-12-02 06:35:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:35:11,746 - auto_focus.focus - INFO - Focus: 32.40, 25.56, 2.52
+2016-12-02 06:40:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:40:11,835 - auto_focus.focus - INFO - Focus: 32.40, 25.56, 2.54
+2016-12-02 06:45:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:45:11,786 - auto_focus.focus - INFO - Focus: 32.40, 25.61, 2.58
+2016-12-02 06:50:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:50:11,736 - auto_focus.focus - INFO - Focus: 32.40, 25.61, 2.52
+2016-12-02 06:55:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 06:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 06:55:11,826 - auto_focus.focus - INFO - Focus: 32.45, 25.61, 2.62
+2016-12-02 07:00:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:00:11,808 - auto_focus.focus - INFO - Focus: 32.50, 25.61, 2.50
+2016-12-02 07:05:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:05:11,778 - auto_focus.focus - INFO - Focus: 32.40, 25.61, 2.38
+2016-12-02 07:10:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:10:11,759 - auto_focus.focus - INFO - Focus: 32.45, 25.61, 2.54
+2016-12-02 07:15:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:15:11,729 - auto_focus.focus - INFO - Focus: 32.45, 25.61, 2.28
+2016-12-02 07:20:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:20:11,769 - auto_focus.focus - INFO - Focus: 32.50, 25.66, 2.30
+2016-12-02 07:25:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:25:11,769 - auto_focus.focus - INFO - Focus: 32.50, 25.66, 2.38
+2016-12-02 07:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:30:11,750 - auto_focus.focus - INFO - Focus: 32.50, 25.66, 2.38
+2016-12-02 07:35:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:35:11,720 - auto_focus.focus - INFO - Focus: 32.45, 25.66, 2.40
+2016-12-02 07:40:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:40:11,780 - auto_focus.focus - INFO - Focus: 32.50, 25.66, 2.38
+2016-12-02 07:45:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:45:11,762 - auto_focus.focus - INFO - Focus: 32.45, 25.66, 2.32
+2016-12-02 07:50:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:50:11,721 - auto_focus.focus - INFO - Focus: 32.50, 25.66, 2.26
+2016-12-02 07:55:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 07:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 07:55:11,792 - auto_focus.focus - INFO - Focus: 32.50, 25.66, 2.36
+2016-12-02 08:00:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:00:11,773 - auto_focus.focus - INFO - Focus: 32.40, 25.61, 2.50
+2016-12-02 08:05:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:05:11,733 - auto_focus.focus - INFO - Focus: 32.45, 25.66, 2.38
+2016-12-02 08:10:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:10:11,793 - auto_focus.focus - INFO - Focus: 32.45, 25.66, 2.38
+2016-12-02 08:15:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:15:11,743 - auto_focus.focus - INFO - Focus: 32.45, 25.66, 2.20
+2016-12-02 08:20:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:20:11,805 - auto_focus.focus - INFO - Focus: 32.45, 25.66, 2.40
+2016-12-02 08:25:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:25:11,795 - auto_focus.focus - INFO - Focus: 32.45, 25.66, 2.40
+2016-12-02 08:30:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:30:11,744 - auto_focus.focus - INFO - Focus: 32.65, 25.41, 2.60
+2016-12-02 08:30:22,125 - auto_focus.focus - INFO - Focus: 32.45, 25.66, 2.44
+2016-12-02 08:35:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:35:11,835 - auto_focus.focus - INFO - Focus: 32.45, 25.66, 2.36
+2016-12-02 08:40:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:40:11,786 - auto_focus.focus - INFO - Focus: 32.50, 25.66, 2.36
+2016-12-02 08:45:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:45:11,746 - auto_focus.focus - INFO - Focus: 32.40, 25.66, 2.38
+2016-12-02 08:50:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:50:11,786 - auto_focus.focus - INFO - Focus: 32.40, 25.66, 2.58
+2016-12-02 08:55:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 08:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 08:55:11,776 - auto_focus.focus - INFO - Focus: 32.40, 25.66, 2.46
+2016-12-02 09:00:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:00:11,757 - auto_focus.focus - INFO - Focus: 32.20, 25.86, 2.10
+2016-12-02 09:00:22,138 - auto_focus.focus - INFO - Focus: 32.40, 25.66, 2.46
+2016-12-02 09:05:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:05:11,757 - auto_focus.focus - INFO - Focus: 32.40, 25.66, 2.40
+2016-12-02 09:10:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:10:11,809 - auto_focus.focus - INFO - Focus: 32.40, 25.66, 2.48
+2016-12-02 09:15:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:15:11,779 - auto_focus.focus - INFO - Focus: 32.40, 25.66, 2.42
+2016-12-02 09:20:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:20:10,349 - auto_focus.focus - INFO - Focus: 32.35, 25.61, 2.30
+2016-12-02 09:25:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:25:10,349 - auto_focus.focus - INFO - Focus: 32.40, 25.66, 1.88
+2016-12-02 09:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:30:10,349 - auto_focus.focus - INFO - Focus: 32.50, 25.66, 1.82
+2016-12-02 09:31:40,270 - auto_focus.focus - INFO - Focus: 32.50, 25.66, 1.86
+2016-12-02 09:32:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:32:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:32:11,760 - auto_focus.focus - INFO - Focus: 32.55, 25.66, 1.90
+2016-12-02 09:34:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:34:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:34:50,171 - auto_focus.focus - INFO - Focus: 32.55, 25.66, 2.00
+2016-12-02 09:36:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:36:11,750 - auto_focus.focus - INFO - Focus: 32.50, 25.71, 2.38
+2016-12-02 09:39:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:39:11,795 - auto_focus.focus - INFO - Focus: 32.65, 25.41, 2.12
+2016-12-02 09:40:05,782 - auto_focus.focus - INFO - Focus: 32.50, 25.71, 2.74
+2016-12-02 09:41:21,151 - auto_focus.focus - INFO - Focus: 32.45, 25.66, 2.86
+2016-12-02 09:42:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:42:14,790 - auto_focus.focus - INFO - Focus: 32.35, 25.66, 2.90
+2016-12-02 09:44:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:44:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:44:00,289 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B7F8570> is already running or in the queue.
+2016-12-02 09:44:11,982 - auto_focus.focus - INFO - Focus: 32.40, 25.71, 3.02
+2016-12-02 09:46:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:46:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:46:12,148 - auto_focus.focus - INFO - Focus: 32.30, 25.66, 2.74
+2016-12-02 09:48:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:48:13,308 - auto_focus.focus - INFO - Focus: 32.30, 25.66, 2.94
+2016-12-02 09:50:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:50:13,417 - auto_focus.focus - INFO - Focus: 32.35, 25.66, 3.14
+2016-12-02 09:51:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:51:13,368 - auto_focus.focus - INFO - Focus: 32.25, 25.66, 2.90
+2016-12-02 09:54:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:54:13,326 - auto_focus.focus - INFO - Focus: 32.35, 25.71, 3.34
+2016-12-02 09:55:26,589 - auto_focus.focus - INFO - Focus: 32.25, 25.66, 3.18
+2016-12-02 09:57:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 09:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 09:57:13,369 - auto_focus.focus - INFO - Focus: 32.25, 25.66, 3.22
+2016-12-02 10:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:00:13,341 - auto_focus.focus - INFO - Focus: 32.25, 25.61, 3.50
+2016-12-02 10:03:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:03:13,430 - auto_focus.focus - INFO - Focus: 32.20, 25.66, 3.62
+2016-12-02 10:06:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:06:13,391 - auto_focus.focus - INFO - Focus: 32.20, 25.66, 3.66
+2016-12-02 10:09:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:09:13,361 - auto_focus.focus - INFO - Focus: 32.15, 25.66, 3.78
+2016-12-02 10:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:12:13,322 - auto_focus.focus - INFO - Focus: 32.10, 25.61, 3.82
+2016-12-02 10:13:13,621 - auto_focus.focus - INFO - Focus: 31.85, 25.81, 4.66
+2016-12-02 10:13:25,601 - auto_focus.focus - INFO - Focus: 32.00, 25.56, 3.10
+2016-12-02 10:13:41,242 - auto_focus.focus - INFO - Focus: 32.10, 25.56, 3.14
+2016-12-02 10:14:01,752 - auto_focus.focus - INFO - Focus: 32.10, 25.61, 3.14
+2016-12-02 10:14:57,461 - auto_focus.focus - INFO - Focus: 32.05, 25.56, 2.90
+2016-12-02 10:15:10,181 - auto_focus.focus - INFO - Focus: 32.15, 25.61, 2.82
+2016-12-02 10:15:27,691 - auto_focus.focus - INFO - Focus: 32.15, 25.56, 2.70
+2016-12-02 10:15:40,611 - auto_focus.focus - INFO - Focus: 32.15, 25.56, 2.70
+2016-12-02 10:19:30,431 - auto_focus.focus - INFO - Focus: 32.15, 25.61, 2.46
+2016-12-02 10:19:45,181 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.30
+2016-12-02 10:19:57,611 - auto_focus.focus - INFO - Focus: 32.25, 25.61, 2.30
+2016-12-02 10:20:10,302 - auto_focus.focus - INFO - Focus: 32.25, 25.56, 2.26
+2016-12-02 10:28:33,187 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.02
+2016-12-02 10:28:46,367 - auto_focus.focus - INFO - Focus: 30.71, 26.58, 1.94
+2016-12-02 10:29:37,046 - auto_focus.focus - INFO - Focus: 30.71, 26.58, 2.06
+2016-12-02 10:30:33,927 - auto_focus.focus - INFO - Focus: 30.76, 26.58, 2.02
+2016-12-02 10:32:09,457 - auto_focus.focus - INFO - Focus: 30.76, 26.58, 1.94
+2016-12-02 10:33:37,187 - auto_focus.focus - INFO - Focus: 30.76, 26.58, 1.98
+2016-12-02 10:35:13,740 - auto_focus.focus - INFO - Focus: 30.76, 26.53, 1.82
+2016-12-02 10:37:50,569 - auto_focus.focus - INFO - Focus: 30.76, 26.58, 1.94
+2016-12-02 10:42:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:42:13,930 - auto_focus.focus - INFO - Focus: 30.76, 26.58, 2.06
+2016-12-02 10:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:45:13,920 - auto_focus.focus - INFO - Focus: 30.86, 26.68, 2.58
+2016-12-02 10:47:02,770 - auto_focus.focus - INFO - Focus: 30.81, 26.68, 3.02
+2016-12-02 10:47:17,930 - auto_focus.focus - INFO - Focus: 30.71, 26.63, 2.90
+2016-12-02 10:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:48:13,898 - auto_focus.focus - INFO - Focus: 30.91, 26.53, 2.70
+2016-12-02 10:48:32,598 - auto_focus.focus - INFO - Focus: 30.81, 26.73, 3.50
+2016-12-02 10:49:22,381 - auto_focus.focus - INFO - Focus: 30.81, 26.78, 3.50
+2016-12-02 10:49:35,519 - auto_focus.focus - INFO - Focus: 30.71, 26.73, 3.70
+2016-12-02 10:50:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:50:00,009 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B7F8570> is already running or in the queue.
+2016-12-02 10:50:01,999 - auto_focus.focus - INFO - Focus: 30.61, 26.68, 3.62
+2016-12-02 10:51:45,069 - auto_focus.focus - INFO - Focus: 30.56, 26.68, 3.46
+2016-12-02 10:52:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:52:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:52:13,938 - auto_focus.focus - INFO - Focus: 30.66, 26.68, 3.42
+2016-12-02 10:54:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:54:13,928 - auto_focus.focus - INFO - Focus: 30.56, 26.53, 3.46
+2016-12-02 10:57:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 10:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 10:57:12,690 - auto_focus.focus - INFO - Focus: 30.61, 26.53, 3.19
+2016-12-02 11:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:00:12,670 - auto_focus.focus - INFO - Focus: 30.61, 26.58, 3.03
+2016-12-02 11:03:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:03:12,650 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.95
+2016-12-02 11:06:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:06:12,733 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 3.00
+2016-12-02 11:09:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:09:12,720 - auto_focus.focus - INFO - Focus: 30.61, 26.58, 3.11
+2016-12-02 11:12:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:12:12,714 - auto_focus.focus - INFO - Focus: 30.56, 26.58, 3.11
+2016-12-02 11:15:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:15:12,719 - auto_focus.focus - INFO - Focus: 30.61, 26.58, 3.03
+2016-12-02 11:18:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:18:12,678 - auto_focus.focus - INFO - Focus: 30.61, 26.58, 3.03
+2016-12-02 11:21:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:21:12,628 - auto_focus.focus - INFO - Focus: 30.56, 26.58, 3.14
+2016-12-02 11:24:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:24:12,698 - auto_focus.focus - INFO - Focus: 30.56, 26.58, 3.06
+2016-12-02 11:27:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:27:12,660 - auto_focus.focus - INFO - Focus: 30.61, 26.63, 2.98
+2016-12-02 11:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:30:12,730 - auto_focus.focus - INFO - Focus: 30.56, 26.58, 2.82
+2016-12-02 11:33:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:33:12,671 - auto_focus.focus - INFO - Focus: 30.61, 26.58, 2.79
+2016-12-02 11:36:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:36:12,641 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.71
+2016-12-02 11:39:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:39:12,713 - auto_focus.focus - INFO - Focus: 30.61, 26.58, 2.74
+2016-12-02 11:42:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:42:12,703 - auto_focus.focus - INFO - Focus: 30.61, 26.58, 2.74
+2016-12-02 11:45:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:45:12,683 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.85
+2016-12-02 11:48:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:48:12,673 - auto_focus.focus - INFO - Focus: 30.61, 26.63, 2.96
+2016-12-02 11:51:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:51:12,624 - auto_focus.focus - INFO - Focus: 30.61, 26.63, 2.85
+2016-12-02 11:54:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:54:12,713 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.82
+2016-12-02 11:57:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 11:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 11:57:12,694 - auto_focus.focus - INFO - Focus: 30.61, 26.63, 2.74
+2016-12-02 12:00:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:00:12,674 - auto_focus.focus - INFO - Focus: 30.51, 26.83, 2.42
+2016-12-02 12:00:23,963 - auto_focus.focus - INFO - Focus: 30.61, 26.53, 2.66
+2016-12-02 12:03:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:03:12,755 - auto_focus.focus - INFO - Focus: 30.61, 26.53, 2.79
+2016-12-02 12:06:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:06:12,724 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.79
+2016-12-02 12:09:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:09:12,674 - auto_focus.focus - INFO - Focus: 30.61, 26.58, 2.63
+2016-12-02 12:12:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:12:12,664 - auto_focus.focus - INFO - Focus: 30.61, 26.58, 2.82
+2016-12-02 12:15:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:15:12,736 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.58
+2016-12-02 12:18:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:18:11,276 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.63
+2016-12-02 12:21:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:21:12,696 - auto_focus.focus - INFO - Focus: 30.56, 26.53, 2.39
+2016-12-02 12:24:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:24:12,696 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.31
+2016-12-02 12:27:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:27:12,658 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.28
+2016-12-02 12:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:30:12,746 - auto_focus.focus - INFO - Focus: 30.71, 26.58, 2.12
+2016-12-02 12:33:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:33:12,707 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.23
+2016-12-02 12:36:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:36:12,681 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.34
+2016-12-02 12:39:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:39:12,657 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.31
+2016-12-02 12:42:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:42:12,747 - auto_focus.focus - INFO - Focus: 30.61, 26.58, 2.34
+2016-12-02 12:45:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:45:12,921 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.23
+2016-12-02 12:48:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:48:12,707 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.28
+2016-12-02 12:51:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:51:12,734 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.20
+2016-12-02 12:54:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:54:12,701 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.17
+2016-12-02 12:55:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 12:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 12:55:12,671 - auto_focus.focus - INFO - Focus: 30.71, 26.58, 2.30
+2016-12-02 13:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:00:12,647 - auto_focus.focus - INFO - Focus: 30.61, 26.53, 2.22
+2016-12-02 13:05:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:05:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:05:12,727 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.14
+2016-12-02 13:10:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:10:12,707 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.11
+2016-12-02 13:15:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:15:12,690 - auto_focus.focus - INFO - Focus: 30.66, 26.63, 2.14
+2016-12-02 13:20:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:20:12,690 - auto_focus.focus - INFO - Focus: 30.61, 26.53, 2.11
+2016-12-02 13:25:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:25:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:25:12,686 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.16
+2016-12-02 13:30:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:30:12,635 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.19
+2016-12-02 13:35:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:35:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:35:12,717 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.11
+2016-12-02 13:40:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:40:12,701 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.08
+2016-12-02 13:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:45:12,667 - auto_focus.focus - INFO - Focus: 30.66, 26.53, 2.00
+2016-12-02 13:50:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:50:12,645 - auto_focus.focus - INFO - Focus: 30.71, 26.58, 1.97
+2016-12-02 13:55:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 13:55:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 13:55:12,631 - auto_focus.focus - INFO - Focus: 30.71, 26.58, 2.00
+2016-12-02 14:00:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:00:11,279 - auto_focus.focus - INFO - Focus: 30.71, 26.58, 1.92
+2016-12-02 14:02:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:02:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:02:12,648 - auto_focus.focus - INFO - Focus: 30.71, 26.53, 2.05
+2016-12-02 14:04:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:04:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:04:12,687 - auto_focus.focus - INFO - Focus: 30.71, 26.53, 2.26
+2016-12-02 14:06:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:06:12,638 - auto_focus.focus - INFO - Focus: 30.71, 26.58, 2.39
+2016-12-02 14:09:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:09:12,736 - auto_focus.focus - INFO - Focus: 30.66, 26.58, 2.50
+2016-12-02 14:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:12:12,802 - auto_focus.focus - INFO - Focus: 30.61, 26.53, 2.71
+2016-12-02 14:15:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:15:11,328 - auto_focus.focus - INFO - Focus: 30.61, 26.58, 2.76
+2016-12-02 14:18:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:18:12,668 - auto_focus.focus - INFO - Focus: 30.56, 26.58, 2.76
+2016-12-02 14:21:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:21:12,749 - auto_focus.focus - INFO - Focus: 30.56, 26.53, 2.97
+2016-12-02 14:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:24:12,743 - auto_focus.focus - INFO - Focus: 30.51, 26.58, 3.00
+2016-12-02 14:27:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:27:11,490 - auto_focus.focus - INFO - Focus: 30.41, 26.53, 2.76
+2016-12-02 14:30:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:30:12,650 - auto_focus.focus - INFO - Focus: 30.56, 26.58, 2.76
+2016-12-02 14:33:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:33:12,734 - auto_focus.focus - INFO - Focus: 30.56, 26.58, 2.87
+2016-12-02 14:36:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:36:12,704 - auto_focus.focus - INFO - Focus: 30.56, 26.58, 3.00
+2016-12-02 14:39:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:39:12,690 - auto_focus.focus - INFO - Focus: 30.56, 26.53, 2.97
+2016-12-02 14:42:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:42:12,680 - auto_focus.focus - INFO - Focus: 30.51, 26.58, 3.08
+2016-12-02 14:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:45:12,635 - auto_focus.focus - INFO - Focus: 30.51, 26.53, 3.13
+2016-12-02 14:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:48:11,426 - auto_focus.focus - INFO - Focus: 30.36, 26.53, 2.89
+2016-12-02 14:51:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:51:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:51:16,687 - auto_focus.focus - INFO - Focus: 30.51, 26.53, 2.89
+2016-12-02 14:54:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:54:16,677 - auto_focus.focus - INFO - Focus: 30.51, 26.53, 2.92
+2016-12-02 14:57:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 14:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 14:57:16,647 - auto_focus.focus - INFO - Focus: 30.51, 26.53, 2.95
+2016-12-02 15:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:00:16,697 - auto_focus.focus - INFO - Focus: 30.51, 26.53, 3.00
+2016-12-02 15:03:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:03:16,648 - auto_focus.focus - INFO - Focus: 30.46, 26.53, 3.11
+2016-12-02 15:06:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:06:16,717 - auto_focus.focus - INFO - Focus: 30.51, 26.53, 3.03
+2016-12-02 15:09:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:09:16,667 - auto_focus.focus - INFO - Focus: 30.46, 26.53, 3.22
+2016-12-02 15:12:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:12:16,717 - auto_focus.focus - INFO - Focus: 30.46, 26.53, 2.98
+2016-12-02 15:15:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:15:16,671 - auto_focus.focus - INFO - Focus: 30.56, 26.48, 3.03
+2016-12-02 15:18:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:18:16,641 - auto_focus.focus - INFO - Focus: 30.46, 26.53, 3.08
+2016-12-02 15:21:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:21:16,700 - auto_focus.focus - INFO - Focus: 30.46, 26.53, 3.00
+2016-12-02 15:24:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:24:16,661 - auto_focus.focus - INFO - Focus: 30.51, 26.53, 3.05
+2016-12-02 15:27:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:27:16,742 - auto_focus.focus - INFO - Focus: 30.46, 26.53, 3.10
+2016-12-02 15:30:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:30:16,691 - auto_focus.focus - INFO - Focus: 30.51, 26.53, 2.91
+2016-12-02 15:33:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:33:16,661 - auto_focus.focus - INFO - Focus: 30.56, 26.53, 2.88
+2016-12-02 15:36:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:36:16,732 - auto_focus.focus - INFO - Focus: 30.51, 26.53, 2.99
+2016-12-02 15:39:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:39:16,713 - auto_focus.focus - INFO - Focus: 30.46, 26.53, 3.10
+2016-12-02 15:42:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 15:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 15:42:16,663 - auto_focus.focus - INFO - Focus: 30.46, 26.43, 2.99
+2016-12-02 15:44:52,943 - auto_focus.focus - INFO - Focus: 30.51, 26.53, 2.83
+2016-12-02 15:45:33,392 - auto_focus.focus - INFO - Focus: 30.46, 26.48, 2.64
+2016-12-02 15:45:46,443 - auto_focus.focus - INFO - Focus: 30.51, 26.48, 2.61
+2016-12-02 15:45:58,792 - auto_focus.focus - INFO - Focus: 30.46, 26.48, 2.42
+2016-12-02 15:46:11,183 - auto_focus.focus - INFO - Focus: 30.56, 26.48, 2.39
+2016-12-02 15:46:23,953 - auto_focus.focus - INFO - Focus: 30.56, 26.53, 2.42
+2016-12-02 15:47:29,223 - auto_focus.focus - INFO - Focus: 30.56, 26.48, 2.23
+2016-12-02 15:47:41,552 - auto_focus.focus - INFO - Focus: 30.56, 26.48, 2.20
+2016-12-02 15:50:02,914 - auto_focus.focus - INFO - Focus: 30.61, 26.48, 2.09
+2016-12-02 15:53:10,085 - auto_focus.focus - INFO - Focus: 30.56, 26.48, 1.93
+2016-12-02 15:53:22,115 - auto_focus.focus - INFO - Focus: 30.61, 26.48, 1.90
+2016-12-02 15:54:21,915 - auto_focus.focus - INFO - Focus: 30.66, 26.48, 1.66
+2016-12-02 15:54:33,766 - auto_focus.focus - INFO - Focus: 30.71, 26.48, 1.69
+2016-12-02 15:54:45,665 - auto_focus.focus - INFO - Focus: 30.71, 26.48, 1.74
+2016-12-02 15:58:41,792 - auto_focus.focus - INFO - Focus: 32.67, 26.13, 1.74
+2016-12-02 15:59:22,562 - auto_focus.focus - INFO - Focus: 36.09, 26.98, 1.58
+2016-12-02 15:59:59,302 - auto_focus.focus - INFO - Focus: 32.07, 20.95, 1.71
+2016-12-02 16:00:10,661 - auto_focus.focus - INFO - Focus: 32.02, 20.95, 1.63
+2016-12-02 16:00:48,141 - auto_focus.focus - INFO - Focus: 32.02, 20.95, 1.76
+2016-12-02 16:01:42,072 - auto_focus.focus - INFO - Focus: 32.07, 20.95, 1.57
+2016-12-02 16:31:32,127 - auto_focus.focus - INFO - Focus: 22.07, 24.57, 1.49
+2016-12-02 16:31:43,957 - auto_focus.focus - INFO - Focus: 22.07, 24.57, 1.49
+2016-12-02 16:32:00,207 - auto_focus.focus - INFO - Focus: 22.07, 24.62, 1.49
+2016-12-02 16:36:16,296 - auto_focus.focus - INFO - Focus: 19.41, 21.31, 1.46
+2016-12-02 16:36:36,450 - auto_focus.focus - INFO - Focus: 25.34, 20.70, 1.65
+2016-12-02 16:36:50,486 - auto_focus.focus - INFO - Focus: 25.34, 20.70, 1.57
+2016-12-02 16:37:03,463 - auto_focus.focus - INFO - Focus: 25.34, 20.75, 1.49
+2016-12-02 16:37:51,109 - auto_focus.focus - INFO - Focus: 32.47, 25.53, 1.70
+2016-12-02 16:38:04,180 - auto_focus.focus - INFO - Focus: 32.42, 25.53, 1.70
+2016-12-02 16:38:34,390 - auto_focus.focus - INFO - Focus: 32.42, 25.53, 1.73
+2016-12-02 16:42:30,259 - auto_focus.focus - INFO - Focus: 31.12, 15.28, 1.65
+2016-12-02 16:42:47,569 - auto_focus.focus - INFO - Focus: 31.17, 15.33, 1.57
+2016-12-02 16:43:19,930 - auto_focus.focus - INFO - Focus: 31.17, 15.33, 1.60
+2016-12-02 16:43:37,440 - auto_focus.focus - INFO - Focus: 30.31, 13.62, 1.71
+2016-12-02 16:43:49,269 - auto_focus.focus - INFO - Focus: 30.31, 13.62, 1.63
+2016-12-02 16:44:32,250 - auto_focus.focus - INFO - Focus: 33.78, 13.12, 1.39
+2016-12-02 16:44:44,380 - auto_focus.focus - INFO - Focus: 33.78, 13.12, 1.76
+2016-12-02 16:46:24,009 - auto_focus.focus - INFO - Focus: 33.73, 13.12, 1.87
+2016-12-02 16:47:49,930 - auto_focus.focus - INFO - Focus: 33.78, 13.07, 1.63
+2016-12-02 16:49:12,010 - auto_focus.focus - INFO - Focus: 33.68, 12.97, 1.74
+2016-12-02 16:49:24,671 - auto_focus.focus - INFO - Focus: 33.78, 13.07, 1.76
+2016-12-02 16:49:38,180 - auto_focus.focus - INFO - Focus: 33.73, 13.12, 1.74
+2016-12-02 16:51:25,540 - auto_focus.focus - INFO - Focus: 33.83, 13.17, 1.58
+2016-12-02 16:52:02,061 - auto_focus.focus - INFO - Focus: 33.78, 13.12, 1.58
+2016-12-02 16:53:14,270 - auto_focus.focus - INFO - Focus: 33.83, 13.12, 1.63
+2016-12-02 16:59:55,438 - auto_focus.focus - INFO - Focus: 33.78, 13.07, 1.52
+2016-12-02 17:00:07,698 - auto_focus.focus - INFO - Focus: 33.78, 13.12, 1.55
+2016-12-02 17:03:33,438 - auto_focus.focus - INFO - Focus: 33.78, 13.12, 1.58
+2016-12-02 17:06:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:06:12,109 - auto_focus.focus - INFO - Focus: 33.83, 13.17, 1.85
+2016-12-02 17:09:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:09:12,151 - auto_focus.focus - INFO - Focus: 33.88, 13.22, 1.96
+2016-12-02 17:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:12:12,201 - auto_focus.focus - INFO - Focus: 33.88, 13.47, 1.53
+2016-12-02 17:12:29,181 - auto_focus.focus - INFO - Focus: 33.83, 13.17, 2.33
+2016-12-02 17:15:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:15:12,131 - auto_focus.focus - INFO - Focus: 33.78, 13.12, 2.46
+2016-12-02 17:18:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:18:12,141 - auto_focus.focus - INFO - Focus: 33.73, 13.17, 2.51
+2016-12-02 17:21:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:21:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:21:12,131 - auto_focus.focus - INFO - Focus: 33.53, 12.92, 2.54
+2016-12-02 17:21:22,901 - auto_focus.focus - INFO - Focus: 33.68, 13.12, 2.48
+2016-12-02 17:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:24:12,223 - auto_focus.focus - INFO - Focus: 33.73, 13.07, 2.53
+2016-12-02 17:27:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:27:12,213 - auto_focus.focus - INFO - Focus: 33.73, 13.12, 2.53
+2016-12-02 17:30:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:30:12,187 - auto_focus.focus - INFO - Focus: 33.68, 13.12, 2.64
+2016-12-02 17:33:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:33:12,128 - auto_focus.focus - INFO - Focus: 33.73, 13.12, 2.77
+2016-12-02 17:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:36:12,194 - auto_focus.focus - INFO - Focus: 33.68, 13.12, 2.90
+2016-12-02 17:39:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:39:12,125 - auto_focus.focus - INFO - Focus: 33.68, 13.12, 2.95
+2016-12-02 17:42:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:42:11,645 - auto_focus.focus - INFO - Focus: 33.63, 13.07, 2.92
+2016-12-02 17:45:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 17:45:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 17:45:00,000 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B7F8570> is already running or in the queue.
+2016-12-02 17:45:02,895 - auto_focus.focus - INFO - Focus: 33.63, 13.17, 2.97
+2016-12-02 17:47:02,361 - auto_focus.focus - INFO - Focus: 33.58, 13.12, 3.00
+2016-12-02 17:50:49,506 - auto_focus.focus - INFO - Focus: 33.68, 13.27, 2.25
+2016-12-02 17:51:03,637 - auto_focus.focus - INFO - Focus: 33.68, 13.27, 2.25
+2016-12-02 17:51:18,421 - auto_focus.focus - INFO - Focus: 33.68, 13.02, 1.90
+2016-12-02 17:51:30,717 - auto_focus.focus - INFO - Focus: 33.73, 13.02, 2.03
+2016-12-02 17:52:49,647 - auto_focus.focus - INFO - Focus: 33.73, 13.07, 2.00
+2016-12-02 17:54:06,641 - auto_focus.focus - INFO - Focus: 33.68, 13.02, 1.92
+2016-12-02 17:54:57,367 - auto_focus.focus - INFO - Focus: 33.68, 13.02, 1.89
+2016-12-02 17:55:09,677 - auto_focus.focus - INFO - Focus: 33.73, 13.07, 1.81
+2016-12-02 18:00:31,032 - auto_focus.focus - INFO - Focus: 33.68, 13.07, 1.73
+2016-12-02 18:00:44,328 - auto_focus.focus - INFO - Focus: 33.73, 13.07, 1.73
+2016-12-02 18:01:06,779 - auto_focus.focus - INFO - Focus: 33.68, 13.07, 1.76
+2016-12-02 18:02:26,713 - auto_focus.focus - INFO - Focus: 33.73, 13.07, 1.73
+2016-12-02 18:06:59,125 - auto_focus.focus - INFO - Focus: 33.73, 13.07, 1.62
+2016-12-02 18:12:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 18:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 18:12:12,180 - auto_focus.focus - INFO - Focus: 33.83, 13.32, 2.37
+2016-12-02 18:12:29,385 - auto_focus.focus - INFO - Focus: 33.78, 13.37, 2.80
+2016-12-02 18:13:14,476 - auto_focus.focus - INFO - Focus: 33.83, 13.52, 3.23
+2016-12-02 18:13:25,250 - auto_focus.focus - INFO - Focus: 33.73, 13.27, 3.17
+2016-12-02 18:14:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 18:14:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 18:14:12,161 - auto_focus.focus - INFO - Focus: 33.73, 13.32, 3.46
+2016-12-02 18:16:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>> at time 2016-12-02 18:16:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0B7F8570>>.
+2016-12-02 18:16:12,246 - auto_focus.focus - INFO - Focus: 33.53, 13.47, 3.99
+2016-12-02 18:16:23,055 - auto_focus.focus - INFO - Focus: 33.58, 13.27, 4.13
+2016-12-02 18:17:04,601 - auto_focus.focus - INFO - Focus: 33.48, 13.17, 3.73
+2016-12-02 18:17:18,921 - auto_focus.focus - INFO - Focus: 32.27, 10.80, 3.22
+2016-12-02 18:17:35,476 - auto_focus.focus - INFO - Focus: 32.22, 10.80, 3.49
+2016-12-02 18:18:05,331 - auto_focus.focus - INFO - Focus: 32.22, 10.80, 3.25
+2016-12-02 18:18:20,220 - auto_focus.focus - INFO - Focus: 32.27, 10.75, 3.09
+2016-12-02 18:18:35,091 - auto_focus.focus - INFO - Focus: 32.27, 10.75, 3.01
+2016-12-02 18:37:54,477 - auto_focus.focus - INFO - Focus: 17.98, 15.05, -1.50
+2016-12-02 18:38:06,237 - auto_focus.focus - INFO - Focus: 17.78, 15.00, -2.06
+2016-12-02 18:38:24,348 - auto_focus.focus - INFO - Focus: 10.91, 15.25, -1.93
+2016-12-02 18:38:36,148 - auto_focus.focus - INFO - Focus: 10.66, 15.55, -2.12
+2016-12-02 18:38:47,957 - auto_focus.focus - INFO - Focus: 10.56, 15.75, -1.99
+2016-12-02 18:39:01,588 - auto_focus.focus - INFO - Focus: 10.66, 15.70, -2.07
+2016-12-02 18:43:23,298 - auto_focus.focus - INFO - Focus: 28.38, 15.80, -2.14
+2016-12-02 18:43:41,457 - auto_focus.focus - INFO - Focus: 28.58, 15.85, -2.35
+2016-12-02 18:43:53,308 - auto_focus.focus - INFO - Focus: 28.68, 15.85, -2.30
+2016-12-02 18:45:41,318 - auto_focus.focus - INFO - Focus: 33.18, 28.84, -2.49
+2016-12-02 18:45:52,648 - auto_focus.focus - INFO - Focus: 33.23, 28.79, -2.52
+2016-12-02 18:46:03,878 - auto_focus.focus - INFO - Focus: 33.13, 28.84, -2.60
+2016-12-02 18:47:07,269 - auto_focus.focus - INFO - Focus: 33.23, 28.84, -2.58
+2016-12-02 18:47:25,128 - auto_focus.focus - INFO - Focus: 33.13, 28.89, -2.92
+2016-12-02 18:47:36,299 - auto_focus.focus - INFO - Focus: 33.23, 28.84, -2.76
+2016-12-02 18:51:06,688 - auto_focus.focus - INFO - Focus: 33.33, 28.79, -3.10
+2016-12-02 18:51:16,759 - auto_focus.focus - INFO - Focus: 33.28, 28.79, -3.20
+2016-12-02 18:52:10,618 - auto_focus.focus - INFO - Focus: 30.03, 32.34, -3.30
+2016-12-02 18:52:24,188 - auto_focus.focus - INFO - Focus: 30.13, 32.29, -3.18
+2016-12-02 18:52:42,309 - emod.submit - INFO - The job <measurements.magnet_control.Magnet_alignment object at 0x0BA54210> is already running or in the queue.
+2016-12-02 18:54:18,688 - auto_focus.focus - INFO - Focus: 33.34, 28.62, -3.36
+2016-12-02 18:54:29,668 - auto_focus.focus - INFO - Focus: 33.34, 28.77, -3.26
+2016-12-02 18:55:35,108 - auto_focus.focus - INFO - Focus: 33.39, 28.77, -3.28
+2016-12-02 18:55:52,249 - auto_focus.focus - INFO - Focus: 28.77, 25.85, -3.38
+2016-12-02 18:56:57,119 - auto_focus.focus - INFO - Focus: 28.67, 25.55, -3.72
+2016-12-02 18:59:14,970 - auto_focus.focus - INFO - Focus: 25.25, 28.07, -3.48
+2016-12-02 18:59:29,131 - auto_focus.focus - INFO - Focus: 25.15, 28.12, -3.46
+2016-12-02 19:00:37,960 - auto_focus.focus - INFO - Focus: 27.13, 25.60, -3.62
+2016-12-02 19:01:50,270 - auto_focus.focus - INFO - Focus: 31.69, 27.93, -3.44
+2016-12-02 19:02:02,030 - auto_focus.focus - INFO - Focus: 31.34, 27.88, -3.86
+2016-12-02 19:02:13,940 - auto_focus.focus - INFO - Focus: 31.84, 27.93, -3.62
+2016-12-02 19:02:25,250 - auto_focus.focus - INFO - Focus: 31.59, 27.88, -3.48
+2016-12-02 19:03:04,591 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B7F8570> is already running or in the queue.
+2016-12-02 19:03:14,661 - auto_focus.focus - INFO - Focus: 31.59, 27.88, -3.56
+2016-12-02 19:06:07,581 - auto_focus.focus - INFO - Focus: 33.47, 28.73, -3.54
+2016-12-02 19:07:19,611 - auto_focus.focus - INFO - Focus: 31.28, 28.61, -3.62
+2016-12-02 19:08:23,062 - auto_focus.focus - INFO - Focus: 30.54, 29.07, -3.60
+2016-12-02 19:09:27,742 - auto_focus.focus - INFO - Focus: 27.65, 29.35, -3.76
+2016-12-02 19:10:21,302 - auto_focus.focus - INFO - Focus: 29.89, 27.37, -4.02
+2016-12-02 19:10:33,562 - auto_focus.focus - INFO - Focus: 29.99, 27.37, -3.76
+2016-12-02 19:11:37,122 - auto_focus.focus - INFO - Focus: 29.89, 27.52, -3.86
+2016-12-02 19:12:56,792 - auto_focus.focus - INFO - Focus: 25.32, 28.12, -3.68
+2016-12-02 19:14:14,003 - auto_focus.focus - INFO - Focus: 25.37, 28.12, -3.78
+2016-12-02 19:15:26,733 - auto_focus.focus - INFO - Focus: 30.40, 32.27, -3.68
+2016-12-02 19:16:31,983 - auto_focus.focus - INFO - Focus: 28.33, 31.46, -3.76
+2016-12-02 19:17:49,092 - auto_focus.focus - INFO - Focus: 28.33, 31.41, -3.78

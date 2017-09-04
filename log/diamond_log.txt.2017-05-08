@@ -1,0 +1,172 @@
+2017-05-08 09:59:17,601 - pi3diamond.<module> - INFO - Starting logger.
+2017-05-08 09:59:26,361 - emod.start - INFO - Starting Job Manager.
+2017-05-08 09:59:26,371 - cron.run - INFO - Starting Cron Daemon.
+2017-05-08 10:39:55,930 - auto_focus.focus - INFO - Focus: 20.25, 21.22, 0.45
+2017-05-08 10:40:06,311 - auto_focus.focus - INFO - Focus: 20.25, 21.29, 0.55
+2017-05-08 10:40:15,147 - auto_focus.focus - INFO - Focus: 20.25, 21.22, 0.80
+2017-05-08 10:42:27,079 - auto_focus.focus - INFO - Focus: 20.25, 21.15, 0.80
+2017-05-08 10:57:43,184 - auto_focus.focus - INFO - Focus: 11.92, 3.02, 0.80
+2017-05-08 10:58:04,464 - auto_focus.focus - INFO - Focus: 11.92, 3.02, 0.65
+2017-05-08 11:04:14,325 - auto_focus.focus - INFO - Focus: 8.84, 18.52, 0.65
+2017-05-08 11:04:22,825 - auto_focus.focus - INFO - Focus: 8.84, 18.52, 0.65
+2017-05-08 11:10:59,565 - auto_focus.focus - INFO - Focus: 8.84, 18.52, 0.75
+2017-05-08 12:28:21,964 - auto_focus.focus - INFO - Focus: 9.05, 18.59, 0.55
+2017-05-08 12:28:30,315 - auto_focus.focus - INFO - Focus: 9.05, 18.59, 0.65
+2017-05-08 12:31:05,065 - pulsed_hmc._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_hmc.py", line 263, in _run
+    PG.Sequence(self.sequence, loop=True)
+  File "D:\pi3diamondnew\hardware\pulse_blaster.py", line 54, in Sequence
+    start = write(*sequence[0])
+IndexError: list index out of range
+2017-05-08 12:31:23,775 - auto_focus.focus - INFO - Focus: 9.33, 18.31, 0.35
+2017-05-08 12:31:31,644 - auto_focus.focus - INFO - Focus: 9.05, 18.59, 0.65
+2017-05-08 12:31:48,315 - pulsed_hmc._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_hmc.py", line 263, in _run
+    PG.Sequence(self.sequence, loop=True)
+  File "D:\pi3diamondnew\hardware\pulse_blaster.py", line 54, in Sequence
+    start = write(*sequence[0])
+IndexError: list index out of range
+2017-05-08 12:31:52,595 - pulsed_hmc._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_hmc.py", line 263, in _run
+    PG.Sequence(self.sequence, loop=True)
+  File "D:\pi3diamondnew\hardware\pulse_blaster.py", line 54, in Sequence
+    start = write(*sequence[0])
+IndexError: list index out of range
+2017-05-08 12:33:17,335 - pulsed_hmc._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_hmc.py", line 263, in _run
+    PG.Sequence(self.sequence, loop=True)
+  File "D:\pi3diamondnew\hardware\pulse_blaster.py", line 54, in Sequence
+    start = write(*sequence[0])
+IndexError: list index out of range
+2017-05-08 12:35:48,525 - auto_focus.focus - INFO - Focus: 9.05, 18.59, 0.65
+2017-05-08 12:36:34,644 - auto_focus.focus - INFO - Focus: 9.05, 18.59, 0.60
+2017-05-08 12:40:53,676 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.55
+2017-05-08 12:45:19,802 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.65
+2017-05-08 12:55:20,420 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.55
+2017-05-08 12:57:56,030 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.55
+2017-05-08 13:19:28,582 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.50
+2017-05-08 13:21:10,963 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsed_hmc_an.DoubleExponentialDecayFit object at 0x1653B8D0>, trait: normalized_counts, old value: [ 0.  0.], new value: [-1.14461082 -1.25562424 -0.93933486 -0.92895767 -0.78276461 -0.92841037
+ -0.72701483 -0.74839207 -0.08392164 -0.15600554 -0.45539169 -0.48301767
+ -0.82327364 -0.33673285 -0.38744161 -0.01486944 -0.25707095 -0.37650198
+ -0.39465374 -0.43656108]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsed_hmc_an.py", line 832, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleExponentialDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-05-08 13:22:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 13:22:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 13:22:07,734 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.55
+2017-05-08 13:22:55,173 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsed_hmc_an.DoubleGaussianDecayFit object at 0x159DE540>, trait: normalized_counts, old value: [ 0.  0.], new value: [-1.08963582 -0.93653149 -0.87772358 -1.01194985 -0.34621617 -0.45733297
+ -0.70387271 -0.13002874 -0.22278896 -0.47820596 -0.27682072 -0.43713967
+ -0.33321454 -0.2735953  -0.11643301 -0.27352469 -0.17220446  0.03770074
+ -0.09662508 -0.04937205]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsed_hmc_an.py", line 930, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleGaussianDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-05-08 13:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 13:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 13:24:09,134 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.50
+2017-05-08 13:27:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 13:27:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 13:27:00,992 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsed_hmc_an.DoubleExponentialDecayFit object at 0x1C429CC0>, trait: normalized_counts, old value: [ 0.  0.], new value: [-0.98188149 -0.98104123 -0.69991456 -0.62324689 -0.4344065  -1.26817544
+ -0.43974814 -0.95132419 -0.72692189 -0.65012912 -0.96500478 -0.54395495
+ -0.11259853 -0.19188039 -0.21826213 -0.50616893 -0.65615862 -0.38600392
+ -0.24286458  0.13120884]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsed_hmc_an.py", line 832, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleExponentialDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-05-08 13:27:09,115 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.50
+2017-05-08 13:30:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 13:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 13:30:07,734 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.45
+2017-05-08 13:33:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 13:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 13:33:07,733 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.45
+2017-05-08 13:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 13:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 13:36:07,734 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.50
+2017-05-08 13:39:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 13:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 13:39:07,736 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.45
+2017-05-08 13:42:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 13:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 13:42:10,436 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.40
+2017-05-08 13:43:08,924 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <tools.tau_calculation_XY8.dip_position object at 0x15E9BED0>, trait: calculate_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\tools\tau_calculation_XY8.py", line 84, in _calculate_button_fired
+    self.larmor_period=1e+3/self.larmor_frequency
+ZeroDivisionError: float division by zero
+2017-05-08 13:47:44,944 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.55
+2017-05-08 13:54:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 13:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 13:54:07,734 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.65
+2017-05-08 13:57:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 13:57:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 13:57:07,733 - auto_focus.focus - INFO - Focus: 8.98, 18.59, 0.50
+2017-05-08 13:57:41,674 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.50
+2017-05-08 14:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 14:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 14:00:07,736 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.50
+2017-05-08 14:03:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 14:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 14:03:07,736 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.55
+2017-05-08 14:04:34,092 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.50
+2017-05-08 14:06:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 14:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 14:06:07,747 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.60
+2017-05-08 14:09:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 14:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 14:09:07,788 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.60
+2017-05-08 14:12:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 14:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 14:12:07,838 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.55
+2017-05-08 14:15:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 14:15:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 14:15:07,733 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.40
+2017-05-08 14:18:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>> at time 2017-05-08 14:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AADE120>>.
+2017-05-08 14:18:07,747 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.55
+2017-05-08 14:23:00,848 - pi3diamond.<module> - INFO - Starting logger.
+2017-05-08 14:23:06,648 - emod.start - INFO - Starting Job Manager.
+2017-05-08 14:23:06,678 - cron.run - INFO - Starting Cron Daemon.
+2017-05-08 14:24:26,529 - auto_focus.focus - INFO - Focus: 9.05, 18.80, 0.10
+2017-05-08 14:24:35,158 - auto_focus.focus - INFO - Focus: 8.91, 18.52, 0.40
+2017-05-08 14:24:44,736 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.45
+2017-05-08 14:26:39,368 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.40
+2017-05-08 14:30:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC2B150>> at time 2017-05-08 14:30:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC2B150>>.
+2017-05-08 14:30:07,907 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.50
+2017-05-08 14:32:23,009 - auto_focus.focus - INFO - Focus: 8.91, 18.52, 0.75
+2017-05-08 14:32:44,641 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.80
+2017-05-08 14:33:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC2B150>> at time 2017-05-08 14:33:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC2B150>>.
+2017-05-08 14:33:07,801 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.80
+2017-05-08 14:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC2B150>> at time 2017-05-08 14:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC2B150>>.
+2017-05-08 14:36:07,829 - auto_focus.focus - INFO - Focus: 8.91, 18.59, 0.80
+2017-05-08 14:39:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC2B150>> at time 2017-05-08 14:39:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC2B150>>.
+2017-05-08 14:39:07,911 - auto_focus.focus - INFO - Focus: 8.84, 18.59, 0.70
+2017-05-08 14:42:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC2B150>> at time 2017-05-08 14:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0AC2B150>>.
+2017-05-08 14:42:07,732 - auto_focus.focus - INFO - Focus: 8.84, 18.59, 0.60
+2017-05-08 17:06:45,216 - auto_focus.focus - INFO - Focus: 9.12, 18.59, 0.10
+2017-05-08 17:06:53,536 - auto_focus.focus - INFO - Focus: 9.26, 18.59, -0.20
+2017-05-08 17:07:01,835 - auto_focus.focus - INFO - Focus: 9.26, 18.52, -0.15
+2017-05-08 17:10:34,696 - auto_focus.focus - INFO - Focus: 9.26, 18.52, -0.10
+2017-05-08 17:10:40,085 - deer_odmr._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\deer_odmr.py", line 156, in _run
+    ha.PulseGenerator().Sequence([(['hmc_trigger'], t_pi12_NV), ([       ], time_Hahn), (['hmc_trigger'], t_pi_NV), (['mw'], t_pi_electrons), ([       ], time_Hahn-t_pi_electrons), (['hmc_trigger'], t_pi12_NV), (['laser', 'trigger'], laser), ([       ], wait)])
+NameError: global name 't_pi12_NV' is not defined
+2017-05-08 17:14:38,395 - auto_focus.focus - INFO - Focus: 9.33, 18.59, -0.10
+2017-05-08 17:14:56,427 - deer_odmr._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\deer_odmr.py", line 155, in _run
+    ha.PulseGenerator().Sequence([(['hmc_trigger'], t_pi12_NV), ([       ], time_Hahn), (['hmc_trigger'], t_pi_NV), (['mw'], t_pi_electrons), ([       ], time_Hahn-t_pi_electrons), (['hmc_trigger'], t_pi12_NV), (['laser', 'trigger'], laser), ([       ], wait)])
+NameError: global name 't_pi12_NV' is not defined
+2017-05-08 17:20:36,576 - auto_focus.focus - INFO - Focus: 9.33, 18.59, -0.20

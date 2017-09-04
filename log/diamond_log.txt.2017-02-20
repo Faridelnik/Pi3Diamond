@@ -1,0 +1,222 @@
+2017-02-20 09:16:27,569 - auto_focus.focus - INFO - Focus: 24.47, 24.75, 2.69
+2017-02-20 09:28:12,584 - auto_focus.focus - INFO - Focus: 23.99, 24.85, 3.18
+2017-02-20 09:50:28,845 - auto_focus.focus - INFO - Focus: 24.60, 24.65, 2.93
+2017-02-20 10:01:55,986 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x0722F420>, trait: resolution, old value: 101, new value: 2
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 130, in _calculate_speed
+    self.scan_speed=1.0/(self.seconds_per_point*self.resolution)
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'scan_speed' trait of a Confocal instance must be 0.0 <= a floating point number <= 400.0, but a value of 500.0 <type 'float'> was specified.
+2017-02-20 14:58:01,236 - auto_focus.focus - INFO - Focus: 18.64, 25.35, 1.73
+2017-02-20 14:58:12,335 - auto_focus.focus - INFO - Focus: 18.59, 25.50, 1.78
+2017-02-20 14:59:02,805 - auto_focus.focus - INFO - Focus: 33.12, 5.38, 1.93
+2017-02-20 14:59:18,595 - auto_focus.focus - INFO - Focus: 28.24, 5.23, 1.88
+2017-02-20 15:00:23,196 - auto_focus.focus - INFO - Focus: 47.84, 10.55, 1.63
+2017-02-20 15:00:34,436 - auto_focus.focus - INFO - Focus: 47.79, 10.85, 1.53
+2017-02-20 15:00:45,155 - auto_focus.focus - INFO - Focus: 47.88, 10.59, 1.28
+2017-02-20 15:00:52,266 - auto_focus.focus - INFO - Focus: 47.69, 10.89, 0.93
+2017-02-20 15:02:40,763 - auto_focus.focus - INFO - Focus: 14.52, 19.34, 1.43
+2017-02-20 15:02:48,414 - auto_focus.focus - INFO - Focus: 14.47, 19.22, 1.58
+2017-02-20 15:03:00,223 - auto_focus.focus - INFO - Focus: 14.42, 19.31, 1.38
+2017-02-20 15:03:07,053 - auto_focus.focus - INFO - Focus: 14.44, 19.33, 1.08
+2017-02-20 15:03:14,874 - auto_focus.focus - INFO - Focus: 14.46, 19.28, 0.58
+2017-02-20 15:03:21,844 - auto_focus.focus - INFO - Focus: 14.41, 19.30, 0.68
+2017-02-20 15:04:03,944 - auto_focus.focus - INFO - Focus: 14.36, 19.25, -0.13
+2017-02-20 15:04:10,924 - auto_focus.focus - INFO - Focus: 14.31, 19.27, 0.17
+2017-02-20 15:05:43,724 - auto_focus.focus - INFO - Focus: 14.26, 19.22, -0.13
+2017-02-20 15:05:50,535 - auto_focus.focus - INFO - Focus: 14.21, 19.24, -0.63
+2017-02-20 15:05:57,315 - auto_focus.focus - INFO - Focus: 14.23, 19.19, -0.73
+2017-02-20 15:06:04,224 - auto_focus.focus - INFO - Focus: 14.18, 19.28, -0.53
+2017-02-20 15:06:21,005 - auto_focus.focus - INFO - Focus: 14.44, 24.50, -0.73
+2017-02-20 15:06:27,835 - auto_focus.focus - INFO - Focus: 14.39, 24.52, -0.93
+2017-02-20 15:06:34,615 - auto_focus.focus - INFO - Focus: 14.41, 24.54, -0.93
+2017-02-20 15:06:41,404 - auto_focus.focus - INFO - Focus: 14.36, 24.49, -0.93
+2017-02-20 15:06:48,545 - auto_focus.focus - INFO - Focus: 14.38, 24.51, -1.13
+2017-02-20 15:06:55,525 - auto_focus.focus - INFO - Focus: 14.40, 24.53, -1.03
+2017-02-20 15:07:57,815 - auto_focus.focus - INFO - Focus: 14.35, 24.48, -1.33
+2017-02-20 15:08:05,255 - auto_focus.focus - INFO - Focus: 14.37, 24.50, -1.33
+2017-02-20 15:14:18,996 - auto_focus.focus - INFO - Focus: 14.60, 24.59, -1.83
+2017-02-20 15:14:25,717 - auto_focus.focus - INFO - Focus: 14.41, 24.47, -2.33
+2017-02-20 15:14:32,397 - auto_focus.focus - INFO - Focus: 14.36, 24.49, -2.73
+2017-02-20 15:14:39,076 - auto_focus.focus - INFO - Focus: 14.17, 24.44, -3.23
+2017-02-20 15:14:45,766 - auto_focus.focus - INFO - Focus: 14.12, 24.39, -3.73
+2017-02-20 15:14:52,586 - auto_focus.focus - INFO - Focus: 14.14, 24.41, -3.93
+2017-02-20 15:14:59,357 - auto_focus.focus - INFO - Focus: 14.16, 24.43, -3.83
+2017-02-20 15:15:06,907 - auto_focus.focus - INFO - Focus: 14.18, 24.38, -3.83
+2017-02-20 15:15:13,976 - auto_focus.focus - INFO - Focus: 14.13, 24.40, -3.83
+2017-02-20 15:15:21,147 - auto_focus.focus - INFO - Focus: 14.15, 24.35, -3.93
+2017-02-20 15:17:02,852 - auto_focus.focus - INFO - Focus: 14.10, 24.37, -4.33
+2017-02-20 15:17:09,673 - auto_focus.focus - INFO - Focus: 14.12, 24.32, -4.63
+2017-02-20 15:17:17,355 - auto_focus.focus - INFO - Focus: 14.14, 24.34, -4.53
+2017-02-20 15:21:37,605 - auto_focus.focus - INFO - Focus: 14.16, 24.36, -5.03
+2017-02-20 15:21:44,635 - auto_focus.focus - INFO - Focus: 14.11, 24.31, -5.43
+2017-02-20 15:21:51,405 - auto_focus.focus - INFO - Focus: 14.06, 24.33, -5.73
+2017-02-20 15:22:17,165 - auto_focus.focus - INFO - Focus: 13.66, 24.28, -5.53
+2017-02-20 15:22:24,135 - auto_focus.focus - INFO - Focus: 13.61, 24.37, -5.53
+2017-02-20 15:23:48,885 - auto_focus.focus - INFO - Focus: 28.07, 24.39, -1.14
+2017-02-20 15:23:55,676 - auto_focus.focus - INFO - Focus: 28.09, 24.34, -1.04
+2017-02-20 15:24:02,466 - auto_focus.focus - INFO - Focus: 28.11, 24.43, -1.14
+2017-02-20 15:24:09,746 - auto_focus.focus - INFO - Focus: 28.13, 24.45, -1.14
+2017-02-20 15:24:16,536 - auto_focus.focus - INFO - Focus: 28.08, 24.47, -1.34
+2017-02-20 15:31:39,947 - auto_focus.focus - INFO - Focus: 27.67, 24.88, -1.49
+2017-02-20 15:31:48,266 - auto_focus.focus - INFO - Focus: 27.62, 24.76, -1.44
+2017-02-20 15:31:56,627 - auto_focus.focus - INFO - Focus: 27.64, 24.85, -1.89
+2017-02-20 15:32:07,586 - auto_focus.focus - INFO - Focus: 27.71, 24.85, -1.74
+2017-02-20 15:32:16,326 - auto_focus.focus - INFO - Focus: 27.73, 24.80, -1.64
+2017-02-20 15:38:28,858 - auto_focus.focus - INFO - Focus: 27.89, 24.82, -1.99
+2017-02-20 15:38:37,267 - auto_focus.focus - INFO - Focus: 27.84, 24.77, -1.89
+2017-02-20 15:38:45,507 - auto_focus.focus - INFO - Focus: 27.79, 24.93, -2.34
+2017-02-20 15:38:53,898 - auto_focus.focus - INFO - Focus: 27.74, 24.67, -2.84
+2017-02-20 15:39:02,747 - auto_focus.focus - INFO - Focus: 27.74, 24.81, -2.79
+2017-02-20 15:39:11,108 - auto_focus.focus - INFO - Focus: 27.62, 24.83, -3.24
+2017-02-20 15:39:33,707 - auto_focus.focus - INFO - Focus: 27.71, 24.50, -3.04
+2017-02-20 15:39:41,677 - auto_focus.focus - INFO - Focus: 27.73, 24.45, -2.99
+2017-02-20 15:39:54,987 - auto_focus.focus - INFO - Focus: 28.25, 23.85, -2.84
+2017-02-20 15:40:29,427 - auto_focus.focus - INFO - Focus: 27.95, 24.14, -1.91
+2017-02-20 15:40:37,538 - auto_focus.focus - INFO - Focus: 27.83, 24.37, -1.46
+2017-02-20 15:40:45,767 - auto_focus.focus - INFO - Focus: 27.85, 24.39, -1.11
+2017-02-20 15:40:53,937 - auto_focus.focus - INFO - Focus: 27.87, 24.41, -1.06
+2017-02-20 15:48:18,058 - auto_focus.focus - INFO - Focus: 27.54, 24.78, -1.36
+2017-02-20 15:48:26,358 - auto_focus.focus - INFO - Focus: 27.56, 24.87, -1.66
+2017-02-20 15:48:36,937 - auto_focus.focus - INFO - Focus: 27.56, 24.87, -1.11
+2017-02-20 15:49:22,588 - auto_focus.focus - INFO - Focus: 27.58, 24.89, -1.26
+2017-02-20 15:50:09,678 - auto_focus.focus - INFO - Focus: 27.60, 24.84, -1.71
+2017-02-20 15:50:19,628 - auto_focus.focus - INFO - Focus: 27.62, 24.79, -1.91
+2017-02-20 15:50:28,309 - auto_focus.focus - INFO - Focus: 27.64, 24.81, -1.81
+2017-02-20 15:52:11,569 - auto_focus.focus - INFO - Focus: 27.59, 24.83, -1.96
+2017-02-20 15:52:20,638 - auto_focus.focus - INFO - Focus: 27.61, 24.78, -1.96
+2017-02-20 15:52:29,299 - auto_focus.focus - INFO - Focus: 27.63, 24.80, -1.91
+2017-02-20 15:52:37,709 - auto_focus.focus - INFO - Focus: 27.58, 24.82, -2.26
+2017-02-20 15:52:46,209 - auto_focus.focus - INFO - Focus: 27.60, 24.84, -1.91
+2017-02-20 15:57:00,059 - auto_focus.focus - INFO - Focus: 25.51, 24.79, -2.44
+2017-02-20 15:57:08,499 - auto_focus.focus - INFO - Focus: 25.32, 24.81, -2.64
+2017-02-20 15:57:45,148 - auto_focus.focus - INFO - Focus: 21.66, 4.44, -3.04
+2017-02-20 15:57:53,279 - auto_focus.focus - INFO - Focus: 21.61, 4.39, -3.39
+2017-02-20 15:58:01,608 - auto_focus.focus - INFO - Focus: 21.56, 4.41, -3.44
+2017-02-20 15:58:24,848 - auto_focus.focus - INFO - Focus: 21.44, 4.43, -2.99
+2017-02-20 15:58:33,019 - auto_focus.focus - INFO - Focus: 21.46, 4.38, -2.49
+2017-02-20 15:58:41,118 - auto_focus.focus - INFO - Focus: 21.83, 4.33, -2.04
+2017-02-20 15:58:49,729 - auto_focus.focus - INFO - Focus: 21.57, 4.42, -1.54
+2017-02-20 15:58:57,858 - auto_focus.focus - INFO - Focus: 21.59, 4.44, -1.14
+2017-02-20 15:59:05,898 - auto_focus.focus - INFO - Focus: 21.61, 4.46, -1.09
+2017-02-20 15:59:14,259 - auto_focus.focus - INFO - Focus: 21.56, 4.48, -1.09
+2017-02-20 16:00:52,842 - auto_focus.focus - INFO - Focus: 30.70, 20.23, -1.19
+2017-02-20 16:01:00,882 - auto_focus.focus - INFO - Focus: 30.72, 20.25, -1.19
+2017-02-20 16:01:09,122 - auto_focus.focus - INFO - Focus: 30.67, 20.20, -1.44
+2017-02-20 16:01:17,723 - auto_focus.focus - INFO - Focus: 30.69, 20.22, -1.39
+2017-02-20 16:53:42,759 - auto_focus.focus - INFO - Focus: 35.03, 3.37, -7.26
+2017-02-20 16:54:04,369 - auto_focus.focus - INFO - Focus: 35.45, 4.00, -7.90
+2017-02-20 17:01:45,210 - auto_focus.focus - INFO - Focus: 35.33, 4.30, -8.30
+2017-02-20 17:01:53,540 - auto_focus.focus - INFO - Focus: 35.70, 4.39, -8.10
+2017-02-20 17:08:30,801 - auto_focus.focus - INFO - Focus: 24.88, 25.02, -8.30
+2017-02-20 17:09:35,470 - auto_focus.focus - INFO - Focus: 25.18, 25.04, -8.35
+2017-02-20 17:26:18,075 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x0722F420>, trait: resolution, old value: 101, new value: 2
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 130, in _calculate_speed
+    self.scan_speed=1.0/(self.seconds_per_point*self.resolution)
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'scan_speed' trait of a Confocal instance must be 0.0 <= a floating point number <= 400.0, but a value of 500.0 <type 'float'> was specified.
+2017-02-20 17:27:37,595 - auto_focus.focus - INFO - Focus: 37.54, 16.21, -8.85
+2017-02-20 17:27:45,934 - auto_focus.focus - INFO - Focus: 37.42, 15.88, -9.15
+2017-02-20 17:27:54,194 - auto_focus.focus - INFO - Focus: 37.72, 15.76, -9.25
+2017-02-20 17:28:02,595 - auto_focus.focus - INFO - Focus: 37.39, 15.36, -9.35
+2017-02-20 17:32:12,194 - auto_focus.focus - INFO - Focus: 25.37, 24.88, -8.95
+2017-02-20 17:50:36,908 - auto_focus.focus - INFO - Focus: 24.67, 25.16, -0.20
+2017-02-20 17:50:46,039 - auto_focus.focus - INFO - Focus: 24.69, 25.04, 0.25
+2017-02-20 17:51:28,908 - auto_focus.focus - INFO - Focus: 42.89, 5.37, -0.25
+2017-02-20 17:51:37,219 - auto_focus.focus - INFO - Focus: 42.91, 5.04, 0.00
+2017-02-20 17:54:01,729 - auto_focus.focus - INFO - Focus: 43.21, 5.13, -0.15
+2017-02-20 17:54:10,269 - auto_focus.focus - INFO - Focus: 43.51, 5.22, -0.35
+2017-02-20 18:05:58,819 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x0722F420>, trait: resolution, old value: 101, new value: 2
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 130, in _calculate_speed
+    self.scan_speed=1.0/(self.seconds_per_point*self.resolution)
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'scan_speed' trait of a Confocal instance must be 0.0 <= a floating point number <= 400.0, but a value of 500.0 <type 'float'> was specified.
+2017-02-20 18:15:10,773 - auto_focus.focus - INFO - Focus: 40.05, 16.99, -0.75
+2017-02-20 18:15:18,872 - auto_focus.focus - INFO - Focus: 39.72, 17.29, -0.75
+2017-02-20 18:15:28,963 - auto_focus.focus - INFO - Focus: 19.73, 18.54, -0.80
+2017-02-21 09:01:25,755 - auto_focus.focus - INFO - Focus: 23.54, 24.88, 4.45
+2017-02-21 14:16:51,085 - emod.submit - INFO - The job <measurements.confocal.Confocal object at 0x0722F420> is already running or in the queue.
+2017-02-21 14:17:07,796 - auto_focus.focus - INFO - Focus: 10.18, 4.44, -0.35
+2017-02-21 14:17:23,375 - auto_focus.focus - INFO - Focus: 35.28, 5.20, 0.50
+2017-02-21 14:17:31,486 - auto_focus.focus - INFO - Focus: 35.30, 5.15, 0.70
+2017-02-21 14:17:39,436 - auto_focus.focus - INFO - Focus: 35.32, 5.10, 0.60
+2017-02-21 14:17:48,365 - auto_focus.focus - INFO - Focus: 35.27, 5.12, 0.60
+2017-02-21 15:00:16,161 - auto_focus.focus - INFO - Focus: 41.59, 7.28, 0.15
+2017-02-21 15:00:24,520 - auto_focus.focus - INFO - Focus: 41.96, 7.37, -0.25
+2017-02-21 15:00:32,911 - auto_focus.focus - INFO - Focus: 42.33, 7.39, -0.45
+2017-02-21 15:00:41,240 - auto_focus.focus - INFO - Focus: 41.93, 7.13, -0.95
+2017-02-21 15:00:49,581 - auto_focus.focus - INFO - Focus: 41.53, 7.50, -1.45
+2017-02-21 15:00:57,750 - auto_focus.focus - INFO - Focus: 41.62, 7.31, -1.90
+2017-02-21 15:01:05,891 - auto_focus.focus - INFO - Focus: 41.29, 6.98, -2.35
+2017-02-21 15:01:14,210 - auto_focus.focus - INFO - Focus: 41.17, 6.72, -2.85
+2017-02-21 15:03:10,111 - auto_focus.focus - INFO - Focus: 35.74, 1.36, -4.30
+2017-02-21 15:03:18,490 - auto_focus.focus - INFO - Focus: 35.90, 1.52, -3.95
+2017-02-21 15:03:26,790 - auto_focus.focus - INFO - Focus: 35.92, 1.82, -4.20
+2017-02-21 15:08:08,691 - auto_focus.focus - INFO - Focus: 26.76, 24.73, -3.90
+2017-02-21 15:08:22,461 - auto_focus.focus - INFO - Focus: 11.47, 3.50, -4.10
+2017-02-21 15:12:26,631 - auto_focus.focus - INFO - Focus: 11.28, 3.73, -3.65
+2017-02-21 15:12:35,022 - auto_focus.focus - INFO - Focus: 10.88, 3.75, -3.30
+2017-02-21 15:12:43,302 - auto_focus.focus - INFO - Focus: 11.04, 4.12, -2.85
+2017-02-21 15:12:51,522 - auto_focus.focus - INFO - Focus: 11.06, 4.07, -2.70
+2017-02-21 15:12:59,891 - auto_focus.focus - INFO - Focus: 11.08, 4.02, -2.60
+2017-02-21 15:16:53,743 - auto_focus.focus - INFO - Focus: 24.60, 25.37, -2.25
+2017-02-21 15:17:01,862 - auto_focus.focus - INFO - Focus: 24.20, 25.67, -2.15
+2017-02-21 15:17:09,993 - auto_focus.focus - INFO - Focus: 24.08, 25.69, -2.10
+2017-02-21 15:38:43,003 - auto_focus.focus - INFO - Focus: 24.95, 24.67, -1.60
+2017-02-21 15:38:51,084 - auto_focus.focus - INFO - Focus: 24.97, 24.76, -1.15
+2017-02-21 15:38:59,973 - auto_focus.focus - INFO - Focus: 25.13, 24.71, -0.75
+2017-02-21 15:39:08,614 - auto_focus.focus - INFO - Focus: 25.15, 24.80, -0.40
+2017-02-21 15:39:17,164 - auto_focus.focus - INFO - Focus: 25.03, 24.89, -0.50
+2017-02-21 15:43:32,334 - auto_focus.focus - INFO - Focus: 24.70, 25.05, -0.40
+2017-02-21 15:50:24,115 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x0722F420>, trait: resolution, old value: 101, new value: 2
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 130, in _calculate_speed
+    self.scan_speed=1.0/(self.seconds_per_point*self.resolution)
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'scan_speed' trait of a Confocal instance must be 0.0 <= a floating point number <= 400.0, but a value of 500.0 <type 'float'> was specified.
+2017-02-21 15:51:42,226 - auto_focus.focus - INFO - Focus: 42.30, 11.80, 0.05
+2017-02-21 15:51:51,967 - auto_focus.focus - INFO - Focus: 42.46, 11.54, -0.05
+2017-02-21 15:52:39,826 - auto_focus.focus - INFO - Focus: 24.94, 4.14, -0.30
+2017-02-21 15:52:47,947 - auto_focus.focus - INFO - Focus: 25.10, 4.44, -0.20
+2017-02-21 16:08:32,539 - auto_focus.focus - INFO - Focus: 24.38, 24.67, 2.92
+2017-02-21 16:08:41,039 - auto_focus.focus - INFO - Focus: 24.26, 24.62, 2.97
+2017-02-21 16:16:07,960 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x0722F420>, trait: resolution, old value: 101, new value: 2
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 130, in _calculate_speed
+    self.scan_speed=1.0/(self.seconds_per_point*self.resolution)
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'scan_speed' trait of a Confocal instance must be 0.0 <= a floating point number <= 400.0, but a value of 500.0 <type 'float'> was specified.
+2017-02-21 16:16:26,780 - auto_focus.focus - INFO - Focus: 25.23, 24.67, 2.62
+2017-02-21 16:16:34,361 - auto_focus.focus - INFO - Focus: 25.30, 25.09, 3.27
+2017-02-22 09:34:32,279 - auto_focus.focus - INFO - Focus: 25.15, 5.12, 0.83
+2017-02-22 09:34:41,150 - auto_focus.focus - INFO - Focus: 25.38, 5.49, 0.73
+2017-02-22 09:34:49,630 - auto_focus.focus - INFO - Focus: 25.05, 5.86, 0.58
+2017-02-22 09:35:07,240 - auto_focus.focus - INFO - Focus: 24.81, 24.74, 0.38
+2017-02-22 09:35:15,559 - auto_focus.focus - INFO - Focus: 24.48, 24.69, 0.28

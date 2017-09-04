@@ -1,0 +1,688 @@
+2014-10-07 16:46:56,061 - auto_focus.focus - INFO - Focus: 36.25, 38.03, 21.11
+2014-10-07 16:47:01,421 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BC34990> is already running or in the queue.
+2014-10-07 16:47:11,990 - auto_focus.focus - INFO - Focus: 36.44, 37.98, 19.69
+2014-10-07 16:48:28,551 - auto_focus.focus - INFO - Focus: 38.03, 42.17, 19.97
+2014-10-07 16:48:38,321 - auto_focus.focus - INFO - Focus: 38.10, 42.30, 20.95
+2014-10-07 16:48:49,301 - auto_focus.focus - INFO - Focus: 38.05, 42.25, 19.69
+2014-10-07 16:51:20,371 - auto_focus.focus - INFO - Focus: 29.34, 42.32, 3.85
+2014-10-07 16:51:31,581 - auto_focus.focus - INFO - Focus: 29.29, 42.15, 2.49
+2014-10-07 16:53:12,760 - auto_focus.focus - INFO - Focus: 18.84, 4.88, -0.38
+2014-10-07 16:53:27,430 - auto_focus.focus - INFO - Focus: 17.48, 2.42, 0.96
+2014-10-07 16:53:52,141 - auto_focus.focus - INFO - Focus: 20.86, 3.49, 2.46
+2014-10-07 16:54:01,301 - auto_focus.focus - INFO - Focus: 20.75, 3.56, 1.92
+2014-10-07 16:54:10,631 - auto_focus.focus - INFO - Focus: 20.70, 3.57, 1.98
+2014-10-07 16:55:19,871 - auto_focus.focus - INFO - Focus: 20.71, 3.58, 2.20
+2014-10-07 16:56:45,411 - auto_focus.focus - INFO - Focus: 26.48, 10.80, 3.70
+2014-10-07 16:56:54,762 - auto_focus.focus - INFO - Focus: 26.55, 10.87, 4.80
+2014-10-07 16:57:04,032 - auto_focus.focus - INFO - Focus: 26.56, 10.88, 4.94
+2014-10-07 16:57:13,431 - auto_focus.focus - INFO - Focus: 26.57, 10.89, 4.88
+2014-10-07 16:58:11,911 - auto_focus.focus - INFO - Focus: 26.52, 11.02, 5.06
+2014-10-07 16:58:21,111 - auto_focus.focus - INFO - Focus: 26.53, 10.97, 4.92
+2014-10-07 16:59:27,641 - auto_focus.focus - INFO - Focus: 26.54, 10.94, 4.94
+2014-10-07 16:59:37,592 - auto_focus.focus - INFO - Focus: 26.49, 10.95, 4.86
+2014-10-07 17:00:33,871 - auto_focus.focus - INFO - Focus: 40.02, 6.49, 4.64
+2014-10-07 17:03:42,562 - auto_focus.focus - INFO - Focus: 22.74, 2.78, 4.06
+2014-10-07 17:04:56,181 - auto_focus.focus - INFO - Focus: 44.33, 12.46, 4.96
+2014-10-07 17:05:05,961 - auto_focus.focus - INFO - Focus: 44.46, 12.53, 5.06
+2014-10-07 17:05:20,312 - auto_focus.focus - INFO - Focus: 44.41, 12.54, 4.68
+2014-10-07 17:05:35,721 - auto_focus.focus - INFO - Focus: 38.69, 35.60, 4.90
+2014-10-07 17:05:45,111 - auto_focus.focus - INFO - Focus: 38.76, 35.91, 5.00
+2014-10-07 17:05:59,221 - auto_focus.focus - INFO - Focus: 1.47, 33.14, 5.62
+2014-10-07 17:06:08,921 - auto_focus.focus - INFO - Focus: 1.66, 33.03, 5.30
+2014-10-07 17:06:18,592 - auto_focus.focus - INFO - Focus: 1.97, 33.28, 5.40
+2014-10-07 17:06:28,512 - auto_focus.focus - INFO - Focus: 1.98, 33.23, 5.62
+2014-10-07 17:07:46,243 - auto_focus.focus - INFO - Focus: 1.99, 33.24, 5.64
+2014-10-07 17:09:03,663 - auto_focus.focus - INFO - Focus: 3.12, 37.74, 5.56
+2014-10-07 17:09:13,973 - auto_focus.focus - INFO - Focus: 3.19, 37.75, 5.50
+2014-10-07 17:09:42,072 - auto_focus.focus - INFO - Focus: 3.14, 37.64, 5.28
+2014-10-07 17:10:05,582 - auto_focus.focus - INFO - Focus: 3.12, 37.68, 5.34
+2014-10-07 17:11:21,673 - auto_focus.focus - INFO - Focus: 3.13, 37.63, 5.36
+2014-10-07 17:12:06,983 - auto_focus.focus - INFO - Focus: 3.14, 37.70, 5.42
+2014-10-07 17:13:12,193 - auto_focus.focus - INFO - Focus: 3.15, 37.71, 5.48
+2014-10-07 17:14:01,213 - auto_focus.focus - INFO - Focus: 3.16, 37.72, 5.66
+2014-10-07 17:14:10,424 - auto_focus.focus - INFO - Focus: 3.17, 37.73, 5.52
+2014-10-07 17:14:50,273 - auto_focus.focus - INFO - Focus: 3.18, 37.74, 5.66
+2014-10-07 17:16:03,644 - auto_focus.focus - INFO - Focus: 3.18, 37.74, 6.00
+2014-10-07 17:16:14,463 - auto_focus.focus - INFO - Focus: 3.25, 37.75, 5.94
+2014-10-07 17:17:47,094 - auto_focus.focus - INFO - Focus: 7.11, 35.82, 6.04
+2014-10-07 17:17:57,033 - auto_focus.focus - INFO - Focus: 7.06, 35.83, 5.80
+2014-10-07 17:18:59,615 - auto_focus.focus - INFO - Focus: 7.03, 35.88, 5.94
+2014-10-07 17:23:23,045 - auto_focus.focus - INFO - Focus: 7.11, 35.94, 6.20
+2014-10-07 17:23:32,664 - auto_focus.focus - INFO - Focus: 7.12, 35.89, 5.80
+2014-10-07 17:24:35,204 - auto_focus.focus - INFO - Focus: 7.11, 35.86, 5.82
+2014-10-07 17:24:44,375 - auto_focus.focus - INFO - Focus: 7.06, 35.93, 6.04
+2014-10-07 17:26:06,954 - auto_focus.focus - INFO - Focus: 5.66, 34.37, 5.80
+2014-10-07 17:26:17,265 - auto_focus.focus - INFO - Focus: 5.67, 34.38, 5.72
+2014-10-07 17:28:00,684 - auto_focus.focus - INFO - Focus: 5.66, 34.39, 5.78
+2014-10-07 17:39:28,960 - auto_focus.focus - INFO - Focus: 41.66, 8.66, -1.25
+2014-10-07 17:39:38,369 - auto_focus.focus - INFO - Focus: 41.79, 8.61, -2.37
+2014-10-07 17:39:47,470 - auto_focus.focus - INFO - Focus: 41.74, 8.50, -2.99
+2014-10-07 17:39:56,630 - auto_focus.focus - INFO - Focus: 41.69, 8.57, -3.23
+2014-10-07 17:41:25,529 - auto_focus.focus - INFO - Focus: 35.51, 3.43, -3.05
+2014-10-07 17:45:17,200 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x070BE6C0>, trait: current_index, old value: (43, 51), new value: (43, 48)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-10-07 17:45:17,220 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x070BE6C0>, trait: current_index, old value: (43, 48), new value: (43, 46)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-10-07 17:45:17,421 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x070BE6C0>, trait: current_index, old value: (43, 46), new value: (43, 41)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-10-07 17:45:17,530 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x070BE6C0>, trait: current_index, old value: (43, 41), new value: (43, 39)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-10-07 17:45:17,700 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x070BE6C0>, trait: current_index, old value: (43, 39), new value: (43, 38)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-10-07 17:45:46,430 - pi3diamond.<module> - INFO - Starting logger.
+2014-10-07 17:45:48,210 - emod.start - INFO - Starting Job Manager.
+2014-10-07 17:45:48,270 - cron.run - INFO - Starting Cron Daemon.
+2014-10-07 17:46:23,361 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0AE85960> is already running or in the queue.
+2014-10-07 17:46:31,780 - auto_focus.focus - INFO - Focus: 16.93, 7.16, 5.65
+2014-10-07 17:48:39,000 - auto_focus.focus - INFO - Focus: 7.26, 23.00, -6.22
+2014-10-07 17:48:49,361 - auto_focus.focus - INFO - Focus: 7.03, 23.07, -5.60
+2014-10-07 17:48:58,551 - auto_focus.focus - INFO - Focus: 7.16, 23.08, -5.54
+2014-10-07 17:51:45,361 - auto_focus.focus - INFO - Focus: 43.65, 17.24, -5.44
+2014-10-07 17:51:54,760 - auto_focus.focus - INFO - Focus: 43.78, 17.37, -5.76
+2014-10-07 17:53:32,260 - auto_focus.focus - INFO - Focus: 43.83, 17.18, -5.42
+2014-10-07 17:53:41,641 - auto_focus.focus - INFO - Focus: 43.84, 17.31, -5.16
+2014-10-07 17:54:45,522 - auto_focus.focus - INFO - Focus: 43.85, 17.20, -6.11
+2014-10-07 17:55:49,171 - auto_focus.focus - INFO - Focus: 43.86, 17.09, -5.21
+2014-10-07 17:55:59,641 - auto_focus.focus - INFO - Focus: 43.81, 17.22, -5.37
+2014-10-07 17:56:31,282 - auto_focus.focus - INFO - Focus: 43.88, 17.35, 0.43
+2014-10-07 17:56:57,191 - auto_focus.focus - INFO - Focus: 43.83, 17.18, -5.49
+2014-10-07 17:57:10,272 - auto_focus.focus - INFO - Focus: 43.90, 17.13, -5.15
+2014-10-07 17:58:19,252 - auto_focus.focus - INFO - Focus: 43.79, 17.14, -5.37
+2014-10-07 17:58:29,232 - auto_focus.focus - INFO - Focus: 43.86, 17.09, -5.07
+2014-10-07 17:59:32,792 - auto_focus.focus - INFO - Focus: 36.50, 24.93, -4.33
+2014-10-07 17:59:41,911 - auto_focus.focus - INFO - Focus: 36.51, 24.94, -3.75
+2014-10-07 17:59:51,211 - auto_focus.focus - INFO - Focus: 36.46, 24.89, -2.49
+2014-10-07 18:55:09,157 - auto_focus.focus - INFO - Focus: 41.04, 7.20, 0.31
+2014-10-07 18:55:18,417 - auto_focus.focus - INFO - Focus: 41.17, 7.51, 0.15
+2014-10-07 18:55:27,898 - auto_focus.focus - INFO - Focus: 41.18, 7.40, -0.15
+2014-10-07 18:55:47,618 - auto_focus.focus - INFO - Focus: 26.21, 4.86, 0.31
+2014-10-07 18:55:57,538 - auto_focus.focus - INFO - Focus: 26.10, 4.63, 0.33
+2014-10-07 18:56:30,138 - auto_focus.focus - INFO - Focus: 17.00, 13.83, -0.21
+2014-10-07 18:56:39,427 - auto_focus.focus - INFO - Focus: 16.65, 14.14, 0.21
+2014-10-07 18:56:48,898 - auto_focus.focus - INFO - Focus: 16.60, 14.27, 0.31
+2014-10-07 18:56:58,247 - auto_focus.focus - INFO - Focus: 16.55, 14.28, 0.31
+2014-10-07 18:57:07,447 - auto_focus.focus - INFO - Focus: 16.56, 14.29, 0.37
+2014-10-07 18:58:05,707 - auto_focus.focus - INFO - Focus: 16.33, 14.36, 0.21
+2014-10-07 18:58:14,878 - auto_focus.focus - INFO - Focus: 16.34, 14.31, 0.15
+2014-10-07 18:59:19,717 - auto_focus.focus - INFO - Focus: 16.35, 14.26, 0.09
+2014-10-07 18:59:47,917 - auto_focus.focus - INFO - Focus: 43.65, 6.34, -0.63
+2014-10-07 18:59:57,267 - auto_focus.focus - INFO - Focus: 43.84, 6.47, -0.29
+2014-10-07 19:00:06,767 - auto_focus.focus - INFO - Focus: 44.15, 6.36, -0.75
+2014-10-07 19:00:41,467 - auto_focus.focus - INFO - Focus: 17.90, 1.82, -0.25
+2014-10-07 19:00:50,828 - auto_focus.focus - INFO - Focus: 18.09, 2.13, 0.01
+2014-10-07 19:01:48,088 - auto_focus.focus - INFO - Focus: 16.46, 21.29, 0.09
+2014-10-07 19:01:57,328 - auto_focus.focus - INFO - Focus: 16.53, 21.36, 0.43
+2014-10-07 19:03:06,497 - auto_focus.focus - INFO - Focus: 14.98, 24.58, -0.57
+2014-10-07 19:03:15,798 - auto_focus.focus - INFO - Focus: 14.93, 24.47, -0.43
+2014-10-07 19:04:16,247 - auto_focus.focus - INFO - Focus: 17.71, 25.03, -0.75
+2014-10-07 19:04:25,778 - auto_focus.focus - INFO - Focus: 17.72, 25.04, -0.81
+2014-10-08 09:08:18,525 - auto_focus.focus - INFO - Focus: 17.55, 25.23, -2.31
+2014-10-08 09:08:27,904 - auto_focus.focus - INFO - Focus: 17.44, 25.54, -2.53
+2014-10-08 09:08:37,255 - auto_focus.focus - INFO - Focus: 17.39, 25.61, -2.69
+2014-10-08 09:10:21,865 - auto_focus.focus - INFO - Focus: 17.81, 24.37, -2.77
+2014-10-08 09:10:31,095 - auto_focus.focus - INFO - Focus: 17.94, 24.50, -2.55
+2014-10-08 09:10:40,285 - auto_focus.focus - INFO - Focus: 17.89, 24.39, -2.49
+2014-10-08 09:11:56,266 - auto_focus.focus - INFO - Focus: 19.50, 24.05, -2.47
+2014-10-08 09:12:05,665 - auto_focus.focus - INFO - Focus: 19.51, 24.00, -2.55
+2014-10-08 09:14:28,885 - pi3diamond.<module> - INFO - Starting logger.
+2014-10-08 09:14:31,426 - emod.start - INFO - Starting Job Manager.
+2014-10-08 09:14:31,426 - cron.run - INFO - Starting Cron Daemon.
+2014-10-08 09:15:17,115 - auto_focus.focus - INFO - Focus: 19.46, 24.13, -2.49
+2014-10-08 09:17:46,446 - auto_focus.focus - INFO - Focus: 19.65, 24.08, -2.65
+2014-10-08 09:17:55,926 - auto_focus.focus - INFO - Focus: 19.54, 24.15, -2.79
+2014-10-08 09:19:23,135 - auto_focus.focus - INFO - Focus: 19.67, 24.16, -2.73
+2014-10-08 09:19:32,375 - auto_focus.focus - INFO - Focus: 19.62, 24.11, -2.87
+2014-10-08 09:20:17,845 - auto_focus.focus - INFO - Focus: 19.63, 24.12, -3.03
+2014-10-08 09:20:31,426 - auto_focus.focus - INFO - Focus: 18.90, 24.88, -3.03
+2014-10-08 09:20:40,506 - auto_focus.focus - INFO - Focus: 18.55, 24.53, -3.01
+2014-10-08 09:22:11,036 - auto_focus.focus - INFO - Focus: 36.38, 41.24, -3.25
+2014-10-08 09:22:20,266 - auto_focus.focus - INFO - Focus: 36.27, 41.25, -3.25
+2014-10-08 09:22:49,786 - auto_focus.focus - INFO - Focus: 36.28, 41.20, -3.11
+2014-10-08 09:24:27,967 - auto_focus.focus - INFO - Focus: 36.29, 41.18, -3.19
+2014-10-08 09:25:17,147 - auto_focus.focus - INFO - Focus: 36.30, 41.19, -3.13
+2014-10-08 09:25:26,326 - auto_focus.focus - INFO - Focus: 36.31, 41.20, -3.19
+2014-10-08 09:26:05,746 - auto_focus.focus - INFO - Focus: 36.29, 41.24, -3.17
+2014-10-08 09:26:15,117 - auto_focus.focus - INFO - Focus: 36.30, 41.25, -3.11
+2014-10-08 09:28:03,276 - auto_focus.focus - INFO - Focus: 36.25, 41.32, -3.35
+2014-10-08 09:28:12,836 - auto_focus.focus - INFO - Focus: 36.26, 41.27, -3.41
+2014-10-08 09:28:46,586 - auto_focus.focus - INFO - Focus: 36.29, 41.30, -3.39
+2014-10-08 09:30:00,346 - auto_focus.focus - INFO - Focus: 36.24, 41.25, -3.45
+2014-10-08 09:30:34,357 - auto_focus.focus - INFO - Focus: 36.23, 41.24, -3.67
+2014-10-08 09:30:43,677 - auto_focus.focus - INFO - Focus: 36.24, 41.25, -3.45
+2014-10-08 09:31:40,046 - auto_focus.focus - INFO - Focus: 36.25, 41.26, -3.77
+2014-10-08 09:37:00,052 - auto_focus.focus - INFO - Focus: 36.26, 41.27, -3.55
+2014-10-08 09:37:13,532 - auto_focus.focus - INFO - Focus: 36.27, 41.28, -3.45
+2014-10-08 09:38:08,342 - auto_focus.focus - INFO - Focus: 36.28, 41.17, -3.51
+2014-10-08 09:38:17,752 - auto_focus.focus - INFO - Focus: 36.23, 41.24, -3.51
+2014-10-08 09:38:58,342 - auto_focus.focus - INFO - Focus: 36.26, 41.24, -3.45
+2014-10-08 09:39:07,532 - auto_focus.focus - INFO - Focus: 36.27, 41.25, -3.53
+2014-10-08 09:39:44,792 - auto_focus.focus - INFO - Focus: 33.70, 44.04, -3.91
+2014-10-08 09:39:53,971 - auto_focus.focus - INFO - Focus: 33.53, 43.69, -3.89
+2014-10-08 09:40:05,851 - auto_focus.focus - INFO - Focus: 36.17, 41.24, -3.51
+2014-10-08 09:40:15,092 - auto_focus.focus - INFO - Focus: 36.24, 41.25, -3.49
+2014-10-08 09:41:01,101 - auto_focus.focus - INFO - Focus: 36.19, 41.26, -3.49
+2014-10-08 09:41:11,032 - auto_focus.focus - INFO - Focus: 36.20, 41.27, -3.57
+2014-10-08 09:42:28,191 - auto_focus.focus - INFO - Focus: 36.27, 41.10, -3.81
+2014-10-08 09:43:28,342 - auto_focus.focus - INFO - Focus: 36.22, 41.17, -3.71
+2014-10-08 09:43:41,772 - auto_focus.focus - INFO - Focus: 36.23, 41.18, -3.77
+2014-10-08 10:04:19,444 - auto_focus.focus - INFO - Focus: 36.06, 41.19, -3.63
+2014-10-08 10:04:28,654 - auto_focus.focus - INFO - Focus: 36.13, 41.20, -3.61
+2014-10-08 10:04:38,325 - auto_focus.focus - INFO - Focus: 36.08, 41.21, -3.69
+2014-10-08 10:05:29,625 - auto_focus.focus - INFO - Focus: 36.14, 41.22, -3.75
+2014-10-08 10:05:38,835 - auto_focus.focus - INFO - Focus: 36.09, 41.23, -3.53
+2014-10-08 10:07:21,375 - auto_focus.focus - INFO - Focus: 36.10, 41.18, -3.47
+2014-10-08 10:07:31,384 - auto_focus.focus - INFO - Focus: 36.17, 41.19, -3.47
+2014-10-08 10:08:48,174 - auto_focus.focus - INFO - Focus: 36.18, 41.20, -3.47
+2014-10-08 10:08:58,694 - auto_focus.focus - INFO - Focus: 36.13, 41.21, -3.41
+2014-10-08 10:11:31,075 - auto_focus.focus - INFO - Focus: 36.20, 41.22, -3.57
+2014-10-08 10:12:28,256 - auto_focus.focus - INFO - Focus: 36.19, 41.18, -3.87
+2014-10-08 10:12:37,516 - auto_focus.focus - INFO - Focus: 36.14, 41.13, -3.41
+2014-10-08 10:13:08,506 - auto_focus.focus - INFO - Focus: 38.84, 45.22, -3.19
+2014-10-08 10:13:19,615 - auto_focus.focus - INFO - Focus: 38.85, 45.23, -3.13
+2014-10-08 10:13:57,936 - auto_focus.focus - INFO - Focus: 38.85, 45.22, -3.29
+2014-10-08 10:14:19,095 - auto_focus.focus - INFO - Focus: 37.67, 45.44, -3.23
+2014-10-08 10:14:28,895 - auto_focus.focus - INFO - Focus: 37.68, 45.45, -3.39
+2014-10-08 10:16:19,155 - auto_focus.focus - INFO - Focus: 37.69, 45.46, -3.53
+2014-10-08 10:16:28,625 - auto_focus.focus - INFO - Focus: 37.70, 45.47, -3.47
+2014-10-08 10:16:38,026 - auto_focus.focus - INFO - Focus: 37.71, 45.48, -3.55
+2014-10-08 10:17:23,815 - auto_focus.focus - INFO - Focus: 37.72, 45.49, -3.25
+2014-10-08 10:17:33,095 - auto_focus.focus - INFO - Focus: 37.73, 45.50, -3.25
+2014-10-08 10:18:14,365 - auto_focus.focus - INFO - Focus: 37.74, 45.51, -3.41
+2014-10-08 10:18:23,706 - auto_focus.focus - INFO - Focus: 37.75, 45.46, -3.35
+2014-10-08 10:18:56,956 - auto_focus.focus - INFO - Focus: 37.79, 45.50, -3.17
+2014-10-08 10:19:41,825 - auto_focus.focus - INFO - Focus: 37.74, 45.51, -3.25
+2014-10-08 10:19:51,085 - auto_focus.focus - INFO - Focus: 37.75, 45.52, -3.41
+2014-10-08 10:20:01,835 - auto_focus.focus - INFO - Focus: 37.76, 45.47, -3.27
+2014-10-08 10:21:30,585 - auto_focus.focus - INFO - Focus: 37.73, 45.38, -3.41
+2014-10-08 10:21:40,176 - auto_focus.focus - INFO - Focus: 37.74, 45.45, -3.35
+2014-10-08 10:22:30,776 - auto_focus.focus - INFO - Focus: 37.39, 45.64, -2.89
+2014-10-08 10:22:40,177 - auto_focus.focus - INFO - Focus: 37.40, 45.71, -4.31
+2014-10-08 10:22:49,667 - auto_focus.focus - INFO - Focus: 37.35, 45.54, -3.41
+2014-10-08 10:23:14,836 - auto_focus.focus - INFO - Focus: 37.66, 45.49, -3.49
+2014-10-08 10:23:23,976 - auto_focus.focus - INFO - Focus: 37.73, 45.50, -3.43
+2014-10-08 10:23:33,147 - auto_focus.focus - INFO - Focus: 37.74, 45.51, -3.37
+2014-10-08 10:26:17,076 - auto_focus.focus - INFO - Focus: 37.75, 45.46, -3.11
+2014-10-08 10:26:27,717 - auto_focus.focus - INFO - Focus: 37.76, 45.47, -3.33
+2014-10-08 10:28:11,437 - auto_focus.focus - INFO - Focus: 37.73, 45.44, -3.27
+2014-10-08 10:28:21,187 - auto_focus.focus - INFO - Focus: 37.74, 45.51, -3.35
+2014-10-08 10:28:41,476 - auto_focus.focus - INFO - Focus: 37.75, 45.46, -3.13
+2014-10-08 10:37:31,167 - auto_focus.focus - INFO - Focus: 37.73, 45.23, -3.35
+2014-10-08 10:37:45,328 - auto_focus.focus - INFO - Focus: 37.80, 45.42, -3.33
+2014-10-08 10:37:54,578 - auto_focus.focus - INFO - Focus: 37.75, 45.43, -3.27
+2014-10-08 10:43:57,157 - auto_focus.focus - INFO - Focus: 37.73, 45.36, -3.25
+2014-10-08 10:44:06,288 - auto_focus.focus - INFO - Focus: 37.74, 45.37, -3.15
+2014-10-08 10:45:50,028 - auto_focus.focus - INFO - Focus: 37.69, 45.38, -3.29
+2014-10-08 10:45:59,098 - auto_focus.focus - INFO - Focus: 37.70, 45.39, -3.27
+2014-10-08 10:50:19,279 - auto_focus.focus - INFO - Focus: 37.71, 45.40, -3.09
+2014-10-08 10:53:45,878 - auto_focus.focus - INFO - Focus: 37.66, 45.41, -3.09
+2014-10-08 10:57:15,630 - auto_focus.focus - INFO - Focus: 37.67, 45.36, -2.83
+2014-10-08 11:01:21,871 - auto_focus.focus - INFO - Focus: 37.62, 45.37, -3.23
+2014-10-08 11:01:31,121 - auto_focus.focus - INFO - Focus: 37.63, 45.38, -3.17
+2014-10-08 11:06:02,821 - auto_focus.focus - INFO - Focus: 37.58, 45.45, -3.23
+2014-10-08 11:06:11,891 - auto_focus.focus - INFO - Focus: 37.59, 45.40, -3.17
+2014-10-08 11:10:06,921 - auto_focus.focus - INFO - Focus: 37.54, 45.47, -3.33
+2014-10-08 11:10:17,381 - auto_focus.focus - INFO - Focus: 37.55, 45.48, -3.41
+2014-10-08 11:14:20,542 - auto_focus.focus - INFO - Focus: 37.58, 45.42, -3.39
+2014-10-08 11:14:31,762 - auto_focus.focus - INFO - Focus: 37.59, 45.43, -3.33
+2014-10-08 11:20:40,072 - auto_focus.focus - INFO - Focus: 37.55, 45.42, -3.49
+2014-10-08 11:22:37,743 - auto_focus.focus - INFO - Focus: 37.56, 45.43, -3.55
+2014-10-08 11:30:15,592 - auto_focus.focus - INFO - Focus: 37.52, 45.43, -3.61
+2014-10-08 11:32:45,102 - auto_focus.focus - INFO - Focus: 37.48, 45.50, -3.77
+2014-10-08 11:32:54,372 - auto_focus.focus - INFO - Focus: 37.49, 45.45, -3.71
+2014-10-08 12:55:59,042 - auto_focus.focus - INFO - Focus: 37.30, 45.39, -4.19
+2014-10-08 12:56:08,242 - auto_focus.focus - INFO - Focus: 37.31, 45.46, -4.27
+2014-10-08 12:57:03,763 - auto_focus.focus - INFO - Focus: 37.26, 45.47, -3.73
+2014-10-08 12:57:13,082 - auto_focus.focus - INFO - Focus: 37.33, 45.42, -3.71
+2014-10-08 12:57:27,052 - auto_focus.focus - INFO - Focus: 37.34, 45.43, -3.61
+2014-10-08 12:58:57,023 - auto_focus.focus - INFO - Focus: 37.29, 45.44, -3.15
+2014-10-08 12:59:06,183 - auto_focus.focus - INFO - Focus: 37.36, 45.45, -3.29
+2014-10-08 13:10:15,588 - auto_focus.focus - INFO - Focus: 37.03, 45.54, -3.23
+2014-10-08 13:10:30,548 - auto_focus.focus - INFO - Focus: 35.44, 41.57, -3.23
+2014-10-08 13:10:48,278 - auto_focus.focus - INFO - Focus: 35.27, 41.70, -3.09
+2014-10-08 13:10:57,497 - auto_focus.focus - INFO - Focus: 35.40, 41.83, -2.95
+2014-10-08 13:11:10,558 - auto_focus.focus - INFO - Focus: 38.44, 39.75, -3.33
+2014-10-08 13:11:19,848 - auto_focus.focus - INFO - Focus: 38.27, 39.64, -3.39
+2014-10-08 13:12:38,778 - auto_focus.focus - INFO - Focus: 38.22, 39.35, -2.89
+2014-10-08 13:13:35,598 - auto_focus.focus - INFO - Focus: 41.31, 45.35, -3.11
+2014-10-08 13:15:02,338 - auto_focus.focus - INFO - Focus: 43.64, 44.47, -2.73
+2014-10-08 13:15:20,298 - auto_focus.focus - INFO - Focus: 41.32, 45.34, -3.03
+2014-10-08 13:25:33,398 - auto_focus.focus - INFO - Focus: 21.55, 7.65, -3.79
+2014-10-08 13:35:43,809 - auto_focus.focus - INFO - Focus: 23.75, 25.32, -4.25
+2014-10-08 13:35:55,650 - auto_focus.focus - INFO - Focus: 23.76, 25.33, -4.31
+2014-10-08 13:39:50,369 - auto_focus.focus - INFO - Focus: 24.07, 25.64, -4.69
+2014-10-08 13:39:59,509 - auto_focus.focus - INFO - Focus: 24.20, 25.71, -4.67
+2014-10-08 13:42:56,930 - auto_focus.focus - INFO - Focus: 31.14, 22.05, -4.61
+2014-10-08 13:43:06,091 - auto_focus.focus - INFO - Focus: 31.21, 22.12, -4.67
+2014-10-08 13:48:42,651 - auto_focus.focus - INFO - Focus: 27.43, 18.84, -5.47
+2014-10-08 13:48:52,252 - auto_focus.focus - INFO - Focus: 27.08, 18.67, -5.61
+2014-10-08 13:59:53,953 - auto_focus.focus - INFO - Focus: 18.96, 36.76, -6.47
+2014-10-08 14:00:03,282 - auto_focus.focus - INFO - Focus: 18.97, 36.89, -6.33
+2014-10-08 14:08:32,963 - auto_focus.focus - INFO - Focus: 13.79, 29.48, -6.73
+2014-10-08 14:08:42,364 - auto_focus.focus - INFO - Focus: 13.56, 29.13, -7.77
+2014-10-08 14:08:51,594 - auto_focus.focus - INFO - Focus: 13.87, 29.02, -7.85
+2014-10-08 14:09:01,694 - auto_focus.focus - INFO - Focus: 13.88, 29.03, -7.79
+2014-10-08 14:13:30,263 - auto_focus.focus - INFO - Focus: 23.99, 23.57, -7.13
+2014-10-08 14:13:39,753 - auto_focus.focus - INFO - Focus: 23.88, 23.64, -7.19
+2014-10-08 14:20:02,615 - auto_focus.focus - INFO - Focus: 38.45, 3.28, -6.77
+2014-10-08 14:20:11,765 - auto_focus.focus - INFO - Focus: 38.40, 3.29, -6.71
+2014-10-08 14:38:59,677 - pi3diamond.<module> - INFO - Starting logger.
+2014-10-08 14:39:01,907 - emod.start - INFO - Starting Job Manager.
+2014-10-08 14:39:01,917 - cron.run - INFO - Starting Cron Daemon.
+2014-10-08 14:42:03,559 - auto_focus.focus - INFO - Focus: 8.29, 0.30, -6.86
+2014-10-08 14:42:13,049 - auto_focus.focus - INFO - Focus: 8.30, 0.36, -6.80
+2014-10-08 14:43:35,539 - auto_focus.focus - INFO - Focus: 7.67, 3.40, -6.88
+2014-10-08 14:43:44,730 - auto_focus.focus - INFO - Focus: 7.68, 3.35, -6.86
+2014-10-08 14:47:12,359 - auto_focus.focus - INFO - Focus: 1.38, 0.76, -6.84
+2014-10-08 14:47:21,740 - auto_focus.focus - INFO - Focus: 1.39, 0.47, -6.42
+2014-10-08 14:47:34,809 - auto_focus.focus - INFO - Focus: 1.23, 6.45, -6.96
+2014-10-08 14:47:45,890 - auto_focus.focus - INFO - Focus: 1.18, 6.46, -6.82
+2014-10-08 14:50:32,049 - auto_focus.focus - INFO - Focus: 0.00, 11.90, -6.76
+2014-10-08 14:50:39,390 - auto_focus.focus - INFO - Focus: 0.00, 11.91, -6.90
+2014-10-08 14:51:02,380 - auto_focus.focus - INFO - Focus: 1.49, 17.59, -6.88
+2014-10-08 14:51:11,809 - auto_focus.focus - INFO - Focus: 1.50, 17.60, -6.86
+2014-10-08 14:51:26,589 - auto_focus.focus - INFO - Focus: 8.73, 16.05, -7.00
+2014-10-08 14:52:00,069 - auto_focus.focus - INFO - Focus: 5.92, 13.30, -6.78
+2014-10-08 14:52:09,769 - auto_focus.focus - INFO - Focus: 5.93, 13.19, -6.76
+2014-10-08 14:55:11,990 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BAF6990> is already running or in the queue.
+2014-10-08 14:55:13,611 - auto_focus.focus - INFO - Focus: 6.36, 33.55, -6.70
+2014-10-08 14:55:23,940 - auto_focus.focus - INFO - Focus: 6.31, 33.56, -6.78
+2014-10-08 15:03:27,680 - auto_focus.focus - INFO - Focus: 6.82, 34.68, -7.02
+2014-10-08 15:03:36,811 - auto_focus.focus - INFO - Focus: 6.83, 34.69, -7.08
+2014-10-08 15:13:56,732 - auto_focus.focus - INFO - Focus: 6.82, 34.75, -7.02
+2014-10-08 15:22:23,493 - auto_focus.focus - INFO - Focus: 6.80, 34.73, -6.96
+2014-10-08 15:30:12,332 - auto_focus.focus - INFO - Focus: 6.85, 34.75, -7.20
+2014-10-08 15:30:21,983 - auto_focus.focus - INFO - Focus: 6.86, 34.70, -7.10
+2014-10-08 15:32:56,154 - auto_focus.focus - INFO - Focus: 6.87, 34.71, -7.08
+2014-10-08 15:33:05,573 - auto_focus.focus - INFO - Focus: 6.88, 34.72, -7.16
+2014-10-08 15:36:31,055 - auto_focus.focus - INFO - Focus: 6.83, 34.73, -7.10
+2014-10-08 15:36:40,345 - auto_focus.focus - INFO - Focus: 6.84, 34.74, -7.04
+2014-10-08 15:53:28,526 - auto_focus.focus - INFO - Focus: 6.84, 34.75, -7.38
+2014-10-08 15:53:37,946 - auto_focus.focus - INFO - Focus: 6.85, 34.70, -7.24
+2014-10-08 16:39:40,930 - auto_focus.focus - INFO - Focus: 7.16, 34.65, -7.96
+2014-10-08 16:39:42,321 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BAF6990> is already running or in the queue.
+2014-10-08 16:40:00,010 - auto_focus.focus - INFO - Focus: 7.23, 34.60, -7.94
+2014-10-08 16:40:00,030 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BAF6990> is already running or in the queue.
+2014-10-08 16:40:12,081 - auto_focus.focus - INFO - Focus: 7.24, 34.61, -8.02
+2014-10-08 17:43:35,407 - auto_focus.focus - INFO - Focus: 6.89, 34.62, -7.86
+2014-10-08 17:43:44,848 - auto_focus.focus - INFO - Focus: 6.78, 34.45, -7.24
+2014-10-08 17:44:35,278 - auto_focus.focus - INFO - Focus: 7.03, 34.70, -7.56
+2014-10-08 17:44:46,308 - auto_focus.focus - INFO - Focus: 6.74, 34.53, -8.18
+2014-10-08 17:44:55,417 - auto_focus.focus - INFO - Focus: 6.69, 34.42, -8.18
+2014-10-08 17:45:04,497 - auto_focus.focus - INFO - Focus: 6.64, 34.43, -8.12
+2014-10-08 17:46:10,667 - auto_focus.focus - INFO - Focus: 6.65, 34.50, -7.98
+2014-10-08 17:48:07,788 - auto_focus.focus - INFO - Focus: 6.66, 34.51, -8.20
+2014-10-08 17:52:43,828 - auto_focus.focus - INFO - Focus: 6.33, 35.28, -8.28
+2014-10-08 17:52:53,348 - auto_focus.focus - INFO - Focus: 6.34, 35.29, -8.26
+2014-10-08 17:55:16,989 - auto_focus.focus - INFO - Focus: 6.77, 34.37, -8.24
+2014-10-08 17:55:28,088 - auto_focus.focus - INFO - Focus: 6.72, 34.44, -8.14
+2014-10-08 17:55:39,648 - auto_focus.focus - INFO - Focus: 6.73, 34.39, -8.08
+2014-10-08 17:56:47,569 - auto_focus.focus - INFO - Focus: 6.74, 34.40, -8.06
+2014-10-08 17:56:58,858 - auto_focus.focus - INFO - Focus: 6.81, 34.35, -8.20
+2014-10-08 18:00:45,549 - auto_focus.focus - INFO - Focus: 6.79, 34.41, -8.14
+2014-10-08 18:01:52,668 - auto_focus.focus - INFO - Focus: 6.80, 34.36, -8.36
+2014-10-08 18:11:48,279 - auto_focus.focus - INFO - Focus: 6.89, 34.34, -8.66
+2014-10-08 18:11:57,539 - auto_focus.focus - INFO - Focus: 6.90, 34.35, -8.52
+2014-10-08 18:18:39,290 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.plot.Plot object at 0x071E4270>, trait: aspect_ratio, old value: 0.783757259691, new value: inf
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 380, in call_3
+    self.handler( object, old, new )
+  File "C:\Pythonepd\lib\site-packages\enable\component.py", line 1024, in _aspect_ratio_changed
+    self._enforce_aspect_ratio()
+  File "C:\Pythonepd\lib\site-packages\enable\component.py", line 1044, in _enforce_aspect_ratio
+    elif int(old_w) == int(ratio * old_h):
+OverflowError: cannot convert float infinity to integer
+2014-10-08 18:20:06,530 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.plot.Plot object at 0x071E4270>, trait: aspect_ratio, old value: 14.3159807329, new value: inf
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 380, in call_3
+    self.handler( object, old, new )
+  File "C:\Pythonepd\lib\site-packages\enable\component.py", line 1024, in _aspect_ratio_changed
+    self._enforce_aspect_ratio()
+  File "C:\Pythonepd\lib\site-packages\enable\component.py", line 1044, in _enforce_aspect_ratio
+    elif int(old_w) == int(ratio * old_h):
+OverflowError: cannot convert float infinity to integer
+2014-10-08 18:24:36,121 - auto_focus.focus - INFO - Focus: 7.10, 34.32, -8.98
+2014-10-08 18:24:46,232 - auto_focus.focus - INFO - Focus: 7.05, 34.33, -9.06
+2014-10-08 18:25:32,621 - auto_focus.focus - INFO - Focus: 7.07, 34.34, -9.00
+2014-10-08 18:25:42,332 - auto_focus.focus - INFO - Focus: 7.08, 34.35, -9.16
+2014-10-08 18:31:24,723 - auto_focus.focus - INFO - Focus: 7.15, 34.24, -9.40
+2014-10-08 18:31:34,023 - auto_focus.focus - INFO - Focus: 7.16, 34.25, -9.26
+2014-10-08 18:33:11,292 - auto_focus.focus - INFO - Focus: 7.17, 34.20, -9.32
+2014-10-08 18:33:59,132 - auto_focus.focus - INFO - Focus: 7.18, 34.21, -9.38
+2014-10-08 18:38:20,203 - auto_focus.focus - INFO - Focus: 7.28, 34.17, -9.52
+2014-10-08 18:38:29,342 - auto_focus.focus - INFO - Focus: 7.23, 34.18, -9.46
+2014-10-08 18:39:24,023 - auto_focus.focus - INFO - Focus: 7.24, 34.25, -9.78
+2014-10-08 18:39:33,163 - auto_focus.focus - INFO - Focus: 7.25, 34.20, -9.56
+2014-10-08 18:42:37,303 - auto_focus.focus - INFO - Focus: 7.32, 34.27, -9.34
+2014-10-08 18:42:46,684 - auto_focus.focus - INFO - Focus: 7.33, 34.28, -9.28
+2014-10-08 18:46:14,283 - auto_focus.focus - INFO - Focus: 7.34, 34.23, -9.22
+2014-10-08 18:46:23,493 - auto_focus.focus - INFO - Focus: 7.41, 34.24, -9.20
+2014-10-09 10:13:31,078 - auto_focus.focus - INFO - Focus: 7.48, 34.13, -10.00
+2014-10-09 10:13:40,989 - auto_focus.focus - INFO - Focus: 7.13, 34.38, -10.00
+2014-10-10 13:54:12,924 - pi3diamond.<module> - INFO - Starting logger.
+2014-10-10 13:54:20,384 - emod.start - INFO - Starting Job Manager.
+2014-10-10 13:54:20,394 - cron.run - INFO - Starting Cron Daemon.
+2014-10-10 14:19:36,905 - emod.submit - INFO - The job <measurements.confocal.Confocal object at 0x071DC1B0> is already running or in the queue.
+2014-10-10 14:20:03,145 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB99AB0> is already running or in the queue.
+2014-10-10 14:20:04,286 - auto_focus.focus - INFO - Focus: 36.58, 2.36, 5.21
+2014-10-10 14:20:14,405 - auto_focus.focus - INFO - Focus: 36.47, 2.01, 5.63
+2014-10-10 14:21:29,095 - auto_focus.focus - INFO - Focus: 12.52, 9.41, 4.55
+2014-10-10 14:23:36,907 - auto_focus.focus - INFO - Focus: 12.53, 9.42, 4.73
+2014-10-10 14:23:46,177 - auto_focus.focus - INFO - Focus: 12.54, 9.49, 4.79
+2014-10-10 14:26:28,497 - auto_focus.focus - INFO - Focus: 12.61, 9.50, 5.01
+2014-10-10 14:26:37,927 - auto_focus.focus - INFO - Focus: 12.62, 9.51, 5.07
+2014-10-10 14:27:33,937 - auto_focus.focus - INFO - Focus: 12.51, 9.58, 5.13
+2014-10-10 14:27:45,407 - auto_focus.focus - INFO - Focus: 12.52, 9.59, 5.13
+2014-10-10 14:28:34,848 - auto_focus.focus - INFO - Focus: 12.53, 9.72, 5.15
+2014-10-10 14:28:44,378 - auto_focus.focus - INFO - Focus: 12.48, 9.73, 5.33
+2014-10-10 14:29:30,967 - auto_focus.focus - INFO - Focus: 12.49, 9.80, 5.35
+2014-10-10 14:29:40,157 - auto_focus.focus - INFO - Focus: 12.44, 9.75, 5.29
+2014-10-10 14:30:25,358 - auto_focus.focus - INFO - Focus: 12.39, 9.76, 5.39
+2014-10-10 14:30:38,987 - auto_focus.focus - INFO - Focus: 12.40, 9.77, 5.31
+2014-10-10 14:30:48,197 - auto_focus.focus - INFO - Focus: 12.47, 9.84, 5.41
+2014-10-10 14:31:08,108 - auto_focus.focus - INFO - Focus: 12.48, 9.85, 5.19
+2014-10-10 14:31:20,427 - auto_focus.focus - INFO - Focus: 12.43, 9.80, 5.29
+2014-10-10 14:32:39,838 - auto_focus.focus - INFO - Focus: 4.69, 13.66, 4.65
+2014-10-10 14:32:49,388 - auto_focus.focus - INFO - Focus: 4.82, 13.55, 4.71
+2014-10-10 14:33:05,778 - auto_focus.focus - INFO - Focus: 13.94, 13.66, 6.09
+2014-10-10 14:33:15,467 - auto_focus.focus - INFO - Focus: 13.95, 13.61, 6.63
+2014-10-10 14:33:25,358 - auto_focus.focus - INFO - Focus: 13.96, 13.68, 6.65
+2014-10-10 14:33:39,138 - auto_focus.focus - INFO - Focus: 13.91, 13.63, 6.57
+2014-10-10 14:34:59,088 - auto_focus.focus - INFO - Focus: 32.69, 43.38, 4.33
+2014-10-10 14:35:08,239 - auto_focus.focus - INFO - Focus: 32.70, 43.39, 4.19
+2014-10-10 14:35:18,749 - auto_focus.focus - INFO - Focus: 32.71, 43.34, 4.37
+2014-10-10 14:36:20,709 - auto_focus.focus - INFO - Focus: 32.72, 43.35, 4.43
+2014-10-10 14:37:11,519 - auto_focus.focus - INFO - Focus: 32.73, 43.42, 4.45
+2014-10-10 14:38:15,878 - auto_focus.focus - INFO - Focus: 32.68, 43.37, 4.29
+2014-10-10 14:38:40,138 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BB99AB0> is already running or in the queue.
+2014-10-10 14:38:48,559 - auto_focus.focus - INFO - Focus: 32.52, 44.68, 4.15
+2014-10-10 14:38:58,529 - auto_focus.focus - INFO - Focus: 32.53, 44.69, 4.25
+2014-10-10 14:40:04,459 - auto_focus.focus - INFO - Focus: 32.48, 44.76, 4.17
+2014-10-10 14:40:14,469 - auto_focus.focus - INFO - Focus: 32.49, 44.77, 4.23
+2014-10-10 14:41:37,078 - auto_focus.focus - INFO - Focus: 32.44, 44.72, 4.07
+2014-10-10 14:41:46,578 - auto_focus.focus - INFO - Focus: 32.45, 44.79, 4.09
+2014-10-10 14:42:25,249 - auto_focus.focus - INFO - Focus: 32.46, 44.80, 4.15
+2014-10-10 14:42:34,479 - auto_focus.focus - INFO - Focus: 32.47, 44.81, 4.21
+2014-10-10 14:43:33,479 - auto_focus.focus - INFO - Focus: 32.48, 44.82, 4.07
+2014-10-10 14:44:18,799 - auto_focus.focus - INFO - Focus: 32.43, 44.77, 3.93
+2014-10-10 14:44:55,509 - auto_focus.focus - INFO - Focus: 32.46, 44.80, 4.03
+2014-10-10 14:45:04,959 - auto_focus.focus - INFO - Focus: 32.47, 44.81, 3.97
+2014-10-10 14:46:13,269 - auto_focus.focus - INFO - Focus: 32.42, 44.82, 4.07
+2014-10-10 14:46:34,969 - auto_focus.focus - INFO - Focus: 32.44, 44.80, 4.01
+2014-10-10 14:46:44,529 - auto_focus.focus - INFO - Focus: 32.45, 44.81, 3.95
+2014-10-10 14:48:00,720 - auto_focus.focus - INFO - Focus: 32.46, 44.82, 3.87
+2014-10-10 14:48:10,339 - auto_focus.focus - INFO - Focus: 32.41, 44.83, 3.97
+2014-10-10 14:48:24,299 - auto_focus.focus - INFO - Focus: 32.56, 43.53, 3.73
+2014-10-10 14:48:33,150 - auto_focus.focus - INFO - Focus: 32.57, 43.54, 3.91
+2014-10-10 14:48:43,789 - auto_focus.focus - INFO - Focus: 32.58, 43.55, 3.93
+2014-10-10 14:49:22,839 - auto_focus.focus - INFO - Focus: 32.61, 43.62, 3.93
+2014-10-10 14:49:35,519 - auto_focus.focus - INFO - Focus: 32.56, 43.57, 3.87
+2014-10-10 14:49:55,359 - auto_focus.focus - INFO - Focus: 32.58, 43.59, 3.97
+2014-10-10 14:50:57,509 - auto_focus.focus - INFO - Focus: 32.56, 43.61, 3.97
+2014-10-10 14:51:38,750 - auto_focus.focus - INFO - Focus: 32.55, 43.61, 3.91
+2014-10-10 14:51:51,440 - auto_focus.focus - INFO - Focus: 32.53, 43.63, 3.93
+2014-10-10 14:52:53,349 - auto_focus.focus - INFO - Focus: 32.51, 43.61, 3.85
+2014-10-10 14:53:25,710 - auto_focus.focus - INFO - Focus: 32.51, 43.66, 3.77
+2014-10-10 14:53:38,400 - auto_focus.focus - INFO - Focus: 32.53, 43.64, 3.87
+2014-10-10 14:56:59,259 - auto_focus.focus - INFO - Focus: 32.47, 43.66, 3.87
+2014-10-10 14:57:49,029 - auto_focus.focus - INFO - Focus: 32.45, 43.68, 3.93
+2014-10-10 14:58:03,410 - auto_focus.focus - INFO - Focus: 32.47, 43.70, 3.99
+2014-10-10 15:27:15,184 - auto_focus.focus - INFO - Focus: 32.10, 44.27, 4.57
+2014-10-10 15:27:28,344 - auto_focus.focus - INFO - Focus: 32.12, 44.21, 4.57
+2014-10-10 15:37:07,674 - auto_focus.focus - INFO - Focus: 32.20, 44.39, 5.27
+2014-10-10 15:37:19,775 - auto_focus.focus - INFO - Focus: 32.26, 44.41, 5.33
+2014-10-10 15:37:31,765 - auto_focus.focus - INFO - Focus: 32.28, 44.39, 5.27
+2014-10-10 15:37:55,914 - auto_focus.focus - INFO - Focus: 32.19, 45.71, 5.53
+2014-10-10 15:38:08,055 - auto_focus.focus - INFO - Focus: 32.17, 45.69, 5.31
+2014-10-10 15:38:25,464 - auto_focus.focus - INFO - Focus: 32.11, 45.67, 5.31
+2014-10-10 16:23:01,056 - auto_focus.focus - INFO - Focus: 32.47, 44.41, 5.43
+2014-10-10 16:23:13,367 - auto_focus.focus - INFO - Focus: 32.49, 44.39, 5.35
+2014-10-10 16:23:48,927 - auto_focus.focus - INFO - Focus: 32.45, 44.42, 5.21
+2014-10-10 16:24:06,417 - auto_focus.focus - INFO - Focus: 32.43, 44.40, 5.31
+2014-10-10 16:25:02,086 - auto_focus.focus - INFO - Focus: 32.41, 44.50, 5.41
+2014-10-10 16:27:00,477 - auto_focus.focus - INFO - Focus: 13.94, 17.54, 6.95
+2014-10-10 16:27:57,798 - auto_focus.focus - INFO - Focus: 26.79, 35.80, 8.45
+2014-10-10 16:28:09,977 - auto_focus.focus - INFO - Focus: 26.57, 35.70, 8.59
+2014-10-10 16:28:22,578 - auto_focus.focus - INFO - Focus: 26.59, 35.76, 8.45
+2014-10-10 16:28:35,398 - auto_focus.focus - INFO - Focus: 26.65, 35.70, 8.47
+2014-10-10 16:30:35,398 - auto_focus.focus - INFO - Focus: 11.65, 28.18, 8.87
+2014-10-10 16:30:48,378 - auto_focus.focus - INFO - Focus: 11.71, 28.24, 8.79
+2014-10-10 16:31:34,717 - auto_focus.focus - INFO - Focus: 9.43, 31.10, 8.47
+2014-10-10 16:33:08,638 - auto_focus.focus - INFO - Focus: 9.41, 31.12, 8.61
+2014-10-10 16:34:51,038 - auto_focus.focus - INFO - Focus: 10.31, 31.53, 8.55
+2014-10-10 18:02:26,226 - pi3diamond.<module> - INFO - Starting logger.
+2014-10-10 18:02:28,167 - emod.start - INFO - Starting Job Manager.
+2014-10-10 18:02:28,167 - cron.run - INFO - Starting Cron Daemon.
+2014-10-12 13:05:01,148 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x070AC780>, trait: current_index, old value: (66, 101), new value: (66, 103)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-10-12 13:05:01,209 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.tools.cursor_tool.CursorTool2D object at 0x070AC780>, trait: current_index, old value: (66, 103), new value: (66, 99)
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 476, in call_0
+    self.dispatch( self.handler )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1374, in wrapper0
+    return function(arg)
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 3693, in notify
+    self.trait_property_changed( name, old )
+  File "C:\Pythonepd\lib\site-packages\traits\has_traits.py", line 1304, in decorator
+    self.__dict__[ name ] = result = function( self )
+  File "C:\Pythonepd\lib\site-packages\chaco\tools\cursor_tool.py", line 235, in _get_current_position
+    x = xdata.get_data()[ndx]
+IndexError: index out of bounds
+2014-10-12 13:05:13,908 - pi3diamond.<module> - INFO - Starting logger.
+2014-10-12 13:05:17,069 - emod.start - INFO - Starting Job Manager.
+2014-10-12 13:05:17,069 - cron.run - INFO - Starting Cron Daemon.
+2014-10-12 13:06:33,338 - auto_focus.focus - INFO - Focus: 8.99, 30.40, 10.84
+2014-10-12 13:06:46,198 - auto_focus.focus - INFO - Focus: 8.89, 30.38, 10.36
+2014-10-12 13:07:29,819 - auto_focus.focus - INFO - Focus: 10.49, 31.13, 10.54
+2014-10-12 13:07:42,828 - auto_focus.focus - INFO - Focus: 10.55, 31.11, 10.48
+2014-10-12 13:08:00,719 - auto_focus.focus - INFO - Focus: 10.49, 31.05, 10.16
+2014-10-12 13:17:40,450 - auto_focus.focus - INFO - Focus: 9.44, 31.81, 11.75
+2014-10-12 13:17:59,890 - auto_focus.focus - INFO - Focus: 9.46, 31.67, 12.25
+2014-10-12 13:18:12,970 - auto_focus.focus - INFO - Focus: 9.60, 31.61, 12.51
+2014-10-12 13:18:25,940 - auto_focus.focus - INFO - Focus: 9.62, 31.67, 12.43
+2014-10-12 13:21:17,079 - auto_focus.focus - INFO - Focus: 40.32, 10.74, 12.11
+2014-10-12 13:22:46,019 - auto_focus.focus - INFO - Focus: 42.49, 4.35, 11.89
+2014-10-12 13:23:45,839 - auto_focus.focus - INFO - Focus: 38.57, 13.41, 11.91
+2014-10-12 13:24:00,990 - auto_focus.focus - INFO - Focus: 38.08, 13.45, 11.51
+2014-10-12 13:24:13,319 - auto_focus.focus - INFO - Focus: 38.02, 13.39, 11.35
+2014-10-12 13:24:29,180 - auto_focus.focus - INFO - Focus: 35.43, 13.90, 11.13
+2014-10-12 13:25:41,341 - auto_focus.focus - INFO - Focus: 35.41, 13.84, 10.97
+2014-10-12 13:26:04,901 - auto_focus.focus - INFO - Focus: 35.31, 13.90, 10.49
+2014-10-12 13:26:30,240 - auto_focus.focus - INFO - Focus: 35.21, 13.85, 10.43
+2014-10-12 13:26:44,091 - auto_focus.focus - INFO - Focus: 35.40, 13.84, 11.17
+2014-10-12 13:28:02,930 - auto_focus.focus - INFO - Focus: 35.65, 14.14, 9.73
+2014-10-12 13:28:47,490 - auto_focus.focus - INFO - Focus: 38.12, 12.36, 4.05
+2014-10-12 13:28:59,421 - auto_focus.focus - INFO - Focus: 38.12, 12.31, 3.97
+2014-10-12 13:30:12,960 - auto_focus.focus - INFO - Focus: 38.17, 12.32, 3.99
+2014-10-12 13:31:32,990 - auto_focus.focus - INFO - Focus: 38.17, 12.27, 3.83
+2014-10-12 13:57:13,203 - auto_focus.focus - INFO - Focus: 9.25, 23.05, 0.70
+2014-10-12 13:57:25,263 - auto_focus.focus - INFO - Focus: 9.30, 22.95, 0.62
+2014-10-12 13:57:37,483 - auto_focus.focus - INFO - Focus: 9.40, 22.95, 0.46
+2014-10-12 13:59:07,872 - auto_focus.focus - INFO - Focus: 9.90, 22.80, -0.02
+2014-10-12 14:38:00,937 - auto_focus.focus - INFO - Focus: 10.48, 22.74, -2.59
+2014-10-12 14:39:56,628 - auto_focus.focus - INFO - Focus: 33.97, 14.68, -2.75
+2014-10-12 14:40:26,108 - auto_focus.focus - INFO - Focus: 33.67, 14.68, -1.53
+2014-10-12 14:40:37,507 - auto_focus.focus - INFO - Focus: 33.67, 14.38, -1.53
+2014-10-12 14:40:49,497 - auto_focus.focus - INFO - Focus: 33.47, 14.58, -1.51
+2014-10-12 14:52:47,688 - auto_focus.focus - INFO - Focus: 34.07, 14.78, -3.01
+2014-10-12 14:53:53,348 - auto_focus.focus - INFO - Focus: 33.94, 14.64, -4.62
+2014-10-12 14:55:16,259 - auto_focus.focus - INFO - Focus: 33.99, 14.74, -4.86
+2014-10-12 14:55:27,908 - auto_focus.focus - INFO - Focus: 33.94, 14.64, -4.92
+2014-10-12 14:56:47,469 - auto_focus.focus - INFO - Focus: 33.99, 14.64, -4.86
+2014-10-12 14:57:20,440 - auto_focus.focus - INFO - Focus: 33.99, 14.64, -4.64
+2014-10-12 14:58:46,150 - auto_focus.focus - INFO - Focus: 33.94, 14.64, -4.64
+2014-10-12 14:58:57,799 - auto_focus.focus - INFO - Focus: 33.94, 14.64, -4.62
+2014-10-12 15:00:34,970 - auto_focus.focus - INFO - Focus: 34.04, 14.59, -4.76
+2014-10-12 15:00:53,450 - auto_focus.focus - INFO - Focus: 34.04, 14.64, -4.70
+2014-10-12 15:02:12,331 - auto_focus.focus - INFO - Focus: 34.09, 14.69, -4.94
+2014-10-12 15:02:24,210 - auto_focus.focus - INFO - Focus: 34.04, 14.59, -4.92
+2014-10-12 15:02:40,831 - auto_focus.focus - INFO - Focus: 34.04, 14.59, -4.78
+2014-10-12 15:03:41,301 - auto_focus.focus - INFO - Focus: 34.09, 14.64, -4.94
+2014-10-12 15:03:52,720 - auto_focus.focus - INFO - Focus: 34.09, 14.59, -4.92
+2014-10-12 15:05:00,091 - auto_focus.focus - INFO - Focus: 34.04, 14.64, -4.78
+2014-10-12 15:05:11,690 - auto_focus.focus - INFO - Focus: 34.09, 14.64, -4.72
+2014-10-12 15:05:24,770 - auto_focus.focus - INFO - Focus: 34.09, 14.64, -4.66
+2014-10-12 15:08:51,651 - auto_focus.focus - INFO - Focus: 34.14, 14.64, -4.80
+2014-10-12 15:09:11,331 - auto_focus.focus - INFO - Focus: 34.14, 14.59, -4.78
+2014-10-12 15:19:02,742 - auto_focus.focus - INFO - Focus: 34.13, 14.54, -7.10
+2014-10-12 15:19:14,012 - auto_focus.focus - INFO - Focus: 34.13, 14.54, -7.10
+2014-10-12 15:19:44,482 - auto_focus.focus - INFO - Focus: 34.08, 14.54, -7.10
+2014-10-12 15:22:18,711 - auto_focus.focus - INFO - Focus: 34.08, 14.44, -8.46
+2014-10-12 15:26:34,403 - auto_focus.focus - INFO - Focus: 34.08, 14.34, -7.36
+2014-10-12 15:26:45,723 - auto_focus.focus - INFO - Focus: 34.18, 14.39, -7.26
+2014-10-12 15:26:57,142 - auto_focus.focus - INFO - Focus: 34.13, 14.44, -7.40
+2014-10-12 15:27:19,352 - auto_focus.focus - INFO - Focus: 34.08, 14.44, -7.14
+2014-10-12 15:27:32,923 - auto_focus.focus - INFO - Focus: 34.13, 14.44, -7.14
+2014-10-12 15:30:59,963 - auto_focus.focus - INFO - Focus: 34.13, 14.39, -7.12
+2014-10-12 15:31:12,443 - auto_focus.focus - INFO - Focus: 34.18, 14.39, -7.18
+2014-10-12 15:31:28,433 - auto_focus.focus - INFO - Focus: 34.13, 14.54, -6.96
+2014-10-12 15:31:40,513 - auto_focus.focus - INFO - Focus: 34.18, 14.44, -7.18
+2014-10-12 15:33:30,253 - auto_focus.focus - INFO - Focus: 34.08, 14.39, -7.04
+2014-10-12 15:35:02,842 - auto_focus.focus - INFO - Focus: 34.13, 14.44, -7.04
+2014-10-12 15:39:36,924 - auto_focus.focus - INFO - Focus: 33.83, 14.49, -6.86
+2014-10-12 15:40:35,084 - auto_focus.focus - INFO - Focus: 34.08, 14.23, -13.47
+2014-10-12 15:40:46,404 - auto_focus.focus - INFO - Focus: 34.13, 14.23, -13.47
+2014-10-12 15:41:47,184 - auto_focus.focus - INFO - Focus: 34.13, 14.28, -13.41
+2014-10-12 15:42:33,823 - auto_focus.focus - INFO - Focus: 34.13, 14.28, -13.39
+2014-10-12 15:43:19,134 - auto_focus.focus - INFO - Focus: 34.18, 14.23, -13.63
+2014-10-12 15:43:58,144 - auto_focus.focus - INFO - Focus: 34.18, 14.13, -13.61
+2014-10-12 15:44:09,553 - auto_focus.focus - INFO - Focus: 34.18, 14.18, -13.55
+2014-10-12 15:44:47,664 - auto_focus.focus - INFO - Focus: 34.23, 14.18, -13.63
+2014-10-12 15:45:07,594 - auto_focus.focus - INFO - Focus: 34.23, 14.23, -13.57
+2014-10-12 15:45:18,934 - auto_focus.focus - INFO - Focus: 34.23, 14.23, -13.65
+2014-10-12 15:46:31,053 - auto_focus.focus - INFO - Focus: 34.23, 14.28, -13.59
+2014-10-12 15:49:30,625 - auto_focus.focus - INFO - Focus: 34.28, 14.23, -13.57
+2014-10-12 15:56:38,706 - auto_focus.focus - INFO - Focus: 34.23, 14.23, -13.55
+2014-10-12 15:56:50,266 - auto_focus.focus - INFO - Focus: 34.23, 14.23, -13.53
+2014-10-12 15:57:54,756 - auto_focus.focus - INFO - Focus: 34.18, 14.18, -13.19
+2014-10-12 15:58:06,075 - auto_focus.focus - INFO - Focus: 34.23, 14.23, -12.97
+2014-10-12 15:58:17,726 - auto_focus.focus - INFO - Focus: 34.23, 14.23, -13.13
+2014-10-12 15:58:59,645 - auto_focus.focus - INFO - Focus: 34.23, 14.23, -13.07
+2014-10-12 15:59:39,476 - auto_focus.focus - INFO - Focus: 34.26, 14.24, -13.13
+2014-10-12 16:02:36,576 - auto_focus.focus - INFO - Focus: 34.21, 14.19, -12.79
+2014-10-12 16:02:52,806 - auto_focus.focus - INFO - Focus: 34.21, 14.29, -12.87
+2014-10-12 16:03:05,907 - auto_focus.focus - INFO - Focus: 34.21, 14.24, -12.65
+2014-10-12 16:05:00,137 - auto_focus.focus - INFO - Focus: 34.26, 14.19, -12.23
+2014-10-12 16:05:25,826 - auto_focus.focus - INFO - Focus: 34.26, 14.19, -12.31
+2014-10-12 16:06:46,167 - auto_focus.focus - INFO - Focus: 34.31, 14.29, -12.17
+2014-10-12 16:06:57,677 - auto_focus.focus - INFO - Focus: 34.31, 14.24, -12.15
+2014-10-12 16:07:28,967 - auto_focus.focus - INFO - Focus: 34.21, 14.24, -11.57
+2014-10-12 16:07:40,496 - auto_focus.focus - INFO - Focus: 34.26, 14.29, -11.51
+2014-10-12 16:14:18,348 - auto_focus.focus - INFO - Focus: 34.31, 14.34, -12.39
+2014-10-12 16:14:29,497 - auto_focus.focus - INFO - Focus: 34.26, 14.34, -12.39
+2014-10-12 16:14:46,278 - auto_focus.focus - INFO - Focus: 34.21, 14.29, -12.47
+2014-10-12 16:22:31,548 - auto_focus.focus - INFO - Focus: 34.35, 14.28, -12.21
+2014-10-12 16:22:43,348 - auto_focus.focus - INFO - Focus: 34.35, 14.18, -12.15
+2014-10-12 16:26:24,229 - auto_focus.focus - INFO - Focus: 38.24, 41.52, -12.85
+2014-10-12 16:26:47,108 - auto_focus.focus - INFO - Focus: 41.75, 45.52, -12.93
+2014-10-12 16:26:58,128 - auto_focus.focus - INFO - Focus: 41.45, 45.72, -12.83
+2014-10-12 16:28:22,279 - auto_focus.focus - INFO - Focus: 12.66, 35.19, -12.41
+2014-10-12 16:28:33,499 - auto_focus.focus - INFO - Focus: 12.56, 35.09, -12.63
+2014-10-12 16:29:16,469 - auto_focus.focus - INFO - Focus: 5.77, 3.41, -11.25
+2014-10-12 16:29:36,309 - auto_focus.focus - INFO - Focus: 17.59, 3.30, -11.73
+2014-10-12 16:29:47,668 - auto_focus.focus - INFO - Focus: 17.54, 3.25, -11.81
+2014-10-12 16:30:05,888 - auto_focus.focus - INFO - Focus: 17.54, 4.75, -11.43
+2014-10-12 16:30:18,128 - auto_focus.focus - INFO - Focus: 17.54, 4.75, -11.51
+2014-10-12 16:30:40,769 - auto_focus.focus - INFO - Focus: 17.59, 3.25, -11.75
+2014-10-12 16:30:52,219 - auto_focus.focus - INFO - Focus: 17.59, 3.30, -11.81
+2014-10-12 16:31:41,009 - auto_focus.focus - INFO - Focus: 11.55, 9.15, -11.27
+2014-10-12 16:32:05,878 - auto_focus.focus - INFO - Focus: 10.74, 9.10, -11.51
+2014-10-12 16:33:06,618 - auto_focus.focus - INFO - Focus: 11.55, 9.11, -11.37
+2014-10-12 16:38:24,880 - auto_focus.focus - INFO - Focus: 11.65, 9.26, -10.59
+2014-10-12 16:38:36,849 - auto_focus.focus - INFO - Focus: 11.60, 9.06, -10.17
+2014-10-12 16:38:49,009 - auto_focus.focus - INFO - Focus: 11.55, 9.11, -10.11
+2014-10-12 16:39:06,019 - auto_focus.focus - INFO - Focus: 10.78, 9.10, -10.19
+2014-10-12 16:39:19,359 - auto_focus.focus - INFO - Focus: 10.78, 9.10, -10.19
+2014-10-12 16:40:01,150 - auto_focus.focus - INFO - Focus: 10.68, 9.10, -10.25
+2014-10-12 16:40:12,990 - auto_focus.focus - INFO - Focus: 10.68, 9.15, -10.15
+2014-10-12 17:02:01,173 - auto_focus.focus - INFO - Focus: 11.71, 9.03, -9.93
+2014-10-12 17:02:13,153 - auto_focus.focus - INFO - Focus: 11.71, 8.93, -10.81
+2014-10-12 17:02:25,362 - auto_focus.focus - INFO - Focus: 11.66, 8.88, -10.75
+2014-10-12 17:03:36,413 - auto_focus.focus - INFO - Focus: 11.86, 8.93, -10.57
+2014-10-12 17:03:49,322 - auto_focus.focus - INFO - Focus: 11.86, 8.88, -10.47
+2014-10-12 17:15:46,703 - emod.submit - INFO - The job <measurements.confocal.Confocal object at 0x071F6360> is already running or in the queue.
+2014-10-12 17:50:56,717 - auto_focus.focus - INFO - Focus: 11.96, 8.68, -11.87
+2014-10-12 17:51:08,568 - auto_focus.focus - INFO - Focus: 12.01, 8.63, -11.87
+2014-10-12 17:51:20,677 - auto_focus.focus - INFO - Focus: 12.06, 8.48, -11.85
+2014-10-12 18:27:00,480 - auto_focus.focus - INFO - Focus: 12.36, 8.63, -12.19
+2014-10-12 18:27:12,331 - auto_focus.focus - INFO - Focus: 12.46, 8.43, -11.93
+2014-10-12 18:27:24,301 - auto_focus.focus - INFO - Focus: 12.51, 8.33, -11.99

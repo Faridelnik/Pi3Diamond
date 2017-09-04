@@ -1,0 +1,2346 @@
+2015-11-16 10:11:33,081 - auto_focus.focus - INFO - Focus: 49.16, 26.00, -18.10
+2015-11-16 10:11:40,040 - auto_focus.focus - INFO - Focus: 48.81, 26.35, -19.30
+2015-11-16 10:12:18,260 - auto_focus.focus - INFO - Focus: 45.26, 14.64, -18.52
+2015-11-16 10:12:25,470 - auto_focus.focus - INFO - Focus: 45.31, 14.59, -18.64
+2015-11-16 10:12:49,911 - auto_focus.focus - INFO - Focus: 45.56, 14.54, -19.00
+2015-11-16 10:12:56,980 - auto_focus.focus - INFO - Focus: 45.66, 14.54, -19.12
+2015-11-16 10:13:40,561 - auto_focus.focus - INFO - Focus: 45.96, 14.49, -19.24
+2015-11-16 10:13:47,561 - auto_focus.focus - INFO - Focus: 46.06, 14.54, -19.24
+2015-11-16 10:14:24,750 - auto_focus.focus - INFO - Focus: 46.26, 14.54, -19.24
+2015-11-16 10:14:31,811 - auto_focus.focus - INFO - Focus: 46.36, 14.54, -19.60
+2015-11-16 10:14:52,331 - auto_focus.focus - INFO - Focus: 46.46, 14.44, -20.08
+2015-11-16 10:15:03,290 - auto_focus.focus - INFO - Focus: 46.56, 14.54, -19.66
+2015-11-16 10:15:10,540 - auto_focus.focus - INFO - Focus: 46.66, 14.49, -19.66
+2015-11-16 10:16:00,940 - auto_focus.focus - INFO - Focus: 5.73, 7.36, -20.14
+2015-11-16 10:16:08,220 - auto_focus.focus - INFO - Focus: 5.73, 7.36, -20.08
+2015-11-16 10:16:18,921 - auto_focus.focus - INFO - Focus: 46.84, 6.05, -20.68
+2015-11-16 10:16:26,111 - auto_focus.focus - INFO - Focus: 46.89, 6.15, -20.02
+2015-11-16 10:17:52,782 - auto_focus.focus - INFO - Focus: 43.95, 26.47, -20.20
+2015-11-16 10:18:02,661 - auto_focus.focus - INFO - Focus: 47.68, 22.37, -20.44
+2015-11-16 10:18:09,381 - auto_focus.focus - INFO - Focus: 47.68, 22.32, -20.50
+2015-11-16 10:18:20,482 - auto_focus.focus - INFO - Focus: 43.87, 26.64, -20.98
+2015-11-16 10:18:30,421 - auto_focus.focus - INFO - Focus: 47.83, 34.75, -20.08
+2015-11-16 10:18:37,242 - auto_focus.focus - INFO - Focus: 48.18, 34.80, -21.28
+2015-11-16 10:18:44,201 - auto_focus.focus - INFO - Focus: 48.28, 34.75, -21.22
+2015-11-16 10:20:09,842 - auto_focus.focus - INFO - Focus: 48.53, 34.75, -20.92
+2015-11-16 10:21:13,312 - auto_focus.focus - INFO - Focus: 48.63, 34.70, -20.98
+2015-11-16 10:26:48,834 - auto_focus.focus - INFO - Focus: 48.98, 34.90, -20.80
+2015-11-16 10:26:55,434 - auto_focus.focus - INFO - Focus: 49.08, 34.90, -20.26
+2015-11-16 10:57:23,365 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-16 10:57:28,266 - emod.start - INFO - Starting Job Manager.
+2015-11-16 10:57:28,266 - cron.run - INFO - Starting Cron Daemon.
+2015-11-16 11:02:16,016 - auto_focus.focus - INFO - Focus: 49.43, 34.60, -19.48
+2015-11-16 11:02:22,786 - auto_focus.focus - INFO - Focus: 49.73, 34.60, -20.44
+2015-11-16 11:02:30,096 - auto_focus.focus - INFO - Focus: 49.78, 34.55, -20.02
+2015-11-16 11:06:56,167 - auto_focus.focus - INFO - Focus: 49.73, 34.45, -20.38
+2015-11-16 11:10:05,127 - auto_focus.focus - INFO - Focus: 49.68, 34.50, -20.32
+2015-11-16 13:07:16,551 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:07:17,311 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:07:18,111 - auto_focus.focus - INFO - Focus: 26.11, 34.70, 19.64
+2015-11-16 13:07:24,861 - auto_focus.focus - INFO - Focus: 26.16, 34.80, 20.42
+2015-11-16 13:10:07,174 - auto_focus.focus - INFO - Focus: 25.15, 35.10, -0.06
+2015-11-16 13:12:06,864 - auto_focus.focus - INFO - Focus: 18.79, 28.58, -0.30
+2015-11-16 13:12:13,493 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:12:13,634 - auto_focus.focus - INFO - Focus: 18.69, 28.48, 0.24
+2015-11-16 13:12:20,793 - auto_focus.focus - INFO - Focus: 18.64, 28.58, -0.24
+2015-11-16 13:12:59,315 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:13:00,174 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:13:00,265 - auto_focus.focus - INFO - Focus: 26.37, 19.85, 0.06
+2015-11-16 13:13:08,164 - auto_focus.focus - INFO - Focus: 26.32, 19.85, -0.54
+2015-11-16 13:13:21,785 - auto_focus.focus - INFO - Focus: 26.37, 19.80, -0.48
+2015-11-16 13:18:29,193 - auto_focus.focus - INFO - Focus: 26.28, 20.05, -0.42
+2015-11-16 13:18:36,372 - auto_focus.focus - INFO - Focus: 26.33, 20.05, -0.36
+2015-11-16 13:21:25,323 - auto_focus.focus - INFO - Focus: 26.33, 20.05, 0.30
+2015-11-16 13:23:05,983 - auto_focus.focus - INFO - Focus: 26.58, 24.32, -0.42
+2015-11-16 13:24:41,473 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:24:41,844 - auto_focus.focus - INFO - Focus: 33.72, 32.41, 0.24
+2015-11-16 13:24:48,584 - auto_focus.focus - INFO - Focus: 33.67, 32.46, -0.36
+2015-11-16 13:25:43,874 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:25:44,303 - auto_focus.focus - INFO - Focus: 37.69, 28.14, -0.30
+2015-11-16 13:25:51,043 - auto_focus.focus - INFO - Focus: 37.69, 28.14, -0.24
+2015-11-16 13:26:45,773 - auto_focus.focus - INFO - Focus: 15.43, 36.63, -0.48
+2015-11-16 13:26:47,023 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:26:53,213 - auto_focus.focus - INFO - Focus: 15.38, 36.68, 0.06
+2015-11-16 13:27:28,493 - auto_focus.focus - INFO - Focus: 15.38, 36.68, -0.42
+2015-11-16 13:28:04,743 - auto_focus.focus - INFO - Focus: 7.59, 41.25, 0.24
+2015-11-16 13:28:12,144 - auto_focus.focus - INFO - Focus: 7.59, 41.25, 0.18
+2015-11-16 13:29:20,483 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:29:21,084 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:29:21,184 - auto_focus.focus - INFO - Focus: 15.48, 41.00, 0.12
+2015-11-16 13:29:28,503 - auto_focus.focus - INFO - Focus: 15.53, 41.00, -0.36
+2015-11-16 13:30:19,384 - auto_focus.focus - INFO - Focus: 22.56, 40.80, 0.42
+2015-11-16 13:30:25,743 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:30:26,194 - auto_focus.focus - INFO - Focus: 22.56, 40.90, 0.60
+2015-11-16 13:30:26,194 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:30:33,213 - auto_focus.focus - INFO - Focus: 22.56, 40.95, 0.42
+2015-11-16 13:32:37,444 - auto_focus.focus - INFO - Focus: 22.56, 40.95, 0.48
+2015-11-16 13:33:58,355 - auto_focus.focus - INFO - Focus: 22.61, 40.95, -0.24
+2015-11-16 13:35:15,954 - auto_focus.focus - INFO - Focus: 22.36, 40.60, 1.02
+2015-11-16 13:35:35,964 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:35:36,265 - auto_focus.focus - INFO - Focus: 22.61, 40.65, 1.08
+2015-11-16 13:35:42,144 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:35:42,954 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:35:43,214 - auto_focus.focus - INFO - Focus: 22.61, 40.65, 1.74
+2015-11-16 13:35:50,664 - auto_focus.focus - INFO - Focus: 22.56, 40.65, 1.56
+2015-11-16 13:37:34,214 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:37:34,775 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:37:34,785 - auto_focus.focus - INFO - Focus: 22.61, 40.70, 1.74
+2015-11-16 13:37:41,944 - auto_focus.focus - INFO - Focus: 22.56, 40.65, 1.02
+2015-11-16 13:39:05,555 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:39:06,055 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:39:06,565 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:39:06,775 - auto_focus.focus - INFO - Focus: 22.66, 40.65, 1.20
+2015-11-16 13:39:15,214 - auto_focus.focus - INFO - Focus: 22.61, 40.60, 1.62
+2015-11-16 13:39:39,194 - auto_focus.focus - INFO - Focus: 22.61, 40.70, 1.02
+2015-11-16 13:39:46,664 - auto_focus.focus - INFO - Focus: 22.66, 40.65, 1.68
+2015-11-16 13:41:47,255 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:41:47,525 - auto_focus.focus - INFO - Focus: 22.66, 40.70, 1.32
+2015-11-16 13:41:53,855 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:41:54,295 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:41:54,565 - auto_focus.focus - INFO - Focus: 22.61, 40.65, 1.08
+2015-11-16 13:42:01,345 - auto_focus.focus - INFO - Focus: 22.66, 40.65, 1.74
+2015-11-16 13:42:52,325 - auto_focus.focus - INFO - Focus: 22.66, 40.65, 1.14
+2015-11-16 13:44:53,845 - auto_focus.focus - INFO - Focus: 22.66, 40.65, 1.20
+2015-11-16 13:45:49,776 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:45:50,365 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:45:50,496 - auto_focus.focus - INFO - Focus: 22.66, 40.65, 1.74
+2015-11-16 13:45:57,385 - auto_focus.focus - INFO - Focus: 22.61, 40.65, 1.92
+2015-11-16 13:46:14,385 - auto_focus.focus - INFO - Focus: 22.61, 40.70, 1.20
+2015-11-16 13:47:02,926 - auto_focus.focus - INFO - Focus: 22.61, 40.70, 1.86
+2015-11-16 13:48:21,345 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:48:21,895 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:48:22,496 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:48:22,815 - auto_focus.focus - INFO - Focus: 22.61, 40.70, 1.50
+2015-11-16 13:48:29,486 - auto_focus.focus - INFO - Focus: 22.66, 40.65, 1.80
+2015-11-16 13:48:51,986 - auto_focus.focus - INFO - Focus: 22.61, 40.70, 1.32
+2015-11-16 13:49:36,605 - auto_focus.focus - INFO - Focus: 22.61, 40.65, 1.98
+2015-11-16 13:50:05,885 - auto_focus.focus - INFO - Focus: 22.61, 40.70, 1.38
+2015-11-16 13:51:01,226 - auto_focus.focus - INFO - Focus: 22.61, 40.65, 1.92
+2015-11-16 13:52:06,446 - auto_focus.focus - INFO - Focus: 22.66, 40.70, 1.20
+2015-11-16 13:53:01,016 - auto_focus.focus - INFO - Focus: 22.66, 40.65, 1.26
+2015-11-16 13:54:01,176 - auto_focus.focus - INFO - Focus: 22.66, 40.65, 1.32
+2015-11-16 13:55:06,196 - auto_focus.focus - INFO - Focus: 22.66, 40.65, 1.98
+2015-11-16 13:56:41,647 - auto_focus.focus - INFO - Focus: 22.66, 40.75, 1.38
+2015-11-16 13:58:04,096 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:58:04,596 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 13:58:04,746 - auto_focus.focus - INFO - Focus: 22.61, 40.75, 2.16
+2015-11-16 13:58:12,147 - auto_focus.focus - INFO - Focus: 22.66, 40.70, 1.44
+2015-11-16 13:59:06,266 - auto_focus.focus - INFO - Focus: 22.66, 40.70, 2.10
+2015-11-16 13:59:34,096 - auto_focus.focus - INFO - Focus: 22.66, 40.70, 1.92
+2015-11-16 14:00:26,496 - auto_focus.focus - INFO - Focus: 22.61, 40.70, 1.56
+2015-11-16 14:01:14,897 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:01:16,086 - auto_focus.focus - INFO - Focus: 22.51, 40.60, 1.62
+2015-11-16 14:01:22,687 - auto_focus.focus - INFO - Focus: 22.51, 40.60, 2.28
+2015-11-16 14:02:55,467 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 1.56
+2015-11-16 14:03:39,596 - auto_focus.focus - INFO - Focus: 22.56, 40.65, 1.62
+2015-11-16 14:04:58,357 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 1.68
+2015-11-16 14:06:07,996 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:06:08,677 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:06:08,717 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 1.74
+2015-11-16 14:06:14,236 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:06:15,536 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:06:15,697 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 1.80
+2015-11-16 14:06:22,457 - auto_focus.focus - INFO - Focus: 22.51, 40.60, 2.34
+2015-11-16 14:06:54,897 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 1.62
+2015-11-16 14:09:01,529 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:09:02,088 - auto_focus.focus - INFO - Focus: 22.56, 40.65, 1.68
+2015-11-16 14:09:02,128 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:09:09,289 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 2.58
+2015-11-16 14:09:54,928 - auto_focus.focus - INFO - Focus: 22.51, 40.70, 1.86
+2015-11-16 14:10:53,888 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:10:54,049 - auto_focus.focus - INFO - Focus: 22.51, 40.70, 2.40
+2015-11-16 14:11:01,539 - auto_focus.focus - INFO - Focus: 22.51, 40.70, 1.80
+2015-11-16 14:11:51,569 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 2.34
+2015-11-16 14:12:42,969 - auto_focus.focus - INFO - Focus: 22.51, 40.75, 1.74
+2015-11-16 14:13:39,918 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:13:40,219 - auto_focus.focus - INFO - Focus: 22.56, 40.70, 1.92
+2015-11-16 14:13:46,989 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 2.22
+2015-11-16 14:15:19,019 - auto_focus.focus - INFO - Focus: 22.51, 40.70, 1.98
+2015-11-16 14:16:08,688 - auto_focus.focus - INFO - Focus: 22.56, 40.70, 1.86
+2015-11-16 14:16:58,289 - auto_focus.focus - INFO - Focus: 22.56, 40.65, 2.40
+2015-11-16 14:18:27,529 - auto_focus.focus - INFO - Focus: 22.51, 40.70, 1.80
+2015-11-16 14:19:29,549 - auto_focus.focus - INFO - Focus: 22.51, 40.60, 2.46
+2015-11-16 14:20:10,869 - auto_focus.focus - INFO - Focus: 22.56, 40.70, 1.86
+2015-11-16 14:20:54,809 - auto_focus.focus - INFO - Focus: 22.56, 40.65, 2.52
+2015-11-16 14:21:12,210 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:21:12,960 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:21:13,099 - auto_focus.focus - INFO - Focus: 22.46, 40.75, 1.92
+2015-11-16 14:21:20,150 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 2.46
+2015-11-16 14:22:31,799 - auto_focus.focus - INFO - Focus: 22.51, 40.70, 2.40
+2015-11-16 14:24:05,190 - auto_focus.focus - INFO - Focus: 22.56, 40.70, 2.34
+2015-11-16 14:25:08,500 - auto_focus.focus - INFO - Focus: 22.56, 40.70, 2.40
+2015-11-16 14:26:02,789 - auto_focus.focus - INFO - Focus: 22.51, 40.70, 2.04
+2015-11-16 14:26:11,859 - auto_focus.focus - INFO - Focus: 22.56, 40.65, 2.58
+2015-11-16 14:26:47,109 - auto_focus.focus - INFO - Focus: 22.56, 40.75, 1.86
+2015-11-16 14:27:40,170 - auto_focus.focus - INFO - Focus: 22.56, 40.65, 2.28
+2015-11-16 14:29:04,650 - auto_focus.focus - INFO - Focus: 22.56, 40.70, 1.80
+2015-11-16 14:30:11,009 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 1.86
+2015-11-16 14:31:01,130 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 2.64
+2015-11-16 14:31:09,670 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 126, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 203, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 150, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.COTask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2015-11-16 14:31:09,710 - auto_focus.focus - INFO - Focus: 22.51, 40.70, 2.16
+2015-11-16 14:33:10,371 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:33:10,881 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 1.92
+2015-11-16 14:33:10,921 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:33:17,901 - auto_focus.focus - INFO - Focus: 22.51, 40.65, 2.46
+2015-11-16 14:33:38,561 - auto_focus.focus - INFO - Focus: 22.51, 40.75, 2.34
+2015-11-16 14:35:13,661 - auto_focus.focus - INFO - Focus: 22.51, 40.75, 2.64
+2015-11-16 14:37:24,151 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:37:24,561 - auto_focus.focus - INFO - Focus: 22.56, 40.75, 1.92
+2015-11-16 14:37:31,161 - auto_focus.focus - INFO - Focus: 22.56, 40.70, 2.70
+2015-11-16 14:42:55,270 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:42:56,240 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:42:56,301 - auto_focus.focus - INFO - Focus: 22.46, 40.75, 2.64
+2015-11-16 14:43:03,381 - auto_focus.focus - INFO - Focus: 22.51, 40.75, 1.92
+2015-11-16 14:44:05,802 - auto_focus.focus - INFO - Focus: 22.46, 40.95, 1.74
+2015-11-16 14:44:12,772 - auto_focus.focus - INFO - Focus: 22.51, 40.95, 1.02
+2015-11-16 14:47:37,782 - auto_focus.focus - INFO - Focus: 22.56, 40.95, 1.08
+2015-11-16 14:48:47,772 - auto_focus.focus - INFO - Focus: 22.51, 40.90, 1.62
+2015-11-16 14:53:05,782 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 14:53:05,891 - auto_focus.focus - INFO - Focus: 33.77, 40.80, 1.32
+2015-11-16 14:53:17,371 - auto_focus.focus - INFO - Focus: 33.82, 40.90, 0.96
+2015-11-16 14:53:25,552 - auto_focus.focus - INFO - Focus: 33.82, 40.85, 1.50
+2015-11-16 16:44:02,150 - auto_focus.focus - INFO - Focus: 32.67, 40.65, 9.22
+2015-11-16 16:45:09,380 - auto_focus.focus - INFO - Focus: 33.02, 40.95, 9.76
+2015-11-16 16:45:16,930 - auto_focus.focus - INFO - Focus: 33.02, 41.00, 9.82
+2015-11-16 17:07:04,489 - auto_focus.focus - INFO - Focus: 33.07, 40.90, 8.98
+2015-11-16 17:22:32,325 - auto_focus.focus - INFO - Focus: 33.07, 40.85, 8.86
+2015-11-16 17:23:32,706 - auto_focus.focus - INFO - Focus: 33.07, 40.80, 9.52
+2015-11-16 18:33:42,256 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:33:42,657 - auto_focus.focus - INFO - Focus: 35.70, 26.61, 9.40
+2015-11-16 18:33:48,377 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:33:49,457 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:33:49,667 - auto_focus.focus - INFO - Focus: 36.00, 26.96, 10.06
+2015-11-16 18:33:58,137 - auto_focus.focus - INFO - Focus: 35.65, 27.31, 8.80
+2015-11-16 18:34:21,836 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:34:22,296 - auto_focus.focus - INFO - Focus: 31.67, 4.45, 9.82
+2015-11-16 18:34:29,647 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:34:29,697 - auto_focus.focus - INFO - Focus: 31.92, 4.35, 10.48
+2015-11-16 18:34:37,316 - auto_focus.focus - INFO - Focus: 31.97, 4.45, 10.12
+2015-11-16 18:34:44,387 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:34:45,256 - auto_focus.focus - INFO - Focus: 31.97, 4.40, 10.54
+2015-11-16 18:34:52,536 - auto_focus.focus - INFO - Focus: 32.02, 4.45, 9.94
+2015-11-16 18:36:20,796 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:36:21,717 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:36:21,826 - auto_focus.focus - INFO - Focus: 35.46, 44.85, 9.70
+2015-11-16 18:36:29,066 - auto_focus.focus - INFO - Focus: 35.31, 45.05, 9.58
+2015-11-16 18:36:34,336 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:36:35,407 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:36:35,826 - auto_focus.focus - INFO - Focus: 35.56, 45.10, 9.34
+2015-11-16 18:36:42,957 - auto_focus.focus - INFO - Focus: 35.51, 44.80, 10.12
+2015-11-16 18:40:05,907 - auto_focus.focus - INFO - Focus: 35.66, 45.30, 8.92
+2015-11-16 18:40:18,387 - auto_focus.focus - INFO - Focus: 39.14, 44.69, 10.06
+2015-11-16 18:40:25,846 - auto_focus.focus - INFO - Focus: 39.09, 44.79, 10.06
+2015-11-16 18:40:33,197 - auto_focus.focus - INFO - Focus: 38.94, 45.04, 10.06
+2015-11-16 18:40:40,296 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:40:40,506 - auto_focus.focus - INFO - Focus: 39.14, 44.74, 10.36
+2015-11-16 18:40:46,697 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:40:47,357 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:40:47,846 - auto_focus.focus - INFO - Focus: 39.19, 44.74, 10.00
+2015-11-16 18:40:55,387 - auto_focus.focus - INFO - Focus: 38.99, 45.09, 9.76
+2015-11-16 18:41:07,437 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:41:08,177 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:41:08,226 - auto_focus.focus - INFO - Focus: 35.51, 32.88, 9.76
+2015-11-16 18:41:15,717 - auto_focus.focus - INFO - Focus: 35.56, 32.83, 10.42
+2015-11-16 18:41:23,506 - auto_focus.focus - INFO - Focus: 35.61, 32.93, 9.82
+2015-11-16 18:41:31,536 - auto_focus.focus - INFO - Focus: 35.56, 32.88, 10.36
+2015-11-16 18:42:09,296 - auto_focus.focus - INFO - Focus: 38.64, 3.87, 10.36
+2015-11-16 18:42:16,806 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 18:42:16,907 - auto_focus.focus - INFO - Focus: 38.74, 3.82, 10.36
+2015-11-16 18:42:24,236 - auto_focus.focus - INFO - Focus: 38.69, 3.92, 10.12
+2015-11-16 19:28:12,282 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 19:28:12,911 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 19:28:13,641 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 19:28:13,721 - auto_focus.focus - INFO - Focus: 38.54, 20.80, 9.64
+2015-11-16 19:28:19,252 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 19:28:20,042 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 19:28:20,732 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 19:28:21,082 - auto_focus.focus - INFO - Focus: 38.44, 20.65, 10.42
+2015-11-16 19:28:27,871 - auto_focus.focus - INFO - Focus: 38.44, 20.75, 9.82
+2015-11-16 19:50:21,595 - auto_focus.focus - INFO - Focus: 23.63, 0.42, 9.88
+2015-11-16 19:52:03,729 - auto_focus.focus - INFO - Focus: 23.68, 0.67, 10.18
+2015-11-16 19:54:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C84BB10>> at time 2015-11-16 19:54:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C84BB10>>.
+2015-11-16 19:54:07,348 - auto_focus.focus - INFO - Focus: 23.73, 0.72, 9.70
+2015-11-16 19:54:14,799 - auto_focus.focus - INFO - Focus: 31.12, 0.52, 9.46
+2015-11-16 19:55:57,388 - auto_focus.focus - INFO - Focus: 31.07, 0.52, 9.46
+2015-11-16 19:58:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C84BB10>> at time 2015-11-16 19:58:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C84BB10>>.
+2015-11-16 19:58:02,009 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E5690>, trait: y, old value: 0.52164255614, new value: 0.821084548693
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2015-11-16 19:58:02,029 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x071E5690>, trait: x, old value: 31.0682009729, new value: 16.0314097556
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\confocal.py", line 122, in _set_scanner_position
+    scanner.setPosition(self.x, self.y, self.z)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 435, in setPosition
+    self.setAOLength(1)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 252, in setAOLength
+    CHK( dll.DAQmxSetSampTimingType( self.AOTask, DAQmx_Val_OnDemand)  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2015-11-16 19:58:02,029 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-16 19:58:06,440 - auto_focus.focus - INFO - Focus: 31.02, 0.52, 9.88
+2015-11-16 19:59:50,609 - auto_focus.focus - INFO - Focus: 31.17, 0.62, 10.18
+2015-11-16 20:02:01,710 - auto_focus.focus - INFO - Focus: 42.04, 0.37, 9.82
+2015-11-16 20:03:43,829 - auto_focus.focus - INFO - Focus: 41.64, 0.50, 10.48
+2015-11-16 20:04:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C84BB10>> at time 2015-11-16 20:04:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C84BB10>>.
+2015-11-16 20:04:09,940 - auto_focus.focus - INFO - Focus: 41.59, 0.55, 9.88
+2015-11-17 10:12:52,098 - auto_focus.focus - INFO - Focus: 38.17, 0.14, 8.31
+2015-11-17 10:12:52,608 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C84BB10> is already running or in the queue.
+2015-11-17 10:13:02,917 - auto_focus.focus - INFO - Focus: 38.52, 0.40, 7.35
+2015-11-17 10:13:09,767 - auto_focus.focus - INFO - Focus: 38.87, 0.65, 7.23
+2015-11-17 10:14:03,668 - auto_focus.focus - INFO - Focus: 18.93, 18.07, 6.57
+2015-11-17 10:14:13,319 - auto_focus.focus - INFO - Focus: 22.39, 18.17, 6.75
+2015-11-17 10:14:26,128 - auto_focus.focus - INFO - Focus: 11.49, 14.36, 6.39
+2015-11-17 10:14:33,479 - auto_focus.focus - INFO - Focus: 11.44, 14.36, 6.39
+2015-11-17 10:14:46,569 - auto_focus.focus - INFO - Focus: 29.90, 13.97, 6.57
+2015-11-17 10:14:53,638 - auto_focus.focus - INFO - Focus: 29.85, 13.97, 6.45
+2015-11-17 10:36:26,039 - auto_focus.focus - INFO - Focus: 29.60, 14.12, 4.95
+2015-11-17 10:36:33,710 - auto_focus.focus - INFO - Focus: 29.80, 14.37, 4.95
+2015-11-17 10:36:41,069 - auto_focus.focus - INFO - Focus: 29.40, 14.67, 4.17
+2015-11-17 10:36:48,220 - auto_focus.focus - INFO - Focus: 29.45, 14.92, 4.23
+2015-11-17 10:38:05,621 - auto_focus.focus - INFO - Focus: 29.11, 12.18, 4.77
+2015-11-17 10:38:12,732 - auto_focus.focus - INFO - Focus: 29.06, 12.23, 4.83
+2015-11-17 10:39:01,151 - auto_focus.focus - INFO - Focus: 25.65, 16.02, 4.83
+2015-11-17 10:39:07,992 - auto_focus.focus - INFO - Focus: 25.55, 16.02, 4.83
+2015-11-17 10:41:02,701 - auto_focus.focus - INFO - Focus: 25.55, 15.97, 4.59
+2015-11-17 10:41:22,651 - auto_focus.focus - INFO - Focus: 25.55, 15.97, 4.89
+2015-11-17 10:43:16,002 - auto_focus.focus - INFO - Focus: 17.72, 16.09, 4.41
+2015-11-17 10:43:22,842 - auto_focus.focus - INFO - Focus: 17.72, 16.04, 4.83
+2015-11-17 10:45:56,282 - auto_focus.focus - INFO - Focus: 13.89, 20.24, 5.01
+2015-11-17 10:46:07,042 - auto_focus.focus - INFO - Focus: 21.50, 7.63, 5.07
+2015-11-17 10:46:14,131 - auto_focus.focus - INFO - Focus: 21.50, 7.68, 5.13
+2015-11-17 10:47:09,522 - auto_focus.focus - INFO - Focus: 33.29, 24.00, 4.29
+2015-11-17 10:47:16,322 - auto_focus.focus - INFO - Focus: 33.29, 24.00, 4.83
+2015-11-17 10:47:28,641 - auto_focus.focus - INFO - Focus: 25.23, 23.97, 4.59
+2015-11-17 10:47:38,282 - auto_focus.focus - INFO - Focus: 25.23, 24.32, 4.59
+2015-11-17 10:47:50,732 - auto_focus.focus - INFO - Focus: 18.09, 24.37, 4.53
+2015-11-17 10:47:57,502 - auto_focus.focus - INFO - Focus: 17.99, 24.37, 4.59
+2015-11-17 10:48:30,492 - auto_focus.focus - INFO - Focus: 14.31, 24.72, 4.59
+2015-11-17 10:48:37,492 - auto_focus.focus - INFO - Focus: 14.01, 24.32, 4.23
+2015-11-17 10:48:49,832 - auto_focus.focus - INFO - Focus: 6.74, 32.37, 4.77
+2015-11-17 10:49:01,582 - auto_focus.focus - INFO - Focus: 10.25, 3.80, 4.65
+2015-11-17 10:49:08,711 - auto_focus.focus - INFO - Focus: 9.85, 3.90, 4.53
+2015-11-17 10:49:28,523 - auto_focus.focus - INFO - Focus: 29.01, 7.66, 4.53
+2015-11-17 10:49:35,602 - auto_focus.focus - INFO - Focus: 28.96, 7.61, 4.41
+2015-11-17 10:51:08,872 - auto_focus.focus - INFO - Focus: 32.89, 40.17, 4.29
+2015-11-17 10:51:19,673 - auto_focus.focus - INFO - Focus: 29.16, 40.27, 4.29
+2015-11-17 10:51:30,653 - auto_focus.focus - INFO - Focus: 25.33, 40.34, 4.59
+2015-11-17 10:51:41,253 - auto_focus.focus - INFO - Focus: 22.05, 40.64, 4.41
+2015-11-17 10:51:52,183 - auto_focus.focus - INFO - Focus: 17.77, 40.59, 4.17
+2015-11-17 10:52:07,552 - auto_focus.focus - INFO - Focus: 32.77, 36.08, 4.59
+2015-11-17 10:52:14,273 - auto_focus.focus - INFO - Focus: 32.77, 36.13, 4.53
+2015-11-17 10:52:25,042 - auto_focus.focus - INFO - Focus: 29.11, 36.18, 4.29
+2015-11-17 10:52:31,763 - auto_focus.focus - INFO - Focus: 29.11, 36.28, 4.59
+2015-11-17 10:54:08,102 - auto_focus.focus - INFO - Focus: 29.11, 36.23, 4.65
+2015-11-17 10:57:35,003 - auto_focus.focus - INFO - Focus: 29.06, 36.23, 4.83
+2015-11-17 11:02:20,273 - auto_focus.focus - INFO - Focus: 29.06, 36.28, 4.59
+2015-11-17 11:04:19,834 - auto_focus.focus - INFO - Focus: 29.01, 36.23, 4.77
+2015-11-17 11:06:07,934 - auto_focus.focus - INFO - Focus: 29.06, 36.23, 4.71
+2015-11-17 12:58:44,539 - auto_focus.focus - INFO - Focus: 32.62, 32.57, -2.79
+2015-11-17 12:58:51,410 - auto_focus.focus - INFO - Focus: 32.92, 32.77, -1.89
+2015-11-17 12:58:58,829 - auto_focus.focus - INFO - Focus: 33.17, 32.92, -1.23
+2015-11-17 13:01:55,842 - auto_focus.focus - INFO - Focus: 32.82, 33.17, -2.25
+2015-11-17 13:25:01,684 - auto_focus.focus - INFO - Focus: 28.23, 33.07, 1.40
+2015-11-17 17:13:31,503 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-17 17:13:33,457 - emod.start - INFO - Starting Job Manager.
+2015-11-17 17:13:33,480 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 13:31:41,733 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 13:31:47,793 - emod.start - INFO - Starting Job Manager.
+2015-11-18 13:31:47,821 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 13:35:24,312 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 13:35:26,058 - emod.start - INFO - Starting Job Manager.
+2015-11-18 13:35:26,059 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 13:37:56,312 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 13:37:58,128 - emod.start - INFO - Starting Job Manager.
+2015-11-18 13:37:58,131 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 14:11:38,453 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 14:11:40,431 - emod.start - INFO - Starting Job Manager.
+2015-11-18 14:11:40,434 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 14:32:47,418 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 14:32:49,151 - emod.start - INFO - Starting Job Manager.
+2015-11-18 14:32:49,153 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 15:17:39,134 - odmr._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr.py", line 177, in _run
+    counts = ha.Counter().run()/1e3
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 870, in run
+    CHK( dll.DAQmxStartTask(self._CITask) )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -50103: 'NI Platform Services:  The specified resource is reserved. The operation could not be completed as specified.'
+2015-11-18 15:18:36,092 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 15:18:38,062 - emod.start - INFO - Starting Job Manager.
+2015-11-18 15:18:38,065 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 15:19:16,427 - auto_focus.focus - INFO - Focus: 48.68, 35.20, -21.34
+2015-11-18 15:19:35,555 - auto_focus.focus - INFO - Focus: 48.33, 35.00, -21.40
+2015-11-18 15:49:46,802 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 15:49:48,786 - emod.start - INFO - Starting Job Manager.
+2015-11-18 15:49:48,789 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 15:51:00,382 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 15:51:02,203 - emod.start - INFO - Starting Job Manager.
+2015-11-18 15:51:02,207 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 15:51:32,871 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 167, in _run
+    ha.Microwave_HMC().setPower(self.power)
+  File "D:\pi3diamondnew\tools\utility.py", line 420, in func
+    func.instance = old_func()
+  File "hardware/custom_api.py", line 42, in Microwave_HMC
+    from microwave_sources_hmct import SMIQ_HMC
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 105
+    self._write("FREQ:STAR %e" f0)
+                                ^
+SyntaxError: invalid syntax
+2015-11-18 15:52:04,358 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 15:52:06,174 - emod.start - INFO - Starting Job Manager.
+2015-11-18 15:52:06,177 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 15:52:18,009 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 168, in _run
+    ha.Microwave_HMC().initSweep(self.frequency, self.power, self.seconds_per_point)
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 96, in initSweep
+    self._write("POW %f", power)
+TypeError: _write() takes exactly 2 arguments (3 given)
+2015-11-18 15:53:04,900 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 15:53:06,717 - emod.start - INFO - Starting Job Manager.
+2015-11-18 15:53:06,720 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 15:54:06,364 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 176, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 131, in resetListPos
+    self._write('*WAI')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 15:58:46,051 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 15:58:47,880 - emod.start - INFO - Starting Job Manager.
+2015-11-18 15:58:47,882 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 15:59:56,888 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 15:59:58,701 - emod.start - INFO - Starting Job Manager.
+2015-11-18 15:59:58,706 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 16:01:03,730 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 176, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 131, in resetListPos
+    self._write('*WAI')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 16:01:20,513 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.odmr_hmc.ODMR_HMC object at 0x0B083C30>, trait: remove_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 359, in _remove_button_fired
+    self.remove()
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 351, in remove
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 129, in resetListPos
+    self._write('INIT:CONT OFF')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 16:06:47,783 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 16:06:49,773 - emod.start - INFO - Starting Job Manager.
+2015-11-18 16:06:49,778 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 16:40:20,299 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 16:40:22,247 - emod.start - INFO - Starting Job Manager.
+2015-11-18 16:40:22,434 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 16:40:55,059 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    counts = ha.Counter_Ext().run()/1e3
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 959, in run
+    CHK( dll.DAQmxWaitUntilTaskDone(self._CITask, ctypes.c_double(self._TaskTimeout))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200560: 'Wait Until Done did not indicate that the task was done within the specified timeout.\n\nIncrease the timeout, check the program, and make sure connections for external timing and triggering are in place.'
+2015-11-18 16:44:32,121 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 16:44:34,055 - emod.start - INFO - Starting Job Manager.
+2015-11-18 16:44:34,058 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 16:44:56,055 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    counts = ha.Counter_Ext().run()/1e3
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 959, in run
+    CHK( dll.DAQmxWaitUntilTaskDone(self._CITask, ctypes.c_double(self._TaskTimeout))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200560: 'Wait Until Done did not indicate that the task was done within the specified timeout.\n\nIncrease the timeout, check the program, and make sure connections for external timing and triggering are in place.'
+2015-11-18 16:46:31,028 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 16:46:32,973 - emod.start - INFO - Starting Job Manager.
+2015-11-18 16:46:32,976 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 16:46:54,509 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    counts = ha.Counter_Ext().run()/1e3
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 959, in run
+    CHK( dll.DAQmxWaitUntilTaskDone(self._CITask, ctypes.c_double(self._TaskTimeout))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200560: 'Wait Until Done did not indicate that the task was done within the specified timeout.\n\nIncrease the timeout, check the program, and make sure connections for external timing and triggering are in place.'
+2015-11-18 16:47:18,226 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    counts = ha.Counter_Ext().run()/1e3
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 959, in run
+    CHK( dll.DAQmxWaitUntilTaskDone(self._CITask, ctypes.c_double(self._TaskTimeout))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200560: 'Wait Until Done did not indicate that the task was done within the specified timeout.\n\nIncrease the timeout, check the program, and make sure connections for external timing and triggering are in place.'
+2015-11-18 16:47:35,486 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    counts = ha.Counter_Ext().run()/1e3
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 959, in run
+    CHK( dll.DAQmxWaitUntilTaskDone(self._CITask, ctypes.c_double(self._TaskTimeout))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200560: 'Wait Until Done did not indicate that the task was done within the specified timeout.\n\nIncrease the timeout, check the program, and make sure connections for external timing and triggering are in place.'
+2015-11-18 16:52:11,822 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 16:52:13,608 - emod.start - INFO - Starting Job Manager.
+2015-11-18 16:52:13,611 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 16:52:36,193 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 178, in _run
+    counts = ha.Counter_Ext().run()/1e3
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 959, in run
+    CHK( dll.DAQmxWaitUntilTaskDone(self._CITask, ctypes.c_double(self._TaskTimeout))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200560: 'Wait Until Done did not indicate that the task was done within the specified timeout.\n\nIncrease the timeout, check the program, and make sure connections for external timing and triggering are in place.'
+2015-11-18 16:53:25,989 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 16:53:27,776 - emod.start - INFO - Starting Job Manager.
+2015-11-18 16:53:27,779 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 16:57:29,854 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 16:57:31,657 - emod.start - INFO - Starting Job Manager.
+2015-11-18 16:57:31,660 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:01:13,150 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 130, in resetListPos
+    self._write(':ABOR')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 17:07:29,125 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:07:30,911 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:07:30,914 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:08:25,493 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:08:27,279 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:08:27,282 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:09:30,515 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 130, in resetListPos
+    self._write(':ABOR')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 17:10:07,230 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:10:09,204 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:10:09,207 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:10:56,980 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 129, in resetListPos
+    self._write('INIT:CONT OFF')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 17:12:41,111 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:12:42,908 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:12:42,911 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:13:26,966 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 129, in resetListPos
+    self._write('INIT:CONT OFF')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 17:17:26,655 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:17:28,457 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:17:28,460 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:18:09,473 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 129, in resetListPos
+    self._write('SDC')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 17:24:53,529 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:24:55,312 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:24:55,316 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:25:35,296 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 130, in resetListPos
+    self._write('INIT:CONT OFF')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 17:27:06,391 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:27:08,194 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:27:08,197 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:28:20,703 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 132, in resetListPos
+    self._write('*WAI')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 17:46:24,155 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:46:26,243 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:46:26,246 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:47:06,345 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 132, in resetListPos
+    self._write('*WAI')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 17:50:54,572 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:50:56,382 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:50:56,680 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:51:38,710 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 132, in resetListPos
+    self._write('*WAI')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 17:53:28,582 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 167, in _run
+    ha.Microwave_HMC().setPower(self.power)
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 60, in setPower
+    self._write(':FREQ:MODE CW')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 17:54:49,926 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:54:51,730 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:54:51,733 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:55:23,976 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:55:25,770 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:55:25,773 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:55:52,500 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:55:54,305 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:55:54,309 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:56:22,953 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:56:24,746 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:56:24,749 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:56:52,280 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:56:54,073 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:56:54,075 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:58:10,769 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:58:12,591 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:58:12,594 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 17:58:52,437 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 131, in resetListPos
+    self._write('ABOR')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 17:59:48,500 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 17:59:50,295 - emod.start - INFO - Starting Job Manager.
+2015-11-18 17:59:50,299 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 18:00:00,354 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 178, in _run
+    counts = ha.Counter_Ext().run()/1e3
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 959, in run
+    CHK( dll.DAQmxWaitUntilTaskDone(self._CITask, ctypes.c_double(self._TaskTimeout))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200560: 'Wait Until Done did not indicate that the task was done within the specified timeout.\n\nIncrease the timeout, check the program, and make sure connections for external timing and triggering are in place.'
+2015-11-18 18:00:52,552 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 18:00:54,359 - emod.start - INFO - Starting Job Manager.
+2015-11-18 18:00:54,364 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 18:01:33,420 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 132, in resetListPos
+    self._write('*WAI')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-18 18:02:37,285 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 18:02:39,085 - emod.start - INFO - Starting Job Manager.
+2015-11-18 18:02:39,088 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 18:07:21,986 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-18 18:07:24,089 - emod.start - INFO - Starting Job Manager.
+2015-11-18 18:07:24,092 - cron.run - INFO - Starting Cron Daemon.
+2015-11-18 18:08:10,253 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 177, in _run
+    ha.Microwave_HMC().resetListPos()
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 132, in resetListPos
+    self._write('*WAI')
+  File "D:\pi3diamondnew\hardware\microwave_sources_hmct.py", line 40, in _write
+    self.instr.write(string)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\visa.py", line 386, in write
+    vpp43.write(self.vi, message)
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 958, in write
+    visa_library().viWrite(vi, buffer, len(buffer), byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa\vpp43.py", line 398, in check_status
+    raise visa_exceptions.VisaIOError, status
+VisaIOError: VI_ERROR_TMO: Timeout expired before operation completed.
+2015-11-19 08:55:56,696 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 08:55:58,673 - emod.start - INFO - Starting Job Manager.
+2015-11-19 08:55:58,674 - cron.run - INFO - Starting Cron Daemon.
+2015-11-19 08:57:26,704 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 08:57:28,473 - emod.start - INFO - Starting Job Manager.
+2015-11-19 08:57:28,474 - cron.run - INFO - Starting Cron Daemon.
+2015-11-19 08:59:30,818 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 08:59:32,732 - emod.start - INFO - Starting Job Manager.
+2015-11-19 08:59:32,734 - cron.run - INFO - Starting Cron Daemon.
+2015-11-19 09:04:58,446 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 09:05:00,365 - emod.start - INFO - Starting Job Manager.
+2015-11-19 09:05:00,368 - cron.run - INFO - Starting Cron Daemon.
+2015-11-19 09:06:33,009 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 09:06:34,772 - emod.start - INFO - Starting Job Manager.
+2015-11-19 09:06:34,773 - cron.run - INFO - Starting Cron Daemon.
+2015-11-19 09:08:33,595 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 09:08:35,510 - emod.start - INFO - Starting Job Manager.
+2015-11-19 09:08:35,677 - cron.run - INFO - Starting Cron Daemon.
+2015-11-19 13:03:13,608 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 13:03:15,552 - emod.start - INFO - Starting Job Manager.
+2015-11-19 13:03:15,555 - cron.run - INFO - Starting Cron Daemon.
+2015-11-19 13:04:01,664 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 13:04:03,459 - emod.start - INFO - Starting Job Manager.
+2015-11-19 13:04:03,461 - cron.run - INFO - Starting Cron Daemon.
+2015-11-19 17:46:12,239 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 17:46:14,183 - emod.start - INFO - Starting Job Manager.
+2015-11-19 17:46:14,184 - cron.run - INFO - Starting Cron Daemon.
+2015-11-19 17:47:07,006 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 17:47:08,802 - emod.start - INFO - Starting Job Manager.
+2015-11-19 17:47:08,805 - cron.run - INFO - Starting Cron Daemon.
+2015-11-19 17:47:28,384 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 17:47:30,180 - emod.start - INFO - Starting Job Manager.
+2015-11-19 17:47:30,183 - cron.run - INFO - Starting Cron Daemon.
+2015-11-19 17:47:53,707 - odmr_hmc._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr_hmc.py", line 172, in _run
+    ha.Microwave_HMC().setFrequency(self.freq_LO)
+AttributeError: 'ODMR_HMC' object has no attribute 'freq_LO'
+2015-11-19 17:48:41,793 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-19 17:48:43,740 - emod.start - INFO - Starting Job Manager.
+2015-11-19 17:48:43,743 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 10:19:37,987 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 10:19:39,936 - emod.start - INFO - Starting Job Manager.
+2015-11-20 10:19:39,937 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 10:42:00,056 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C58FF00> is already running or in the queue.
+2015-11-20 10:42:00,657 - auto_focus.focus - INFO - Focus: 27.36, 34.57, 0.09
+2015-11-20 10:42:07,459 - auto_focus.focus - INFO - Focus: 27.21, 34.57, -0.09
+2015-11-20 10:42:19,424 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C58FF00> is already running or in the queue.
+2015-11-20 10:42:20,848 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C58FF00> is already running or in the queue.
+2015-11-20 10:42:21,210 - auto_focus.focus - INFO - Focus: 15.99, 26.91, -0.15
+2015-11-20 10:42:27,177 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C58FF00> is already running or in the queue.
+2015-11-20 10:42:28,568 - auto_focus.focus - INFO - Focus: 15.84, 26.91, -0.99
+2015-11-20 10:42:38,664 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C58FF00> is already running or in the queue.
+2015-11-20 10:42:39,183 - auto_focus.focus - INFO - Focus: 34.30, 5.90, 0.39
+2015-11-20 10:42:45,783 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C58FF00> is already running or in the queue.
+2015-11-20 10:42:46,187 - auto_focus.focus - INFO - Focus: 34.50, 5.95, 0.45
+2015-11-20 10:42:53,092 - auto_focus.focus - INFO - Focus: 34.45, 6.00, 0.33
+2015-11-20 10:46:28,058 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C58FF00> is already running or in the queue.
+2015-11-20 10:46:28,598 - auto_focus.focus - INFO - Focus: 34.80, 6.05, 0.09
+2015-11-20 10:46:28,655 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C58FF00> is already running or in the queue.
+2015-11-20 10:46:36,045 - auto_focus.focus - INFO - Focus: 34.75, 5.95, 0.51
+2015-11-20 10:51:15,153 - auto_focus.focus - INFO - Focus: 34.95, 6.00, 0.15
+2015-11-20 10:51:52,220 - auto_focus.focus - INFO - Focus: 35.00, 5.95, 0.69
+2015-11-20 10:53:07,079 - auto_focus.focus - INFO - Focus: 35.05, 6.00, 0.63
+2015-11-20 10:53:31,523 - auto_focus.focus - INFO - Focus: 35.00, 6.00, 0.27
+2015-11-20 10:55:22,276 - auto_focus.focus - INFO - Focus: 35.05, 5.95, 0.33
+2015-11-20 10:55:47,943 - auto_focus.focus - INFO - Focus: 35.10, 6.00, 0.21
+2015-11-20 10:57:23,970 - auto_focus.focus - INFO - Focus: 35.15, 5.95, 0.75
+2015-11-20 10:57:54,453 - auto_focus.focus - INFO - Focus: 35.15, 6.05, 0.57
+2015-11-20 11:14:40,864 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 11:14:42,822 - emod.start - INFO - Starting Job Manager.
+2015-11-20 11:14:42,825 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 11:15:21,072 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C562FC0> is already running or in the queue.
+2015-11-20 11:15:21,368 - auto_focus.focus - INFO - Focus: 35.50, 6.00, 0.21
+2015-11-20 11:15:28,634 - auto_focus.focus - INFO - Focus: 35.50, 5.95, 0.75
+2015-11-20 11:19:53,224 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 11:19:55,173 - emod.start - INFO - Starting Job Manager.
+2015-11-20 11:19:55,177 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 11:20:24,154 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 11:20:25,948 - emod.start - INFO - Starting Job Manager.
+2015-11-20 11:20:25,950 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 11:20:29,187 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedan.PulsedHMCAnalyzer object at 0x0E234570>, trait: fit, old value: <analysis.pulsedan.PulsedFit object at 0x0E239390>, new value: <analysis.pulsedan.PulsedFit object at 0x0E239E40>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 387, in call_4
+    self.handler( object, trait_name, old, new )
+  File "D:\pi3diamondnew\analysis\pulsedan.py", line 2675, in _fit_changed
+    new.measurement = self.measurement
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'measurement' trait of a PulsedFit instance must be a Pulsed or None, but a value of <measurements.pulsed_hmc.Hahn object at 0x0E0876C0> <class 'measurements.pulsed_hmc.Hahn'> was specified.
+2015-11-20 12:43:19,594 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 12:43:21,538 - emod.start - INFO - Starting Job Manager.
+2015-11-20 12:43:21,542 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 12:43:25,046 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedan.PulsedHMCAnalyzer object at 0x0E1819F0>, trait: fit, old value: <analysis.pulsedan.PulsedFit object at 0x0E1D3510>, new value: <analysis.pulsedan.PulsedFit object at 0x0E1D3FC0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 387, in call_4
+    self.handler( object, trait_name, old, new )
+  File "D:\pi3diamondnew\analysis\pulsedan.py", line 2675, in _fit_changed
+    new.measurement = self.measurement
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'measurement' trait of a PulsedFit instance must be a Pulsed or None, but a value of <measurements.pulsed_hmc.Hahn object at 0x0E02F8D0> <class 'measurements.pulsed_hmc.Hahn'> was specified.
+2015-11-20 12:44:34,322 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 12:44:36,105 - emod.start - INFO - Starting Job Manager.
+2015-11-20 12:44:36,108 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 12:44:39,318 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedan.PulsedHMCAnalyzer object at 0x0E20E570>, trait: fit, old value: <analysis.pulsedan.PulsedFit object at 0x0E213390>, new value: <analysis.pulsedan.PulsedFit object at 0x0E213E40>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 387, in call_4
+    self.handler( object, trait_name, old, new )
+  File "D:\pi3diamondnew\analysis\pulsedan.py", line 2675, in _fit_changed
+    new.measurement = self.measurement
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'measurement' trait of a PulsedFit instance must be a Pulsed or None, but a value of <measurements.pulsed_hmc.Hahn object at 0x0E0676C0> <class 'measurements.pulsed_hmc.Hahn'> was specified.
+2015-11-20 12:48:38,140 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedan.PulsedHMCAnalyzer object at 0x0E20E570>, trait: fit, old value: <analysis.pulsedan.PulsedFit object at 0x0E213E40>, new value: <analysis.pulsedan.PulsedFit object at 0x125A1330>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 387, in call_4
+    self.handler( object, trait_name, old, new )
+  File "D:\pi3diamondnew\analysis\pulsedan.py", line 2675, in _fit_changed
+    new.measurement = self.measurement
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'measurement' trait of a PulsedFit instance must be a Pulsed or None, but a value of <measurements.pulsed_hmc.Rabi object at 0x11650C00> <class 'measurements.pulsed_hmc.Rabi'> was specified.
+2015-11-20 12:52:37,065 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 12:52:39,010 - emod.start - INFO - Starting Job Manager.
+2015-11-20 12:52:39,013 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 12:52:42,414 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedan.PulsedHMCAnalyzer object at 0x0E3D4540>, trait: fit, old value: <analysis.pulsedan.PulsedFit object at 0x0E420990>, new value: <analysis.pulsedan.PulsedFit object at 0x0E42C480>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 387, in call_4
+    self.handler( object, trait_name, old, new )
+  File "D:\pi3diamondnew\analysis\pulsedan.py", line 2743, in _fit_changed
+    new.measurement = self.measurement
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'measurement' trait of a PulsedFit instance must be a Pulsed or None, but a value of <measurements.pulsed_hmc.Hahn object at 0x0E273BD0> <class 'measurements.pulsed_hmc.Hahn'> was specified.
+2015-11-20 12:53:07,970 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 12:53:09,756 - emod.start - INFO - Starting Job Manager.
+2015-11-20 12:53:09,759 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 12:54:21,482 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 12:54:23,266 - emod.start - INFO - Starting Job Manager.
+2015-11-20 12:54:23,269 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 12:54:26,486 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedan.PulsedHMCAnalyzer object at 0x0E1DA510>, trait: measurement, old value: <measurements.pulsed_hmc.Pulsed object at 0x0E1DA030>, new value: <measurements.pulsed_hmc.Hahn object at 0x0E075CF0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\analysis\pulsedan.py", line 2687, in _measurement_changed
+    self.fit = PulsedFit()
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit' trait of a PulsedHMCAnalyzer instance must be a PulsedHMCFit or None, but a value of <analysis.pulsedan.PulsedFit object at 0x0E22F4B0> <class 'analysis.pulsedan.PulsedFit'> was specified.
+2015-11-20 12:55:06,660 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 12:55:08,598 - emod.start - INFO - Starting Job Manager.
+2015-11-20 12:55:08,601 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 12:55:54,247 - auto_focus.focus - INFO - Focus: 35.50, 5.85, 0.63
+2015-11-20 12:56:01,371 - auto_focus.focus - INFO - Focus: 35.50, 5.85, 0.69
+2015-11-20 12:56:08,572 - auto_focus.focus - INFO - Focus: 35.50, 5.85, 1.23
+2015-11-20 12:56:34,976 - auto_focus.focus - INFO - Focus: 36.13, 5.68, 1.41
+2015-11-20 12:56:42,187 - auto_focus.focus - INFO - Focus: 36.13, 5.68, 1.47
+2015-11-20 13:00:49,134 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 13:00:51,088 - emod.start - INFO - Starting Job Manager.
+2015-11-20 13:00:51,089 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 13:01:20,068 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 13:01:21,852 - emod.start - INFO - Starting Job Manager.
+2015-11-20 13:01:21,855 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 13:01:40,122 - auto_focus.focus - INFO - Focus: 36.03, 5.58, 2.01
+2015-11-20 13:12:34,075 - auto_focus.focus - INFO - Focus: 35.63, 5.23, 3.39
+2015-11-20 13:12:44,660 - auto_focus.focus - INFO - Focus: 35.33, 5.08, 3.45
+2015-11-20 13:12:52,423 - auto_focus.focus - INFO - Focus: 35.33, 5.08, 3.87
+2015-11-20 13:13:02,507 - auto_focus.focus - INFO - Focus: 35.31, 5.63, 4.05
+2015-11-20 13:13:10,861 - auto_focus.focus - INFO - Focus: 35.21, 5.63, 4.71
+2015-11-20 13:13:23,838 - auto_focus.focus - INFO - Focus: 35.26, 5.93, 4.59
+2015-11-20 13:17:55,467 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 13:17:57,413 - emod.start - INFO - Starting Job Manager.
+2015-11-20 13:17:57,415 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 13:18:17,756 - auto_focus.focus - INFO - Focus: 35.46, 5.93, 3.39
+2015-11-20 13:18:25,423 - auto_focus.focus - INFO - Focus: 35.51, 5.88, 3.27
+2015-11-20 13:19:50,900 - auto_focus.focus - INFO - Focus: 35.56, 5.83, 3.45
+2015-11-20 13:20:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BD73F00>> at time 2015-11-20 13:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BD73F00>>.
+2015-11-20 13:20:06,865 - auto_focus.focus - INFO - Focus: 35.61, 5.83, 3.51
+2015-11-20 13:20:41,619 - auto_focus.focus - INFO - Focus: 35.61, 5.83, 2.91
+2015-11-20 13:21:06,765 - auto_focus.focus - INFO - Focus: 35.61, 5.83, 3.45
+2015-11-20 13:22:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BD73F00>> at time 2015-11-20 13:22:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BD73F00>>.
+2015-11-20 13:22:06,726 - auto_focus.focus - INFO - Focus: 35.66, 5.88, 3.21
+2015-11-20 13:24:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BD73F00>> at time 2015-11-20 13:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BD73F00>>.
+2015-11-20 13:24:08,796 - auto_focus.focus - INFO - Focus: 35.66, 5.88, 2.97
+2015-11-20 13:26:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BD73F00>> at time 2015-11-20 13:26:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0BD73F00>>.
+2015-11-20 13:26:09,835 - auto_focus.focus - INFO - Focus: 35.71, 5.83, 3.03
+2015-11-20 13:28:02,994 - auto_focus.focus - INFO - Focus: 35.66, 5.88, 2.91
+2015-11-20 13:31:52,918 - auto_focus.focus - INFO - Focus: 35.71, 5.88, 2.97
+2015-11-20 14:20:10,621 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 14:20:12,552 - emod.start - INFO - Starting Job Manager.
+2015-11-20 14:20:12,555 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 14:22:06,608 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 14:22:08,408 - emod.start - INFO - Starting Job Manager.
+2015-11-20 14:22:08,411 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 14:24:37,891 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 14:24:39,845 - emod.start - INFO - Starting Job Manager.
+2015-11-20 14:24:39,848 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 14:25:35,992 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 14:25:37,789 - emod.start - INFO - Starting Job Manager.
+2015-11-20 14:25:37,792 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 14:27:06,855 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 14:27:08,809 - emod.start - INFO - Starting Job Manager.
+2015-11-20 14:27:08,812 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 14:27:46,043 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 14:27:47,834 - emod.start - INFO - Starting Job Manager.
+2015-11-20 14:27:47,835 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 14:28:24,013 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.ODMRFit object at 0x123490C0>, trait: fit_parameters, old value: [ nan  nan  nan  nan], new value: [ nan  nan  nan  nan]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 724, in update_plot_fit
+    self.line_data.set_data('fit', fitting.fit_multiple_lorentzians(*self.fit_parameters)(self.measurement.tau))
+  File "D:\pi3diamondnew\analysis\fitting.py", line 453, in fit_multiple_lorentzians
+    edges = np.where(np.logical_xor(mask, np.append(False,mask[:-1])))[0]
+IndexError: invalid index to scalar variable.
+2015-11-20 14:28:24,121 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x0F717C30>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x116E7CC0>, new value: <analysis.pulsedawgan.ODMRFit object at 0x123490C0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 729, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 14:43:13,953 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 14:43:15,895 - emod.start - INFO - Starting Job Manager.
+2015-11-20 14:43:15,898 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 14:44:19,505 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B3FDF00> is already running or in the queue.
+2015-11-20 14:44:20,720 - auto_focus.focus - INFO - Focus: 35.61, 6.03, 3.33
+2015-11-20 14:44:27,609 - auto_focus.focus - INFO - Focus: 35.71, 6.03, 2.85
+2015-11-20 14:44:27,630 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B3FDF00> is already running or in the queue.
+2015-11-20 14:44:34,562 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B3FDF00> is already running or in the queue.
+2015-11-20 14:44:34,977 - auto_focus.focus - INFO - Focus: 35.71, 5.98, 3.39
+2015-11-20 14:44:35,003 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B3FDF00> is already running or in the queue.
+2015-11-20 14:44:41,098 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B3FDF00> is already running or in the queue.
+2015-11-20 14:44:41,882 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B3FDF00> is already running or in the queue.
+2015-11-20 14:44:42,342 - auto_focus.focus - INFO - Focus: 35.71, 5.98, 2.79
+2015-11-20 14:44:49,549 - auto_focus.focus - INFO - Focus: 35.71, 5.98, 3.57
+2015-11-20 14:45:44,783 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.ODMRFit object at 0x12417C00>, trait: fit_parameters, old value: [ nan  nan  nan  nan], new value: [ nan  nan  nan  nan]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 724, in update_plot_fit
+    self.line_data.set_data('fit', fitting.fit_multiple_lorentzians(*self.fit_parameters)(self.measurement.tau))
+  File "D:\pi3diamondnew\analysis\fitting.py", line 453, in fit_multiple_lorentzians
+    edges = np.where(np.logical_xor(mask, np.append(False,mask[:-1])))[0]
+IndexError: invalid index to scalar variable.
+2015-11-20 14:45:59,461 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.ODMRFit object at 0x10F5AF90>, trait: fit_parameters, old value: [ nan  nan  nan  nan], new value: [ nan  nan  nan  nan]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 724, in update_plot_fit
+    self.line_data.set_data('fit', fitting.fit_multiple_lorentzians(*self.fit_parameters)(self.measurement.tau))
+  File "D:\pi3diamondnew\analysis\fitting.py", line 453, in fit_multiple_lorentzians
+    edges = np.where(np.logical_xor(mask, np.append(False,mask[:-1])))[0]
+IndexError: invalid index to scalar variable.
+2015-11-20 14:47:45,881 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 14:47:47,835 - emod.start - INFO - Starting Job Manager.
+2015-11-20 14:47:47,838 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 14:48:06,384 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.ODMRFit object at 0x12324F30>, trait: fit_parameters, old value: [ nan  nan  nan  nan], new value: [ nan  nan  nan  nan]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 724, in update_plot_fit
+    self.line_data.set_data('fit', fitting.fit_multiple_lorentzians(*self.fit_parameters)(self.measurement.tau))
+  File "D:\pi3diamondnew\analysis\fitting.py", line 453, in fit_multiple_lorentzians
+    edges = np.where(np.logical_xor(mask, np.append(False,mask[:-1])))[0]
+IndexError: invalid index to scalar variable.
+2015-11-20 14:48:06,456 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x10B2BF30>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x11AB8E10>, new value: <analysis.pulsedawgan.ODMRFit object at 0x12324F30>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 729, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 14:56:41,137 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 14:56:43,072 - emod.start - INFO - Starting Job Manager.
+2015-11-20 14:56:43,073 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 14:56:56,976 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x0F54CDB0>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x10D14E10>, new value: <analysis.pulsedawgan.ODMRFit object at 0x1154B090>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 729, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 15:01:29,240 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x0F54CDB0>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x1522D270>, new value: <analysis.pulsedawgan.ODMRFit object at 0x120513F0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 729, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 15:05:04,121 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x0F54CDB0>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x153234E0>, new value: <analysis.pulsedawgan.ODMRFit object at 0x12175330>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 729, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 15:08:34,226 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 15:08:36,174 - emod.start - INFO - Starting Job Manager.
+2015-11-20 15:08:36,177 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 15:09:01,063 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x0F700DB0>, trait: fit, old value: <analysis.pulsedawgan.RabiFit object at 0x1317A1B0>, new value: <analysis.pulsedawgan.ODMRFit object at 0x1318B7B0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 729, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 15:11:07,391 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x0F700DB0>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x1531D300>, new value: <analysis.pulsedawgan.ODMRFit object at 0x1317F9C0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 729, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 15:13:01,671 - auto_focus.focus - INFO - Focus: 35.46, 6.03, 3.09
+2015-11-20 15:13:08,770 - auto_focus.focus - INFO - Focus: 35.56, 5.93, 3.51
+2015-11-20 15:15:42,401 - auto_focus.focus - INFO - Focus: 35.56, 5.98, 3.57
+2015-11-20 15:17:12,302 - auto_focus.focus - INFO - Focus: 35.56, 6.03, 3.21
+2015-11-20 15:24:18,349 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 15:24:20,295 - emod.start - INFO - Starting Job Manager.
+2015-11-20 15:24:20,298 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 15:24:33,878 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x108AAFC0>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x1184A780>, new value: <analysis.pulsedawgan.ODMRFit object at 0x12052D80>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 727, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 15:34:34,267 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 15:34:36,209 - emod.start - INFO - Starting Job Manager.
+2015-11-20 15:34:36,211 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 15:34:55,563 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x10CC7060>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x11F6CB10>, new value: <analysis.pulsedawgan.OdmrFit object at 0x12C8BBA0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 822, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 15:36:26,028 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x10CC7060>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x13154870>, new value: <analysis.pulsedawgan.OdmrFit object at 0x12BD8AE0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 822, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 16:13:26,272 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x10CC7060>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x15244B10>, new value: <analysis.pulsedawgan.OdmrFit object at 0x131B9DB0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 822, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 16:17:54,841 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 16:17:56,779 - emod.start - INFO - Starting Job Manager.
+2015-11-20 16:17:56,782 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 16:18:13,121 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x0F6F9F30>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x116D1840>, new value: <analysis.pulsedawgan.OdmrFit object at 0x12FC24E0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 822, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 16:22:46,456 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 16:22:48,401 - emod.start - INFO - Starting Job Manager.
+2015-11-20 16:22:48,404 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 16:23:11,292 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x108A8FC0>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x12CA1D50>, new value: <analysis.pulsedawgan.OdmrFit object at 0x130B3A50>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 725, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 16:24:55,276 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x13076E70>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x1329CB70>, new value: <analysis.pulsedawgan.OdmrFit object at 0x1525D720>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 725, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 16:34:20,276 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 16:34:22,227 - emod.start - INFO - Starting Job Manager.
+2015-11-20 16:34:22,230 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 16:34:36,578 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x10C660C0>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x119171E0>, new value: <analysis.pulsedawgan.RabiFit object at 0x12077D80>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 818, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 16:34:40,533 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x10C660C0>, trait: fit, old value: <analysis.pulsedawgan.RabiFit object at 0x12077D80>, new value: <analysis.pulsedawgan.OdmrFit object at 0x13105F30>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 725, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 16:35:22,733 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x10C660C0>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x12CA46C0>, new value: <analysis.pulsedawgan.RabiFit object at 0x131F1AE0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 818, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 16:36:48,391 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 16:36:50,322 - emod.start - INFO - Starting Job Manager.
+2015-11-20 16:36:50,323 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 16:37:04,931 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x10C9C060>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x118D0EA0>, new value: <analysis.pulsedawgan.RabiFit object at 0x120ADE70>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 818, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 16:46:20,016 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 16:46:21,963 - emod.start - INFO - Starting Job Manager.
+2015-11-20 16:46:21,967 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 16:46:42,851 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x10C590C0>, trait: fit, old value: <analysis.pulsedawgan.PulsedFit object at 0x118CE450>, new value: <analysis.pulsedawgan.RabiFit object at 0x12041AB0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 814, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 16:47:58,367 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 16:48:00,160 - emod.start - INFO - Starting Job Manager.
+2015-11-20 16:48:00,161 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 16:48:24,164 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x10CDA0C0>, trait: fit, old value: <analysis.pulsedawgan.RabiFit object at 0x1206CB10>, new value: <analysis.pulsedawgan.OdmrFit object at 0x12D15060>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 542, in rebind_call_4
+    object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 365, in _update_editor
+    self.update_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 373, in update_editor
+    self.resynch_editor()
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\instance_editor.py", line 432, in resynch_editor
+    self.factory.id )
+  File "C:\Pythonepd\lib\site-packages\traitsui\view.py", line 433, in ui
+    ui.ui( parent, kind )
+  File "C:\Pythonepd\lib\site-packages\traitsui\ui.py", line 218, in ui
+    self.rebuild( self, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\toolkit.py", line 126, in ui_subpanel
+    ui_panel.ui_subpanel( ui, parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 100, in ui_subpanel
+    ui_panel_for( ui, parent, False )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 113, in ui_panel_for
+    ui.control = control = Panel( ui, parent, buttons ).control
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 207, in __init__
+    sw = panel( ui, cpanel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 349, in panel
+    content[0], ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 658, in __init__
+    self.add_notebook_item )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 402, in create_notebook_for_items
+    is_dock_window = True )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 670, in __init__
+    self.add_groups( content, panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 822, in add_groups
+    fill_panel_for_group( panel, subgroup, self.ui )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 523, in fill_panel_for_group
+    create_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 672, in __init__
+    self.add_items(content, panel, self.sizer)
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\ui_panel.py", line 1031, in add_items
+    editor.prepare( item_panel )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 155, in prepare
+    self.init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\text_editor.py", line 230, in init
+    super( ReadonlyEditor, self ).init( parent )
+  File "C:\Pythonepd\lib\site-packages\traitsui\wx\editor_factory.py", line 182, in init
+    self.control = wx.StaticText( parent, -1, self.str_value,
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 305, in _get_str_value
+    return self.string_value( getattr( self.object, self.name, Undefined ) )
+  File "C:\Pythonepd\lib\site-packages\traitsui\editor.py", line 288, in string_value
+    return factory.format_func( value )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 725, in <lambda>
+    HGroup(Item('fit_contrast', style='readonly', width= -200, editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.2f+-%.2f' % x)),
+TypeError: not enough arguments for format string
+2015-11-20 16:50:54,604 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 16:50:56,555 - emod.start - INFO - Starting Job Manager.
+2015-11-20 16:50:56,559 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 16:53:00,992 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 16:53:02,927 - emod.start - INFO - Starting Job Manager.
+2015-11-20 16:53:02,930 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 16:53:29,345 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B719F60> is already running or in the queue.
+2015-11-20 16:53:29,707 - auto_focus.focus - INFO - Focus: 35.71, 5.98, 3.63
+2015-11-20 16:53:36,701 - auto_focus.focus - INFO - Focus: 35.76, 6.08, 3.39
+2015-11-20 16:54:26,134 - auto_focus.focus - INFO - Focus: 35.71, 6.03, 3.15
+2015-11-20 16:55:52,444 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.pulsed_awg.ODMR object at 0x15BCCBD0>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 112, in _load_button_changed
+    self.load()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 118, in load
+    self.prepare_awg()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 285, in prepare_awg
+    if self.phase:
+AttributeError: 'ODMR' object has no attribute 'phase'
+2015-11-20 16:58:14,665 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-20 16:58:16,605 - emod.start - INFO - Starting Job Manager.
+2015-11-20 16:58:16,608 - cron.run - INFO - Starting Cron Daemon.
+2015-11-20 16:59:47,490 - auto_focus.focus - INFO - Focus: 35.71, 5.98, 3.69
+2015-11-20 17:05:58,322 - auto_focus.focus - INFO - Focus: 35.76, 6.03, 3.21
+2015-11-20 17:10:00,490 - auto_focus.focus - INFO - Focus: 35.71, 6.03, 3.63
+2015-11-20 17:25:06,753 - auto_focus.focus - INFO - Focus: 35.76, 6.03, 3.69
+2015-11-20 17:30:05,384 - auto_focus.focus - INFO - Focus: 35.76, 6.08, 3.21
+2015-11-20 17:31:36,526 - auto_focus.focus - INFO - Focus: 35.71, 6.03, 3.27
+2015-11-20 17:32:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>> at time 2015-11-20 17:32:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>>.
+2015-11-20 17:32:06,790 - auto_focus.focus - INFO - Focus: 35.76, 6.03, 3.81
+2015-11-20 17:33:06,221 - auto_focus.focus - INFO - Focus: 35.76, 6.03, 3.75
+2015-11-20 17:34:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>> at time 2015-11-20 17:34:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>>.
+2015-11-20 17:34:06,878 - auto_focus.focus - INFO - Focus: 35.76, 6.08, 3.27
+2015-11-20 17:36:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>> at time 2015-11-20 17:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>>.
+2015-11-20 17:36:06,867 - auto_focus.focus - INFO - Focus: 35.71, 6.08, 3.57
+2015-11-20 17:38:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>> at time 2015-11-20 17:38:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>>.
+2015-11-20 17:38:06,698 - auto_focus.focus - INFO - Focus: 35.76, 6.03, 3.21
+2015-11-20 17:40:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>> at time 2015-11-20 17:40:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>>.
+2015-11-20 17:40:06,717 - auto_focus.focus - INFO - Focus: 35.76, 6.03, 3.75
+2015-11-20 17:42:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>> at time 2015-11-20 17:42:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>>.
+2015-11-20 17:42:06,700 - auto_focus.focus - INFO - Focus: 35.76, 6.08, 3.39
+2015-11-20 17:44:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>> at time 2015-11-20 17:44:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>>.
+2015-11-20 17:44:06,700 - auto_focus.focus - INFO - Focus: 35.71, 6.03, 3.93
+2015-11-20 17:46:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>> at time 2015-11-20 17:46:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>>.
+2015-11-20 17:46:06,703 - auto_focus.focus - INFO - Focus: 35.66, 6.18, 4.59
+2015-11-20 17:46:19,443 - auto_focus.focus - INFO - Focus: 35.66, 6.08, 3.81
+2015-11-20 17:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>> at time 2015-11-20 17:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>>.
+2015-11-20 17:48:07,892 - auto_focus.focus - INFO - Focus: 35.71, 6.03, 3.09
+2015-11-20 17:50:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>> at time 2015-11-20 17:50:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>>.
+2015-11-20 17:50:06,703 - auto_focus.focus - INFO - Focus: 35.76, 5.78, 3.39
+2015-11-20 17:52:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>> at time 2015-11-20 17:52:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C9838A0>>.
+2015-11-20 17:52:06,701 - auto_focus.focus - INFO - Focus: 35.66, 6.03, 4.05
+2015-11-22 13:52:26,927 - auto_focus.focus - INFO - Focus: 35.91, 6.28, 2.91
+2015-11-22 13:52:34,177 - auto_focus.focus - INFO - Focus: 35.66, 6.58, 3.09
+2015-11-22 13:52:41,157 - auto_focus.focus - INFO - Focus: 35.76, 6.58, 3.15
+2015-11-22 13:53:09,469 - auto_focus.focus - INFO - Focus: 38.54, 4.89, 3.57
+2015-11-22 13:53:16,578 - auto_focus.focus - INFO - Focus: 38.49, 4.89, 3.09
+2015-11-22 13:59:24,141 - auto_focus.focus - INFO - Focus: 38.59, 4.89, 3.15
+2015-11-22 14:00:37,361 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-22 14:00:39,371 - emod.start - INFO - Starting Job Manager.
+2015-11-22 14:00:39,371 - cron.run - INFO - Starting Cron Daemon.
+2015-11-22 14:00:54,780 - auto_focus.focus - INFO - Focus: 38.54, 4.79, 3.69
+2015-11-22 14:01:01,901 - auto_focus.focus - INFO - Focus: 38.54, 4.84, 3.75
+2015-11-22 14:01:31,311 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-22 14:01:33,121 - emod.start - INFO - Starting Job Manager.
+2015-11-22 14:01:33,131 - cron.run - INFO - Starting Cron Daemon.
+2015-11-22 14:01:53,801 - auto_focus.focus - INFO - Focus: 38.54, 4.84, 3.69
+2015-11-22 14:03:17,811 - auto_focus.focus - INFO - Focus: 38.59, 4.84, 3.75
+2015-11-22 14:44:40,742 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.PulsedAnalyzer object at 0x18B10180>, trait: measurement, old value: <measurements.pulsed_awg.ODMR object at 0x198EF570>, new value: <measurements.pulsed_awg.Sing_FID object at 0x162A36F0>
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 1460, in _measurement_changed
+    self.fit = PulsedFit()
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit' trait of a PulsedAnalyzer instance must be a PulsedFit or None, but a value of <analysis.pulsedawgan.PulsedFit object at 0x18F11C90> <class 'analysis.pulsedawgan.PulsedFit'> was specified.
+2015-11-22 15:10:45,023 - auto_focus.focus - INFO - Focus: 38.44, 4.84, 3.51
+2015-11-22 15:12:59,203 - auto_focus.focus - INFO - Focus: 38.44, 4.84, 3.93

@@ -1,0 +1,678 @@
+2016-01-12 15:00:12,743 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 15:00:16,154 - emod.start - INFO - Starting Job Manager.
+2016-01-12 15:00:16,154 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 15:08:28,528 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 15:08:30,499 - emod.start - INFO - Starting Job Manager.
+2016-01-12 15:08:30,502 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 15:09:00,431 - odmr._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\odmr.py", line 167, in _run
+    ha.Microwave().setPower(self.power)
+  File "D:\pi3diamondnew\hardware\microwave_sources.py", line 60, in setPower
+    self._write(':FREQ:MODE CW')
+  File "D:\pi3diamondnew\hardware\microwave_sources.py", line 39, in _write
+    self.instr = visa.instrument(self.visa_address)
+AttributeError: 'module' object has no attribute 'instrument'
+2016-01-12 15:09:52,513 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 15:09:54,325 - emod.start - INFO - Starting Job Manager.
+2016-01-12 15:09:54,328 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 15:20:01,377 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 15:20:03,351 - emod.start - INFO - Starting Job Manager.
+2016-01-12 15:20:03,354 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 15:28:46,700 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 15:28:48,657 - emod.start - INFO - Starting Job Manager.
+2016-01-12 15:28:49,082 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 15:31:20,986 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 15:31:22,947 - emod.start - INFO - Starting Job Manager.
+2016-01-12 15:31:23,256 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 15:52:13,098 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 15:52:15,038 - emod.start - INFO - Starting Job Manager.
+2016-01-12 15:52:15,088 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 15:53:46,707 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 15:53:48,497 - emod.start - INFO - Starting Job Manager.
+2016-01-12 15:53:48,497 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 15:54:42,398 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 15:54:44,167 - emod.start - INFO - Starting Job Manager.
+2016-01-12 15:54:44,167 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 15:59:02,638 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 15:59:04,437 - emod.start - INFO - Starting Job Manager.
+2016-01-12 15:59:04,437 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 16:00:44,979 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 16:00:46,769 - emod.start - INFO - Starting Job Manager.
+2016-01-12 16:00:46,779 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 16:02:58,608 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 16:03:00,408 - emod.start - INFO - Starting Job Manager.
+2016-01-12 16:03:00,408 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 17:29:59,605 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 17:30:01,585 - emod.start - INFO - Starting Job Manager.
+2016-01-12 17:30:01,585 - cron.run - INFO - Starting Cron Daemon.
+2016-01-12 17:30:23,706 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-12 17:30:25,486 - emod.start - INFO - Starting Job Manager.
+2016-01-12 17:30:25,496 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 09:50:20,963 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 09:50:22,934 - emod.start - INFO - Starting Job Manager.
+2016-01-13 09:50:22,944 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 11:10:35,967 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 11:10:37,907 - emod.start - INFO - Starting Job Manager.
+2016-01-13 11:10:37,917 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 14:44:23,775 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 14:44:25,714 - emod.start - INFO - Starting Job Manager.
+2016-01-13 14:44:26,355 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 14:45:43,625 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 14:45:45,595 - emod.start - INFO - Starting Job Manager.
+2016-01-13 14:45:45,595 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 14:49:35,095 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 14:49:36,885 - emod.start - INFO - Starting Job Manager.
+2016-01-13 14:49:36,895 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 14:58:01,255 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 14:58:03,025 - emod.start - INFO - Starting Job Manager.
+2016-01-13 14:58:03,025 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 14:59:46,355 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 14:59:48,134 - emod.start - INFO - Starting Job Manager.
+2016-01-13 14:59:48,134 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 15:00:32,155 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 15:00:33,926 - emod.start - INFO - Starting Job Manager.
+2016-01-13 15:00:33,926 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 15:01:37,036 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 15:01:38,805 - emod.start - INFO - Starting Job Manager.
+2016-01-13 15:01:38,805 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 15:05:59,575 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 15:06:01,345 - emod.start - INFO - Starting Job Manager.
+2016-01-13 15:06:01,345 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 15:07:33,585 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 15:07:35,400 - emod.start - INFO - Starting Job Manager.
+2016-01-13 15:07:35,403 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 15:10:55,994 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 15:10:57,795 - emod.start - INFO - Starting Job Manager.
+2016-01-13 15:10:58,045 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 15:11:51,755 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 15:11:53,694 - emod.start - INFO - Starting Job Manager.
+2016-01-13 15:11:53,694 - cron.run - INFO - Starting Cron Daemon.
+2016-01-13 15:12:31,734 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-13 15:12:33,515 - emod.start - INFO - Starting Job Manager.
+2016-01-13 15:12:33,515 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 10:00:00,911 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0B941F90> is already running or in the queue.
+2016-01-14 10:00:07,391 - auto_focus.focus - INFO - Focus: 1.83, 23.02, 0.12
+2016-01-14 11:03:37,140 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:03:39,269 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:03:39,269 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:04:18,359 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:04:20,130 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:04:20,140 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:06:23,562 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:06:25,502 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:06:25,512 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:07:12,161 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:07:13,941 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:07:13,941 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:07:39,101 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:07:40,871 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:07:40,871 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:09:11,582 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:09:13,512 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:09:13,512 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:09:41,601 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:09:43,381 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:09:43,381 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:10:00,461 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:10:02,232 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:10:02,232 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:10:33,943 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:10:35,713 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:10:35,723 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:11:18,582 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:11:20,503 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:11:20,503 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:12:40,602 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:12:42,372 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:12:42,382 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:13:00,233 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:13:02,013 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:13:02,013 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:13:44,602 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:13:46,523 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:13:46,523 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:14:22,683 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:14:24,453 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:14:24,453 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:15:43,782 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:15:45,562 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:15:45,562 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:16:04,503 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:16:06,443 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:16:06,443 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:16:43,352 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:16:45,132 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:16:45,132 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:17:47,372 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:17:49,153 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:17:49,153 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:18:10,493 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:18:12,413 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:18:12,413 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:19:43,382 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:19:45,153 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:19:45,153 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:20:40,763 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:20:42,693 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:20:42,703 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:21:18,892 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:21:20,673 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:21:20,673 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:22:09,062 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:22:10,842 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:22:10,852 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:22:38,084 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:22:39,854 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:22:39,864 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 11:38:01,645 - magnet_control._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 231, in _run
+    self.data_x = np.zeros(self.Number_of_scanpointsX)
+NameError: global name 'choosed_align' is not defined
+2016-01-14 11:38:36,436 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 11:38:38,345 - emod.start - INFO - Starting Job Manager.
+2016-01-14 11:38:38,345 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 13:40:10,240 - magnet_control._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 250, in _run
+    scanningX_reverse = scanningX[::-1]
+NameError: global name 'scanningX' is not defined
+2016-01-14 13:41:24,072 - magnet_control._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 253, in _run
+    if choosed_align != 'fluoresence':
+NameError: global name 'choosed_align' is not defined
+2016-01-14 13:46:20,243 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 13:46:22,203 - emod.start - INFO - Starting Job Manager.
+2016-01-14 13:46:22,213 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 13:48:12,713 - magnet_control._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 257, in _run
+    motion_time = float(Magnet.get_motiontime_relativemove(1, self.stepX)[3:6])
+TypeError: 'NoneType' object is not subscriptable
+2016-01-14 13:53:52,253 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 13:53:54,184 - emod.start - INFO - Starting Job Manager.
+2016-01-14 13:53:54,184 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 14:00:55,984 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 14:00:57,914 - emod.start - INFO - Starting Job Manager.
+2016-01-14 14:00:57,914 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 14:03:36,744 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 14:03:38,674 - emod.start - INFO - Starting Job Manager.
+2016-01-14 14:03:38,684 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 14:04:06,825 - magnet_control._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _run
+    self.trait_property_changed(self.update_plot_x,'data_x')
+AttributeError: 'Magnet_alignment' object has no attribute 'update_plot_x'
+2016-01-14 14:42:42,058 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 14:42:53,997 - emod.start - INFO - Starting Job Manager.
+2016-01-14 14:42:53,997 - cron.run - INFO - Starting Cron Daemon.
+2016-01-14 15:56:51,391 - magnet_control._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 267, in _run
+    self.data_xy=np.zeros(self.Number_of_scanpointsX,self.Number_of_scanpointsY)
+TypeError: data type not understood
+2016-01-14 15:59:12,621 - magnet_control._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 297, in _run
+    xn=self.Number_of_scanpoints-xn
+AttributeError: 'Magnet_alignment' object has no attribute 'Number_of_scanpoints'
+2016-01-14 16:01:43,892 - magnet_control._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 306, in _run
+    self.data_xy[xn, yn] = counter_tr.Count()
+IndexError: index (3) out of range (0<=index<3) in dimension 0
+2016-01-14 16:03:31,903 - magnet_control._run - ERROR - Error in odmr.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 286, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 207, in startCounter
+    self.StartCI()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 185, in StartCI
+    CHK( dll.DAQmxStartTask(self.CITask) )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200479: 'Specified operation cannot be performed while the task is running.'
+2016-01-14 16:04:37,822 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-14 16:04:39,773 - emod.start - INFO - Starting Job Manager.
+2016-01-14 16:04:39,773 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 12:43:42,957 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 12:43:44,900 - emod.start - INFO - Starting Job Manager.
+2016-01-15 12:43:44,903 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 12:44:07,983 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 12:44:09,755 - emod.start - INFO - Starting Job Manager.
+2016-01-15 12:44:09,756 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 12:46:54,213 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 12:46:56,148 - emod.start - INFO - Starting Job Manager.
+2016-01-15 12:46:56,299 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 12:50:52,444 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 12:50:54,540 - emod.start - INFO - Starting Job Manager.
+2016-01-15 12:50:54,543 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 12:56:14,095 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 12:56:16,046 - emod.start - INFO - Starting Job Manager.
+2016-01-15 12:56:16,049 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:01:16,017 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:01:17,950 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:01:18,345 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:02:53,253 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:02:55,038 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:02:55,040 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:03:20,582 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:03:22,509 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:03:22,510 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:03:39,696 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:03:41,470 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:03:41,473 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:03:58,142 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:03:59,921 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:03:59,924 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:05:21,825 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:05:23,605 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:05:23,608 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:07:42,737 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:07:44,665 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:07:44,667 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:09:57,884 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:09:59,819 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:09:59,822 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:22:19,007 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 424, in _run
+    for xn, xpos in enumerate(self.scanningX):
+AttributeError: 'Magnet_alignment' object has no attribute 'auto_focus'
+2016-01-15 13:24:33,615 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:24:35,539 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:24:35,542 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:27:24,875 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:27:26,815 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:27:26,818 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:31:32,706 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:31:34,637 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:31:34,640 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:41:52,645 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:41:54,572 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:41:54,575 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 13:42:41,789 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 450, in _run
+    if len(self.odmr.fit_frequencies) > 2 or self.odmr.fit_contrast[0] > 40 or self.odmr.fit_contrast[1] > 40:
+IndexError: index out of bounds
+2016-01-15 13:45:46,276 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 13:45:48,207 - emod.start - INFO - Starting Job Manager.
+2016-01-15 13:45:48,210 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 14:00:58,538 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 14:01:00,467 - emod.start - INFO - Starting Job Manager.
+2016-01-15 14:01:00,469 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 14:03:15,963 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 14:03:17,904 - emod.start - INFO - Starting Job Manager.
+2016-01-15 14:03:18,052 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 14:23:13,795 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 14:23:15,723 - emod.start - INFO - Starting Job Manager.
+2016-01-15 14:23:15,726 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 14:24:18,976 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 434, in _run
+    threading.currentThread().join()
+  File "C:\Pythonepd\lib\threading.py", line 655, in join
+    raise RuntimeError("cannot join current thread")
+RuntimeError: cannot join current thread
+2016-01-15 14:25:43,154 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 436, in _run
+    threading.currentThread().join()
+  File "C:\Pythonepd\lib\threading.py", line 655, in join
+    raise RuntimeError("cannot join current thread")
+RuntimeError: cannot join current thread
+2016-01-15 14:26:27,960 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 436, in _run
+    threading.currentThread().join()
+  File "C:\Pythonepd\lib\threading.py", line 655, in join
+    raise RuntimeError("cannot join current thread")
+RuntimeError: cannot join current thread
+2016-01-15 14:39:30,700 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 436, in _run
+    threading.currentThread().join()
+  File "C:\Pythonepd\lib\threading.py", line 655, in join
+    raise RuntimeError("cannot join current thread")
+RuntimeError: cannot join current thread
+2016-01-15 15:01:39,779 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 436, in _run
+    threading.currentThread().join()
+  File "C:\Pythonepd\lib\threading.py", line 655, in join
+    raise RuntimeError("cannot join current thread")
+RuntimeError: cannot join current thread
+2016-01-15 15:03:09,592 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 15:03:11,523 - emod.start - INFO - Starting Job Manager.
+2016-01-15 15:03:11,526 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 15:03:56,500 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 15:03:58,290 - emod.start - INFO - Starting Job Manager.
+2016-01-15 15:03:58,293 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 15:04:36,233 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 452, in _run
+    self.counts_matrix_ODMR = np.vstack((self.odmr.counts, self.counts_matrix_ODMR[:-1, :]))
+  File "C:\Pythonepd\lib\site-packages\numpy\core\shape_base.py", line 226, in vstack
+    return _nx.concatenate(map(atleast_2d,tup),0)
+ValueError: array dimensions must agree except for d_0
+2016-01-15 15:16:59,180 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 15:17:01,117 - emod.start - INFO - Starting Job Manager.
+2016-01-15 15:17:01,119 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 15:20:06,515 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 15:20:08,443 - emod.start - INFO - Starting Job Manager.
+2016-01-15 15:20:08,446 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 15:20:40,128 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C5C3360>, trait: counts_matrix_ODMR, old value: [[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]], new value: [[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 781, in _update_matrix_data_value
+    self.matrix_data_ODMR = self._counts_matrix_ODMR_default()
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'matrix_data_ODMR' trait of a Magnet_alignment instance must be an ArrayPlotData or None, but a value of array([[ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+       [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+       [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+       [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+       [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+       [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+         0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.]]) <type 'numpy.ndarray'> was specified.
+2016-01-15 15:20:51,348 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 452, in _run
+    self.counts_matrix_ODMR = np.vstack((self.odmr.counts, self.counts_matrix_ODMR[:-1, :]))
+  File "C:\Pythonepd\lib\site-packages\numpy\core\shape_base.py", line 226, in vstack
+    return _nx.concatenate(map(atleast_2d,tup),0)
+ValueError: array dimensions must agree except for d_0
+2016-01-15 15:23:27,980 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 15:23:29,911 - emod.start - INFO - Starting Job Manager.
+2016-01-15 15:23:30,048 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 15:23:59,299 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_plot_data.ArrayPlotData object at 0x0C9D2360>, trait: data_changed, old value: <undefined>, new value: {'changed': ['image']}
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 526, in rebind_call_2
+    trait_name, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 454, in dispatch
+    handler( *args )
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 976, in _data_update_handler
+    source.set_data(self.data.get_data(name))
+  File "C:\Pythonepd\lib\site-packages\chaco\image_data.py", line 177, in set_data
+    self._set_data(data)
+  File "C:\Pythonepd\lib\site-packages\chaco\image_data.py", line 192, in _set_data
+    self.data_changed = True
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 449, in __call__
+    getattr(self, self.call_method)(object, trait_name, old, new)
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 513, in rebind_call_0
+    handle_exception( object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 175, in _handle_exception
+    handler_info.handler( object, trait_name, old, new )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 240, in _log_exception
+    handler = logging.StreamHandler()
+  File "C:\Pythonepd\lib\logging\__init__.py", line 818, in __init__
+    Handler.__init__(self)
+  File "C:\Pythonepd\lib\logging\__init__.py", line 661, in __init__
+    self.createLock()
+  File "C:\Pythonepd\lib\logging\__init__.py", line 684, in createLock
+    self.lock = threading.RLock()
+  File "C:\Pythonepd\lib\threading.py", line 102, in RLock
+    return _RLock(*args, **kwargs)
+  File "C:\Pythonepd\lib\threading.py", line 107, in __init__
+    _Verbose.__init__(self, verbose)
+RuntimeError: maximum recursion depth exceeded while calling a Python object
+2016-01-15 15:24:14,526 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 452, in _run
+    self.counts_matrix_ODMR = np.vstack((self.odmr.counts, self.counts_matrix_ODMR[:-1, :]))
+  File "C:\Pythonepd\lib\site-packages\numpy\core\shape_base.py", line 226, in vstack
+    return _nx.concatenate(map(atleast_2d,tup),0)
+ValueError: array dimensions must agree except for d_0
+2016-01-15 15:32:24,780 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 15:32:26,723 - emod.start - INFO - Starting Job Manager.
+2016-01-15 15:32:26,726 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 15:33:12,903 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 454, in _run
+    self.counts_matrix_ODMR = np.vstack((self.odmr.counts, self.counts_matrix_ODMR[:-1, :]))
+  File "C:\Pythonepd\lib\site-packages\numpy\core\shape_base.py", line 226, in vstack
+    return _nx.concatenate(map(atleast_2d,tup),0)
+ValueError: array dimensions must agree except for d_0
+2016-01-15 15:38:35,717 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 456, in _run
+    if len(self.odmr.fit_frequencies) > 2 or self.odmr.fit_contrast[0] > 40 or self.odmr.fit_contrast[1] > 40:
+IndexError: index out of bounds
+2016-01-15 15:42:00,779 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 15:42:02,710 - emod.start - INFO - Starting Job Manager.
+2016-01-15 15:42:02,713 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 15:42:46,424 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 454, in _run
+    self.counts_matrix_ODMR = np.vstack((self.odmr.counts, self.counts_matrix_ODMR[:-1, :]))
+  File "C:\Pythonepd\lib\site-packages\numpy\core\shape_base.py", line 226, in vstack
+    return _nx.concatenate(map(atleast_2d,tup),0)
+ValueError: array dimensions must agree except for d_0
+2016-01-15 15:51:26,835 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 15:51:28,760 - emod.start - INFO - Starting Job Manager.
+2016-01-15 15:51:28,763 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 15:52:25,065 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 455, in _run
+    self.counts_matrix_ODMR = np.vstack((self.odmr.counts, self.counts_matrix_ODMR[:-1, :]))
+  File "C:\Pythonepd\lib\site-packages\numpy\core\shape_base.py", line 226, in vstack
+    return _nx.concatenate(map(atleast_2d,tup),0)
+ValueError: array dimensions must agree except for d_0
+2016-01-15 15:54:02,329 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 457, in _run
+    if len(self.odmr.fit_frequencies) > 2 or self.odmr.fit_contrast[0] > 40 or self.odmr.fit_contrast[1] > 40:
+IndexError: index out of bounds
+2016-01-15 15:55:03,898 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 15:55:05,822 - emod.start - INFO - Starting Job Manager.
+2016-01-15 15:55:05,825 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 15:55:57,565 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 455, in _run
+    self.counts_matrix_ODMR = np.vstack((self.odmr.counts, self.counts_matrix_ODMR[:-1, :]))
+  File "C:\Pythonepd\lib\site-packages\numpy\core\shape_base.py", line 226, in vstack
+    return _nx.concatenate(map(atleast_2d,tup),0)
+ValueError: array dimensions must agree except for d_0
+2016-01-15 15:56:04,742 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 421, in _run
+    motion_time = float(Magnet.get_motiontime_relativemove(1, self.stepY)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 285, in get_motiontime_relativemove
+    return self.read()
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 27, in read
+    return(self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-01-15 15:56:49,161 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 455, in _run
+    self.counts_matrix_ODMR = np.vstack((self.odmr.counts, self.counts_matrix_ODMR[:-1, :]))
+  File "C:\Pythonepd\lib\site-packages\numpy\core\shape_base.py", line 226, in vstack
+    return _nx.concatenate(map(atleast_2d,tup),0)
+ValueError: array dimensions must agree except for d_0
+2016-01-15 16:03:02,785 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 16:03:04,734 - emod.start - INFO - Starting Job Manager.
+2016-01-15 16:03:04,739 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 16:07:01,944 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 16:07:03,871 - emod.start - INFO - Starting Job Manager.
+2016-01-15 16:07:03,874 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 16:07:56,964 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 460, in _run
+    if len(self.odmr.fit_frequencies) > 2 or self.odmr.fit_contrast[0] > 40 or self.odmr.fit_contrast[1] > 40:
+IndexError: index out of bounds
+2016-01-15 16:08:44,226 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 16:08:46,017 - emod.start - INFO - Starting Job Manager.
+2016-01-15 16:08:46,042 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 16:09:30,966 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 460, in _run
+    if len(self.odmr.fit_frequencies) > 2 or self.odmr.fit_contrast[0] > 40 or self.odmr.fit_contrast[1] > 40:
+IndexError: index out of bounds
+2016-01-15 16:11:37,954 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 16:11:39,743 - emod.start - INFO - Starting Job Manager.
+2016-01-15 16:11:40,043 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 16:22:34,767 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 16:22:36,543 - emod.start - INFO - Starting Job Manager.
+2016-01-15 16:22:36,546 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 16:23:21,704 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 495, in _run
+    self.counts_matrix_ODMR = np.vstack((self.odmr.counts, self.counts_matrix_ODMR[:-1, :]))
+  File "C:\Pythonepd\lib\site-packages\numpy\core\shape_base.py", line 226, in vstack
+    return _nx.concatenate(map(atleast_2d,tup),0)
+ValueError: array dimensions must agree except for d_0
+2016-01-15 16:24:59,354 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 16:25:01,295 - emod.start - INFO - Starting Job Manager.
+2016-01-15 16:25:01,298 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 16:25:42,479 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 499, in _run
+    if len(self.odmr.fit_frequencies) > 2 or self.odmr.fit_contrast[0] > 40 or self.odmr.fit_contrast[1] > 40:
+IndexError: index out of bounds
+2016-01-15 16:28:12,431 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 16:28:14,381 - emod.start - INFO - Starting Job Manager.
+2016-01-15 16:28:14,384 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 16:38:21,292 - auto_focus.focus - INFO - Focus: 32.57, 23.12, -17.84
+2016-01-15 16:38:28,255 - auto_focus.focus - INFO - Focus: 32.92, 23.07, -17.66
+2016-01-15 16:38:38,634 - auto_focus.focus - INFO - Focus: 15.55, 22.72, 4.47
+2016-01-15 16:38:46,040 - auto_focus.focus - INFO - Focus: 15.85, 22.32, 4.47
+2016-01-15 16:41:05,233 - auto_focus.focus - INFO - Focus: 28.69, 22.22, -7.53
+2016-01-15 16:41:12,072 - auto_focus.focus - INFO - Focus: 28.64, 22.27, -7.77
+2016-01-15 16:41:22,838 - auto_focus.focus - INFO - Focus: 9.65, 31.67, -8.01
+2016-01-15 16:41:36,240 - auto_focus.focus - INFO - Focus: 9.70, 31.67, -7.83
+2016-01-15 16:46:04,321 - auto_focus.focus - INFO - Focus: 9.75, 31.62, -8.19
+2016-01-15 16:48:16,282 - auto_focus.focus - INFO - Focus: 9.85, 31.62, -7.89
+2016-01-15 18:11:17,336 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 18:11:19,296 - emod.start - INFO - Starting Job Manager.
+2016-01-15 18:11:19,306 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 18:11:50,117 - auto_focus.focus - INFO - Focus: 9.75, 31.22, -7.83
+2016-01-15 18:11:59,756 - auto_focus.focus - INFO - Focus: 9.75, 31.17, -7.41
+2016-01-15 18:12:06,967 - auto_focus.focus - INFO - Focus: 9.75, 31.17, -7.47
+2016-01-15 18:32:02,282 - auto_focus.focus - INFO - Focus: 9.85, 31.17, -7.71
+2016-01-15 19:05:35,855 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x12E8ECC0>, trait: perform_fit, old value: False, new value: True
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 793, in _perform_fit_changed
+    if self.choosed_align == 'fluoresence' & self.choosed_scan == 'fx_scan':
+TypeError: unsupported operand type(s) for &: 'str' and 'str'
+2016-01-15 19:07:03,365 - pi3diamond.<module> - INFO - Starting logger.
+2016-01-15 19:07:05,325 - emod.start - INFO - Starting Job Manager.
+2016-01-15 19:07:05,325 - cron.run - INFO - Starting Cron Daemon.
+2016-01-15 19:08:02,976 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0E177F00> is already running or in the queue.
+2016-01-15 19:08:03,756 - auto_focus.focus - INFO - Focus: 10.00, 31.27, -7.71
+2016-01-15 19:08:03,865 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0E177F00> is already running or in the queue.
+2016-01-15 19:08:11,236 - auto_focus.focus - INFO - Focus: 9.95, 31.27, -8.07
+2016-01-15 19:11:10,686 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0CA9A8D0>, trait: perform_fit, old value: False, new value: True
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 811, in _perform_fit_changed
+    popt = fitting.fit_gaussian(self.scanningX, self.data_x)
+  File "D:\pi3diamondnew\analysis\fitting.py", line 524, in fit_gaussian
+    popt,pcov = curve_fit(Gaussian,x,y,p0=[1,mean,sigma])
+  File "C:\Pythonepd\lib\site-packages\scipy\optimize\minpack.py", line 430, in curve_fit
+    res = leastsq(func, p0, args=args, full_output=1, **kw)
+  File "C:\Pythonepd\lib\site-packages\scipy\optimize\minpack.py", line 276, in leastsq
+    m = _check_func('leastsq', 'func', func, x0, args, n)[0]
+  File "C:\Pythonepd\lib\site-packages\scipy\optimize\minpack.py", line 13, in _check_func
+    res = atleast_1d(thefunc(*((x0[:numinputs],) + args)))
+  File "C:\Pythonepd\lib\site-packages\scipy\optimize\minpack.py", line 346, in _general_function
+    return function(xdata, *params) - ydata
+TypeError: unsupported operand type(s) for -: 'function' and 'float'
+2016-01-15 19:11:10,956 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0CA9A8D0>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 815, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-01-15 19:11:11,546 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0CA9A8D0>, trait: perform_fit, old value: False, new value: True
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 811, in _perform_fit_changed
+    popt = fitting.fit_gaussian(self.scanningX, self.data_x)
+  File "D:\pi3diamondnew\analysis\fitting.py", line 524, in fit_gaussian
+    popt,pcov = curve_fit(Gaussian,x,y,p0=[1,mean,sigma])
+  File "C:\Pythonepd\lib\site-packages\scipy\optimize\minpack.py", line 430, in curve_fit
+    res = leastsq(func, p0, args=args, full_output=1, **kw)
+  File "C:\Pythonepd\lib\site-packages\scipy\optimize\minpack.py", line 276, in leastsq
+    m = _check_func('leastsq', 'func', func, x0, args, n)[0]
+  File "C:\Pythonepd\lib\site-packages\scipy\optimize\minpack.py", line 13, in _check_func
+    res = atleast_1d(thefunc(*((x0[:numinputs],) + args)))
+  File "C:\Pythonepd\lib\site-packages\scipy\optimize\minpack.py", line 346, in _general_function
+    return function(xdata, *params) - ydata
+TypeError: unsupported operand type(s) for -: 'function' and 'float'
+2016-01-15 19:12:44,306 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0E177F00> is already running or in the queue.
+2016-01-15 19:12:44,756 - auto_focus.focus - INFO - Focus: 10.00, 31.27, -7.65
+2016-01-15 19:12:51,617 - auto_focus.focus - INFO - Focus: 10.00, 31.32, -7.71

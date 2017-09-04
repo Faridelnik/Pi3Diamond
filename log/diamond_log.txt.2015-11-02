@@ -1,0 +1,816 @@
+2015-11-02 13:52:04,440 - auto_focus.focus - INFO - Focus: 28.58, 36.36, -4.79
+2015-11-02 13:52:13,529 - auto_focus.focus - INFO - Focus: 28.33, 36.21, -5.09
+2015-11-02 13:52:38,819 - auto_focus.focus - INFO - Focus: 26.97, 35.81, 9.70
+2015-11-02 13:52:44,589 - auto_focus.focus - INFO - Focus: 26.87, 35.41, 8.95
+2015-11-02 13:53:11,640 - auto_focus.focus - INFO - Focus: 27.83, 10.56, 9.35
+2015-11-02 13:53:18,019 - auto_focus.focus - INFO - Focus: 28.13, 10.16, 10.20
+2015-11-02 13:54:23,480 - auto_focus.focus - INFO - Focus: 34.24, 10.36, -0.65
+2015-11-02 13:54:45,030 - auto_focus.focus - INFO - Focus: 31.01, 5.96, -0.30
+2015-11-02 13:54:51,161 - auto_focus.focus - INFO - Focus: 30.96, 5.96, 0.25
+2015-11-02 14:08:53,792 - auto_focus.focus - INFO - Focus: 18.49, 10.10, -0.55
+2015-11-02 14:09:01,111 - auto_focus.focus - INFO - Focus: 18.49, 10.10, -0.70
+2015-11-02 14:13:44,236 - auto_focus.focus - INFO - Focus: 29.75, 26.53, -1.30
+2015-11-02 14:13:50,345 - auto_focus.focus - INFO - Focus: 29.75, 26.38, -1.90
+2015-11-02 14:14:51,355 - auto_focus.focus - INFO - Focus: 18.44, 26.23, -1.85
+2015-11-02 14:14:57,065 - auto_focus.focus - INFO - Focus: 18.39, 26.23, -1.30
+2015-11-02 14:15:46,355 - auto_focus.focus - INFO - Focus: 18.54, 1.91, -1.05
+2015-11-02 14:15:52,135 - auto_focus.focus - INFO - Focus: 18.54, 2.01, -1.50
+2015-11-02 14:17:18,470 - auto_focus.focus - INFO - Focus: 25.88, 13.87, -2.10
+2015-11-02 14:17:24,331 - auto_focus.focus - INFO - Focus: 25.88, 13.87, -2.05
+2015-11-02 14:21:39,440 - auto_focus.focus - INFO - Focus: 25.83, 13.82, -1.65
+2015-11-02 14:26:15,190 - auto_focus.focus - INFO - Focus: 25.78, 13.97, -1.25
+2015-11-02 14:28:04,930 - auto_focus.focus - INFO - Focus: 25.78, 14.02, -2.00
+2015-11-02 14:29:02,063 - auto_focus.focus - INFO - Focus: 33.62, 30.20, -1.60
+2015-11-02 16:17:51,664 - auto_focus.focus - INFO - Focus: 15.25, 30.00, 0.52
+2015-11-02 16:17:59,615 - auto_focus.focus - INFO - Focus: 15.20, 29.85, -0.28
+2015-11-02 16:18:05,884 - auto_focus.focus - INFO - Focus: 14.85, 29.50, -0.43
+2015-11-02 16:18:12,025 - auto_focus.focus - INFO - Focus: 14.90, 29.45, -0.73
+2015-11-02 16:20:27,494 - auto_focus.focus - INFO - Focus: 19.80, 29.75, 1.67
+2015-11-02 16:20:33,444 - auto_focus.focus - INFO - Focus: 19.45, 29.40, 2.22
+2015-11-02 16:20:42,904 - auto_focus.focus - INFO - Focus: 26.37, 29.00, 3.13
+2015-11-02 16:20:48,515 - auto_focus.focus - INFO - Focus: 26.27, 28.95, 3.53
+2015-11-02 16:21:38,394 - auto_focus.focus - INFO - Focus: 13.84, 22.27, 2.93
+2015-11-02 16:21:44,454 - auto_focus.focus - INFO - Focus: 13.99, 21.92, 2.03
+2015-11-02 16:21:50,414 - auto_focus.focus - INFO - Focus: 13.94, 21.82, 2.43
+2015-11-02 16:26:44,025 - auto_focus.focus - INFO - Focus: 14.14, 22.02, 1.68
+2015-11-02 16:27:00,045 - auto_focus.focus - INFO - Focus: 14.19, 21.97, 2.08
+2015-11-02 16:42:13,112 - auto_focus.focus - INFO - Focus: 23.30, 16.09, 2.48
+2015-11-02 16:42:18,693 - auto_focus.focus - INFO - Focus: 23.40, 16.14, 2.03
+2015-11-02 16:53:02,757 - auto_focus.focus - INFO - Focus: 20.44, 16.91, 1.43
+2015-11-02 16:53:08,368 - auto_focus.focus - INFO - Focus: 20.44, 16.81, 1.28
+2015-11-02 16:59:24,141 - auto_focus.focus - INFO - Focus: 17.19, 36.61, 1.68
+2015-11-02 17:04:30,193 - auto_focus.focus - INFO - Focus: 20.91, 28.95, 2.68
+2015-11-02 17:04:37,632 - auto_focus.focus - INFO - Focus: 20.91, 29.05, 2.08
+2015-11-02 17:05:47,693 - auto_focus.focus - INFO - Focus: 21.01, 12.36, 2.63
+2015-11-02 17:05:54,872 - auto_focus.focus - INFO - Focus: 20.96, 12.36, 2.03
+2015-11-03 09:56:55,069 - auto_focus.focus - INFO - Focus: 47.63, 12.76, 13.29
+2015-11-03 09:57:01,259 - auto_focus.focus - INFO - Focus: 47.23, 13.16, 12.94
+2015-11-03 09:57:09,490 - auto_focus.focus - INFO - Focus: 47.07, 13.56, 17.16
+2015-11-03 09:59:44,048 - auto_focus.focus - INFO - Focus: 15.46, 13.16, 16.97
+2015-11-03 09:59:50,227 - auto_focus.focus - INFO - Focus: 15.51, 12.81, 17.82
+2015-11-03 10:07:42,499 - auto_focus.focus - INFO - Focus: 8.84, 12.51, -14.54
+2015-11-03 10:07:48,709 - auto_focus.focus - INFO - Focus: 8.89, 12.46, -14.59
+2015-11-03 10:12:52,009 - auto_focus.focus - INFO - Focus: 47.32, 12.56, 9.24
+2015-11-03 10:20:37,180 - auto_focus.focus - INFO - Focus: 35.51, 12.96, 13.84
+2015-11-03 13:56:08,028 - auto_focus.focus - INFO - Focus: 47.72, 12.81, 18.37
+2015-11-03 13:58:42,528 - auto_focus.focus - INFO - Focus: 5.96, 12.41, 21.32
+2015-11-03 13:58:48,848 - auto_focus.focus - INFO - Focus: 6.36, 12.06, 21.17
+2015-11-03 14:03:49,068 - auto_focus.focus - INFO - Focus: 34.09, 12.11, -25.00
+2015-11-03 14:03:54,967 - auto_focus.focus - INFO - Focus: 34.39, 12.46, -25.00
+2015-11-03 14:05:54,078 - auto_focus.focus - INFO - Focus: 31.47, 12.11, 10.91
+2015-11-03 14:06:03,799 - auto_focus.focus - INFO - Focus: 48.43, 12.36, 8.18
+2015-11-03 14:12:56,438 - auto_focus.focus - INFO - Focus: 27.12, 12.66, -24.74
+2015-11-03 14:13:02,459 - auto_focus.focus - INFO - Focus: 27.32, 12.56, -24.74
+2015-11-03 14:13:08,459 - auto_focus.focus - INFO - Focus: 27.67, 12.66, -24.89
+2015-11-03 14:13:14,658 - auto_focus.focus - INFO - Focus: 27.82, 12.66, -24.64
+2015-11-04 09:34:07,697 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06C1C0F0>, trait: thresh_high, old value: 200.0, new value: ^100
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\spotfinderv3.py", line 374, in redraw_image
+    self.scan_plot.value_range.high_setting=self.confocal.thresh_high
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2094, in validate
+    return self.slow_validate( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2102, in slow_validate
+    self.error( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'high_setting' trait of a DataRange1D instance must be a float or 'auto' or 'track', but a value of u'^100' <type 'unicode'> was specified.
+2015-11-04 09:34:07,806 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.confocal.Confocal object at 0x06C1C0F0>, trait: thresh_high, old value: 200.0, new value: ^100
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\measurements\goodspot.py", line 168, in redraw_image
+    self.scan_plot.value_range.high_setting=self.confocal.thresh_high
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2094, in validate
+    return self.slow_validate( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 2102, in slow_validate
+    self.error( object, name, value )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'high_setting' trait of a DataRange1D instance must be a float or 'auto' or 'track', but a value of u'^100' <type 'unicode'> was specified.
+2015-11-04 09:36:20,766 - auto_focus.focus - INFO - Focus: 8.19, 12.56, 15.61
+2015-11-04 09:36:26,996 - auto_focus.focus - INFO - Focus: 8.14, 12.96, 15.86
+2015-11-04 09:40:13,177 - auto_focus.focus - INFO - Focus: 49.59, 12.66, 21.97
+2015-11-04 09:41:04,117 - auto_focus.focus - INFO - Focus: 49.94, 12.61, 22.22
+2015-11-04 09:41:08,457 - auto_focus.focus - INFO - Focus: 49.84, 12.71, 22.32
+2015-11-04 09:41:40,157 - auto_focus.focus - INFO - Focus: 42.52, 10.56, 22.97
+2015-11-04 09:41:46,086 - auto_focus.focus - INFO - Focus: 42.37, 10.46, 23.02
+2015-11-04 09:44:49,247 - auto_focus.focus - INFO - Focus: 32.02, 19.04, 23.57
+2015-11-04 09:44:54,987 - auto_focus.focus - INFO - Focus: 31.97, 19.09, 23.97
+2015-11-04 09:52:10,118 - auto_focus.focus - INFO - Focus: 31.67, 18.74, 24.22
+2015-11-04 09:53:32,608 - auto_focus.focus - INFO - Focus: 31.67, 18.74, 23.77
+2015-11-04 10:01:14,448 - auto_focus.focus - INFO - Focus: 47.12, 14.25, 23.97
+2015-11-04 10:01:20,459 - auto_focus.focus - INFO - Focus: 46.72, 13.85, 23.52
+2015-11-04 10:01:26,428 - auto_focus.focus - INFO - Focus: 46.32, 13.70, 23.92
+2015-11-04 10:01:32,509 - auto_focus.focus - INFO - Focus: 46.37, 14.00, 24.32
+2015-11-04 10:03:31,928 - auto_focus.focus - INFO - Focus: 46.62, 10.81, 23.87
+2015-11-04 10:03:38,168 - auto_focus.focus - INFO - Focus: 46.42, 10.46, 23.87
+2015-11-04 10:03:44,148 - auto_focus.focus - INFO - Focus: 46.62, 10.06, 24.52
+2015-11-04 10:03:50,448 - auto_focus.focus - INFO - Focus: 46.42, 9.71, 24.37
+2015-11-04 10:03:56,539 - auto_focus.focus - INFO - Focus: 46.42, 9.71, 24.92
+2015-11-04 10:04:17,799 - auto_focus.focus - INFO - Focus: 46.36, 6.17, 25.00
+2015-11-04 10:04:23,789 - auto_focus.focus - INFO - Focus: 46.26, 5.77, 25.00
+2015-11-04 10:04:29,739 - auto_focus.focus - INFO - Focus: 46.56, 5.42, 24.10
+2015-11-04 10:04:35,628 - auto_focus.focus - INFO - Focus: 46.51, 5.37, 24.65
+2015-11-04 10:05:10,009 - auto_focus.focus - INFO - Focus: 46.36, 1.42, 25.00
+2015-11-04 10:05:17,039 - auto_focus.focus - INFO - Focus: 46.36, 1.32, 25.00
+2015-11-06 11:03:51,437 - auto_focus.focus - INFO - Focus: 34.65, 1.52, 14.30
+2015-11-06 11:03:57,586 - auto_focus.focus - INFO - Focus: 34.80, 1.17, 13.20
+2015-11-06 11:04:07,336 - auto_focus.focus - INFO - Focus: 27.57, 0.87, 15.10
+2015-11-06 11:04:13,226 - auto_focus.focus - INFO - Focus: 27.92, 1.22, 15.10
+2015-11-06 11:04:19,246 - auto_focus.focus - INFO - Focus: 28.27, 1.62, 15.50
+2015-11-06 11:08:41,927 - auto_focus.focus - INFO - Focus: 22.53, 21.42, -1.01
+2015-11-06 11:08:47,598 - auto_focus.focus - INFO - Focus: 22.88, 21.42, -0.76
+2015-11-06 11:08:53,278 - auto_focus.focus - INFO - Focus: 22.83, 21.47, -0.51
+2015-11-06 11:16:07,049 - auto_focus.focus - INFO - Focus: 16.77, 9.14, 3.84
+2015-11-06 11:16:12,970 - auto_focus.focus - INFO - Focus: 16.87, 8.94, 3.84
+2015-11-06 11:16:19,069 - auto_focus.focus - INFO - Focus: 16.67, 8.84, 4.69
+2015-11-06 11:16:28,029 - auto_focus.focus - INFO - Focus: 12.73, 9.19, 4.74
+2015-11-06 11:16:34,220 - auto_focus.focus - INFO - Focus: 12.73, 9.09, 5.44
+2015-11-06 11:24:32,081 - auto_focus.focus - INFO - Focus: 19.35, 9.20, 6.29
+2015-11-06 11:24:38,081 - auto_focus.focus - INFO - Focus: 19.30, 9.45, 7.09
+2015-11-06 11:26:41,990 - auto_focus.focus - INFO - Focus: 19.35, 14.60, 8.19
+2015-11-06 11:26:47,790 - auto_focus.focus - INFO - Focus: 19.20, 14.60, 9.04
+2015-11-06 11:26:53,821 - auto_focus.focus - INFO - Focus: 18.90, 14.45, 9.09
+2015-11-06 11:37:21,322 - auto_focus.focus - INFO - Focus: 34.80, 40.20, 7.99
+2015-11-06 11:37:27,141 - auto_focus.focus - INFO - Focus: 34.70, 40.30, 6.94
+2015-11-06 11:38:49,631 - auto_focus.focus - INFO - Focus: 34.75, 31.47, 6.34
+2015-11-06 11:39:03,232 - auto_focus.focus - INFO - Focus: 38.59, 31.51, 7.59
+2015-11-06 11:39:09,032 - auto_focus.focus - INFO - Focus: 38.79, 31.31, 7.39
+2015-11-06 11:39:17,552 - auto_focus.focus - INFO - Focus: 42.27, 31.41, 7.24
+2015-11-06 11:39:23,232 - auto_focus.focus - INFO - Focus: 42.42, 31.41, 7.79
+2015-11-06 11:39:32,832 - auto_focus.focus - INFO - Focus: 42.22, 27.37, 6.69
+2015-11-06 11:39:39,002 - auto_focus.focus - INFO - Focus: 42.57, 27.17, 6.94
+2015-11-06 11:39:49,812 - auto_focus.focus - INFO - Focus: 46.16, 27.17, 6.79
+2015-11-06 11:39:55,441 - auto_focus.focus - INFO - Focus: 45.91, 27.47, 5.89
+2015-11-06 11:40:08,522 - auto_focus.focus - INFO - Focus: 38.74, 11.22, 6.09
+2015-11-06 11:40:14,431 - auto_focus.focus - INFO - Focus: 38.69, 11.07, 6.74
+2015-11-06 11:40:20,451 - auto_focus.focus - INFO - Focus: 38.64, 11.12, 6.59
+2015-11-06 11:40:28,252 - auto_focus.focus - INFO - Focus: 38.69, 11.22, 6.59
+2015-11-06 11:40:38,681 - auto_focus.focus - INFO - Focus: 45.86, 11.22, 6.59
+2015-11-06 11:40:45,052 - auto_focus.focus - INFO - Focus: 45.91, 11.17, 6.84
+2015-11-06 11:40:51,471 - auto_focus.focus - INFO - Focus: 45.96, 11.12, 6.84
+2015-11-06 11:41:02,032 - auto_focus.focus - INFO - Focus: 49.64, 7.23, 7.39
+2015-11-06 11:41:07,992 - auto_focus.focus - INFO - Focus: 49.64, 7.28, 7.49
+2015-11-06 11:41:27,931 - auto_focus.focus - INFO - Focus: 49.69, 7.23, 7.44
+2015-11-06 11:41:39,391 - auto_focus.focus - INFO - Focus: 49.84, 23.18, 6.39
+2015-11-06 11:41:44,151 - auto_focus.focus - INFO - Focus: 49.84, 23.18, 6.59
+2015-11-06 12:52:34,434 - auto_focus.focus - INFO - Focus: 4.37, 31.26, 6.44
+2015-11-06 12:52:35,464 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x07D92CF0> is already running or in the queue.
+2015-11-06 12:52:58,404 - auto_focus.focus - INFO - Focus: 3.97, 31.56, 5.54
+2015-11-06 12:53:04,295 - auto_focus.focus - INFO - Focus: 3.57, 31.31, 6.64
+2015-11-06 12:53:28,644 - auto_focus.focus - INFO - Focus: 43.82, 1.95, 6.99
+2015-11-06 12:53:36,565 - auto_focus.focus - INFO - Focus: 43.92, 1.95, 6.84
+2015-11-06 12:53:42,355 - auto_focus.focus - INFO - Focus: 43.92, 2.00, 7.69
+2015-11-06 12:55:58,934 - auto_focus.focus - INFO - Focus: 45.17, 31.24, 8.69
+2015-11-06 12:56:04,785 - auto_focus.focus - INFO - Focus: 45.37, 31.59, 8.89
+2015-11-06 12:56:10,914 - auto_focus.focus - INFO - Focus: 45.22, 31.29, 8.69
+2015-11-06 12:56:21,174 - auto_focus.focus - INFO - Focus: 41.29, 27.53, 8.39
+2015-11-06 12:56:26,884 - auto_focus.focus - INFO - Focus: 41.49, 27.73, 8.94
+2015-11-06 12:56:32,934 - auto_focus.focus - INFO - Focus: 41.59, 27.58, 9.64
+2015-11-06 12:57:40,375 - auto_focus.focus - INFO - Focus: 37.60, 19.48, 8.69
+2015-11-06 12:57:45,984 - auto_focus.focus - INFO - Focus: 37.95, 19.43, 9.54
+2015-11-06 12:57:51,634 - auto_focus.focus - INFO - Focus: 38.20, 19.53, 8.89
+2015-11-06 12:57:57,434 - auto_focus.focus - INFO - Focus: 38.15, 19.53, 8.89
+2015-11-06 12:58:49,805 - auto_focus.focus - INFO - Focus: 38.01, 15.69, 8.29
+2015-11-06 12:58:55,684 - auto_focus.focus - INFO - Focus: 38.16, 15.69, 7.99
+2015-11-06 12:59:05,095 - auto_focus.focus - INFO - Focus: 38.31, 11.37, 9.14
+2015-11-06 13:04:01,456 - auto_focus.focus - INFO - Focus: 30.22, 17.72, 10.24
+2015-11-06 13:06:05,555 - auto_focus.focus - INFO - Focus: 39.28, 30.89, 8.99
+2015-11-06 13:06:11,226 - auto_focus.focus - INFO - Focus: 39.53, 30.84, 9.39
+2015-11-06 13:07:21,196 - auto_focus.focus - INFO - Focus: 39.28, 38.94, 9.39
+2015-11-06 13:07:27,065 - auto_focus.focus - INFO - Focus: 39.63, 38.94, 9.64
+2015-11-06 13:07:32,655 - auto_focus.focus - INFO - Focus: 39.78, 38.99, 8.59
+2015-11-06 13:08:29,815 - auto_focus.focus - INFO - Focus: 42.63, 26.56, 8.29
+2015-11-06 13:08:35,385 - auto_focus.focus - INFO - Focus: 42.98, 26.81, 8.29
+2015-11-06 13:08:41,065 - auto_focus.focus - INFO - Focus: 43.18, 26.86, 8.84
+2015-11-06 13:10:28,676 - auto_focus.focus - INFO - Focus: 39.28, 22.83, 9.49
+2015-11-06 13:10:34,305 - auto_focus.focus - INFO - Focus: 39.48, 23.08, 9.74
+2015-11-06 13:10:47,506 - auto_focus.focus - INFO - Focus: 9.46, 47.30, 8.84
+2015-11-06 13:10:55,655 - auto_focus.focus - INFO - Focus: 10.47, 48.00, 7.59
+2015-11-06 13:11:01,555 - auto_focus.focus - INFO - Focus: 10.72, 48.35, 8.69
+2015-11-06 13:11:08,395 - auto_focus.focus - INFO - Focus: 10.62, 48.70, 8.79
+2015-11-06 13:11:14,415 - auto_focus.focus - INFO - Focus: 10.42, 48.60, 9.79
+2015-11-06 13:11:31,305 - auto_focus.focus - INFO - Focus: 9.80, 44.73, 9.79
+2015-11-06 13:11:37,226 - auto_focus.focus - INFO - Focus: 10.20, 44.68, 9.49
+2015-11-06 13:11:43,125 - auto_focus.focus - INFO - Focus: 10.45, 44.48, 9.19
+2015-11-06 13:11:49,206 - auto_focus.focus - INFO - Focus: 10.45, 44.53, 9.24
+2015-11-06 13:13:19,177 - auto_focus.focus - INFO - Focus: 46.32, 10.39, 8.14
+2015-11-06 13:13:25,346 - auto_focus.focus - INFO - Focus: 46.67, 10.59, 9.29
+2015-11-06 13:13:31,207 - auto_focus.focus - INFO - Focus: 46.97, 10.69, 9.14
+2015-11-06 13:13:37,107 - auto_focus.focus - INFO - Focus: 47.32, 10.69, 9.19
+2015-11-06 13:13:43,177 - auto_focus.focus - INFO - Focus: 47.37, 10.69, 9.74
+2015-11-06 13:14:53,336 - auto_focus.focus - INFO - Focus: 48.00, 22.83, 9.84
+2015-11-06 13:14:59,086 - auto_focus.focus - INFO - Focus: 48.05, 22.83, 9.09
+2015-11-06 13:15:54,296 - auto_focus.focus - INFO - Focus: 43.64, 26.80, 9.09
+2015-11-06 13:16:00,036 - auto_focus.focus - INFO - Focus: 43.99, 27.05, 8.59
+2015-11-06 13:16:05,697 - auto_focus.focus - INFO - Focus: 44.34, 27.30, 8.99
+2015-11-06 13:16:11,336 - auto_focus.focus - INFO - Focus: 44.59, 27.05, 9.84
+2015-11-06 13:17:23,076 - auto_focus.focus - INFO - Focus: 40.62, 27.20, 9.04
+2015-11-06 13:17:28,697 - auto_focus.focus - INFO - Focus: 40.87, 27.40, 9.29
+2015-11-06 13:17:53,697 - auto_focus.focus - INFO - Focus: 41.29, 30.89, 8.19
+2015-11-06 13:17:59,336 - auto_focus.focus - INFO - Focus: 41.44, 31.14, 8.54
+2015-11-06 13:19:16,697 - auto_focus.focus - INFO - Focus: 41.54, 31.44, 9.69
+2015-11-06 13:19:22,417 - auto_focus.focus - INFO - Focus: 41.69, 31.54, 8.94
+2015-11-06 13:22:31,857 - auto_focus.focus - INFO - Focus: 42.04, 31.64, 9.14
+2015-11-06 13:22:37,397 - auto_focus.focus - INFO - Focus: 42.04, 31.59, 9.84
+2015-11-06 13:24:14,878 - auto_focus.focus - INFO - Focus: 42.39, 31.74, 9.24
+2015-11-06 13:24:20,457 - auto_focus.focus - INFO - Focus: 42.34, 31.69, 9.79
+2015-11-06 13:24:59,477 - auto_focus.focus - INFO - Focus: 42.54, 31.74, 10.04
+2015-11-06 13:25:34,618 - auto_focus.focus - INFO - Focus: 42.69, 31.84, 9.44
+2015-11-06 13:25:40,657 - auto_focus.focus - INFO - Focus: 42.64, 31.79, 9.84
+2015-11-06 13:26:55,957 - auto_focus.focus - INFO - Focus: 42.99, 31.89, 9.94
+2015-11-06 13:27:02,907 - auto_focus.focus - INFO - Focus: 43.09, 31.89, 9.19
+2015-11-06 13:28:06,348 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x07D92CF0> is already running or in the queue.
+2015-11-06 13:28:06,717 - auto_focus.focus - INFO - Focus: 43.19, 31.94, 9.89
+2015-11-06 13:28:13,437 - auto_focus.focus - INFO - Focus: 43.39, 32.04, 10.29
+2015-11-06 13:29:34,788 - auto_focus.focus - INFO - Focus: 43.54, 32.04, 9.24
+2015-11-06 13:30:17,227 - auto_focus.focus - INFO - Focus: 43.39, 32.04, 9.94
+2015-11-06 13:32:07,148 - auto_focus.focus - INFO - Focus: 43.49, 32.04, 9.34
+2015-11-06 13:37:59,269 - auto_focus.focus - INFO - Focus: 43.39, 32.04, 10.19
+2015-11-06 13:39:26,739 - auto_focus.focus - INFO - Focus: 43.54, 32.04, 9.74
+2015-11-06 13:43:53,928 - auto_focus.focus - INFO - Focus: 43.59, 31.84, 10.14
+2015-11-06 13:44:07,299 - auto_focus.focus - INFO - Focus: 4.98, 18.36, 10.14
+2015-11-06 13:44:13,928 - auto_focus.focus - INFO - Focus: 4.98, 18.31, 9.84
+2015-11-06 13:44:54,088 - auto_focus.focus - INFO - Focus: 4.78, 14.57, 10.24
+2015-11-06 13:45:00,279 - auto_focus.focus - INFO - Focus: 4.63, 14.67, 10.64
+2015-11-06 13:45:19,878 - auto_focus.focus - INFO - Focus: 4.55, 10.15, 10.59
+2015-11-06 13:45:29,138 - auto_focus.focus - INFO - Focus: 3.96, 6.31, 9.99
+2015-11-06 13:45:35,019 - auto_focus.focus - INFO - Focus: 4.16, 6.11, 10.54
+2015-11-06 13:45:41,249 - auto_focus.focus - INFO - Focus: 4.36, 6.51, 9.59
+2015-11-06 13:45:50,069 - auto_focus.focus - INFO - Focus: 0.87, 10.82, 9.44
+2015-11-06 13:46:13,459 - auto_focus.focus - INFO - Focus: 1.24, 18.73, 9.84
+2015-11-06 13:46:19,148 - auto_focus.focus - INFO - Focus: 1.04, 19.03, 10.54
+2015-11-06 13:47:39,460 - auto_focus.focus - INFO - Focus: 36.73, 48.76, 9.89
+2015-11-06 13:48:06,329 - auto_focus.focus - INFO - Focus: 40.02, 44.50, 10.29
+2015-11-06 13:48:12,759 - auto_focus.focus - INFO - Focus: 40.32, 44.75, 9.69
+2015-11-06 13:48:23,660 - auto_focus.focus - INFO - Focus: 40.12, 44.35, 9.54
+2015-11-06 13:51:36,329 - auto_focus.focus - INFO - Focus: 26.87, 43.28, 9.39
+2015-11-06 13:51:55,349 - auto_focus.focus - INFO - Focus: 26.72, 43.63, 10.24
+2015-11-06 13:52:04,049 - auto_focus.focus - INFO - Focus: 22.88, 43.73, 9.64
+2015-11-06 13:52:09,890 - auto_focus.focus - INFO - Focus: 22.93, 43.83, 9.89
+2015-11-06 13:52:21,230 - auto_focus.focus - INFO - Focus: 34.45, 42.88, 10.44
+2015-11-06 13:52:26,809 - auto_focus.focus - INFO - Focus: 34.55, 42.88, 9.84
+2015-11-06 13:54:45,670 - auto_focus.focus - INFO - Focus: 37.88, 42.72, 9.54
+2015-11-06 13:54:59,569 - auto_focus.focus - INFO - Focus: 41.72, 42.72, 10.54
+2015-11-06 13:55:29,359 - auto_focus.focus - INFO - Focus: 37.63, 38.54, 10.54
+2015-11-06 13:55:38,529 - auto_focus.focus - INFO - Focus: 33.99, 38.68, 10.09
+2015-11-06 13:55:44,220 - auto_focus.focus - INFO - Focus: 33.84, 38.98, 9.79
+2015-11-06 13:55:53,500 - auto_focus.focus - INFO - Focus: 26.52, 39.59, 9.49
+2015-11-06 13:56:09,319 - auto_focus.focus - INFO - Focus: 22.93, 39.85, 10.19
+2015-11-06 13:56:32,019 - auto_focus.focus - INFO - Focus: 18.89, 40.25, 10.19
+2015-11-06 13:56:40,559 - auto_focus.focus - INFO - Focus: 15.26, 40.00, 9.99
+2015-11-06 13:56:46,480 - auto_focus.focus - INFO - Focus: 15.21, 40.00, 10.39
+2015-11-06 13:56:54,329 - auto_focus.focus - INFO - Focus: 11.47, 40.25, 9.94
+2015-11-06 13:57:00,250 - auto_focus.focus - INFO - Focus: 11.87, 40.55, 10.04
+2015-11-06 13:57:10,750 - auto_focus.focus - INFO - Focus: 41.11, 34.39, 9.44
+2015-11-06 13:57:18,369 - auto_focus.focus - INFO - Focus: 37.37, 34.59, 10.44
+2015-11-06 13:58:08,150 - auto_focus.focus - INFO - Focus: 33.94, 35.10, 10.54
+2015-11-06 13:59:30,380 - auto_focus.focus - INFO - Focus: 29.90, 35.20, 10.09
+2015-11-06 13:59:36,040 - auto_focus.focus - INFO - Focus: 29.95, 35.35, 9.94
+2015-11-06 14:00:21,831 - auto_focus.focus - INFO - Focus: 22.48, 35.60, 9.64
+2015-11-06 14:00:39,331 - auto_focus.focus - INFO - Focus: 22.38, 31.72, 9.64
+2015-11-06 14:00:44,970 - auto_focus.focus - INFO - Focus: 22.33, 31.72, 10.19
+2015-11-06 14:02:59,591 - auto_focus.focus - INFO - Focus: 22.28, 31.92, 10.29
+2015-11-06 14:06:21,664 - auto_focus.focus - INFO - Focus: 22.38, 32.02, 9.84
+2015-11-06 14:58:57,302 - auto_focus.focus - INFO - Focus: 34.14, 32.37, -3.38
+2015-11-06 14:59:02,973 - auto_focus.focus - INFO - Focus: 34.14, 32.47, -3.18
+2015-11-06 14:59:57,803 - auto_focus.focus - INFO - Focus: 40.51, 36.61, -2.63
+2015-11-06 15:00:03,424 - auto_focus.focus - INFO - Focus: 40.56, 36.86, -2.43
+2015-11-06 15:00:11,114 - auto_focus.focus - INFO - Focus: 40.51, 36.86, -2.03
+2015-11-06 15:01:52,664 - auto_focus.focus - INFO - Focus: 27.17, 45.05, -2.78
+2015-11-06 15:01:58,503 - auto_focus.focus - INFO - Focus: 27.22, 44.95, -3.68
+2015-11-06 15:02:13,684 - auto_focus.focus - INFO - Focus: 23.49, 48.89, -3.63
+2015-11-06 15:02:19,354 - auto_focus.focus - INFO - Focus: 23.44, 48.99, -3.43
+2015-11-06 15:02:34,874 - auto_focus.focus - INFO - Focus: 23.39, 48.99, -3.03
+2015-11-06 15:04:42,674 - auto_focus.focus - INFO - Focus: 23.14, 48.89, -3.23
+2015-11-06 15:06:22,783 - auto_focus.focus - INFO - Focus: 19.35, 49.04, -3.28
+2015-11-06 15:06:28,513 - auto_focus.focus - INFO - Focus: 19.05, 49.19, -3.58
+2015-11-06 15:06:37,033 - auto_focus.focus - INFO - Focus: 23.34, 28.59, -3.73
+2015-11-06 15:06:42,614 - auto_focus.focus - INFO - Focus: 23.09, 28.59, -4.33
+2015-11-06 15:06:48,533 - auto_focus.focus - INFO - Focus: 23.09, 28.54, -4.28
+2015-11-06 15:06:59,374 - auto_focus.focus - INFO - Focus: 30.41, 28.39, -3.43
+2015-11-06 15:07:05,124 - auto_focus.focus - INFO - Focus: 30.36, 28.74, -3.58
+2015-11-06 15:07:28,983 - auto_focus.focus - INFO - Focus: 26.92, 40.51, -3.48
+2015-11-06 15:07:34,594 - auto_focus.focus - INFO - Focus: 26.72, 40.46, -4.23
+2015-11-06 15:08:26,644 - auto_focus.focus - INFO - Focus: 26.67, 44.60, -3.68
+2015-11-06 15:08:32,364 - auto_focus.focus - INFO - Focus: 26.62, 44.60, -4.13
+2015-11-06 15:09:15,624 - auto_focus.focus - INFO - Focus: 23.03, 44.90, -4.13
+2015-11-06 15:09:21,313 - auto_focus.focus - INFO - Focus: 22.68, 44.85, -3.73
+2015-11-06 15:09:31,013 - auto_focus.focus - INFO - Focus: 30.91, 32.63, -3.18
+2015-11-06 15:09:36,694 - auto_focus.focus - INFO - Focus: 30.51, 32.68, -3.53
+2015-11-06 15:09:42,533 - auto_focus.focus - INFO - Focus: 30.56, 32.63, -3.43
+2015-11-06 15:11:47,065 - auto_focus.focus - INFO - Focus: 26.37, 10.91, -4.03
+2015-11-06 15:11:52,914 - auto_focus.focus - INFO - Focus: 26.37, 10.81, -3.63
+2015-11-06 15:12:39,515 - auto_focus.focus - INFO - Focus: 30.20, 18.79, -3.23
+2015-11-06 15:12:49,075 - auto_focus.focus - INFO - Focus: 30.15, 18.69, -3.73
+2015-11-06 15:12:56,875 - auto_focus.focus - INFO - Focus: 30.15, 18.69, -3.63
+2015-11-06 15:14:57,625 - auto_focus.focus - INFO - Focus: 30.10, 26.77, -3.83
+2015-11-06 15:15:04,025 - auto_focus.focus - INFO - Focus: 30.00, 26.67, -3.88
+2015-11-06 15:16:14,585 - auto_focus.focus - INFO - Focus: 26.42, 30.71, -3.48
+2015-11-06 15:17:46,154 - auto_focus.focus - INFO - Focus: 26.32, 30.66, -3.68
+2015-11-06 15:39:00,990 - auto_focus.focus - INFO - Focus: 22.43, 4.50, -3.28
+2015-11-06 15:39:07,051 - auto_focus.focus - INFO - Focus: 22.38, 4.55, -3.73
+2015-11-06 15:39:24,631 - auto_focus.focus - INFO - Focus: 26.41, 4.40, -4.18
+2015-11-06 15:39:30,601 - auto_focus.focus - INFO - Focus: 26.41, 4.35, -3.78
+2015-11-06 15:39:40,530 - auto_focus.focus - INFO - Focus: 18.89, 8.34, -4.08
+2015-11-06 15:39:46,581 - auto_focus.focus - INFO - Focus: 18.89, 8.29, -3.53
+2015-11-06 15:40:00,680 - auto_focus.focus - INFO - Focus: 18.84, 12.33, -3.98
+2015-11-06 15:40:06,601 - auto_focus.focus - INFO - Focus: 18.79, 12.33, -3.13
+2015-11-06 15:40:17,980 - auto_focus.focus - INFO - Focus: 18.44, 16.62, -3.58
+2015-11-06 15:40:27,950 - auto_focus.focus - INFO - Focus: 18.69, 21.01, -3.48
+2015-11-06 15:40:33,841 - auto_focus.focus - INFO - Focus: 18.69, 21.06, -4.08
+2015-11-06 15:40:48,260 - auto_focus.focus - INFO - Focus: 22.43, 4.40, -4.03
+2015-11-06 15:42:48,180 - auto_focus.focus - INFO - Focus: 22.53, 4.55, -3.18
+2015-11-06 15:42:54,530 - auto_focus.focus - INFO - Focus: 22.43, 4.55, -3.63
+2015-11-06 15:48:25,415 - auto_focus.focus - INFO - Focus: 22.43, 4.45, -3.58
+2015-11-06 15:49:20,036 - auto_focus.focus - INFO - Focus: 22.43, 4.50, -3.53
+2015-11-06 15:52:15,605 - auto_focus.focus - INFO - Focus: 22.43, 4.50, -3.33
+2015-11-06 15:57:10,595 - auto_focus.focus - INFO - Focus: 22.38, 4.50, -3.28
+2015-11-06 15:58:25,546 - auto_focus.focus - INFO - Focus: 22.38, 4.50, -2.88
+2015-11-06 15:59:37,887 - auto_focus.focus - INFO - Focus: 22.38, 4.55, -3.48
+2015-11-06 16:00:21,947 - auto_focus.focus - INFO - Focus: 22.43, 4.55, -2.93
+2015-11-06 16:01:37,596 - auto_focus.focus - INFO - Focus: 22.38, 4.50, -2.83
+2015-11-06 16:03:45,687 - auto_focus.focus - INFO - Focus: 22.38, 4.60, -2.73
+2015-11-06 16:05:16,207 - auto_focus.focus - INFO - Focus: 22.38, 4.55, -3.48
+2015-11-06 16:06:28,367 - auto_focus.focus - INFO - Focus: 22.43, 4.50, -2.78
+2015-11-06 16:07:37,976 - auto_focus.focus - INFO - Focus: 22.33, 4.55, -2.83
+2015-11-06 16:08:40,647 - auto_focus.focus - INFO - Focus: 22.38, 4.55, -2.88
+2015-11-06 16:09:47,197 - auto_focus.focus - INFO - Focus: 22.28, 4.55, -2.63
+2015-11-06 16:10:39,608 - auto_focus.focus - INFO - Focus: 22.33, 4.60, -3.38
+2015-11-06 16:12:12,648 - auto_focus.focus - INFO - Focus: 22.33, 4.50, -2.83
+2015-11-06 16:13:09,987 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 126, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 203, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 150, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.COTask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 62, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2015-11-06 16:13:31,888 - pi3diamond.<module> - INFO - Starting logger.
+2015-11-06 16:13:37,108 - emod.start - INFO - Starting Job Manager.
+2015-11-06 16:13:37,118 - cron.run - INFO - Starting Cron Daemon.
+2015-11-06 16:14:00,578 - auto_focus.focus - INFO - Focus: 22.38, 4.55, -3.58
+2015-11-06 16:15:13,878 - auto_focus.focus - INFO - Focus: 22.33, 4.50, -3.53
+2015-11-06 16:29:03,765 - auto_focus.focus - INFO - Focus: 18.79, 8.19, -3.68
+2015-11-06 16:29:09,615 - auto_focus.focus - INFO - Focus: 18.79, 8.09, -3.63
+2015-11-06 16:31:03,144 - auto_focus.focus - INFO - Focus: 25.91, 0.26, -2.63
+2015-11-06 16:31:10,184 - auto_focus.focus - INFO - Focus: 25.96, 0.40, -2.68
+2015-11-06 16:36:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 16:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 16:36:08,466 - auto_focus.focus - INFO - Focus: 26.31, 4.40, -3.43
+2015-11-06 16:48:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 16:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 16:48:07,499 - auto_focus.focus - INFO - Focus: 26.31, 4.20, -3.18
+2015-11-06 17:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 17:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 17:00:08,395 - auto_focus.focus - INFO - Focus: 26.31, 4.15, -3.93
+2015-11-06 17:09:15,226 - auto_focus.focus - INFO - Focus: 26.09, 7.98, -3.08
+2015-11-06 17:09:21,345 - auto_focus.focus - INFO - Focus: 26.04, 8.18, -3.23
+2015-11-06 17:16:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 17:16:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 17:16:07,217 - auto_focus.focus - INFO - Focus: 25.94, 8.08, -2.73
+2015-11-06 17:26:53,338 - auto_focus.focus - INFO - Focus: 29.56, 8.44, -2.38
+2015-11-06 17:27:01,407 - auto_focus.focus - INFO - Focus: 29.61, 8.54, -2.58
+2015-11-06 17:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 17:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 17:36:06,408 - auto_focus.focus - INFO - Focus: 29.46, 8.49, -3.33
+2015-11-06 17:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 17:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 17:48:05,440 - auto_focus.focus - INFO - Focus: 29.51, 8.34, -3.28
+2015-11-06 18:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 18:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 18:00:05,450 - auto_focus.focus - INFO - Focus: 29.56, 8.34, -3.58
+2015-11-06 18:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 18:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 18:12:05,441 - auto_focus.focus - INFO - Focus: 29.51, 8.44, -3.53
+2015-11-06 18:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 18:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 18:24:05,443 - auto_focus.focus - INFO - Focus: 29.36, 8.19, -2.83
+2015-11-06 18:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 18:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 18:36:05,453 - auto_focus.focus - INFO - Focus: 29.36, 8.29, -2.73
+2015-11-06 18:48:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 18:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 18:48:05,444 - auto_focus.focus - INFO - Focus: 29.46, 8.09, -2.48
+2015-11-06 19:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 19:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 19:00:05,446 - auto_focus.focus - INFO - Focus: 29.41, 8.14, -3.43
+2015-11-06 19:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 19:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 19:12:05,447 - auto_focus.focus - INFO - Focus: 29.31, 8.09, -2.73
+2015-11-06 19:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 19:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 19:24:05,447 - auto_focus.focus - INFO - Focus: 29.56, 7.74, -2.78
+2015-11-06 19:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 19:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 19:36:05,198 - auto_focus.focus - INFO - Focus: 29.21, 7.89, -2.83
+2015-11-06 19:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 19:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 19:48:05,440 - auto_focus.focus - INFO - Focus: 29.26, 7.54, -3.28
+2015-11-06 20:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 20:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 20:00:05,440 - auto_focus.focus - INFO - Focus: 29.21, 7.84, -2.88
+2015-11-06 20:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 20:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 20:12:05,191 - auto_focus.focus - INFO - Focus: 28.91, 7.54, -2.03
+2015-11-06 20:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 20:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 20:24:05,453 - auto_focus.focus - INFO - Focus: 29.26, 7.64, -2.33
+2015-11-06 20:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 20:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 20:36:05,194 - auto_focus.focus - INFO - Focus: 29.01, 7.89, -1.18
+2015-11-06 20:48:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 20:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 20:48:05,444 - auto_focus.focus - INFO - Focus: 29.31, 8.19, -1.68
+2015-11-06 21:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 21:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 21:00:05,446 - auto_focus.focus - INFO - Focus: 29.51, 8.39, -1.68
+2015-11-06 21:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 21:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 21:12:05,447 - auto_focus.focus - INFO - Focus: 29.81, 8.04, -1.48
+2015-11-06 21:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 21:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 21:24:05,447 - auto_focus.focus - INFO - Focus: 30.11, 7.99, -0.38
+2015-11-06 21:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 21:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 21:36:05,198 - auto_focus.focus - INFO - Focus: 30.11, 7.84, -0.33
+2015-11-06 21:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 21:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 21:48:05,450 - auto_focus.focus - INFO - Focus: 30.46, 7.74, 0.67
+2015-11-06 22:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 22:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 22:00:05,450 - auto_focus.focus - INFO - Focus: 30.81, 7.84, 1.77
+2015-11-06 22:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 22:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 22:12:05,441 - auto_focus.focus - INFO - Focus: 31.16, 8.19, 1.72
+2015-11-06 22:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 22:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 22:24:05,443 - auto_focus.focus - INFO - Focus: 31.51, 8.09, 1.57
+2015-11-06 22:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 22:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 22:36:05,444 - auto_focus.focus - INFO - Focus: 31.86, 7.74, 1.12
+2015-11-06 22:48:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 22:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 22:48:05,184 - auto_focus.focus - INFO - Focus: 32.16, 7.64, 2.27
+2015-11-06 23:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 23:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 23:00:05,196 - auto_focus.focus - INFO - Focus: 32.46, 7.99, 3.12
+2015-11-06 23:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 23:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 23:12:05,447 - auto_focus.focus - INFO - Focus: 32.81, 7.69, 3.12
+2015-11-06 23:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 23:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 23:24:05,447 - auto_focus.focus - INFO - Focus: 33.16, 7.34, 3.12
+2015-11-06 23:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 23:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 23:36:05,448 - auto_focus.focus - INFO - Focus: 33.51, 7.04, 2.17
+2015-11-06 23:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-06 23:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-06 23:48:05,440 - auto_focus.focus - INFO - Focus: 33.86, 6.79, 0.92
+2015-11-07 00:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 00:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 00:00:05,440 - auto_focus.focus - INFO - Focus: 34.11, 6.94, 1.27
+2015-11-07 00:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 00:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 00:12:05,451 - auto_focus.focus - INFO - Focus: 34.46, 6.99, 0.47
+2015-11-07 00:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 00:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 00:24:05,443 - auto_focus.focus - INFO - Focus: 34.76, 6.59, -0.63
+2015-11-07 00:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 00:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 00:36:05,444 - auto_focus.focus - INFO - Focus: 34.91, 6.59, -1.13
+2015-11-07 00:48:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 00:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 00:48:05,454 - auto_focus.focus - INFO - Focus: 35.21, 6.69, -2.33
+2015-11-07 01:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 01:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 01:00:05,456 - auto_focus.focus - INFO - Focus: 35.46, 6.49, -2.78
+2015-11-07 01:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 01:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 01:12:05,447 - auto_focus.focus - INFO - Focus: 35.51, 6.79, -2.53
+2015-11-07 01:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 01:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 01:24:05,447 - auto_focus.focus - INFO - Focus: 35.51, 7.19, -2.33
+2015-11-07 01:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 01:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 01:36:05,448 - auto_focus.focus - INFO - Focus: 35.71, 7.14, -1.83
+2015-11-07 01:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 01:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 01:48:05,440 - auto_focus.focus - INFO - Focus: 35.66, 7.49, -2.63
+2015-11-07 02:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 02:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 02:00:05,440 - auto_focus.focus - INFO - Focus: 35.96, 7.19, -2.58
+2015-11-07 02:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 02:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 02:12:05,441 - auto_focus.focus - INFO - Focus: 36.11, 7.59, -3.68
+2015-11-07 02:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 02:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 02:24:05,443 - auto_focus.focus - INFO - Focus: 36.46, 7.29, -4.93
+2015-11-07 02:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 02:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 02:36:05,444 - auto_focus.focus - INFO - Focus: 36.76, 7.09, -5.13
+2015-11-07 02:48:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 02:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 02:48:05,444 - auto_focus.focus - INFO - Focus: 37.06, 6.94, -5.93
+2015-11-07 03:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 03:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 03:00:05,446 - auto_focus.focus - INFO - Focus: 36.81, 7.24, -6.58
+2015-11-07 03:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 03:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 03:12:05,447 - auto_focus.focus - INFO - Focus: 36.91, 7.14, -7.08
+2015-11-07 03:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 03:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 03:24:05,447 - auto_focus.focus - INFO - Focus: 37.21, 7.29, -8.33
+2015-11-07 03:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 03:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 03:36:05,448 - auto_focus.focus - INFO - Focus: 36.96, 7.49, -8.38
+2015-11-07 03:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 03:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 03:48:05,440 - auto_focus.focus - INFO - Focus: 37.16, 7.19, -9.58
+2015-11-07 04:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 04:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 04:00:05,440 - auto_focus.focus - INFO - Focus: 37.21, 6.94, -10.78
+2015-11-07 04:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 04:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 04:12:05,441 - auto_focus.focus - INFO - Focus: 37.21, 6.79, -10.98
+2015-11-07 04:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 04:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 04:24:05,443 - auto_focus.focus - INFO - Focus: 36.81, 6.54, -11.63
+2015-11-07 04:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 04:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 04:36:05,444 - auto_focus.focus - INFO - Focus: 37.01, 6.29, -11.83
+2015-11-07 04:48:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 04:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 04:48:05,444 - auto_focus.focus - INFO - Focus: 37.21, 6.34, -12.33
+2015-11-07 05:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 05:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 05:00:05,446 - auto_focus.focus - INFO - Focus: 37.56, 6.74, -12.83
+2015-11-07 05:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 05:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 05:12:05,447 - auto_focus.focus - INFO - Focus: 37.56, 6.84, -11.83
+2015-11-07 05:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 05:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 05:24:05,447 - auto_focus.focus - INFO - Focus: 37.56, 6.79, -12.33
+2015-11-07 05:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 05:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 05:36:05,448 - auto_focus.focus - INFO - Focus: 37.41, 7.09, -13.28
+2015-11-07 05:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 05:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 05:48:05,440 - auto_focus.focus - INFO - Focus: 37.76, 7.19, -14.38
+2015-11-07 06:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 06:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 06:00:05,440 - auto_focus.focus - INFO - Focus: 37.96, 6.79, -14.88
+2015-11-07 06:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 06:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 06:12:05,441 - auto_focus.focus - INFO - Focus: 37.86, 6.64, -15.98
+2015-11-07 06:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 06:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 06:24:05,443 - auto_focus.focus - INFO - Focus: 38.16, 6.24, -16.63
+2015-11-07 06:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 06:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 06:36:05,444 - auto_focus.focus - INFO - Focus: 38.11, 6.29, -17.73
+2015-11-07 06:48:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 06:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 06:48:05,444 - auto_focus.focus - INFO - Focus: 38.21, 5.94, -18.93
+2015-11-07 07:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 07:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 07:00:05,446 - auto_focus.focus - INFO - Focus: 38.36, 5.69, -19.73
+2015-11-07 07:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 07:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 07:12:05,447 - auto_focus.focus - INFO - Focus: 38.21, 5.94, -20.83
+2015-11-07 07:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 07:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 07:24:05,447 - auto_focus.focus - INFO - Focus: 38.56, 6.24, -21.78
+2015-11-07 07:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 07:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 07:36:05,459 - auto_focus.focus - INFO - Focus: 38.91, 6.24, -22.88
+2015-11-07 07:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 07:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 07:48:05,440 - auto_focus.focus - INFO - Focus: 39.16, 5.99, -23.98
+2015-11-07 08:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 08:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 08:00:05,440 - auto_focus.focus - INFO - Focus: 39.51, 5.99, -24.78
+2015-11-07 08:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 08:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 08:12:05,441 - auto_focus.focus - INFO - Focus: 39.71, 5.74, -24.98
+2015-11-07 08:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 08:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 08:24:05,443 - auto_focus.focus - INFO - Focus: 40.01, 5.49, -25.00
+2015-11-07 08:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 08:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 08:36:05,444 - auto_focus.focus - INFO - Focus: 40.16, 5.69, -25.00
+2015-11-07 08:48:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 08:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 08:48:05,444 - auto_focus.focus - INFO - Focus: 40.46, 5.49, -25.00
+2015-11-07 09:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 09:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 09:00:05,446 - auto_focus.focus - INFO - Focus: 40.81, 5.44, -25.00
+2015-11-07 09:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 09:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 09:12:05,447 - auto_focus.focus - INFO - Focus: 41.16, 5.59, -25.00
+2015-11-07 09:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 09:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 09:24:05,457 - auto_focus.focus - INFO - Focus: 41.41, 5.34, -25.00
+2015-11-07 09:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 09:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 09:36:05,448 - auto_focus.focus - INFO - Focus: 41.71, 5.64, -25.00
+2015-11-07 09:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 09:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 09:48:05,440 - auto_focus.focus - INFO - Focus: 41.71, 5.64, -25.00
+2015-11-07 10:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 10:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 10:00:05,440 - auto_focus.focus - INFO - Focus: 41.96, 5.69, -25.00
+2015-11-07 10:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 10:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 10:12:05,441 - auto_focus.focus - INFO - Focus: 41.66, 5.49, -25.00
+2015-11-07 10:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 10:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 10:24:05,443 - auto_focus.focus - INFO - Focus: 41.91, 5.29, -25.00
+2015-11-07 10:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 10:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 10:36:05,444 - auto_focus.focus - INFO - Focus: 41.71, 5.39, -25.00
+2015-11-07 10:48:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 10:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 10:48:05,444 - auto_focus.focus - INFO - Focus: 41.66, 5.29, -25.00
+2015-11-07 11:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 11:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 11:00:05,446 - auto_focus.focus - INFO - Focus: 41.86, 4.89, -25.00
+2015-11-07 11:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 11:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 11:12:05,447 - auto_focus.focus - INFO - Focus: 41.71, 4.89, -25.00
+2015-11-07 11:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 11:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 11:24:05,447 - auto_focus.focus - INFO - Focus: 42.01, 5.24, -25.00
+2015-11-07 11:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 11:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 11:36:05,448 - auto_focus.focus - INFO - Focus: 42.21, 4.89, -25.00
+2015-11-07 11:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 11:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 11:48:05,789 - auto_focus.focus - INFO - Focus: 42.16, 4.89, -25.00
+2015-11-07 12:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 12:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 12:00:05,440 - auto_focus.focus - INFO - Focus: 41.91, 4.49, -25.00
+2015-11-07 12:12:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 12:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 12:12:05,441 - auto_focus.focus - INFO - Focus: 41.71, 4.09, -25.00
+2015-11-07 12:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 12:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 12:24:05,443 - auto_focus.focus - INFO - Focus: 41.46, 3.69, -25.00
+2015-11-07 12:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 12:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 12:36:05,184 - auto_focus.focus - INFO - Focus: 41.81, 3.44, -25.00
+2015-11-07 12:48:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 12:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 12:48:05,194 - auto_focus.focus - INFO - Focus: 42.06, 3.69, -25.00
+2015-11-07 13:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 13:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 13:00:05,196 - auto_focus.focus - INFO - Focus: 42.01, 3.29, -25.00
+2015-11-07 13:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 13:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 13:12:05,197 - auto_focus.focus - INFO - Focus: 41.61, 3.04, -25.00
+2015-11-07 13:24:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 13:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 13:24:05,197 - auto_focus.focus - INFO - Focus: 41.86, 2.89, -25.00
+2015-11-07 13:36:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 13:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 13:36:05,190 - auto_focus.focus - INFO - Focus: 41.66, 2.54, -24.75
+2015-11-07 13:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 13:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 13:48:05,190 - auto_focus.focus - INFO - Focus: 41.91, 2.49, -25.00
+2015-11-07 14:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 14:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 14:00:05,181 - auto_focus.focus - INFO - Focus: 41.86, 2.44, -25.00
+2015-11-07 14:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 14:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 14:12:05,193 - auto_focus.focus - INFO - Focus: 42.16, 2.09, -25.00
+2015-11-07 14:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 14:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 14:24:05,194 - auto_focus.focus - INFO - Focus: 42.06, 1.69, -25.00
+2015-11-07 14:36:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 14:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 14:36:05,194 - auto_focus.focus - INFO - Focus: 42.16, 1.39, -25.00
+2015-11-07 14:48:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 14:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 14:48:05,196 - auto_focus.focus - INFO - Focus: 42.31, 1.29, -25.00
+2015-11-07 15:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 15:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 15:00:05,187 - auto_focus.focus - INFO - Focus: 42.51, 1.09, -25.00
+2015-11-07 15:12:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 15:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 15:12:05,197 - auto_focus.focus - INFO - Focus: 42.41, 0.89, -25.00
+2015-11-07 15:24:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 15:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 15:24:05,198 - auto_focus.focus - INFO - Focus: 42.76, 0.69, -25.00
+2015-11-07 15:36:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 15:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 15:36:05,440 - auto_focus.focus - INFO - Focus: 42.61, 0.29, -25.00
+2015-11-07 15:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 15:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 15:48:04,671 - auto_focus.focus - INFO - Focus: 42.91, 0.20, -25.00
+2015-11-07 16:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 16:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 16:00:04,421 - auto_focus.focus - INFO - Focus: 42.76, 0.35, -25.00
+2015-11-07 16:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 16:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 16:12:04,943 - auto_focus.focus - INFO - Focus: 43.01, 0.20, -25.00
+2015-11-07 16:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 16:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 16:24:04,424 - auto_focus.focus - INFO - Focus: 42.66, 0.15, -25.00
+2015-11-07 16:36:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 16:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 16:36:03,914 - auto_focus.focus - INFO - Focus: 42.71, 0.00, -25.00
+2015-11-07 16:48:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 16:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 16:48:03,145 - auto_focus.focus - INFO - Focus: 42.46, 0.35, -25.00
+2015-11-07 17:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 17:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 17:00:04,937 - auto_focus.focus - INFO - Focus: 42.66, 0.45, -25.00
+2015-11-07 17:12:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 17:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 17:12:05,187 - auto_focus.focus - INFO - Focus: 42.51, 0.75, -25.00
+2015-11-07 17:24:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 17:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 17:24:05,198 - auto_focus.focus - INFO - Focus: 42.56, 0.45, -25.00
+2015-11-07 17:36:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 17:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 17:36:05,190 - auto_focus.focus - INFO - Focus: 42.91, 0.05, -25.00
+2015-11-07 17:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 17:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 17:48:03,401 - auto_focus.focus - INFO - Focus: 42.76, 0.05, -25.00
+2015-11-07 18:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 18:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 18:00:03,401 - auto_focus.focus - INFO - Focus: 42.66, 0.10, -25.00
+2015-11-07 18:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 18:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 18:12:03,653 - auto_focus.focus - INFO - Focus: 42.66, 0.35, -25.00
+2015-11-07 18:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 18:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 18:24:04,934 - auto_focus.focus - INFO - Focus: 43.01, 0.25, -25.00
+2015-11-07 18:36:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 18:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 18:36:04,424 - auto_focus.focus - INFO - Focus: 42.76, 0.60, -25.00
+2015-11-07 18:48:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 18:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 18:48:05,186 - auto_focus.focus - INFO - Focus: 42.76, 0.50, -25.00
+2015-11-07 19:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 19:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 19:00:05,197 - auto_focus.focus - INFO - Focus: 42.71, 0.65, -25.00
+2015-11-07 19:12:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 19:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 19:12:05,187 - auto_focus.focus - INFO - Focus: 42.36, 0.60, -25.00
+2015-11-07 19:24:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 19:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 19:24:05,198 - auto_focus.focus - INFO - Focus: 42.36, 0.85, -25.00
+2015-11-07 19:36:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 19:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 19:36:05,190 - auto_focus.focus - INFO - Focus: 42.11, 0.95, -25.00
+2015-11-07 19:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 19:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 19:48:05,180 - auto_focus.focus - INFO - Focus: 42.36, 1.30, -25.00
+2015-11-07 20:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 20:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 20:00:05,441 - auto_focus.focus - INFO - Focus: 42.56, 1.40, -25.00
+2015-11-07 20:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 20:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 20:12:05,193 - auto_focus.focus - INFO - Focus: 42.86, 1.70, -25.00
+2015-11-07 20:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 20:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 20:24:05,194 - auto_focus.focus - INFO - Focus: 42.71, 1.95, -25.00
+2015-11-07 20:36:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 20:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 20:36:05,444 - auto_focus.focus - INFO - Focus: 42.36, 1.80, -25.00
+2015-11-07 20:48:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 20:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 20:48:05,446 - auto_focus.focus - INFO - Focus: 42.26, 1.90, -25.00
+2015-11-07 21:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 21:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 21:00:05,197 - auto_focus.focus - INFO - Focus: 42.06, 2.10, -25.00
+2015-11-07 21:12:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 21:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 21:12:05,197 - auto_focus.focus - INFO - Focus: 41.66, 2.00, -25.00
+2015-11-07 21:24:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 21:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 21:24:05,198 - auto_focus.focus - INFO - Focus: 41.46, 2.00, -25.00
+2015-11-07 21:36:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 21:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 21:36:05,200 - auto_focus.focus - INFO - Focus: 41.66, 2.35, -25.00
+2015-11-07 21:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 21:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 21:48:05,190 - auto_focus.focus - INFO - Focus: 41.61, 2.60, -25.00
+2015-11-07 22:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 22:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 22:00:05,181 - auto_focus.focus - INFO - Focus: 41.56, 2.35, -25.00
+2015-11-07 22:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 22:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 22:12:05,193 - auto_focus.focus - INFO - Focus: 41.41, 2.00, -25.00
+2015-11-07 22:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 22:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 22:24:05,194 - auto_focus.focus - INFO - Focus: 41.61, 2.10, -25.00
+2015-11-07 22:36:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 22:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 22:36:05,194 - auto_focus.focus - INFO - Focus: 41.61, 1.80, -25.00
+2015-11-07 22:48:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 22:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 22:48:05,196 - auto_focus.focus - INFO - Focus: 41.51, 2.00, -25.00
+2015-11-07 23:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 23:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 23:00:05,197 - auto_focus.focus - INFO - Focus: 41.76, 2.25, -25.00
+2015-11-07 23:12:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 23:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 23:12:05,197 - auto_focus.focus - INFO - Focus: 41.61, 2.45, -25.00
+2015-11-07 23:24:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 23:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 23:24:05,198 - auto_focus.focus - INFO - Focus: 41.26, 2.60, -25.00
+2015-11-07 23:36:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 23:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 23:36:05,190 - auto_focus.focus - INFO - Focus: 41.41, 2.20, -25.00
+2015-11-07 23:48:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-07 23:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-07 23:48:05,180 - auto_focus.focus - INFO - Focus: 41.71, 2.45, -25.00
+2015-11-08 00:00:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 00:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 00:00:05,191 - auto_focus.focus - INFO - Focus: 41.56, 2.65, -25.00
+2015-11-08 00:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 00:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 00:12:05,193 - auto_focus.focus - INFO - Focus: 41.81, 2.25, -25.00
+2015-11-08 00:24:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 00:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 00:24:05,184 - auto_focus.focus - INFO - Focus: 41.81, 2.05, -25.00
+2015-11-08 00:36:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 00:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 00:36:05,184 - auto_focus.focus - INFO - Focus: 41.96, 2.15, -25.00
+2015-11-08 00:48:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 00:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 00:48:05,196 - auto_focus.focus - INFO - Focus: 41.96, 2.25, -25.00
+2015-11-08 01:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 01:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 00:59:34,095 - auto_focus.focus - INFO - Focus: 41.81, 2.40, -25.00
+2015-11-08 01:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 01:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 01:12:05,186 - auto_focus.focus - INFO - Focus: 41.91, 2.75, -25.00
+2015-11-08 01:24:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 01:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 01:24:05,197 - auto_focus.focus - INFO - Focus: 42.06, 3.00, -25.00
+2015-11-08 01:36:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 01:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 01:36:05,197 - auto_focus.focus - INFO - Focus: 42.16, 3.20, -25.00
+2015-11-08 01:48:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 01:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 01:48:05,188 - auto_focus.focus - INFO - Focus: 41.86, 3.45, -25.00
+2015-11-08 02:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 02:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 02:00:05,190 - auto_focus.focus - INFO - Focus: 41.96, 3.60, -25.00
+2015-11-08 02:12:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 02:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 02:12:05,190 - auto_focus.focus - INFO - Focus: 42.01, 3.70, -25.00
+2015-11-08 02:24:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 02:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 02:24:05,451 - auto_focus.focus - INFO - Focus: 42.06, 4.05, -25.00
+2015-11-08 02:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 02:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 02:36:05,443 - auto_focus.focus - INFO - Focus: 42.11, 4.30, -25.00
+2015-11-08 02:48:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 02:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 02:48:05,444 - auto_focus.focus - INFO - Focus: 41.91, 4.65, -25.00
+2015-11-08 03:00:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 03:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 03:00:05,454 - auto_focus.focus - INFO - Focus: 41.81, 4.95, -25.00
+2015-11-08 03:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 03:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 03:12:05,446 - auto_focus.focus - INFO - Focus: 42.01, 4.90, -25.00
+2015-11-08 03:24:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 03:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 03:24:05,447 - auto_focus.focus - INFO - Focus: 41.66, 5.05, -25.00
+2015-11-08 03:36:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 03:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 03:36:05,457 - auto_focus.focus - INFO - Focus: 42.01, 4.95, -25.00
+2015-11-08 03:48:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 03:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 03:48:05,448 - auto_focus.focus - INFO - Focus: 41.91, 4.60, -25.00
+2015-11-08 04:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 04:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 04:00:05,440 - auto_focus.focus - INFO - Focus: 41.91, 4.40, -25.00
+2015-11-08 04:12:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 04:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 04:12:05,440 - auto_focus.focus - INFO - Focus: 42.01, 4.55, -25.00
+2015-11-08 04:24:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 04:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 04:24:05,441 - auto_focus.focus - INFO - Focus: 42.21, 4.50, -25.00
+2015-11-08 04:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 04:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 04:36:05,443 - auto_focus.focus - INFO - Focus: 41.81, 4.60, -25.00
+2015-11-08 04:48:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 04:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 04:48:05,444 - auto_focus.focus - INFO - Focus: 41.66, 5.00, -24.90
+2015-11-08 05:00:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 05:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 05:00:05,444 - auto_focus.focus - INFO - Focus: 41.26, 5.25, -25.00
+2015-11-08 05:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 05:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 05:12:05,446 - auto_focus.focus - INFO - Focus: 41.41, 5.35, -25.00
+2015-11-08 05:24:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 05:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 05:24:05,447 - auto_focus.focus - INFO - Focus: 41.76, 5.40, -25.00
+2015-11-08 05:36:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 05:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 05:36:05,447 - auto_focus.focus - INFO - Focus: 41.66, 5.55, -25.00
+2015-11-08 05:48:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 05:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 05:48:05,448 - auto_focus.focus - INFO - Focus: 41.86, 5.40, -25.00
+2015-11-08 06:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 06:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 06:00:05,440 - auto_focus.focus - INFO - Focus: 41.71, 5.75, -25.00
+2015-11-08 06:12:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 06:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 06:12:05,450 - auto_focus.focus - INFO - Focus: 41.36, 6.15, -25.00
+2015-11-08 06:24:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 06:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 06:24:05,441 - auto_focus.focus - INFO - Focus: 41.66, 6.15, -25.00
+2015-11-08 06:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 06:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 06:36:05,453 - auto_focus.focus - INFO - Focus: 41.56, 6.40, -25.00
+2015-11-08 06:48:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 06:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 06:48:05,444 - auto_focus.focus - INFO - Focus: 41.86, 6.50, -25.00
+2015-11-08 07:00:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 07:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 07:00:05,444 - auto_focus.focus - INFO - Focus: 42.21, 6.15, -25.00
+2015-11-08 07:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 07:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 07:12:05,456 - auto_focus.focus - INFO - Focus: 42.16, 6.35, -25.00
+2015-11-08 07:24:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 07:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 07:24:05,447 - auto_focus.focus - INFO - Focus: 42.46, 5.95, -25.00
+2015-11-08 07:36:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 07:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 07:36:05,447 - auto_focus.focus - INFO - Focus: 42.26, 6.05, -25.00
+2015-11-08 07:48:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 07:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 07:48:05,448 - auto_focus.focus - INFO - Focus: 42.06, 5.70, -25.00
+2015-11-08 08:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 08:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 08:00:05,440 - auto_focus.focus - INFO - Focus: 42.31, 5.30, -25.00
+2015-11-08 08:12:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 08:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 08:12:05,440 - auto_focus.focus - INFO - Focus: 42.46, 5.65, -25.00
+2015-11-08 08:24:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 08:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 08:24:05,441 - auto_focus.focus - INFO - Focus: 42.21, 5.60, -25.00
+2015-11-08 08:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 08:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 08:36:05,443 - auto_focus.focus - INFO - Focus: 42.06, 5.25, -25.00
+2015-11-08 08:48:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 08:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 08:48:05,444 - auto_focus.focus - INFO - Focus: 42.36, 5.10, -25.00
+2015-11-08 09:00:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 09:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 09:00:05,444 - auto_focus.focus - INFO - Focus: 42.51, 4.70, -25.00
+2015-11-08 09:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 09:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 09:12:05,456 - auto_focus.focus - INFO - Focus: 42.76, 4.35, -25.00
+2015-11-08 09:24:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 09:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 09:24:05,447 - auto_focus.focus - INFO - Focus: 42.36, 4.15, -25.00
+2015-11-08 09:36:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 09:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 09:36:05,447 - auto_focus.focus - INFO - Focus: 42.21, 3.85, -25.00
+2015-11-08 09:48:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 09:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 09:48:05,198 - auto_focus.focus - INFO - Focus: 42.56, 3.55, -25.00
+2015-11-08 10:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 10:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 10:00:05,190 - auto_focus.focus - INFO - Focus: 42.16, 3.30, -24.90
+2015-11-08 10:12:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 10:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 10:12:05,180 - auto_focus.focus - INFO - Focus: 41.96, 3.40, -24.95
+2015-11-08 10:24:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 10:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 10:24:05,191 - auto_focus.focus - INFO - Focus: 42.06, 3.55, -25.00
+2015-11-08 10:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 10:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 10:36:05,193 - auto_focus.focus - INFO - Focus: 42.21, 3.85, -25.00
+2015-11-08 10:48:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 10:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 10:48:05,444 - auto_focus.focus - INFO - Focus: 41.96, 3.60, -25.00
+2015-11-08 11:00:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 11:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 11:00:05,184 - auto_focus.focus - INFO - Focus: 41.91, 3.45, -25.00
+2015-11-08 11:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 11:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 11:12:05,196 - auto_focus.focus - INFO - Focus: 41.86, 3.10, -25.00
+2015-11-08 11:24:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 11:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 11:24:05,197 - auto_focus.focus - INFO - Focus: 41.51, 2.75, -25.00
+2015-11-08 11:36:00,007 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 11:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 11:36:05,197 - auto_focus.focus - INFO - Focus: 41.11, 2.85, -25.00
+2015-11-08 11:48:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 11:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 11:48:05,188 - auto_focus.focus - INFO - Focus: 41.26, 3.15, -25.00
+2015-11-08 12:00:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 12:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 12:00:05,190 - auto_focus.focus - INFO - Focus: 41.46, 2.75, -25.00
+2015-11-08 12:12:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 12:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 12:12:05,190 - auto_focus.focus - INFO - Focus: 41.46, 2.95, -25.00
+2015-11-08 12:24:00,002 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 12:24:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 12:24:05,191 - auto_focus.focus - INFO - Focus: 41.41, 3.30, -25.00
+2015-11-08 12:36:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 12:36:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 12:36:05,193 - auto_focus.focus - INFO - Focus: 41.41, 2.95, -25.00
+2015-11-08 12:48:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 12:48:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 12:48:05,194 - auto_focus.focus - INFO - Focus: 41.61, 2.75, -25.00
+2015-11-08 13:00:00,005 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 13:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 13:00:05,204 - auto_focus.focus - INFO - Focus: 41.31, 3.05, -25.00
+2015-11-08 13:12:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>> at time 2015-11-08 13:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0C7F6C30>>.
+2015-11-08 13:12:05,196 - auto_focus.focus - INFO - Focus: 41.56, 3.05, -25.00

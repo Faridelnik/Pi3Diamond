@@ -1,0 +1,320 @@
+2016-11-22 15:29:17,769 - auto_focus.focus - INFO - Focus: 15.02, 24.04, -0.74
+2016-11-22 15:29:18,259 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0BC29510> is already running or in the queue.
+2016-11-22 15:29:39,940 - auto_focus.focus - INFO - Focus: 15.22, 23.79, -1.22
+2016-11-22 15:29:48,470 - auto_focus.focus - INFO - Focus: 15.07, 23.89, -0.90
+2016-11-22 15:29:56,950 - auto_focus.focus - INFO - Focus: 15.02, 23.74, -1.02
+2016-11-22 15:30:12,111 - auto_focus.focus - INFO - Focus: 15.12, 23.74, -1.12
+2016-11-22 15:32:25,210 - auto_focus.focus - INFO - Focus: 15.43, 24.82, -1.38
+2016-11-22 15:32:34,030 - auto_focus.focus - INFO - Focus: 15.43, 24.77, -1.30
+2016-11-22 16:05:36,026 - auto_focus.focus - INFO - Focus: 15.53, 24.77, -1.50
+2016-11-22 16:24:12,667 - auto_focus.focus - INFO - Focus: 15.33, 24.77, -1.64
+2016-11-22 16:24:29,717 - auto_focus.focus - INFO - Focus: 15.43, 24.82, -1.12
+2016-11-22 16:24:45,066 - auto_focus.focus - INFO - Focus: 15.53, 24.77, -1.32
+2016-11-22 16:24:53,816 - auto_focus.focus - INFO - Focus: 15.48, 24.82, -1.38
+2016-11-22 16:25:08,586 - auto_focus.focus - INFO - Focus: 15.43, 24.77, -1.52
+2016-11-22 16:26:17,746 - pulsed_awg._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 182, in _run
+    self.apply_parameters()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 164, in apply_parameters
+    FC.Configure(self.laser, self.bin_width, self.sequence_points)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 381, in __call__
+    return self.__send(self.__name, args, kwargs)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 456, in _invokePYRO
+    return self.adapter.remoteInvocation(name, Pyro.constants.RIF_VarargsAndKeywords, vargs, kargs)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\protocol.py", line 497, in remoteInvocation
+    return self._remoteInvocation(method, flags, *args)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\protocol.py", line 513, in _remoteInvocation
+    sock_sendmsg(self.conn.sock, self.createMsg(body), self.timeout)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\protocol.py", line 165, in sock_sendmsg
+    raise ConnectionClosedError('connection lost')
+ConnectionClosedError: connection lost
+2016-11-22 16:26:56,516 - pulsed_awg._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 182, in _run
+    self.apply_parameters()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 164, in apply_parameters
+    FC.Configure(self.laser, self.bin_width, self.sequence_points)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 381, in __call__
+    return self.__send(self.__name, args, kwargs)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 455, in _invokePYRO
+    self.adapter.bindToURI(self.URI)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\protocol.py", line 330, in bindToURI
+    raise ProtocolError('connection failed')
+ProtocolError: connection failed
+2016-11-22 16:30:23,148 - auto_focus.focus - INFO - Focus: 15.53, 24.82, -0.90
+2016-11-22 16:30:48,197 - pulsed_awg._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 182, in _run
+    self.apply_parameters()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 164, in apply_parameters
+    FC.Configure(self.laser, self.bin_width, self.sequence_points)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 381, in __call__
+    return self.__send(self.__name, args, kwargs)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 455, in _invokePYRO
+    self.adapter.bindToURI(self.URI)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\protocol.py", line 330, in bindToURI
+    raise ProtocolError('connection failed')
+ProtocolError: connection failed
+2016-11-22 16:31:19,747 - pi3diamond.<module> - INFO - Starting logger.
+2016-11-22 16:31:26,608 - emod.start - INFO - Starting Job Manager.
+2016-11-22 16:31:26,638 - cron.run - INFO - Starting Cron Daemon.
+2016-11-22 16:33:10,773 - pulsed_awg._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 182, in _run
+    self.apply_parameters()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 164, in apply_parameters
+    FC.Configure(self.laser, self.bin_width, self.sequence_points)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 381, in __call__
+    return self.__send(self.__name, args, kwargs)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 455, in _invokePYRO
+    self.adapter.bindToURI(self.URI)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\protocol.py", line 330, in bindToURI
+    raise ProtocolError('connection failed')
+ProtocolError: connection failed
+2016-11-22 17:41:56,279 - pi3diamond.<module> - INFO - Starting logger.
+2016-11-22 17:42:04,168 - emod.start - INFO - Starting Job Manager.
+2016-11-22 17:42:04,198 - cron.run - INFO - Starting Cron Daemon.
+2016-11-22 17:43:03,069 - auto_focus.focus - INFO - Focus: 15.48, 24.82, -1.16
+2016-11-22 17:43:29,928 - auto_focus.focus - INFO - Focus: 15.23, 20.30, -0.46
+2016-11-22 17:43:38,529 - auto_focus.focus - INFO - Focus: 15.23, 20.20, -0.52
+2016-11-22 17:43:55,188 - auto_focus.focus - INFO - Focus: 15.38, 20.20, 0.38
+2016-11-22 17:44:03,678 - auto_focus.focus - INFO - Focus: 15.58, 20.40, 0.24
+2016-11-22 17:44:35,838 - auto_focus.focus - INFO - Focus: 15.38, 20.65, -0.18
+2016-11-22 17:44:45,438 - auto_focus.focus - INFO - Focus: 15.58, 20.55, 0.18
+2016-11-22 17:44:54,539 - auto_focus.focus - INFO - Focus: 15.53, 20.55, 0.12
+2016-11-22 17:46:27,489 - pulsed_awg._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 182, in _run
+    self.apply_parameters()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 164, in apply_parameters
+    FC.Configure(self.laser, self.bin_width, self.sequence_points)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 381, in __call__
+    return self.__send(self.__name, args, kwargs)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 455, in _invokePYRO
+    self.adapter.bindToURI(self.URI)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\protocol.py", line 330, in bindToURI
+    raise ProtocolError('connection failed')
+ProtocolError: connection failed
+2016-11-23 09:32:41,326 - pulsed_awg._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 182, in _run
+    self.apply_parameters()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 164, in apply_parameters
+    FC.Configure(self.laser, self.bin_width, self.sequence_points)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 381, in __call__
+    return self.__send(self.__name, args, kwargs)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 455, in _invokePYRO
+    self.adapter.bindToURI(self.URI)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\protocol.py", line 330, in bindToURI
+    raise ProtocolError('connection failed')
+ProtocolError: connection failed
+2016-11-23 10:19:01,766 - pulsed_awg._run - ERROR - Something went wrong in pulsed loop.
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 182, in _run
+    self.apply_parameters()
+  File "D:\pi3diamondnew\measurements\pulsed_awg.py", line 164, in apply_parameters
+    FC.Configure(self.laser, self.bin_width, self.sequence_points)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 381, in __call__
+    return self.__send(self.__name, args, kwargs)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\core.py", line 455, in _invokePYRO
+    self.adapter.bindToURI(self.URI)
+  File "C:\Pythonepd\lib\site-packages\pyro-3.16-py2.7.egg\Pyro\protocol.py", line 330, in bindToURI
+    raise ProtocolError('connection failed')
+ProtocolError: connection failed
+2016-11-23 10:21:22,529 - auto_focus.focus - INFO - Focus: 10.74, 20.02, -0.24
+2016-11-23 10:21:29,880 - emod.submit - INFO - The job <measurements.confocal.Confocal object at 0x077C8B10> is already running or in the queue.
+2016-11-23 10:22:09,059 - auto_focus.focus - INFO - Focus: 19.59, 24.95, -0.74
+2016-11-23 10:22:18,730 - auto_focus.focus - INFO - Focus: 19.54, 24.85, -0.98
+2016-11-23 10:22:53,660 - auto_focus.focus - INFO - Focus: 16.83, 20.40, -0.86
+2016-11-23 10:23:02,640 - auto_focus.focus - INFO - Focus: 16.78, 20.35, -0.60
+2016-11-23 10:23:13,160 - auto_focus.focus - INFO - Focus: 16.83, 20.35, -0.54
+2016-11-23 10:23:21,710 - auto_focus.focus - INFO - Focus: 16.83, 20.40, -0.20
+2016-11-23 10:23:32,789 - auto_focus.focus - INFO - Focus: 16.83, 20.45, -0.32
+2016-11-23 10:26:20,470 - auto_focus.focus - INFO - Focus: 28.72, 20.40, -0.80
+2016-11-23 10:52:52,441 - auto_focus.focus - INFO - Focus: 25.92, 20.20, 0.67
+2016-11-23 10:53:00,982 - auto_focus.focus - INFO - Focus: 26.07, 20.15, 0.19
+2016-11-23 10:54:24,371 - auto_focus.focus - INFO - Focus: 21.24, 20.35, 1.87
+2016-11-23 10:54:33,582 - auto_focus.focus - INFO - Focus: 20.99, 20.30, 1.43
+2016-11-23 10:54:50,661 - auto_focus.focus - INFO - Focus: 21.38, 20.30, 1.65
+2016-11-23 10:54:59,332 - auto_focus.focus - INFO - Focus: 21.33, 20.40, 1.63
+2016-11-23 10:56:03,933 - auto_focus.focus - INFO - Focus: 22.52, 20.49, 1.51
+2016-11-23 10:56:12,413 - auto_focus.focus - INFO - Focus: 22.47, 20.59, 1.49
+2016-11-23 11:05:06,503 - auto_focus.focus - INFO - Focus: 22.42, 20.79, 1.99
+2016-11-23 11:05:15,292 - auto_focus.focus - INFO - Focus: 22.47, 20.79, 1.93
+2016-11-23 11:13:55,272 - auto_focus.focus - INFO - Focus: 22.29, 21.52, 1.94
+2016-11-23 11:14:34,941 - auto_focus.focus - INFO - Focus: 22.29, 21.47, 1.96
+2016-11-23 11:17:17,062 - auto_focus.focus - INFO - Focus: 22.34, 21.47, 2.04
+2016-11-23 11:17:34,003 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C8B0180>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-11-23 11:18:54,602 - auto_focus.focus - INFO - Focus: 22.24, 21.37, 1.86
+2016-11-23 11:19:03,372 - auto_focus.focus - INFO - Focus: 22.29, 21.42, 1.94
+2016-11-23 11:20:06,523 - auto_focus.focus - INFO - Focus: 27.04, 26.96, 1.98
+2016-11-23 11:20:18,263 - auto_focus.focus - INFO - Focus: 27.04, 27.01, 1.98
+2016-11-23 11:20:27,243 - auto_focus.focus - INFO - Focus: 27.04, 27.06, 1.98
+2016-11-23 11:22:46,299 - auto_focus.focus - INFO - Focus: 27.09, 27.01, 1.98
+2016-11-23 11:22:54,997 - auto_focus.focus - INFO - Focus: 27.09, 27.06, 2.00
+2016-11-23 11:24:16,490 - auto_focus.focus - INFO - Focus: 27.09, 27.06, 2.00
+2016-11-23 12:16:56,555 - auto_focus.focus - INFO - Focus: 21.29, 23.21, 1.92
+2016-11-23 12:17:11,724 - auto_focus.focus - INFO - Focus: 21.24, 23.16, 1.54
+2016-11-23 12:17:40,984 - auto_focus.focus - INFO - Focus: 21.19, 23.16, 1.46
+2016-11-23 12:17:50,845 - auto_focus.focus - INFO - Focus: 21.19, 23.16, 1.46
+2016-11-23 12:20:01,716 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C8B0180>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-11-23 12:20:13,635 - auto_focus.focus - INFO - Focus: 21.14, 23.16, 1.46
+2016-11-23 12:21:40,496 - auto_focus.focus - INFO - Focus: 21.19, 23.16, 1.60
+2016-11-23 12:23:48,066 - auto_focus.focus - INFO - Focus: 21.19, 23.11, 1.52
+2016-11-23 12:25:54,937 - auto_focus.focus - INFO - Focus: 21.19, 23.16, 1.56
+2016-11-23 12:28:14,897 - auto_focus.focus - INFO - Focus: 21.14, 23.16, 1.78
+2016-11-23 12:32:17,816 - auto_focus.focus - INFO - Focus: 21.14, 23.16, 1.80
+2016-11-23 12:34:42,798 - auto_focus.focus - INFO - Focus: 24.87, 24.87, 1.60
+2016-11-23 12:34:55,138 - auto_focus.focus - INFO - Focus: 28.68, 22.11, 1.68
+2016-11-23 12:35:03,987 - auto_focus.focus - INFO - Focus: 28.73, 22.01, 1.78
+2016-11-23 12:35:59,747 - auto_focus.focus - INFO - Focus: 21.14, 23.16, 1.80
+2016-11-23 12:37:08,217 - auto_focus.focus - INFO - Focus: 21.14, 23.16, 1.82
+2016-11-23 12:39:50,497 - auto_focus.focus - INFO - Focus: 21.14, 23.21, 1.82
+2016-11-23 12:43:18,898 - auto_focus.focus - INFO - Focus: 21.19, 23.16, 1.68
+2016-11-23 12:45:29,618 - auto_focus.focus - INFO - Focus: 21.14, 23.16, 1.76
+2016-11-23 13:04:00,079 - auto_focus.focus - INFO - Focus: 20.42, 26.21, 0.46
+2016-11-23 13:04:09,710 - auto_focus.focus - INFO - Focus: 20.27, 26.26, 0.46
+2016-11-23 13:04:18,369 - auto_focus.focus - INFO - Focus: 20.27, 26.21, 0.28
+2016-11-23 13:07:46,561 - auto_focus.focus - INFO - Focus: 21.20, 31.62, 0.32
+2016-11-23 13:07:57,280 - auto_focus.focus - INFO - Focus: 21.15, 31.77, 0.30
+2016-11-23 13:10:21,482 - auto_focus.focus - INFO - Focus: 21.15, 31.72, 0.44
+2016-11-23 13:12:34,007 - auto_focus.focus - INFO - Focus: 21.20, 31.72, 0.48
+2016-11-23 13:14:46,157 - auto_focus.focus - INFO - Focus: 21.15, 31.72, 0.42
+2016-11-23 13:16:35,177 - auto_focus.focus - INFO - Focus: 21.20, 31.77, 0.04
+2016-11-23 13:16:56,157 - auto_focus.focus - INFO - Focus: 21.20, 31.67, 0.38
+2016-11-23 13:19:32,479 - auto_focus.focus - INFO - Focus: 21.20, 31.72, -0.04
+2016-11-23 13:55:28,302 - auto_focus.focus - INFO - Focus: 21.15, 31.72, 0.56
+2016-11-23 13:55:38,221 - auto_focus.focus - INFO - Focus: 21.20, 31.67, 0.60
+2016-11-23 13:55:48,191 - auto_focus.focus - INFO - Focus: 21.15, 31.72, 0.60
+2016-11-23 13:59:34,302 - auto_focus.focus - INFO - Focus: 21.10, 31.67, 0.54
+2016-11-23 14:05:37,233 - auto_focus.focus - INFO - Focus: 21.05, 31.67, 0.56
+2016-11-23 14:12:11,894 - auto_focus.focus - INFO - Focus: 21.05, 31.67, 0.50
+2016-11-23 14:23:57,726 - auto_focus.focus - INFO - Focus: 25.87, 20.11, 0.26
+2016-11-23 14:24:08,107 - auto_focus.focus - INFO - Focus: 25.97, 20.31, 0.78
+2016-11-23 14:24:18,407 - auto_focus.focus - INFO - Focus: 25.97, 20.31, 0.82
+2016-11-23 14:27:00,417 - auto_focus.focus - INFO - Focus: 21.53, 22.57, 0.64
+2016-11-23 14:27:08,976 - auto_focus.focus - INFO - Focus: 21.48, 22.52, 0.50
+2016-11-23 14:30:11,016 - auto_focus.focus - INFO - Focus: 21.33, 22.52, 0.44
+2016-11-23 14:30:21,107 - auto_focus.focus - INFO - Focus: 21.43, 22.52, 0.60
+2016-11-23 14:36:16,217 - auto_focus.focus - INFO - Focus: 21.48, 22.52, 0.64
+2016-11-23 14:36:26,778 - auto_focus.focus - INFO - Focus: 21.43, 22.52, 0.54
+2016-11-23 14:36:35,898 - auto_focus.focus - INFO - Focus: 21.43, 22.57, 0.62
+2016-11-23 14:38:15,328 - emod.submit - INFO - The job <measurements.pulsed.Rabi object at 0x0EDBF0C0> is already running or in the queue.
+2016-11-23 14:45:30,858 - auto_focus.focus - INFO - Focus: 21.43, 22.52, 0.50
+2016-11-23 14:46:03,608 - auto_focus.focus - INFO - Focus: 21.43, 22.52, 0.64
+2016-11-23 17:47:39,111 - auto_focus.focus - INFO - Focus: 30.76, 22.42, 5.18
+2016-11-23 17:48:57,171 - auto_focus.focus - INFO - Focus: 27.63, 3.69, -4.31
+2016-11-23 17:49:05,851 - auto_focus.focus - INFO - Focus: 27.63, 3.69, -4.43
+2016-11-23 17:49:14,430 - auto_focus.focus - INFO - Focus: 27.78, 3.84, -4.39
+2016-11-24 10:13:28,188 - auto_focus.focus - INFO - Focus: 12.71, 29.60, -4.59
+2016-11-24 10:13:36,229 - auto_focus.focus - INFO - Focus: 12.91, 29.35, -4.29
+2016-11-24 10:16:17,914 - auto_focus.focus - INFO - Focus: 19.45, 1.06, 3.28
+2016-11-24 10:16:27,625 - auto_focus.focus - INFO - Focus: 19.45, 1.41, 2.72
+2016-11-24 10:16:36,536 - auto_focus.focus - INFO - Focus: 19.40, 1.46, 2.66
+2016-11-24 10:16:45,250 - auto_focus.focus - INFO - Focus: 19.40, 1.41, 2.88
+2016-11-24 10:17:03,348 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C64C4B0> is already running or in the queue.
+2016-11-24 10:17:03,414 - auto_focus.focus - INFO - Focus: 19.00, 1.41, 2.82
+2016-11-24 10:17:19,125 - auto_focus.focus - INFO - Focus: 18.90, 1.36, 2.40
+2016-11-24 10:26:40,345 - auto_focus.focus - INFO - Focus: 28.21, 11.69, 2.28
+2016-11-24 10:28:13,625 - auto_focus.focus - INFO - Focus: 28.36, 11.39, 2.28
+2016-11-24 10:29:56,026 - auto_focus.focus - INFO - Focus: 28.36, 11.34, 2.32
+2016-11-24 10:37:53,986 - auto_focus.focus - INFO - Focus: 13.03, 31.87, 2.42
+2016-11-24 10:38:09,105 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 277, in _get_button_fired
+    self.get_Y_position = float(Magnet.get_current_position(2)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 306, in read_raw
+    chunk, status = self.visalib.read(self.session, size)
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\functions.py", line 1582, in read
+    ret = library.viRead(session, buffer, count, byref(return_count))
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\ctwrapper\highlevel.py", line 188, in _return_handler
+    raise errors.VisaIOError(ret_value)
+VisaIOError: VI_ERROR_ASRL_FRAMING (-1073807253): A framing error occurred during transfer.
+2016-11-24 10:39:34,375 - auto_focus.focus - INFO - Focus: 31.89, 42.26, 1.92
+2016-11-24 10:39:51,236 - auto_focus.focus - INFO - Focus: 31.84, 42.21, 2.20
+2016-11-24 10:41:59,907 - auto_focus.focus - INFO - Focus: 31.84, 42.26, 2.30
+2016-11-24 10:45:16,897 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0C8B0180>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2016-11-24 10:45:35,536 - auto_focus.focus - INFO - Focus: 31.84, 42.36, 2.24
+2016-11-24 10:48:18,576 - auto_focus.focus - INFO - Focus: 31.79, 42.36, 2.26
+2016-11-24 10:52:55,487 - auto_focus.focus - INFO - Focus: 31.74, 42.36, 2.30
+2016-11-24 10:57:57,757 - auto_focus.focus - INFO - Focus: 31.64, 42.36, 2.32
+2016-11-24 10:59:41,469 - auto_focus.focus - INFO - Focus: 31.64, 42.36, 2.40
+2016-11-24 11:02:09,969 - auto_focus.focus - INFO - Focus: 31.64, 42.36, 2.50
+2016-11-24 11:06:20,759 - auto_focus.focus - INFO - Focus: 31.59, 42.36, 2.44
+2016-11-24 11:08:32,678 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 126, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 206, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 153, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.COTask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-24 11:08:36,618 - counter_trace._run - ERROR - nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\counter_trace.py", line 126, in _run
+    counter_tr.startCounter()
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 206, in startCounter
+    self.setCountLength(numpy.inf, max(1000, self._CountAverageLength), self._CountAverageLength)
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 154, in setCountLength
+    CHK(  dll.DAQmxCfgImplicitTiming( self.CITask, DAQmx_Val_ContSamps, ctypes.c_ulonglong(BufferLength))  )
+  File "D:\pi3diamondnew\hardware\nidaq.py", line 65, in CHK
+    raise RuntimeError('nidaq call failed with error %d: %s'%(err,repr(buf.value)))
+RuntimeError: nidaq call failed with error -200557: 'Specified property cannot be set while the task is running.\n\nSet the property prior to starting the task, or stop the task prior to setting the property.'
+2016-11-24 13:08:58,233 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0C64C4B0> is already running or in the queue.
+2016-11-24 13:47:46,447 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <tools.equation18.Distance_to_NV object at 0x1653B180>, trait: import_data_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\tools\equation18.py", line 209, in _import_data_button_fired
+    self.rabi_contrast=File2['measurement']['rabi_contrast']
+KeyError: 'rabi_contrast'
+2016-11-24 15:50:16,407 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <tools.equation18.Distance_to_NV object at 0x1668E780>, trait: import_data_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 366, in call_1
+    self.handler( object )
+  File "D:\pi3diamondnew\tools\equation18.py", line 203, in _import_data_button_fired
+    File2=cPickle.load(File1)
+UnpicklingError: A load persistent id instruction was encountered,
+but no persistent_load function was specified.

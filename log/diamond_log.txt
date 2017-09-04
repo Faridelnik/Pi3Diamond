@@ -1,0 +1,126 @@
+2017-09-04 12:15:34,555 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-04 12:15:38,335 - emod.start - INFO - Starting Job Manager.
+2017-09-04 12:15:38,395 - cron.run - INFO - Starting Cron Daemon.
+2017-09-04 12:24:12,844 - auto_focus.focus - INFO - Focus: 24.58, 15.32, -0.98
+2017-09-04 12:24:31,563 - auto_focus.focus - INFO - Focus: 29.29, 15.42, -1.58
+2017-09-04 12:25:17,233 - emod.submit - INFO - The job <measurements.auto_focus.AutoFocus object at 0x0A3E0330> is already running or in the queue.
+2017-09-04 12:25:17,823 - auto_focus.focus - INFO - Focus: 29.18, 15.45, -1.78
+2017-09-04 12:25:28,043 - auto_focus.focus - INFO - Focus: 29.21, 15.41, -1.78
+2017-09-04 12:25:38,174 - auto_focus.focus - INFO - Focus: 29.24, 15.44, -1.78
+2017-09-04 12:26:28,694 - auto_focus.focus - INFO - Focus: 29.27, 15.47, -1.93
+2017-09-04 12:28:01,584 - auto_focus.focus - INFO - Focus: 29.61, 20.53, -1.88
+2017-09-04 12:28:10,963 - auto_focus.focus - INFO - Focus: 29.64, 20.56, -1.88
+2017-09-04 12:30:46,043 - auto_focus.focus - INFO - Focus: 34.19, 20.29, -1.73
+2017-09-04 12:33:17,910 - auto_focus.focus - INFO - Focus: 34.22, 20.39, -2.03
+2017-09-04 12:33:43,289 - auto_focus.focus - INFO - Focus: 34.25, 20.35, -1.88
+2017-09-04 12:35:33,230 - auto_focus.focus - INFO - Focus: 34.28, 20.38, -1.93
+2017-09-04 12:35:41,099 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0A642060>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-09-04 12:35:51,869 - auto_focus.focus - INFO - Focus: 34.24, 20.34, -1.93
+2017-09-04 12:37:15,990 - auto_focus.focus - INFO - Focus: 34.27, 20.37, -1.98
+2017-09-04 12:38:32,710 - auto_focus.focus - INFO - Focus: 34.30, 20.40, -2.03
+2017-09-04 12:40:26,401 - auto_focus.focus - INFO - Focus: 31.62, 21.03, -2.13
+2017-09-04 12:40:38,230 - auto_focus.focus - INFO - Focus: 31.58, 21.06, -2.03
+2017-09-04 12:42:05,341 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.magnet_control.Magnet_alignment object at 0x0A642060>, trait: perform_fit, old value: True, new value: False
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 373, in call_2
+    self.handler( object, new )
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 1021, in _perform_fit_changed
+    plot.delplot('fit')
+  File "C:\Pythonepd\lib\site-packages\chaco\plot.py", line 839, in delplot
+    for renderer in itertools.chain(*[self.plots.pop(name) for name in names]):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 3219, in pop
+    result = dict.pop( self, key )
+KeyError: 'fit'
+2017-09-04 12:42:15,770 - auto_focus.focus - INFO - Focus: 31.61, 21.09, -1.98
+2017-09-04 12:42:25,661 - auto_focus.focus - INFO - Focus: 31.57, 21.05, -1.98
+2017-09-04 12:44:21,851 - auto_focus.focus - INFO - Focus: 31.67, 21.08, -1.98
+2017-09-04 12:44:31,290 - auto_focus.focus - INFO - Focus: 31.63, 21.11, -2.03
+2017-09-04 12:44:45,740 - auto_focus.focus - INFO - Focus: 31.66, 21.07, -2.03
+2017-09-04 12:44:56,020 - auto_focus.focus - INFO - Focus: 31.62, 21.03, -2.03
+2017-09-04 12:45:10,740 - auto_focus.focus - INFO - Focus: 31.65, 21.06, -2.08
+2017-09-04 12:45:27,950 - magnet_control._run - ERROR - Error in magnet alignment
+Traceback (most recent call last):
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 373, in _run
+    self._get_button_fired()
+  File "D:\pi3diamondnew\measurements\magnet_control.py", line 276, in _get_button_fired
+    self.get_X_position = float(Magnet.get_current_position(1)[3:-2])
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 166, in get_current_position
+    return self.write_read(self.axis+"TP")
+  File "D:\pi3diamondnew\hardware\SMC_controller.py", line 24, in write_read
+    return (self.connect.read())
+  File "C:\Pythonepd\lib\site-packages\pyvisa-1.8-py2.7.egg\pyvisa\resources\messagebased.py", line 332, in read
+    message = self.read_raw().decode(enco)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xb9 in position 0: ordinal not in range(128)
+2017-09-04 12:45:39,371 - auto_focus.focus - INFO - Focus: 31.68, 21.09, -2.03
+2017-09-04 12:47:10,990 - auto_focus.focus - INFO - Focus: 31.64, 21.05, -2.03
+2017-09-04 12:47:44,901 - auto_focus.focus - INFO - Focus: 31.67, 21.08, -1.98
+2017-09-04 12:49:08,760 - auto_focus.focus - INFO - Focus: 31.63, 21.11, -2.03
+2017-09-04 12:49:19,391 - auto_focus.focus - INFO - Focus: 31.66, 21.07, -2.03
+2017-09-04 12:59:19,298 - auto_focus.focus - INFO - Focus: 31.76, 21.17, -1.98
+2017-09-04 12:59:50,746 - auto_focus.focus - INFO - Focus: 31.72, 21.13, -1.98
+2017-09-04 13:00:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>> at time 2017-09-04 13:00:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>>.
+2017-09-04 13:00:09,796 - auto_focus.focus - INFO - Focus: 31.68, 21.16, -1.98
+2017-09-04 13:02:18,742 - auto_focus.focus - INFO - Focus: 31.78, 21.19, -2.08
+2017-09-04 13:03:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>> at time 2017-09-04 13:03:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>>.
+2017-09-04 13:03:08,878 - auto_focus.focus - INFO - Focus: 31.74, 21.15, -2.03
+2017-09-04 13:06:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>> at time 2017-09-04 13:06:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>>.
+2017-09-04 13:06:10,183 - auto_focus.focus - INFO - Focus: 31.77, 21.18, -2.03
+2017-09-04 13:09:00,009 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>> at time 2017-09-04 13:09:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>>.
+2017-09-04 13:09:10,138 - auto_focus.focus - INFO - Focus: 31.80, 21.14, -1.88
+2017-09-04 13:10:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>> at time 2017-09-04 13:10:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>>.
+2017-09-04 13:10:10,196 - auto_focus.focus - INFO - Focus: 31.76, 21.10, -1.53
+2017-09-04 13:10:44,515 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.DoubleExponentialDecayFit object at 0x18AE5A80>, trait: normalized_counts, old value: [ 0.  0.], new value: [-0.24991478 -0.37996583 -0.58254837 -0.45959997 -0.57519944 -0.42029327
+ -0.49410925 -0.33813818 -0.07222512 -0.30886825 -0.45600304 -0.38126931
+ -0.27643072 -0.52956726 -0.2341496  -0.30088909 -0.23818829 -0.05124823
+ -0.20436612 -0.30036738 -0.37791748 -0.17383904 -0.15066809 -0.03824272
+ -0.17803333 -0.11963194 -0.09096821]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 1251, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleExponentialDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-09-04 13:12:00,003 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>> at time 2017-09-04 13:12:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>>.
+2017-09-04 13:12:10,181 - auto_focus.focus - INFO - Focus: 31.79, 21.13, -1.38
+2017-09-04 13:14:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>> at time 2017-09-04 13:14:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>>.
+2017-09-04 13:14:10,549 - auto_focus.focus - INFO - Focus: 31.75, 21.16, -1.03
+2017-09-04 13:16:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>> at time 2017-09-04 13:16:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>>.
+2017-09-04 13:16:10,605 - auto_focus.focus - INFO - Focus: 31.71, 21.19, -1.08
+2017-09-04 13:18:00,006 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>> at time 2017-09-04 13:18:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>>.
+2017-09-04 13:18:10,624 - auto_focus.focus - INFO - Focus: 31.74, 21.22, -0.83
+2017-09-04 13:18:38,230 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <analysis.pulsedawgan.DoubleGaussianDecayFit object at 0x18753870>, trait: normalized_counts, old value: [ 0.  0.], new value: [-0.44640057 -0.4756247  -0.54878184 -0.46605885 -0.37309398 -0.51030189
+ -0.41781457 -0.50517286 -0.37954485 -0.35319509 -0.30031014 -0.3705762
+ -0.38263626 -0.36584993 -0.25615448 -0.27427448 -0.26506775 -0.21626752
+ -0.18097627 -0.20994453 -0.25416974 -0.19804697 -0.10330286 -0.14555771
+ -0.14185521 -0.15022707 -0.12628375]
+Traceback (most recent call last):
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 511, in rebind_call_0
+    self.dispatch( getattr( self.object(), self.name ) )
+  File "C:\Pythonepd\lib\site-packages\traits\trait_notifiers.py", line 628, in dispatch
+    handler( *args )
+  File "D:\pi3diamondnew\analysis\pulsedawgan.py", line 1350, in update_fit
+    self.fit_result = fit_result
+  File "C:\Pythonepd\lib\site-packages\traits\trait_handlers.py", line 170, in error
+    value )
+TraitError: The 'fit_result' trait of a DoubleGaussianDecayFit instance must be a tuple, but a value of array([ nan,  nan,  nan,  nan]) <type 'numpy.ndarray'> was specified.
+2017-09-04 13:20:00,000 - cron.check - INFO - Time match at cron event Cron Event on callable <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>> at time 2017-09-04 13:20:00. Executing <bound method AutoFocus.submit of <measurements.auto_focus.AutoFocus object at 0x0A3E0330>>.
+2017-09-04 13:20:09,395 - auto_focus.focus - INFO - Focus: 31.77, 21.18, -0.88
+2017-09-04 13:22:17,654 - auto_focus.focus - INFO - Focus: 31.73, 21.21, -1.23
+2017-09-04 13:22:26,862 - auto_focus.focus - INFO - Focus: 31.76, 21.24, -1.28
+2017-09-04 13:22:36,470 - auto_focus.focus - INFO - Focus: 31.79, 21.20, -1.28
+2017-09-04 13:22:45,673 - auto_focus.focus - INFO - Focus: 31.75, 21.23, -1.28
+2017-09-04 13:22:56,513 - auto_focus.focus - INFO - Focus: 31.78, 21.19, -1.38
