@@ -3021,6 +3021,9 @@ class SensingPulsedAnalyzerHandler(GetSetItemsHandler):
     def new_pulsepol_measurement(self, info):
         info.object.measurement = sensing.PulsePol()
         
+    def new_kddpol_measurement(self, info):
+        info.object.measurement = sensing.KDDxy_polarization()
+        
     def new_PPC_measurement(self, info):        
         info.object.measurement = sensing.pulse_phase_check()         
         
@@ -3511,6 +3514,7 @@ class DoubleSensingPulsedAnalyzer(HasTraits, GetSetItemsMixin):
                                             Action(action='new_XY16_Ref_measurement', name='XY16_Ref'),
                                             Action(action='new_Hahn_measurement', name='Hahn'),
                                             Action(action='new_T1_measurement', name='T1'),
+                                            Action(action='new_kddpol_measurement', name = 'KDDxy polarisation'),
                                             Action(action='new_T1_Ms0_measurement', name='T1_Ms0'),
                                             Action(action='new_SLD_measurement', name='Spinlocking_decay'),
                                             Action(action='new_SLD_no_polarization_measurement', name='Alternating locking'),

@@ -2575,7 +2575,731 @@ class XY4(Pulsed):
                                                                          
                               ),
                        title='XY4',
-                       )     
+                       )  
+
+class KDDxy_polarization(Pulsed):                   
+
+    freq_center = Range(low=1, high=20e9, value=2.06e9, desc='frequency [Hz]', label='MW frequency [Hz]', mode='text', auto_set=False, enter_set=True)
+    power = Range(low=-100., high=25., value= 12, desc='power [dBm]', label='power [dBm]', mode='text', auto_set=False, enter_set=True)
+    freq = Range(low=1, high=20e9, value=1.8e9, desc='frequency 1st trans[Hz]', label='freq1 [Hz]', mode='text', auto_set=False, enter_set=True)
+   
+    amp = Range(low=0., high=1.0, value=1.0, desc='Normalized amplitude of waveform', label='WFM amp', mode='text', auto_set=False, enter_set=True)
+    amp1 = Range(low=0., high=1.0, value=1.0, desc='Normalized amplitude of waveform', label='WFM amp1', mode='text', auto_set=False, enter_set=True)
+    vpp = Range(low=0., high=4.5, value=0.6, desc='Amplitude of AWG [Vpp]', label='AWG vpp', mode='text', auto_set=False, enter_set=True)    
+    
+    pi2_1   = Range(low=1., high=100000., value=99.35, desc='length of half pi pulse [ns]', label='half pi', mode='text', auto_set=False, enter_set=True)
+    pi_1   = Range(low=1., high=100000., value=99.35, desc='length of half pi pulse [ns]', label='pi_x', mode='text', auto_set=False, enter_set=True)
+    rabi_contrast=Range(low=1., high=100, value=30.0, desc='Rabi contrast [%]', label='contrast', mode='text', auto_set=False, enter_set=True)
+    
+    tau_begin = Range(low=0., high=1e8, value=500., desc='tau/2 begin [ns]', label='tau begin [ns]', mode='text', auto_set=False, enter_set=True)
+    tau_end = Range(low=1., high=1e8, value=4000., desc='tau/2 end [ns]', label='tau end [ns]', mode='text', auto_set=False, enter_set=True)
+    tau_delta = Range(low=0.0, high=1e8, value=50., desc='delta tau/2 [ns]', label='delta tau [ns]', mode='text', auto_set=False, enter_set=True)
+  
+    pulse_num = Range(low=1, high=1000, value=1, desc='repetetion of XY8 pulses', label='repetitions', mode='text', auto_set=False, enter_set=True)
+    reload = True
+    
+    def prepare_awg(self):
+        sampling = 1.2e9
+        if self.reload:
+            AWG.stop()
+            AWG.set_output( 0b0000 )
+        
+            pi2_1  = int(self.pi2_1 * sampling/1.0e9)
+            pi_1 = int(self.pi_1 * sampling/1.0e9)
+          
+            zero = Idle(1)
+            mod = Idle(0)
+
+            # Pulses
+            p = {}
+            
+            p['pi2_1 + 0']     = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, 0 ,self.amp)]                            # pi/2  X
+            p['pi2_1 + 90']    = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, np.pi/2 ,self.amp)]
+            
+            p['pi2_1 + 180']     = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, np.pi ,self.amp)]                      #pi/2 -X
+            p['pi2_1 + 270']    = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, np.pi*3/2 ,self.amp)]
+                        
+            p['pi2_1 - 0']     = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, np.pi/2 ,self.amp)]                      # pi/2  Y
+            p['pi2_1 - 90']    = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, np.pi ,self.amp)]
+            
+            p['pi x 0']     = [Sin( pi_1, (self.freq - self.freq_center)/sampling, 0, self.amp)]                            #  0
+            p['pi y 0']     = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi/2, self.amp)]
+            
+            p['pi x 30']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi/6, self.amp)]                       # 30
+            p['pi y 30']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi/6+np.pi/2,self.amp)]
+            
+            p['pi x 90']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi/2, self.amp)]                       # 90
+            p['pi y 90']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi/2+np.pi/2, self.amp)]
+            
+            p['pi x 120']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, 2*np.pi/3, self.amp)]                       # 120
+            p['pi y 120']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, 2*np.pi/3+np.pi/2, self.amp)]
+            
+            p['pi x 180']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi, self.amp)]                       # 180
+            p['pi y 180']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi+np.pi/2, self.amp)]
+            
+            # Waveforms
+            self.waves = []
+            sub_seq = []
+            self.main_seq = Sequence('KDDxy_polarizing.SEQ')
+            
+            sup_x_ref = Waveform('Sup_x_ref', p['pi2_1 + 0'])
+            sup_y_ref = Waveform('Sup_y_ref', p['pi2_1 + 90'])
+            t_sup_ref = sup_x_ref.stub
+            
+            sup_x = Waveform('Sup_x', [Idle(t_sup_ref)]+p['pi2_1 + 0'])
+            sup_y = Waveform('Sup_y', [Idle(t_sup_ref)]+p['pi2_1 + 90'])
+            self.waves.append(sup_x)
+            self.waves.append(sup_y)
+            
+            evo = Waveform('EVO.WFM', Idle(256))
+            self.waves.append(evo)
+            
+            # Reference signal_initial points
+            
+            for i, t in enumerate(self.tau):
+                t_tau = t*1.2*2
+                
+                name = 'SQH_12_%04i.SEQ' % i
+                sub_seq=Sequence(name)
+                sub_seq.append(sup_x,sup_y)
+                t_0 = sup_x.duration
+                t_1 = t * 1.2
+                
+                for k in range(self.pulse_num):
+                    x_name = 'X_KDD_%03i' % i + '_%03i.WFM' % k
+                    y_name = 'Y_KDD_%03i' % i + '_%03i.WFM' % k
+                    map_x_1 = Waveform(x_name,   [Idle(t_1)] +p['pi x 30']+[Idle(t_tau)]+p['pi x 0']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 0']\
+                                                +[Idle(t_tau)]+p['pi x 30']+[Idle(t_tau)]+p['pi x 120']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 180']\
+                                                +[Idle(t_tau)] +p['pi x 90']+[Idle(t_tau)]+p['pi x 120'], t_0)
+                    map_y_1 = Waveform(y_name,   [Idle(t_1)] +p['pi y 30']+[Idle(t_tau)]+p['pi y 0']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 0']\
+                                                +[Idle(t_tau)]+p['pi y 30']+[Idle(t_tau)]+p['pi y 120']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 180']\
+                                                +[Idle(t_tau)] +p['pi y 90']+[Idle(t_tau)]+p['pi y 120'], t_0)
+                    self.waves.append(map_x_1)
+                    self.waves.append(map_y_1)
+                    sub_seq.append(map_x_1, map_y_1)
+                                        
+                    t_0 += map_x_1.duration
+                    t_1 = t_tau - map_x_1.stub                   
+                    
+                mod.duration = t * 1.2 - map_x_1.stub
+                name_x = 'Read_x_%04i.WFM' % i
+                name_y = 'Read_y_%04i.WFM' % i
+                ref_x = Waveform(name_x, [mod] + p['pi2_1 - 0'] + [Idle(t * 1.2)], t_0)
+                ref_y = Waveform(name_y, [mod] + p['pi2_1 - 90'] + [Idle(t * 1.2)], t_0)
+                
+                self.waves.append(ref_x)
+                self.waves.append(ref_y)
+                sub_seq.append(ref_x,ref_y)
+                
+                t_0 +=ref_x.duration
+                t_1 = t*1.2 
+                
+                for k in range(self.pulse_num):
+                    x_name = 'X_KDD_2%03i' % i + '_%032i.WFM' % k
+                    y_name = 'Y_KDD_2%03i' % i + '_%032i.WFM' % k
+                    map_x_1 = Waveform(x_name,   [Idle(t_1)] +p['pi x 30']+[Idle(t_tau)]+p['pi x 0']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 0']\
+                                                +[Idle(t_tau)]+p['pi x 30']+[Idle(t_tau)]+p['pi x 120']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 180']\
+                                                +[Idle(t_tau)] +p['pi x 90']+[Idle(t_tau)]+p['pi x 120'], t_0)
+                    map_y_1 = Waveform(y_name,   [Idle(t_1)] +p['pi y 30']+[Idle(t_tau)]+p['pi y 0']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 0']\
+                                                +[Idle(t_tau)]+p['pi y 30']+[Idle(t_tau)]+p['pi y 120']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 180']\
+                                                +[Idle(t_tau)] +p['pi y 90']+[Idle(t_tau)]+p['pi y 120'], t_0)
+                    self.waves.append(map_x_1)
+                    self.waves.append(map_y_1)
+                    sub_seq.append(map_x_1, map_y_1)
+                                        
+                    t_0 += map_x_1.duration
+                    t_1 = t_tau - map_x_1.stub 
+                    
+                    
+                mod.duration = t * 1.2 - map_x_1.stub
+                name_x = 'Read_x2_%04i.WFM' % i
+                name_y = 'Read_y2_%04i.WFM' % i
+                ref_x = Waveform(name_x, [mod] + [Idle(t * 1.2)] + p['pi2_1 + 0'] , t_0)
+                ref_y = Waveform(name_y, [mod] + [Idle(t * 1.2)] + p['pi2_1 + 90'], t_0)
+                
+                self.waves.append(ref_x)
+                self.waves.append(ref_y)
+                sub_seq.append(ref_x,ref_y)
+                
+                AWG.upload(sub_seq)
+                self.main_seq.append(sub_seq, wait=True)
+                
+                # Another projection ====================================================================================================================================================================================================
+                
+                t_tau = t*1.2*2
+                
+                name = '2SQH_12_%04i.SEQ' % i
+                sub_seq=Sequence(name)
+                sub_seq.append(sup_x,sup_y)
+                t_0 = sup_x.duration
+                t_1 = t * 1.2
+                
+                for k in range(self.pulse_num):
+                    x_name = '2X_KDD_%03i' % i + '_%03i.WFM' % k
+                    y_name = '2Y_KDD_%03i' % i + '_%03i.WFM' % k
+                    map_x_1 = Waveform(x_name,   [Idle(t_1)] +p['pi x 30']+[Idle(t_tau)]+p['pi x 0']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 0']\
+                                                +[Idle(t_tau)]+p['pi x 30']+[Idle(t_tau)]+p['pi x 120']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 180']\
+                                                +[Idle(t_tau)] +p['pi x 90']+[Idle(t_tau)]+p['pi x 120'], t_0)
+                    map_y_1 = Waveform(y_name,   [Idle(t_1)] +p['pi y 30']+[Idle(t_tau)]+p['pi y 0']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 0']\
+                                                +[Idle(t_tau)]+p['pi y 30']+[Idle(t_tau)]+p['pi y 120']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 180']\
+                                                +[Idle(t_tau)] +p['pi y 90']+[Idle(t_tau)]+p['pi y 120'], t_0)
+                    self.waves.append(map_x_1)
+                    self.waves.append(map_y_1)
+                    sub_seq.append(map_x_1, map_y_1)
+                                        
+                    t_0 += map_x_1.duration
+                    t_1 = t_tau - map_x_1.stub                   
+                    
+                mod.duration = t * 1.2 - map_x_1.stub
+                name_x = '2Read_x_%04i.WFM' % i
+                name_y = '2Read_y_%04i.WFM' % i
+                ref_x = Waveform(name_x, [mod] + p['pi2_1 - 0'] + [Idle(t * 1.2)], t_0)
+                ref_y = Waveform(name_y, [mod] + p['pi2_1 - 90'] + [Idle(t * 1.2)], t_0)
+                
+                self.waves.append(ref_x)
+                self.waves.append(ref_y)
+                sub_seq.append(ref_x,ref_y)
+                
+                t_0 +=ref_x.duration
+                t_1 = t*1.2 # I am not sure
+                
+                for k in range(self.pulse_num):
+                    x_name = '2X_KDD_2%03i' % i + '_%032i.WFM' % k
+                    y_name = '2Y_KDD_2%03i' % i + '_%032i.WFM' % k
+                    map_x_1 = Waveform(x_name,   [Idle(t_1)] +p['pi x 30']+[Idle(t_tau)]+p['pi x 0']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 0']\
+                                                +[Idle(t_tau)]+p['pi x 30']+[Idle(t_tau)]+p['pi x 120']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 180']\
+                                                +[Idle(t_tau)] +p['pi x 90']+[Idle(t_tau)]+p['pi x 120'], t_0)
+                    map_y_1 = Waveform(y_name,   [Idle(t_1)] +p['pi y 30']+[Idle(t_tau)]+p['pi y 0']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 0']\
+                                                +[Idle(t_tau)]+p['pi y 30']+[Idle(t_tau)]+p['pi y 120']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 180']\
+                                                +[Idle(t_tau)] +p['pi y 90']+[Idle(t_tau)]+p['pi y 120'], t_0)
+                    self.waves.append(map_x_1)
+                    self.waves.append(map_y_1)
+                    sub_seq.append(map_x_1, map_y_1)
+                                        
+                    t_0 += map_x_1.duration
+                    t_1 = t_tau - map_x_1.stub 
+                    
+                    
+                mod.duration = t * 1.2 - map_x_1.stub
+                name_x = '2Read_x2_%04i.WFM' % i
+                name_y = '2Read_y2_%04i.WFM' % i
+                ref_x = Waveform(name_x, [mod] + [Idle(t * 1.2)] + p['pi2_1 + 180'], t_0)
+                ref_y = Waveform(name_y, [mod] + [Idle(t * 1.2)] + p['pi2_1 + 270'], t_0)
+                
+                self.waves.append(ref_x)
+                self.waves.append(ref_y)
+                sub_seq.append(ref_x,ref_y)
+                
+                AWG.upload(sub_seq)
+                self.main_seq.append(sub_seq, wait=True)
+
+            for w in self.waves:
+                w.join()
+            AWG.upload(self.waves)
+            AWG.upload(self.main_seq)
+            AWG.tell('*WAI')
+            AWG.load('KDDxy_polarizing.SEQ')
+            
+        AWG.set_vpp(self.vpp)
+        AWG.set_sample( sampling/1.0e9 )
+        AWG.set_mode('S')
+        AWG.set_output( 0b0011 )  
+        
+    def load(self):
+        self.reload = True
+        #make sure tau is updated
+        self.tau = np.arange(self.tau_begin, self.tau_end, self.tau_delta) 
+        self.prepare_awg()
+        self.reload = False        
+        
+    def _run(self):
+        """Acquire data."""
+
+        try: # try to run the acquisition from start_up to shut_down
+            self.state = 'run'
+            self.apply_parameters()
+
+            PG.High([])
+            FC.SetCycles(np.inf)
+            FC.SetTime(np.inf)
+            FC.SetDelay(0)
+            FC.SetLevel(0.6, 0.6)
+            FC.Configure(self.laser, self.bin_width, self.sequence_points)
+            #self.previous_time = 0
+            #self.previous_count_data = FC.GetData()
+            self.prepare_awg()
+            MW.setFrequency(self.freq_center)
+            MW.setPower(self.power)
+            AWG.run()
+            time.sleep(40.0)
+            FC.Start()
+            time.sleep(0.1)
+            PG.Sequence(self.sequence, loop=True)
+
+            start_time = time.time()
+
+            while True:
+               self.thread.stop_request.wait(5.0)
+               if self.thread.stop_request.isSet():
+                  logging.getLogger().debug('Caught stop signal. Exiting.')
+                  break
+               self.elapsed_time = self.previous_elapsed_time + time.time() - start_time
+               self.run_time += self.elapsed_time
+               runtime, cycles = FC.GetState()
+               sweeps = cycles / FC.GetData().shape[0]
+               self.elapsed_sweeps = self.previous_sweeps + sweeps
+               self.progress = int( 100 * self.elapsed_sweeps / self.sweeps ) 
+               self.count_data = self.old_count_data + FC.GetData()
+               if self.elapsed_sweeps > self.sweeps:
+                  break
+
+            FC.Halt()
+            time.sleep(0.1)
+            MW.Off()
+            time.sleep(0.1)
+            PG.High(['laser', 'mw'])
+            time.sleep(0.1)
+            AWG.stop()
+            time.sleep(5.0)
+            #time.sleep(4.0)
+            if self.elapsed_sweeps < self.sweeps:
+                self.state = 'idle'
+            else:
+                self.state='done'  
+            
+        except: # if anything fails, log the exception and set the state
+            logging.getLogger().exception('Something went wrong in pulsed loop.')
+            self.state = 'error'    
+            
+    def _get_sequence_points(self):
+        return 2 * len(self.tau)    
+        
+    def generate_sequence(self):
+        tau = self.tau
+        laser = self.laser
+        wait = self.wait
+        pi2_1  = self.pi2_1
+        pi_1 = self.pi_1
+        sequence = []
+        
+        for i, t in enumerate(tau):
+            sequence.append( (['awgTrigger']      , 100) )
+            sequence.append( ([ ]                 , 2 * self.pulse_num * (10 + 11)* t + 3*pi2_1 + 2 * 10 * self.pulse_num * pi_1 + 2000) )
+            sequence.append( (['laser', 'trigger'], laser) )
+            sequence.append( ([ ]                 , wait) )
+            
+            sequence.append( (['awgTrigger']      , 100) )
+            sequence.append( ([ ]                 , 2 * self.pulse_num * (10 + 11)* t + 3*pi2_1 + 2 * 10 * self.pulse_num * pi_1 + 2000) )
+            sequence.append( (['laser', 'trigger'], laser) )
+            sequence.append( ([ ]                 , wait) )
+        return sequence    
+                    
+    get_set_items = Pulsed.get_set_items + ['freq','vpp','amp','amp1','pi2_1','pi_1','pulse_num', 'rabi_contrast']   
+        
+        
+    traits_view = View(VGroup(HGroup(Item('load_button', show_label=False),
+                                     Item('submit_button', show_label=False),
+                                     Item('remove_button', show_label=False),
+                                     Item('resubmit_button', show_label=False),
+                                     Item('priority'),
+                                     ),
+                              HGroup(Item('freq',  width=-60),
+                                     Item('freq_center',  width=20),
+                                     Item('power', width=-40),
+                                     Item('vpp', width=-40),   
+                                     Item('amp', width=-40),   
+                                     Item('amp1', width=-40), 
+                                     ),                         
+                              HGroup(
+                                     Item('pi2_1', width = -40),
+                                     Item('pi_1', width = -40),
+                                     Item('pulse_num', width = -40),
+                                     Item('rabi_contrast', width = -40),
+                                     ),                        
+                              HGroup(Item('laser', width=30),
+                                     Item('wait', width=30),
+                                     Item('bin_width', width= 30, enabled_when='state != "run"'),
+                                     Item('record_length', width= 30, enabled_when='state != "run"'),
+                                     ),
+                                     
+                              HGroup(Item('tau_begin', width=30),
+                                     Item('tau_end', width=30),
+                                     Item('tau_delta', width= 30),
+                                     ),       
+
+                              HGroup(Item('state', style='readonly'),
+                                     Item('run_time', style='readonly', format_str='%.f', width=50),
+                                     Item('sweeps', editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:'%.3e'%x), width=30),
+                                     Item('expected_duration', style='readonly', editor=TextEditor(evaluate=float, format_func=lambda x:'%.f'%x), width=30),
+                                     Item('progress', style='readonly'),
+                                     Item('elapsed_time', style='readonly', editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.f'%x), width=30),
+                                     ),
+                                                                         
+                              ),
+                       title='KDDxy polarization',
+                       )  
+
+class KDDxy(Pulsed):                   
+
+    freq_center = Range(low=1, high=20e9, value=2.06e9, desc='frequency [Hz]', label='MW frequency [Hz]', mode='text', auto_set=False, enter_set=True)
+    power = Range(low=-100., high=25., value= 12, desc='power [dBm]', label='power [dBm]', mode='text', auto_set=False, enter_set=True)
+    freq = Range(low=1, high=20e9, value=1.8e9, desc='frequency 1st trans[Hz]', label='freq1 [Hz]', mode='text', auto_set=False, enter_set=True)
+   
+    amp = Range(low=0., high=1.0, value=1.0, desc='Normalized amplitude of waveform', label='WFM amp', mode='text', auto_set=False, enter_set=True)
+    amp1 = Range(low=0., high=1.0, value=1.0, desc='Normalized amplitude of waveform', label='WFM amp1', mode='text', auto_set=False, enter_set=True)
+    vpp = Range(low=0., high=4.5, value=0.6, desc='Amplitude of AWG [Vpp]', label='AWG vpp', mode='text', auto_set=False, enter_set=True)    
+    
+    pi2_1   = Range(low=1., high=100000., value=99.35, desc='length of half pi pulse [ns]', label='half pi', mode='text', auto_set=False, enter_set=True)
+    pi_1   = Range(low=1., high=100000., value=99.35, desc='length of half pi pulse [ns]', label='pi_x', mode='text', auto_set=False, enter_set=True)
+    rabi_contrast=Range(low=1., high=100, value=30.0, desc='Rabi contrast [%]', label='contrast', mode='text', auto_set=False, enter_set=True)
+    
+    tau_begin = Range(low=0., high=1e8, value=500., desc='tau/2 begin [ns]', label='tau begin [ns]', mode='text', auto_set=False, enter_set=True)
+    tau_end = Range(low=1., high=1e8, value=4000., desc='tau/2 end [ns]', label='tau end [ns]', mode='text', auto_set=False, enter_set=True)
+    tau_delta = Range(low=0.0, high=1e8, value=50., desc='delta tau/2 [ns]', label='delta tau [ns]', mode='text', auto_set=False, enter_set=True)
+  
+    pulse_num = Range(low=1, high=1000, value=1, desc='repetetion of XY8 pulses', label='repetitions', mode='text', auto_set=False, enter_set=True)
+    reload = True
+    
+    def prepare_awg(self):
+        sampling = 1.2e9
+        if self.reload:
+            AWG.stop()
+            AWG.set_output( 0b0000 )
+        
+            pi2_1  = int(self.pi2_1 * sampling/1.0e9)
+            pi_1 = int(self.pi_1 * sampling/1.0e9)
+          
+            zero = Idle(1)
+            mod = Idle(0)
+
+            # Pulses
+            p = {}
+            
+            p['pi2_1 + 0']     = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, 0 ,self.amp)]                            # pi/2  X
+            p['pi2_1 + 90']    = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, np.pi/2 ,self.amp)]
+            
+            p['pi2_1 + 180']     = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, np.pi ,self.amp)]                      #pi/2 -X
+            p['pi2_1 + 270']    = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, np.pi*3/2 ,self.amp)]
+                        
+            p['pi2_1 - 0']     = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, np.pi/2 ,self.amp)]                      # pi/2  Y
+            p['pi2_1 - 90']    = [Sin( pi2_1, (self.freq - self.freq_center)/sampling, np.pi ,self.amp)]
+            
+            p['pi x 0']     = [Sin( pi_1, (self.freq - self.freq_center)/sampling, 0, self.amp)]                            #  0
+            p['pi y 0']     = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi/2, self.amp)]
+            
+            p['pi x 30']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi/6, self.amp)]                       # 30
+            p['pi y 30']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi/6+np.pi/2,self.amp)]
+            
+            p['pi x 90']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi/2, self.amp)]                       # 90
+            p['pi y 90']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi/2+np.pi/2, self.amp)]
+            
+            p['pi x 120']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, 2*np.pi/3, self.amp)]                       # 120
+            p['pi y 120']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, 2*np.pi/3+np.pi/2, self.amp)]
+            
+            p['pi x 180']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi, self.amp)]                       # 180
+            p['pi y 180']    = [Sin( pi_1, (self.freq - self.freq_center)/sampling, np.pi+np.pi/2, self.amp)]
+            
+            # Waveforms
+            self.waves = []
+            sub_seq = []
+            self.main_seq = Sequence('KDDxy.SEQ')
+            
+            sup_x_ref = Waveform('Sup_x_ref', p['pi2_1 + 0'])
+            sup_y_ref = Waveform('Sup_y_ref', p['pi2_1 + 90'])
+            t_sup_ref = sup_x_ref.stub
+            
+            sup_x = Waveform('Sup_x', [Idle(t_sup_ref)]+p['pi2_1 + 0'])
+            sup_y = Waveform('Sup_y', [Idle(t_sup_ref)]+p['pi2_1 + 90'])
+            self.waves.append(sup_x)
+            self.waves.append(sup_y)
+            
+            evo = Waveform('EVO.WFM', Idle(256))
+            self.waves.append(evo)
+            
+            # Reference signal_initial points
+            
+            for i, t in enumerate(self.tau):
+                t_tau = t*1.2*2
+                
+                name = 'SQH_12_%04i.SEQ' % i
+                sub_seq=Sequence(name)
+                sub_seq.append(sup_x,sup_y)
+                t_0 = sup_x.duration
+                t_1 = t * 1.2
+                
+                for k in range(self.pulse_num):
+                    x_name = 'X_KDD_%03i' % i + '_%03i.WFM' % k
+                    y_name = 'Y_KDD_%03i' % i + '_%03i.WFM' % k
+                    map_x_1 = Waveform(x_name,   [Idle(t_1)] +p['pi x 30']+[Idle(t_tau)]+p['pi x 0']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 0']\
+                                                +[Idle(t_tau)]+p['pi x 30']+[Idle(t_tau)]+p['pi x 120']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 180']\
+                                                +[Idle(t_tau)] +p['pi x 90']+[Idle(t_tau)]+p['pi x 120'], t_0)
+                    map_y_1 = Waveform(y_name,   [Idle(t_1)] +p['pi y 30']+[Idle(t_tau)]+p['pi y 0']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 0']\
+                                                +[Idle(t_tau)]+p['pi y 30']+[Idle(t_tau)]+p['pi y 120']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 180']\
+                                                +[Idle(t_tau)] +p['pi y 90']+[Idle(t_tau)]+p['pi y 120'], t_0)
+                    self.waves.append(map_x_1)
+                    self.waves.append(map_y_1)
+                    sub_seq.append(map_x_1, map_y_1)
+                                        
+                    t_0 += map_x_1.duration
+                    t_1 = t_tau - map_x_1.stub                   
+                    
+                mod.duration = t * 1.2 - map_x_1.stub
+                name_x = 'Read_x_%04i.WFM' % i
+                name_y = 'Read_y_%04i.WFM' % i
+                ref_x = Waveform(name_x, [mod] + p['pi2_1 - 0'] + [Idle(t * 1.2)], t_0)
+                ref_y = Waveform(name_y, [mod] + p['pi2_1 - 90'] + [Idle(t * 1.2)], t_0)
+                
+                self.waves.append(ref_x)
+                self.waves.append(ref_y)
+                sub_seq.append(ref_x,ref_y)
+                
+                t_0 +=ref_x.duration
+                t_1 = t*1.2 
+                
+                for k in range(self.pulse_num):
+                    x_name = 'X_KDD_2%03i' % i + '_%032i.WFM' % k
+                    y_name = 'Y_KDD_2%03i' % i + '_%032i.WFM' % k
+                    map_x_1 = Waveform(x_name,   [Idle(t_1)] +p['pi x 30']+[Idle(t_tau)]+p['pi x 0']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 0']\
+                                                +[Idle(t_tau)]+p['pi x 30']+[Idle(t_tau)]+p['pi x 120']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 180']\
+                                                +[Idle(t_tau)] +p['pi x 90']+[Idle(t_tau)]+p['pi x 120'], t_0)
+                    map_y_1 = Waveform(y_name,   [Idle(t_1)] +p['pi y 30']+[Idle(t_tau)]+p['pi y 0']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 0']\
+                                                +[Idle(t_tau)]+p['pi y 30']+[Idle(t_tau)]+p['pi y 120']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 180']\
+                                                +[Idle(t_tau)] +p['pi y 90']+[Idle(t_tau)]+p['pi y 120'], t_0)
+                    self.waves.append(map_x_1)
+                    self.waves.append(map_y_1)
+                    sub_seq.append(map_x_1, map_y_1)
+                                        
+                    t_0 += map_x_1.duration
+                    t_1 = t_tau - map_x_1.stub 
+                    
+                    
+                mod.duration = t * 1.2 - map_x_1.stub
+                name_x = 'Read_x2_%04i.WFM' % i
+                name_y = 'Read_y2_%04i.WFM' % i
+                ref_x = Waveform(name_x, [mod] + [Idle(t * 1.2)] + p['pi2_1 + 0'] , t_0)
+                ref_y = Waveform(name_y, [mod] + [Idle(t * 1.2)] + p['pi2_1 + 90'], t_0)
+                
+                self.waves.append(ref_x)
+                self.waves.append(ref_y)
+                sub_seq.append(ref_x,ref_y)
+                
+                AWG.upload(sub_seq)
+                self.main_seq.append(sub_seq, wait=True)
+                
+                # Another projection ====================================================================================================================================================================================================
+                
+                t_tau = t*1.2*2
+                
+                name = '2SQH_12_%04i.SEQ' % i
+                sub_seq=Sequence(name)
+                sub_seq.append(sup_x,sup_y)
+                t_0 = sup_x.duration
+                t_1 = t * 1.2
+                
+                for k in range(self.pulse_num):
+                    x_name = '2X_KDD_%03i' % i + '_%03i.WFM' % k
+                    y_name = '2Y_KDD_%03i' % i + '_%03i.WFM' % k
+                    map_x_1 = Waveform(x_name,   [Idle(t_1)] +p['pi x 30']+[Idle(t_tau)]+p['pi x 0']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 0']\
+                                                +[Idle(t_tau)]+p['pi x 30']+[Idle(t_tau)]+p['pi x 120']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 180']\
+                                                +[Idle(t_tau)] +p['pi x 90']+[Idle(t_tau)]+p['pi x 120'], t_0)
+                    map_y_1 = Waveform(y_name,   [Idle(t_1)] +p['pi y 30']+[Idle(t_tau)]+p['pi y 0']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 0']\
+                                                +[Idle(t_tau)]+p['pi y 30']+[Idle(t_tau)]+p['pi y 120']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 180']\
+                                                +[Idle(t_tau)] +p['pi y 90']+[Idle(t_tau)]+p['pi y 120'], t_0)
+                    self.waves.append(map_x_1)
+                    self.waves.append(map_y_1)
+                    sub_seq.append(map_x_1, map_y_1)
+                                        
+                    t_0 += map_x_1.duration
+                    t_1 = t_tau - map_x_1.stub                   
+                    
+                mod.duration = t * 1.2 - map_x_1.stub
+                name_x = '2Read_x_%04i.WFM' % i
+                name_y = '2Read_y_%04i.WFM' % i
+                ref_x = Waveform(name_x, [mod] + p['pi2_1 - 0'] + [Idle(t * 1.2)], t_0)
+                ref_y = Waveform(name_y, [mod] + p['pi2_1 - 90'] + [Idle(t * 1.2)], t_0)
+                
+                self.waves.append(ref_x)
+                self.waves.append(ref_y)
+                sub_seq.append(ref_x,ref_y)
+                
+                t_0 +=ref_x.duration
+                t_1 = t*1.2 # I am not sure
+                
+                for k in range(self.pulse_num):
+                    x_name = '2X_KDD_2%03i' % i + '_%032i.WFM' % k
+                    y_name = '2Y_KDD_2%03i' % i + '_%032i.WFM' % k
+                    map_x_1 = Waveform(x_name,   [Idle(t_1)] +p['pi x 30']+[Idle(t_tau)]+p['pi x 0']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 0']\
+                                                +[Idle(t_tau)]+p['pi x 30']+[Idle(t_tau)]+p['pi x 120']+[Idle(t_tau)]+p['pi x 90']+[Idle(t_tau)]+p['pi x 180']\
+                                                +[Idle(t_tau)] +p['pi x 90']+[Idle(t_tau)]+p['pi x 120'], t_0)
+                    map_y_1 = Waveform(y_name,   [Idle(t_1)] +p['pi y 30']+[Idle(t_tau)]+p['pi y 0']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 0']\
+                                                +[Idle(t_tau)]+p['pi y 30']+[Idle(t_tau)]+p['pi y 120']+[Idle(t_tau)]+p['pi y 90']+[Idle(t_tau)]+p['pi y 180']\
+                                                +[Idle(t_tau)] +p['pi y 90']+[Idle(t_tau)]+p['pi y 120'], t_0)
+                    self.waves.append(map_x_1)
+                    self.waves.append(map_y_1)
+                    sub_seq.append(map_x_1, map_y_1)
+                                        
+                    t_0 += map_x_1.duration
+                    t_1 = t_tau - map_x_1.stub 
+                    
+                    
+                mod.duration = t * 1.2 - map_x_1.stub
+                name_x = '2Read_x2_%04i.WFM' % i
+                name_y = '2Read_y2_%04i.WFM' % i
+                ref_x = Waveform(name_x, [mod] + [Idle(t * 1.2)] + p['pi2_1 + 180'], t_0)
+                ref_y = Waveform(name_y, [mod] + [Idle(t * 1.2)] + p['pi2_1 + 270'], t_0)
+                
+                self.waves.append(ref_x)
+                self.waves.append(ref_y)
+                sub_seq.append(ref_x,ref_y)
+                
+                AWG.upload(sub_seq)
+                self.main_seq.append(sub_seq, wait=True)
+
+            for w in self.waves:
+                w.join()
+            AWG.upload(self.waves)
+            AWG.upload(self.main_seq)
+            AWG.tell('*WAI')
+            AWG.load('KDDxy.SEQ')
+            
+        AWG.set_vpp(self.vpp)
+        AWG.set_sample( sampling/1.0e9 )
+        AWG.set_mode('S')
+        AWG.set_output( 0b0011 )  
+        
+    def load(self):
+        self.reload = True
+        #make sure tau is updated
+        self.tau = np.arange(self.tau_begin, self.tau_end, self.tau_delta) 
+        self.prepare_awg()
+        self.reload = False        
+        
+    def _run(self):
+        """Acquire data."""
+
+        try: # try to run the acquisition from start_up to shut_down
+            self.state = 'run'
+            self.apply_parameters()
+
+            PG.High([])
+            FC.SetCycles(np.inf)
+            FC.SetTime(np.inf)
+            FC.SetDelay(0)
+            FC.SetLevel(0.6, 0.6)
+            FC.Configure(self.laser, self.bin_width, self.sequence_points)
+            #self.previous_time = 0
+            #self.previous_count_data = FC.GetData()
+            self.prepare_awg()
+            MW.setFrequency(self.freq_center)
+            MW.setPower(self.power)
+            AWG.run()
+            time.sleep(40.0)
+            FC.Start()
+            time.sleep(0.1)
+            PG.Sequence(self.sequence, loop=True)
+
+            start_time = time.time()
+
+            while True:
+               self.thread.stop_request.wait(5.0)
+               if self.thread.stop_request.isSet():
+                  logging.getLogger().debug('Caught stop signal. Exiting.')
+                  break
+               self.elapsed_time = self.previous_elapsed_time + time.time() - start_time
+               self.run_time += self.elapsed_time
+               runtime, cycles = FC.GetState()
+               sweeps = cycles / FC.GetData().shape[0]
+               self.elapsed_sweeps = self.previous_sweeps + sweeps
+               self.progress = int( 100 * self.elapsed_sweeps / self.sweeps ) 
+               self.count_data = self.old_count_data + FC.GetData()
+               if self.elapsed_sweeps > self.sweeps:
+                  break
+
+            FC.Halt()
+            time.sleep(0.1)
+            MW.Off()
+            time.sleep(0.1)
+            PG.High(['laser', 'mw'])
+            time.sleep(0.1)
+            AWG.stop()
+            time.sleep(5.0)
+            #time.sleep(4.0)
+            if self.elapsed_sweeps < self.sweeps:
+                self.state = 'idle'
+            else:
+                self.state='done'  
+            
+        except: # if anything fails, log the exception and set the state
+            logging.getLogger().exception('Something went wrong in pulsed loop.')
+            self.state = 'error'    
+            
+    def _get_sequence_points(self):
+        return 2 * len(self.tau)    
+        
+    def generate_sequence(self):
+        tau = self.tau
+        laser = self.laser
+        wait = self.wait
+        pi2_1  = self.pi2_1
+        pi_1 = self.pi_1
+        sequence = []
+        
+        for i, t in enumerate(tau):
+            sequence.append( (['awgTrigger']      , 100) )
+            sequence.append( ([ ]                 , 2 * self.pulse_num * 11 + 3*pi2_1 + 2 * 10 * self.pulse_num * pi_1 + 2000) )
+            sequence.append( (['laser', 'trigger'], laser) )
+            sequence.append( ([ ]                 , wait) )
+            
+            sequence.append( (['awgTrigger']      , 100) )
+            sequence.append( ([ ]                 , 2 * self.pulse_num * 11 + 3*pi2_1 + 2 * 10 * self.pulse_num * pi_1 + 2000) )
+            sequence.append( (['laser', 'trigger'], laser) )
+            sequence.append( ([ ]                 , wait) )
+        return sequence    
+                    
+    get_set_items = Pulsed.get_set_items + ['freq','vpp','amp','amp1','pi2_1','pi_1','pulse_num', 'rabi_contrast']   
+        
+        
+    traits_view = View(VGroup(HGroup(Item('load_button', show_label=False),
+                                     Item('submit_button', show_label=False),
+                                     Item('remove_button', show_label=False),
+                                     Item('resubmit_button', show_label=False),
+                                     Item('priority'),
+                                     ),
+                              HGroup(Item('freq',  width=-60),
+                                     Item('freq_center',  width=20),
+                                     Item('power', width=-40),
+                                     Item('vpp', width=-40),   
+                                     Item('amp', width=-40),   
+                                     Item('amp1', width=-40), 
+                                     ),                         
+                              HGroup(
+                                     Item('pi2_1', width = -40),
+                                     Item('pi_1', width = -40),
+                                     Item('pulse_num', width = -40),
+                                     Item('rabi_contrast', width = -40),
+                                     ),                        
+                              HGroup(Item('laser', width=30),
+                                     Item('wait', width=30),
+                                     Item('bin_width', width= 30, enabled_when='state != "run"'),
+                                     Item('record_length', width= 30, enabled_when='state != "run"'),
+                                     ),
+                                     
+                              HGroup(Item('tau_begin', width=30),
+                                     Item('tau_end', width=30),
+                                     Item('tau_delta', width= 30),
+                                     ),       
+
+                              HGroup(Item('state', style='readonly'),
+                                     Item('run_time', style='readonly', format_str='%.f', width=50),
+                                     Item('sweeps', editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:'%.3e'%x), width=30),
+                                     Item('expected_duration', style='readonly', editor=TextEditor(evaluate=float, format_func=lambda x:'%.f'%x), width=30),
+                                     Item('progress', style='readonly'),
+                                     Item('elapsed_time', style='readonly', editor=TextEditor(auto_set=False, enter_set=True, evaluate=float, format_func=lambda x:' %.f'%x), width=30),
+                                     ),
+                                                                         
+                              ),
+                       title='KDDxy',
+                       )                          
 
 class CPMG4(Pulsed):                   
 
@@ -4258,8 +4982,8 @@ class PulsePol(Pulsed):      # M. Plenio sequence
                     sub_seq.append(map_x_1, map_y_1)
                     main_seq.append(*waves[-2:],wait=True)
 
-            AWG.upload(waves, 1)
-            AWG.upload(main_seq, 1)
+            AWG.upload(waves)
+            AWG.upload(main_seq)
             AWG.tell('*WAI')
             AWG.load('PulsePol.SEQ')
             

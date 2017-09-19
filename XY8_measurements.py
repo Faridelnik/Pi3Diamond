@@ -73,12 +73,12 @@ class XY8_N(ManagedJob):
         self.odmr.pulsed = True
         self.odmr.perform_fit = True
       
-        self.odmr.power_p = -30
-        self.odmr.t_pi = 590
+        self.odmr.power_p = -34
+        self.odmr.t_pi = 502
         self.odmr.stop_time = 40
         
-        self.odmr.frequency_begin_p = 1.163e+09
-        self.odmr.frequency_end_p = 1.173e+09
+        self.odmr.frequency_begin_p = 1.155e+09
+        self.odmr.frequency_end_p = 1.171e+09
         self.odmr.frequency_delta_p = 1.0e5
         self.odmr.number_of_resonances = 1
         self.odmr.threshold = -50
@@ -89,7 +89,7 @@ class XY8_N(ManagedJob):
         os.path.exists(file_path)
         
         self.confocal.resolution = 200
-        power=0
+        power=-4
         #freq_center = 1086401000.0
         vpp=0.6
         
@@ -100,9 +100,9 @@ class XY8_N(ManagedJob):
         
 
         self.psawg2.measurement.tau_begin = 300
-        self.psawg2.measurement.tau_end = 1000
-        self.psawg2.measurement.tau_delta = 10
-        self.psawg2.measurement.sweeps = 0.5e5 
+        self.psawg2.measurement.tau_end = 800
+        self.psawg2.measurement.tau_delta = 6
+        self.psawg2.measurement.sweeps = 0.6e5 
         self.psawg2.measurement.power = power   
         self.psawg2.measurement.vpp = vpp
         #self.psawg.measurement.freq_center = freq_center
@@ -113,8 +113,8 @@ class XY8_N(ManagedJob):
         from measurements.shallow_NV import XY8_Ref
         self.pdawg3.measurement = XY8_Ref()
                 
-        self.pdawg3.measurement.tau_begin = 33
-        self.pdawg3.measurement.tau_end = 54
+        self.pdawg3.measurement.tau_begin = 50
+        self.pdawg3.measurement.tau_end = 75
         self.pdawg3.measurement.tau_delta = 1
         self.pdawg3.measurement.sweeps = 1.0e6
         self.pdawg3.measurement.vpp = vpp
@@ -130,7 +130,7 @@ class XY8_N(ManagedJob):
         
         x_shift = 0 
         y_shift = 0
-        index = [1, 2, 3, 4, 5, 6, 10, 16, 17, 19, 23, 25, 27, 28, 29, 30, 32, 33, 34, 36, 43, 44, 45, 48, 50]
+        index = [1, 2, 3, 6, 7, 11, 16, 18, 21, 23, 25, 29, 30, 32, 34, 35, 38, 40, 44, 45, 48, 50, 51]
         
         # Ymax_ref =8.1
         # Xmax_ref=11
@@ -322,7 +322,7 @@ class XY8_N(ManagedJob):
             if condition:
                 continue
                 
-            pulse_num = [12]
+            pulse_num = [20]
             self.pdawg3.measurement.freq_center=self.psawg2.measurement.freq_center
             
             for i in pulse_num:
