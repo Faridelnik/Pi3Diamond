@@ -20,7 +20,7 @@ def Counter():
     from nidaq import PulseTrainCounter
     return PulseTrainCounter( CounterIn='/Dev2/Ctr1',
                               CounterOut='/Dev2/Ctr0',
-                              TickSource='/Dev1/PFI3' ) 
+                              TickSource='/Dev1/PFI3' )
                               
 @singleton
 def Counter_SST():
@@ -36,7 +36,7 @@ def Counter_Ext():
     from nidaq import PulseTrainCounterExternal
     return PulseTrainCounterExternal( CounterIn='/Dev2/Ctr1',
                                       GateSignal='/Dev1/PFI4',
-                                      TickSource='/Dev1/PFI3' )                              
+                                      TickSource='/Dev1/PFI3' )
 
 @singleton
 def Microwave():

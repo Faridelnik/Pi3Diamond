@@ -298,10 +298,10 @@ class Confocal( ManagedJob, GetSetItemsMixin ):
     def _create_plot(self):
         plot_data = ArrayPlotData(image=self.image)
         plot = Plot(plot_data, width=500, height=500, resizable='hv', aspect_ratio=1.0, padding=8, padding_left=30, padding_bottom=20)
-        plot.img_plot('image',  colormap=jet, xbounds=(self.X[0],self.X[-1]), ybounds=(self.Y[0],self.Y[-1]), name='image')
+        plot.img_plot('image',  colormap=jet, xbounds=(self.X[0], self.X[-1]), ybounds=(self.Y[0], self.Y[-1]), name='image')
         image = plot.plots['image'][0]
-        image.x_mapper.domain_limits = (scanner.getXRange()[0],scanner.getXRange()[1])
-        image.y_mapper.domain_limits = (scanner.getYRange()[0],scanner.getYRange()[1])
+        image.x_mapper.domain_limits = (scanner.getXRange()[0], scanner.getXRange()[1])
+        image.y_mapper.domain_limits = (scanner.getYRange()[0], scanner.getYRange()[1])
         zoom = AspectZoomTool(image, enable_wheel=False)
         cursor = CursorTool2D(image, drag_button='left', color='white', marker_size=1.0, line_width=1.0 )
         image.overlays.append(cursor)

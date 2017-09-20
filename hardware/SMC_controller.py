@@ -9,7 +9,7 @@ import visa
 class SMC(object):
     def __init__(self):
         super(SMC,self).__init__()
-        device_key= u'ASRL3::INSTR'
+        device_key= u'ASRL4::INSTR'
         self.rm=visa.ResourceManager()
         self.connect=self.rm.open_resource(device_key, baud_rate=57600, timeout=2000, data_bits=8, write_termination='\r\n')
         
