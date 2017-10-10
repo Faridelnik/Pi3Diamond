@@ -271,3 +271,123 @@ ImportError: Cannot import PySide or PyQt4
 2017-09-20 19:05:46,285 - pi3diamond.<module> - INFO - Starting logger.
 2017-09-20 19:05:47,015 - emod.start - INFO - Starting Job Manager.
 2017-09-20 19:05:47,015 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 12:08:01,799 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 12:08:07,769 - emod.start - INFO - Starting Job Manager.
+2017-09-21 12:08:07,779 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 12:11:08,493 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 12:11:09,334 - emod.start - INFO - Starting Job Manager.
+2017-09-21 12:11:09,344 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 12:11:27,615 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 12:11:28,244 - emod.start - INFO - Starting Job Manager.
+2017-09-21 12:11:28,244 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 12:16:15,806 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 12:16:16,556 - emod.start - INFO - Starting Job Manager.
+2017-09-21 12:16:16,556 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 12:22:54,921 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 12:22:55,581 - emod.start - INFO - Starting Job Manager.
+2017-09-21 12:22:55,581 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 12:37:53,026 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 12:37:53,716 - emod.start - INFO - Starting Job Manager.
+2017-09-21 12:37:53,716 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 12:38:13,476 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 12:38:14,187 - emod.start - INFO - Starting Job Manager.
+2017-09-21 12:38:14,187 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 12:44:19,200 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 12:44:19,950 - emod.start - INFO - Starting Job Manager.
+2017-09-21 12:44:19,950 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 12:53:21,015 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 12:53:21,756 - emod.start - INFO - Starting Job Manager.
+2017-09-21 12:53:21,756 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 13:20:26,092 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 13:20:26,832 - emod.start - INFO - Starting Job Manager.
+2017-09-21 13:20:26,832 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 14:27:23,746 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 15:04:05,586 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 15:04:05,857 - toolkit.toolkit - INFO - Could not import traits UI backend 'qt4'
+2017-09-21 15:04:05,857 - toolkit.toolkit - ERROR - Cannot import PySide or PyQt4
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\traitsui\toolkit.py", line 161, in toolkit
+    _toolkit = _import_toolkit(toolkit_name)
+  File "C:\Python27\lib\site-packages\traitsui\toolkit.py", line 83, in _import_toolkit
+    return __import__( name, globals=globals(), level=1 ).toolkit
+  File "C:\Python27\lib\site-packages\traitsui\qt4\__init__.py", line 18, in <module>
+    import pyface.qt
+  File "C:\Python27\lib\site-packages\pyface\qt\__init__.py", line 37, in <module>
+    raise ImportError('Cannot import PySide or PyQt4')
+ImportError: Cannot import PySide or PyQt4
+2017-09-21 15:04:05,857 - toolkit.toolkit - INFO - Could not import traits UI backend 'wx'
+2017-09-21 15:04:05,857 - toolkit.toolkit - ERROR - No module named wx
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\traitsui\toolkit.py", line 161, in toolkit
+    _toolkit = _import_toolkit(toolkit_name)
+  File "C:\Python27\lib\site-packages\traitsui\toolkit.py", line 83, in _import_toolkit
+    return __import__( name, globals=globals(), level=1 ).toolkit
+  File "C:\Python27\lib\site-packages\traitsui\wx\__init__.py", line 26, in <module>
+    import toolkit
+  File "C:\Python27\lib\site-packages\traitsui\wx\toolkit.py", line 30, in <module>
+    import wx
+ImportError: No module named wx
+2017-09-21 15:04:06,346 - emod.start - INFO - Starting Job Manager.
+2017-09-21 15:04:06,357 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 15:06:05,964 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 15:06:06,105 - toolkit.toolkit - INFO - Could not import traits UI backend 'qt4'
+2017-09-21 15:06:06,105 - toolkit.toolkit - ERROR - Cannot import PySide or PyQt4
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\traitsui\toolkit.py", line 161, in toolkit
+    _toolkit = _import_toolkit(toolkit_name)
+  File "C:\Python27\lib\site-packages\traitsui\toolkit.py", line 83, in _import_toolkit
+    return __import__( name, globals=globals(), level=1 ).toolkit
+  File "C:\Python27\lib\site-packages\traitsui\qt4\__init__.py", line 18, in <module>
+    import pyface.qt
+  File "C:\Python27\lib\site-packages\pyface\qt\__init__.py", line 37, in <module>
+    raise ImportError('Cannot import PySide or PyQt4')
+ImportError: Cannot import PySide or PyQt4
+2017-09-21 15:06:06,144 - toolkit.toolkit - INFO - Could not import traits UI backend 'wx'
+2017-09-21 15:06:06,144 - toolkit.toolkit - ERROR - 'module' object has no attribute 'SystemSettings_GetColour'
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\traitsui\toolkit.py", line 161, in toolkit
+    _toolkit = _import_toolkit(toolkit_name)
+  File "C:\Python27\lib\site-packages\traitsui\toolkit.py", line 83, in _import_toolkit
+    return __import__( name, globals=globals(), level=1 ).toolkit
+  File "C:\Python27\lib\site-packages\traitsui\wx\__init__.py", line 26, in <module>
+    import toolkit
+  File "C:\Python27\lib\site-packages\traitsui\wx\toolkit.py", line 58, in <module>
+    from constants \
+  File "C:\Python27\lib\site-packages\traitsui\wx\constants.py", line 61, in <module>
+    WindowColor = wx.SystemSettings_GetColour( wx.SYS_COLOUR_MENUBAR )
+AttributeError: 'module' object has no attribute 'SystemSettings_GetColour'
+2017-09-21 15:06:06,595 - emod.start - INFO - Starting Job Manager.
+2017-09-21 15:06:06,595 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 15:07:28,069 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 15:07:30,321 - emod.start - INFO - Starting Job Manager.
+2017-09-21 15:07:30,321 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 15:09:49,209 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 15:09:50,480 - emod.start - INFO - Starting Job Manager.
+2017-09-21 15:09:50,480 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 15:11:38,867 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 15:11:40,066 - emod.start - INFO - Starting Job Manager.
+2017-09-21 15:11:40,066 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 15:12:21,118 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 15:12:23,059 - emod.start - INFO - Starting Job Manager.
+2017-09-21 15:12:23,069 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 15:17:52,690 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 15:17:57,671 - emod.start - INFO - Starting Job Manager.
+2017-09-21 15:17:57,671 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 15:56:43,369 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 15:56:52,530 - emod.start - INFO - Starting Job Manager.
+2017-09-21 15:56:52,540 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 16:33:42,592 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 16:33:49,453 - emod.start - INFO - Starting Job Manager.
+2017-09-21 16:33:49,453 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 16:46:56,786 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 16:48:50,736 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 16:48:51,436 - emod.start - INFO - Starting Job Manager.
+2017-09-21 16:48:51,436 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 16:49:26,469 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 17:24:34,351 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 18:13:56,440 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 18:14:02,490 - emod.start - INFO - Starting Job Manager.
+2017-09-21 18:14:02,500 - cron.run - INFO - Starting Cron Daemon.
+2017-09-21 19:14:36,151 - pi3diamond.<module> - INFO - Starting logger.
+2017-09-21 19:14:42,644 - emod.start - INFO - Starting Job Manager.
+2017-09-21 19:14:42,655 - cron.run - INFO - Starting Cron Daemon.

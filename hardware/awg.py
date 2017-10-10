@@ -16,8 +16,8 @@ class AWG():
     """
     
     def __init__(self, address={'gpib':'GPIB0::20::INSTR',
-                                'ftp':'192.168.0.44',
-                                'socket':('192.168.0.44',4001)} ):
+                                'ftp':'129.69.46.166',
+                                'socket':('129.69.46.166',4001)} ):
         self.address = address
         # setup ftp-connection
         self.ftp = FTP(self.address['ftp'])
@@ -209,6 +209,8 @@ class AWG():
         """
         if cwd is None:
             cwd = '\waves' # default
+
+        print 'SOUR%i:FUNC:USER "%s/%s"' % (channel, cwd, filename)
         self.tell('SOUR%i:FUNC:USER "%s/%s"' % (channel, cwd, filename))
         
     def reset(self):

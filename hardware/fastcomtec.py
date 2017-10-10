@@ -2,7 +2,8 @@ import ctypes
 import numpy, numpy.fft
 import time
 
-dll = ctypes.windll.LoadLibrary('dp7889.dll')
+#dll = ctypes.windll.LoadLibrary('dp7889.dll')
+dll = ctypes.windll.LoadLibrary('dp7887.dll')
 
 class ACQSETTING(ctypes.Structure):
     _fields_ = [('range',       ctypes.c_ulong),
@@ -206,10 +207,11 @@ class FastComTec(object):
         dll.GetSettingData(ctypes.byref(setting), 0)
         N = setting.range
         M = setting.cycles
-        data = numpy.empty((N,), dtype=numpy.uint32 )       
+        data = numpy.empty((N,), dtype=numpy.uint32 )		
         dll.LVGetDat(data.ctypes.data, 0)
+				
         if M == 1:
-            return data
+            return data, data.ctypes.data
         else:
             return data.reshape((M,N/M))
             #return data.reshape((M,self.GetLength()))
